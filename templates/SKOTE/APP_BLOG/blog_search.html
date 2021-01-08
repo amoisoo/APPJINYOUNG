@@ -1,0 +1,217 @@
+{% extends "SKOTE/APP_BLOG/BASE/base_h.html" %}
+{% load static i18n %}
+
+
+
+
+
+{% block page_content %}
+
+<div class="container-fluid">
+
+<!-- start page title -->
+<div class="row">
+    <div class="col-12">
+        <div class="page-title-box d-flex align-items-center justify-content-between">
+            <h4 class="mb-0 font-size-18">블로그</h4>
+
+            <div class="page-title-right">
+                <ol class="breadcrumb m-0">
+                    <li class="breadcrumb-item"><a href="javascript: void(0);">Blog</a></li>
+                    <li class="breadcrumb-item active">블로그 검색</li>
+                </ol>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- end page title -->
+
+<div class="row">
+
+        <div class="col-xl-12">
+
+            <div class="card">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <div class="avatar-md mx-auto mb-4">
+                            <div class="avatar-title bg-light rounded-circle text-primary h1">
+                                <i class="fa fa-search"></i>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center">
+                            <div class="col-xl-10">
+                                <h4 class="text-primary">검색 !</h4>
+                                <p class="text-muted font-size-14 mb-4">&nbsp;</p>
+
+
+                                <form action="{% url 'blog:search' %}" method="post">
+                                    {% csrf_token %}
+
+                                        <div class="input-group bg-light rounded">
+
+                                            <input type="text" name="search_word" required="" id="id_search_word" class="form-control bg-transparent border-0" placeholder="검색..." aria-label="Recipient's username" aria-describedby="button-addon2">
+                                            <div class="input-group-append">
+                                                <button class="btn btn-primary rounded" type="submit"><i class="fa fa-search"></i></button>
+                                            </div>
+
+                                        </div>
+
+                                </form>
+
+
+
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- end col -->
+
+</div>
+
+
+
+
+
+
+            {% if object_list %}
+                        <div class="row">
+                        <div class="col-xl-12 col-lg-12">
+                        <div class="card">
+                                    <!-- Nav tabs -->
+                                    <ul class="nav nav-tabs nav-tabs-custom justify-content-center pt-2" role="tablist">
+
+                                        <li class="nav-item">
+                                            <a class="nav-link active" data-toggle="tab" href="#archive" role="tab">
+                                               검색결과
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                    <!-- Tab panes -->
+                                    <div class="tab-content p-4">
+
+                                        <div class="tab-pane active" id="archive" role="tabpanel">
+                                            <div>
+                                                <div class="row justify-content-center">
+                                                    <div class="col-xl  -8">
+
+                                                        <div class="mt-5">
+                                                            <div class="d-flex flex-wrap">
+                                                                <div class="mr-2">
+                                                                    <h4>검색결과</h4>
+                                                                </div>
+                                                                <div class="ml-auto">
+                                                                    <span class="badge badge-soft-success badge-pill float-right ml-1 font-size-12">{{ object_list | length }}</span>
+                                                                </div>
+                                                            </div>
+                                                            <hr class="mt-2">
+
+                                                            <div class="list-group list-group-flush">
+
+                                                            {% for blog in object_list %}
+                                                                                <a href="{% url 'blog:detail'  blog.id%}" class="list-group-item text-muted"><i class="mdi mdi-circle-medium mr-1"></i>({{ blog.id }}) : {{ blog.title }}</a>
+
+                                                            {% endfor %}
+
+                                                            </div>
+                                                        </div>
+
+
+
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                        </div>
+                        </div>
+
+                        </div>
+
+
+
+
+            {% elif search_term %}
+                        <div class="row">
+                        <div class="col-xl-12 col-lg-12">
+                        <div class="card">
+                                    <!-- Nav tabs -->
+                                    <ul class="nav nav-tabs nav-tabs-custom justify-content-center pt-2" role="tablist">
+
+                                        <li class="nav-item">
+                                            <a class="nav-link active" data-toggle="tab" href="#archive" role="tab">
+                                               검색결과
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content p-4">
+
+                                        <div class="tab-pane active" id="archive" role="tabpanel">
+                                            <div>
+                                                <div class="row justify-content-center">
+                                                    <div class="col-xl  -8">
+
+                                                        <div class="mt-5">
+                                                            <div class="d-flex flex-wrap">
+                                                                <div class="mr-2 ">
+                                                                    <h4 class="text-red">검색결과 없음</h4>
+                                                                </div>
+                                                                <div class="ml-auto">
+                                                                    <span class="badge badge-soft-success badge-pill float-right ml-1 font-size-12">{{ object_list | length }}</span>
+                                                                </div>
+                                                            </div>
+                                                            <hr class="mt-2">
+
+                                                            <div class="list-group list-group-flush">
+
+                                                            {% for blog in object_list %}
+                                                                                <a href="{% url 'blog:detail'  blog.id%}" class="list-group-item text-muted"><i class="mdi mdi-circle-medium mr-1"></i>({{ blog.id }}) : {{ blog.title }}</a>
+
+                                                            {% endfor %}
+
+                                                            </div>
+                                                        </div>
+
+
+
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                        </div>
+                        </div>
+
+                        </div>
+
+
+            {% endif %}
+
+
+
+
+<!-- end row -->
+
+</div> <!-- container-fluid -->
+
+{% endblock %}
+
+
+

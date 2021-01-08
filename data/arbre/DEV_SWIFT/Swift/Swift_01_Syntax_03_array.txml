@@ -1,0 +1,443 @@
+<Table>
+    <Record ParentIndex="-1" Expand="0" Index="1">
+        <TITLE color="None" background="None">배열의 작성</TITLE>
+        <ID>1</ID>
+        <ID_SORT>1</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>fde85364_0e55_41f2_8fef_42a2b04be8c4</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TABPAGE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5363656e653e0a202020203c5441425f5749444745543e0a20202020202020203c434f554e543e313c2f434f554e543e0a20202020202020203c43555252454e545f494e4445583e303c2f43555252454e545f494e4445583e0a20202020202020203c4d4f5641424c453e547275653c2f4d4f5641424c453e0a20202020202020203c434c4f5341424c453e46616c73653c2f434c4f5341424c453e0a20202020202020203c5343524f4c4c425554544f4e3e547275653c2f5343524f4c4c425554544f4e3e0a20202020202020203c53484150453e313c2f53484150453e0a20202020202020203c504f534954494f4e3e303c2f504f534954494f4e3e0a20202020202020203c4155544f484944453e547275653c2f4155544f484944453e0a20202020202020203c444f4355454d4e545f4d4f44453e547275653c2f444f4355454d4e545f4d4f44453e0a202020203c2f5441425f5749444745543e0a202020203c5441425f5749444745545f53455454494e47533e0a20202020202020203c5343454e455f555549443e66646538353336345f306535355f343166325f386665665f3432613262303462653863343c2f5343454e455f555549443e0a20202020202020203c5343454e455f5449544c453e3c2f5343454e455f5449544c453e0a20202020202020203c5343454e455f4e4f54453e3c2f5343454e455f4e4f54453e0a20202020202020203c5343454e455f444f435f545950453e3c2f5343454e455f444f435f545950453e0a20202020202020203c5343454e455f4352454154455f444154453eec9b94203130ec9b9420372031383a34323a303720323031393c2f5343454e455f4352454154455f444154453e0a20202020202020203c49445f494e4445583e3c2f49445f494e4445583e0a20202020202020203c5345545f43454c4c5f4845494748543e3c2f5345545f43454c4c5f4845494748543e0a20202020202020203c4f55545055545f545950453e313c2f4f55545055545f545950453e0a202020203c2f5441425f5749444745545f53455454494e47533e0a202020203c424f4f4b3e0a20202020202020203c5041474520496e6465783d2231223e0a2020202020202020202020203c494e4445583e313c2f494e4445583e0a2020202020202020202020203c544558543e4c6973743c2f544558543e0a2020202020202020202020203c444154413e3363353436313632366336353266336530613c2f444154413e0a2020202020202020202020203c544f4f4c5f5449503e3c2f544f4f4c5f5449503e0a2020202020202020202020203c57484154535f544849533e4c4953543c2f57484154535f544849533e0a2020202020202020202020203c544142454e41424c45443e547275653c2f544142454e41424c45443e0a20202020202020203c2f504147453e0a202020203c2f424f4f4b3e0a202020203c5461626c654865616465722f3e0a3c2f5363656e653e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>월 10월 7 18:42:05 2019</CREATED>
+        <MODIFED>월 10월 7 18:42:26 2019</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="-1" Expand="0" Index="2">
+        <TITLE color="None" background="None">공 배열의 작성</TITLE>
+        <ID>2</ID>
+        <ID_SORT>2</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>3f5dfc3b_a4be_4ada_bca5_b882cce87690</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TABPAGE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5363656e653e0a202020203c5441425f5749444745543e0a20202020202020203c434f554e543e313c2f434f554e543e0a20202020202020203c43555252454e545f494e4445583e303c2f43555252454e545f494e4445583e0a20202020202020203c4d4f5641424c453e547275653c2f4d4f5641424c453e0a20202020202020203c434c4f5341424c453e46616c73653c2f434c4f5341424c453e0a20202020202020203c5343524f4c4c425554544f4e3e547275653c2f5343524f4c4c425554544f4e3e0a20202020202020203c53484150453e313c2f53484150453e0a20202020202020203c504f534954494f4e3e303c2f504f534954494f4e3e0a20202020202020203c4155544f484944453e547275653c2f4155544f484944453e0a20202020202020203c444f4355454d4e545f4d4f44453e547275653c2f444f4355454d4e545f4d4f44453e0a202020203c2f5441425f5749444745543e0a202020203c5441425f5749444745545f53455454494e47533e0a20202020202020203c5343454e455f555549443e33663564666333625f613462655f346164615f626361355f6238383263636538373639303c2f5343454e455f555549443e0a20202020202020203c5343454e455f5449544c453e3c2f5343454e455f5449544c453e0a20202020202020203c5343454e455f4e4f54453e3c2f5343454e455f4e4f54453e0a20202020202020203c5343454e455f444f435f545950453e3c2f5343454e455f444f435f545950453e0a20202020202020203c5343454e455f4352454154455f444154453eec9b94203130ec9b9420372031383a34323a323620323031393c2f5343454e455f4352454154455f444154453e0a20202020202020203c49445f494e4445583e3c2f49445f494e4445583e0a20202020202020203c5345545f43454c4c5f4845494748543e3c2f5345545f43454c4c5f4845494748543e0a20202020202020203c4f55545055545f545950453e313c2f4f55545055545f545950453e0a202020203c2f5441425f5749444745545f53455454494e47533e0a202020203c424f4f4b3e0a20202020202020203c5041474520496e6465783d2231223e0a2020202020202020202020203c494e4445583e313c2f494e4445583e0a2020202020202020202020203c544558543e4c6973743c2f544558543e0a2020202020202020202020203c444154413e3363353436313632366336353266336530613c2f444154413e0a2020202020202020202020203c544f4f4c5f5449503e3c2f544f4f4c5f5449503e0a2020202020202020202020203c57484154535f544849533e4c4953543c2f57484154535f544849533e0a2020202020202020202020203c544142454e41424c45443e547275653c2f544142454e41424c45443e0a20202020202020203c2f504147453e0a202020203c2f424f4f4b3e0a202020203c5461626c654865616465722f3e0a3c2f5363656e653e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>월 10월 7 18:42:06 2019</CREATED>
+        <MODIFED>월 10월 7 18:42:30 2019</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="-1" Expand="0" Index="3">
+        <TITLE color="None" background="None">같은 데이터가 복수 들어있는 배열 작성</TITLE>
+        <ID>3</ID>
+        <ID_SORT>3</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>17e2fd65_ec75_43f5_89ed_f59460809227</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TABPAGE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>월 10월 7 18:42:06 2019</CREATED>
+        <MODIFED>월 10월 7 18:43:00 2019</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="-1" Expand="0" Index="4">
+        <TITLE color="None" background="None">연속하는 배열이 들어있는 배열의 작성</TITLE>
+        <ID>4</ID>
+        <ID_SORT>4</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>6947dd99_83e2_42ba_b2e9_b19a4f4f2082</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TABPAGE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>월 10월 7 18:42:06 2019</CREATED>
+        <MODIFED>월 10월 7 18:43:15 2019</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="-1" Expand="0" Index="5">
+        <TITLE color="None" background="None">배열에서 여러 정보를 추출하기</TITLE>
+        <ID>5</ID>
+        <ID_SORT>5</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>3f0afeae_7d75_4772_a34c_b4bf114750a6</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TABPAGE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5363656e653e0a202020203c5441425f5749444745543e0a20202020202020203c434f554e543e313c2f434f554e543e0a20202020202020203c43555252454e545f494e4445583e303c2f43555252454e545f494e4445583e0a20202020202020203c4d4f5641424c453e547275653c2f4d4f5641424c453e0a20202020202020203c434c4f5341424c453e46616c73653c2f434c4f5341424c453e0a20202020202020203c5343524f4c4c425554544f4e3e547275653c2f5343524f4c4c425554544f4e3e0a20202020202020203c53484150453e313c2f53484150453e0a20202020202020203c504f534954494f4e3e303c2f504f534954494f4e3e0a20202020202020203c4155544f484944453e547275653c2f4155544f484944453e0a20202020202020203c444f4355454d4e545f4d4f44453e547275653c2f444f4355454d4e545f4d4f44453e0a202020203c2f5441425f5749444745543e0a202020203c5441425f5749444745545f53455454494e47533e0a20202020202020203c5343454e455f555549443e33663061666561655f376437355f343737325f613334635f6234626631313437353061363c2f5343454e455f555549443e0a20202020202020203c5343454e455f5449544c453e3c2f5343454e455f5449544c453e0a20202020202020203c5343454e455f4e4f54453e3c2f5343454e455f4e4f54453e0a20202020202020203c5343454e455f444f435f545950453e3c2f5343454e455f444f435f545950453e0a20202020202020203c5343454e455f4352454154455f444154453eec9b94203130ec9b9420372031383a34343a303020323031393c2f5343454e455f4352454154455f444154453e0a20202020202020203c49445f494e4445583e3c2f49445f494e4445583e0a20202020202020203c5345545f43454c4c5f4845494748543e3c2f5345545f43454c4c5f4845494748543e0a20202020202020203c4f55545055545f545950453e313c2f4f55545055545f545950453e0a202020203c2f5441425f5749444745545f53455454494e47533e0a202020203c424f4f4b3e0a20202020202020203c5041474520496e6465783d2231223e0a2020202020202020202020203c494e4445583e313c2f494e4445583e0a2020202020202020202020203c544558543e4c6973743c2f544558543e0a2020202020202020202020203c444154413e3363353436313632366336353266336530613c2f444154413e0a2020202020202020202020203c544f4f4c5f5449503e3c2f544f4f4c5f5449503e0a2020202020202020202020203c57484154535f544849533e4c4953543c2f57484154535f544849533e0a2020202020202020202020203c544142454e41424c45443e547275653c2f544142454e41424c45443e0a20202020202020203c2f504147453e0a202020203c2f424f4f4b3e0a202020203c5461626c654865616465722f3e0a3c2f5363656e653e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>월 10월 7 18:42:06 2019</CREATED>
+        <MODIFED>월 10월 7 18:43:24 2019</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="-1" Expand="0" Index="6">
+        <TITLE color="None" background="None">배열안의 데이터를 조사하기</TITLE>
+        <ID>6</ID>
+        <ID_SORT>6</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>3ff4c5b8_265c_49fa_a5e7_86875bc79890</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TABPAGE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>월 10월 7 18:42:06 2019</CREATED>
+        <MODIFED>월 10월 7 18:43:33 2019</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="-1" Expand="0" Index="7">
+        <TITLE color="None" background="None">배열의 가공</TITLE>
+        <ID>7</ID>
+        <ID_SORT>7</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>9b681782_7fa2_4d14_ade7_f47c8b98ee21</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TABPAGE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>월 10월 7 18:42:06 2019</CREATED>
+        <MODIFED>월 10월 7 18:43:42 2019</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="-1" Expand="0" Index="8">
+        <TITLE color="None" background="None">다차원배열</TITLE>
+        <ID>8</ID>
+        <ID_SORT>8</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>1da18109_7d5d_48b5_9e28_e92e73ad814b</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TABPAGE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>월 10월 7 18:42:07 2019</CREATED>
+        <MODIFED>월 10월 7 18:43:47 2019</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="-1" Expand="0" Index="9">
+        <TITLE color="None" background="None">가변의 배열</TITLE>
+        <ID>9</ID>
+        <ID_SORT>9</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>b25ecf01_760e_4dab_9006_25fe1ec7332f</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TABPAGE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>월 10월 7 18:42:07 2019</CREATED>
+        <MODIFED>월 10월 7 18:43:52 2019</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="-1" Expand="0" Index="10">
+        <TITLE color="None" background="None">배열의 복제</TITLE>
+        <ID>10</ID>
+        <ID_SORT>10</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>ddd14868_cb86_42a1_9751_1652a2c0ef68</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TABPAGE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5363656e653e0a202020203c5441425f5749444745543e0a20202020202020203c434f554e543e313c2f434f554e543e0a20202020202020203c43555252454e545f494e4445583e303c2f43555252454e545f494e4445583e0a20202020202020203c4d4f5641424c453e547275653c2f4d4f5641424c453e0a20202020202020203c434c4f5341424c453e46616c73653c2f434c4f5341424c453e0a20202020202020203c5343524f4c4c425554544f4e3e547275653c2f5343524f4c4c425554544f4e3e0a20202020202020203c53484150453e313c2f53484150453e0a20202020202020203c504f534954494f4e3e303c2f504f534954494f4e3e0a20202020202020203c4155544f484944453e547275653c2f4155544f484944453e0a20202020202020203c444f4355454d4e545f4d4f44453e547275653c2f444f4355454d4e545f4d4f44453e0a202020203c2f5441425f5749444745543e0a202020203c5441425f5749444745545f53455454494e47533e0a20202020202020203c5343454e455f555549443e64646431343836385f636238365f343261315f393735315f3136353261326330656636383c2f5343454e455f555549443e0a20202020202020203c5343454e455f5449544c453e3c2f5343454e455f5449544c453e0a20202020202020203c5343454e455f4e4f54453e3c2f5343454e455f4e4f54453e0a20202020202020203c5343454e455f444f435f545950453e3c2f5343454e455f444f435f545950453e0a20202020202020203c5343454e455f4352454154455f444154453eec9b94203130ec9b9420372031383a34323a343420323031393c2f5343454e455f4352454154455f444154453e0a20202020202020203c49445f494e4445583e3c2f49445f494e4445583e0a20202020202020203c5345545f43454c4c5f4845494748543e3c2f5345545f43454c4c5f4845494748543e0a20202020202020203c4f55545055545f545950453e313c2f4f55545055545f545950453e0a202020203c2f5441425f5749444745545f53455454494e47533e0a202020203c424f4f4b3e0a20202020202020203c5041474520496e6465783d2231223e0a2020202020202020202020203c494e4445583e313c2f494e4445583e0a2020202020202020202020203c544558543e4c6973743c2f544558543e0a2020202020202020202020203c444154413e3363353436313632366336353266336530613c2f444154413e0a2020202020202020202020203c544f4f4c5f5449503e3c2f544f4f4c5f5449503e0a2020202020202020202020203c57484154535f544849533e4c4953543c2f57484154535f544849533e0a2020202020202020202020203c544142454e41424c45443e547275653c2f544142454e41424c45443e0a20202020202020203c2f504147453e0a202020203c2f424f4f4b3e0a202020203c5461626c654865616465722f3e0a3c2f5363656e653e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>월 10월 7 18:42:07 2019</CREATED>
+        <MODIFED>월 10월 7 18:43:56 2019</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+</Table>
+

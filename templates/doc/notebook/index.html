@@ -1,0 +1,717 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <!-- Generator: Notebooks for Mac 1.2 -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <title>Welcome to Notebooks for Win</title>
+<!-- Handbook 1.2.1 -->
+<style type="text/css">
+
+body {
+  font-family: Muli;
+  color: #000000;
+  font-size: 13px;
+  background-color: #fcfcfc;
+  padding: 5%;
+  -webkit-hyphens: auto;
+  margin: 0.0px 0.0px 9.0px 0.0px;
+  text-align: justify;
+  -webkit-text-size-adjust: none;
+}
+
+/* --------------------------------- */
+/* Pandoc author and date headers    */
+/* (h1.title, h2.author and h3.date) */
+
+div#header, header {
+    /* Border at bottom. Separates it from TOC or body that comes after it. */
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 1em;
+    margin-bottom: 2.5em;
+}
+
+.title 
+    {
+    text-align: center;
+   	margin: 0em 0px 0.5em 0px;
+    border-bottom:none;
+  	color: #000000;
+}
+
+.author
+    {
+    text-align: center;
+   	margin: 0em 0px 0em 0px;
+    border-bottom:none;
+  	color: #000000;
+}
+    
+.date
+    {
+    text-align: center;
+	margin: 0em 0px 1.25em 0px;
+  	color: #000000;
+    }
+    
+
+/* div for table of contents */
+/* with divider at top and bottom */
+div#TOC, nav#TOC
+    {
+	border-top: 1px solid #aaa;
+    padding-top: 1.5em;
+    margin-top: 2.5em;
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 1.5em;
+    margin-bottom: 2.5em;
+    }
+
+/* ... unless we are following the header */
+div#header + div#TOC {
+	border-top: 0px solid #aaa;
+    padding-top: 0em;
+    margin-top: 0em;
+ }
+
+/* do not print TOC */
+@media print 
+    {
+    div#TOC, nav#TOC
+        {
+        /* Don't display TOC in print */
+        /* display: none; */
+        }
+    }
+/* --------------------------------- */
+
+
+a {
+	color:#627aa7;
+	text-decoration: none !important;
+}
+
+h1 {  	
+	margin: 0.0px 0.0px 12.0px 0.0px;
+	text-align: right;
+	font: 2em;
+	font-weight: normal;	
+	margin-bottom: 2em;
+}
+
+
+h2 {  	
+	margin: 0.0px 0.0px 0.0px 0.0px;
+	font: 1.2em;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #066eaf;
+	margin-bottom: 1em;
+	margin-top: 2em;
+}
+
+h3 {  	
+	margin: 0.0px 0.0px 0.0px 0.0px;
+	font-weight: normal;
+	color: #066eaf;
+	margin-bottom: 1em;  	
+	margin-top: 2em;
+}
+
+h4 {  	
+	margin: 0.0px 0.0px 0.0px 0.0px;
+	font-size: 1em;
+	font-weight: normal;
+	color: #066eaf;
+	margin-top:2em;
+	margin-bottom: 1em;  	
+}
+
+strong {
+	font-weight: normal;
+	color: #066eaf;
+}
+
+/* use this instead of blockquote to avoid extra <p> inside blockquote */
+.sidebar {
+ 	border : 1px solid #066eaf;
+ 	padding: 10px;
+ 	background-color: #eee;
+ 	overflow: hidden;  /* this ensures that div does not overlap image */
+ }
+
+blockquote {
+	font-size: 0.95em; 
+    border-radius: 3px; /* Softens it */
+	margin: 2em 2em 2em 1em; 
+	padding: 0 0.75em 0 0.75em; 
+ 	background-color: rgba(238, 238, 238, 0.6);
+	border: 1px solid rgba(6, 110, 175, 0.5); /* #066eaf; */
+	display: flex;
+}
+
+ul, ol {
+	padding-left: 1.25em;
+	margin-left: 1em;
+	text-indent:0em;
+}
+	
+ol li {
+	padding-top: 0.25em;
+    padding-bottom: 0.25em;
+}
+
+ul li {
+	padding-top: 0.25em;
+    padding-bottom: 0.25em;
+}
+
+
+/* ---- Definition lists ---- */
+
+dl /* The whole list */
+    {
+    border-top:  1px solid rgba(6, 110, 175, 0.5);
+    padding-top: 0.5em;
+    border-bottom: 1px solid rgba(6, 110, 175, 0.5);
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-left:   1.5em;
+    padding-right:  1.5em;
+/*    overflow: auto; */
+   }
+
+dt /* Definition term */
+    {
+	color: #066eaf;
+    }
+   
+dd /* A definition */
+    {
+    margin-bottom: 0.5em;
+    }
+
+dd+dt {
+    border-top:  1pt solid #ddd;
+	padding-top: 0.5em;
+}
+
+dd+dd {
+    border-top: 1px solid #ddd;
+	padding-top: 0.5em;
+}
+/* ----  ---- */
+
+
+/* images should always use one of the divs below to guarantee 
+   correct alignment in iBooks. The divs controls alignment and overall size */
+   
+img {	/* for image in general */
+	width:auto;
+	max-width:100%;
+	height:auto;
+	max-height: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.fullscreen {
+	padding-left: 5%;
+	padding-right: 5%;
+	width:auto;
+	max-width:100%;
+	height:auto;
+	max-height: 100%;
+}
+
+div.alignright {
+	width: 50% !important;
+	float: right;
+}
+
+div.alignrightsmall {
+	width: 35% !important;
+	float: right;
+}
+
+
+div.alignleft {
+	width: 50% !important;
+	float: left;
+}
+
+/* ----  ---- */
+
+
+table {
+    font-size: 13px;
+    border-collapse: collapse;
+    margin-top:    2em;
+    border-top:    1px solid rgba(6, 110, 175, 0.6);
+    border-bottom: 1px solid rgba(6, 110, 175, 0.6);
+}
+    
+td, th  { 
+    vertical-align: top; 
+    vertical-align: baseline;
+    padding-left:   1.5em;
+    padding-right:  1.5em;
+    padding-top:    0.2em;
+    padding-bottom: 0.2em;
+}
+    
+thead, th {
+    border-bottom: 1px solid rgba(6, 110, 175, 0.6);
+    padding-top:    0.4em;
+    padding-bottom: 0.4em;
+}
+
+hr {
+	height: 1px;
+	background-color: #9e9e9e;
+	color: #9e9e9e;
+	width: 75%;
+	border-width: 0;
+	margin-top: 2em;
+}
+
+
+pre {
+	white-space: pre-wrap;
+	font-size: 0.9em;
+}
+
+
+/* ---- Footnotes ---- */
+
+a.footnote, a.footnoteRef { 
+    font-size: small; 
+    vertical-align: text-top;
+}
+
+@media print {
+    a[href^="#fnref"], a.reversefootnote  {
+        display: none;
+    }
+} 
+
+/* from http://css-tricks.com/examples/hrs/ */
+
+div.footnotes > hr {
+    margin-top: 4em;
+    padding: 0;
+    border: none;
+    border-top: double;
+    border-color: #eee;
+    border-width: 1pt;
+    color: #000;
+    text-align: center;
+}
+
+div.footnotes > hr:after {
+    content: "Footnotes";
+    display: inline-block;
+    position: relative; 
+    top: -0.8em;  
+    font-size: 0.8em;
+    padding: 0 0.5em;
+    background: white;
+}
+    
+/* ------------------------------------------------ */
+/* Custom classes
+
+/* use this for an empty div to enforce a pagebreak */
+/* in Markdown you just need > %pagebreak%          */
+.pagebreak {
+	page-break-before: always;
+}
+
+
+/* This is the caption for tables or images */
+/* in Markdown, us it like >%caption%       */
+.caption {
+    caption-side: top;
+    border: none;
+    font-size:  0.9em;
+    font-style: italic;
+    text-align: center;
+    margin-top:  -1.5em;
+    margin-bottom:  0.3em;
+    padding-bottom: 0.2em;
+}
+
+/* print specific styles */
+@media print  {
+  body {
+	background: white;
+	padding: 0%;
+
+  }
+
+  h1 { 
+	page-break-before: always;
+  }
+
+  h1:first-of-type {
+    page-break-before: avoid;
+  }
+
+  h2, h3, h4 {
+	page-break-after:avoid;
+  }
+
+  blockquote, table, pre { 
+	page-break-inside:avoid 
+  }
+
+  img { 
+	page-break-inside:avoid; 
+	page-break-after:avoid;
+  }
+}
+</style>
+
+
+<!--
+<script type="text/javascript"  
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">  
+</script>  
+
+<script type="text/x-mathjax-config">  
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});  
+</script>  
+-->
+</head>
+<body>
+<div id="header"><h1 class="title">Welcome to Notebooks for Windows  </h1></div>
+<!-- TOC -->
+<div id="TOC">
+<ul>
+  <ul>
+  <li><a href="#Getting.Started">Getting Started</a>
+  <ul>
+   <li><a href="#Set.Notebooks..Home.Folder">Set Notebooks' Home Folder</a>   </li><li><a href="#Use.Notebooks.with.Dropbox">Use Notebooks with Dropbox</a>   </li><li><a href="#Notebooks.and.WebDAV.Servers">Notebooks and WebDAV Servers</a>  </li></ul>
+    </li><li><a href="#Notebooks.for.Win.vs.Notebooks.for.iPad.iPhone">Notebooks for Win vs Notebooks for iPad/iPhone</a>  </li><li><a href="#Tips.and.Infos">Tips and Infos</a>
+  <ul>
+   <li><a href="#Keyboard.Shortcuts">Keyboard Shortcuts</a>
+   <ul>
+    <li><a href="#Plain.Text...Markdown.Documents">Plain Text / Markdown Documents</a>    </li><li><a href="#Formatted.Documents">Formatted Documents</a>   </li></ul>
+      </li><li><a href="#How.to.import.files.and..folders.into.Notebooks">How to import files and  folders into Notebooks</a>   </li><li><a href="#How.to.rename.a.document">How to rename a document</a>   </li><li><a href="#How.to.remove.or.change.the.ruled.background">How to remove or change the ruled background</a>   </li><li><a href="#What.are.plist.files.for.">What are plist files for?</a>  </li></ul>
+    </li><li><a href="#Known.Issues.and.Limitations">Known Issues and Limitations</a>  </li><li><a href="#Where.to.get.more.Info">Where to get more Info</a>  </li><li><a href="#Feature.Highlights">Feature Highlights</a> </li></ul>
+ </ul>
+
+</div>
+
+
+<p>Notebooks is the only notebook you ever need. It allows you to create as many books as you need to write, store and structure your details of life, and it will quickly become the one and only repository for all journals, ideas, notes, drafts and diaries but also for your projects, task lists, documents, files and everything else you want to keep close at hand.</p>
+
+<p>Notebooks stores and displays almost any type of document: plain text and formatted text, PDF, web pages, MS Office or iWork documents, photos, videos, music and much more. Everything you would usually print out and file can now go directly into Notebooks, without adding bulk.</p>
+
+<p>Notebooks also keeps your task lists and allows you to tick off your to-dos as you complete them. Divide your projects into nested sub projects, which makes them easier to handle, and cross-reference into your reference library, which, of course, is in Notebooks, too.</p>
+
+<p>So whether you need to write something down or look something up, Notebooks is the place to go.</p>
+
+<a name="Getting.Started"></a>
+<h2>Getting Started</h2>
+
+<a name="Set.Notebooks..Home.Folder"></a>
+<h3>Set Notebooks' Home Folder</h3>
+
+<p>When you first launch Notebooks for Win, you are asked to set a <strong>Home folder</strong>, which is the folder where Notebooks stores its documents. You can select any folder on your hard drive, and you are not required to select a new or empty one. It is also okay to pick a folder which already contains documents. You are free to change that folder at any time in Notebooks' preferences without compromising your documents and data. This allows you to have multiple sets of Notebooks documents and switch between them. - So you could, for example, keep confidential documents on an encrypted disk image, other documents in your Document folder, and switch between these sets on demand.</p>
+
+<p>A few remarks about how Notebooks handles your documents and folders:</p>
+
+<ul>
+<li>Notebooks stores your documents as files and books as folders on your hard drive, but it does not import them into any type of database. This means that your documents are always accessible from File Explorer, and there is no need to worry about import or export.</li>
+<li>Items you delete from Notebooks are deleted from your hard drive as well.</li>
+</ul>
+
+
+<a name="Use.Notebooks.with.Dropbox"></a>
+<h3>Use Notebooks with Dropbox</h3>
+
+<p>If you use <strong>Notebooks on an iPad or iPhone</strong> and sync its contents to Dropbox, it is very easy to pick up and work on the same documents with <em>Notebooks for Win</em>.</p>
+
+<ul>
+<li>Download and install the Dropbox client for Windows, a free download from the Dropbox website. This app automatically and continuously synchronizes the contents of your Dropbox (and with it the documents you sync from Notebooks on an iPad or iPhone) with a folder on your PC.</li>
+<li>Set the Dropbox folder you use for synchronization from your iPad or iPhone as home folder for Notebooks on your PC. By default, this folder is <em>Dropbox/Notebooks</em>, located in your user home.</li>
+</ul>
+
+
+<p>With these steps <em>Notebooks for Win</em> is set up to present your books and documents from your Dropbox sync folder and save all changed and added documents to that folder. The Dropbox client on your PC then syncs these documents to Dropbox, from where they find their way into Notebooks on your iPad or iPhone. - Currently, this is the most convenient and seamless connection between Notebooks on your iOS device and your PC.</p>
+
+<blockquote><p>One of the benefits of Dropbox compared to other services is its history of changes, reaching back at least 30 days. So if something ever should go wrong, there is always an easy way to restore the original documents. In case you do not yet have a Dropbox account but want to give it a try, you can use the following referral link and get a few extra MB of free space: http://db.tt/LWTD7Dw</p></blockquote>
+
+<a name="Notebooks.and.WebDAV.Servers"></a>
+<h3>Notebooks and WebDAV Servers</h3>
+
+<p>If you use a WebDAV service to sync your documents from Notebooks on an iPad or iPhone and want to work on that set of documents from Notebooks on your PC, all you need to do is mount that server in Finder and point Notebooks to that folder. You should be aware, though, that Notebooks reads and writes directly to and from that server, which may negatively impact performance. So you might consider using a separate application to synchronize the contents of the WebDAV server with a local folder on your PC and select that local folder as Notebooks' home folder. <em>Cyberduck</em> is just one example of an application that can to that.</p>
+
+<p>A special case is the WebDAV server that is running on your PC. There usually is no need to mount that, because you can access its directory like a local folder.</p>
+
+<hr>
+
+<a name="Notebooks.for.Win.vs.Notebooks.for.iPad.iPhone"></a>
+<h2>Notebooks for Win vs Notebooks for iPad/iPhone</h2>
+
+<p><strong>Notebooks for Win</strong> does not yet offer the whole functionality of its iOS counterparts, but it is a solid platform for creating and editing documents, organizing them in nested structures, collecting all kinds of files, managing tasks and task lists, and - if you want - synchronizing that all between multiple devices.</p>
+
+<p>You can create documents as plain text or formatted documents (HTML), and you can always convert between them. The conversion from plain text to formatted text uses Markdown.</p>
+
+<p>With matching Internet Explorer plug-ins installed, Notebooks displays many other document types like MS Office, PDF, RTF, images and more, but it does not edit them.</p>
+
+<p>Many of the more advanced features of Notebooks on iOS will follow in Notebooks for Win over the next couple of updates.</p>
+
+<hr>
+
+<a name="Tips.and.Infos"></a>
+<h2>Tips and Infos</h2>
+
+<p>We do not list all options and menu entries in detail here, as we hope that most of them are self explanatory. Just check the menus and the context menus  of the tree view and the documents (right click or ctrl-click, or tap the gearwheel icon in the toolbar at the bottom of the screen). They provide access to all functionality that is currently available.  It it also worth taking a look at the options and settings in Notebooks' preferences.</p>
+
+<a name="Keyboard.Shortcuts"></a>
+<h3>Keyboard Shortcuts</h3>
+
+<p>Most standard OS keyboard shortcuts work in Notebooks as well. Below it a list of additional shortcuts supported by Notebooks:</p>
+
+<table>
+<thead>
+<tr>
+<th> Shortcut </th>
+<th> Function </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> ctrl-N </td>
+<td> create new default document</td>
+</tr>
+<tr>
+<td> ctrl-alt-N</td>
+<td> create new book</td>
+</tr>
+<tr>
+<td> ctrl-Backspace </td>
+<td> delete currently selected item(s)</td>
+</tr>
+<tr>
+<td> ctrl-O </td>
+<td> open current document in its default application</td>
+</tr>
+<tr>
+<td> ctrl-shift-I </td>
+<td> show document info</td>
+</tr>
+<tr>
+<td> ctrl-1 </td>
+<td> show document only, hide left two columns</td>
+</tr>
+<tr>
+<td> ctrl-2 </td>
+<td> show document and one left column; repeatedly type ctrl-2 to change the left column</td>
+</tr>
+<tr>
+<td> ctrl-3 </td>
+<td> show tree view, list view and document (default layout)</td>
+</tr>
+<tr>
+<td> ctrl-shift-F </td>
+<td> toggle fullscreen mode</td>
+</tr>
+</tbody>
+</table>
+
+
+<a name="Plain.Text...Markdown.Documents"></a>
+<h4>Plain Text / Markdown Documents</h4>
+
+<table>
+<thead>
+<tr>
+<th> Shortcut </th>
+<th> Function </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> ctrl-T </td>
+<td> insert current date and time</td>
+</tr>
+<tr>
+<td> ctrl-D </td>
+<td> insert current date</td>
+</tr>
+<tr>
+<td> ctrl-B </td>
+<td> insert the Markdown code for <strong>Bold</strong> </td>
+</tr>
+<tr>
+<td> ctrl-I </td>
+<td> insert the Markdown code for <em>Italic</em> </td>
+</tr>
+<tr>
+<td> ctrl-K </td>
+<td> insert the Markdown code for <del>Strike Through</del> </td>
+</tr>
+<tr>
+<td> ctrl-Return </td>
+<td> Switch to formatted Preview or return to plain text view </td>
+</tr>
+</tbody>
+</table>
+
+
+<a name="Formatted.Documents"></a>
+<h4>Formatted Documents</h4>
+
+<table>
+<thead>
+<tr>
+<th> Shortcut </th>
+<th> Function </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> ctrl-T </td>
+<td> insert current date and time</td>
+</tr>
+<tr>
+<td> ctrl-D </td>
+<td> insert current date</td>
+</tr>
+<tr>
+<td> ctrl-B </td>
+<td> Bold </td>
+</tr>
+<tr>
+<td> ctrl-I </td>
+<td> Italic </td>
+</tr>
+<tr>
+<td> ctrl-U </td>
+<td> Underline </td>
+</tr>
+<tr>
+<td> ctrl- K</td>
+<td> Strike Though </td>
+</tr>
+<tr>
+<td> ctrl-Return </td>
+<td> Switch to HTML source code or return to formatted view </td>
+</tr>
+</tbody>
+</table>
+
+
+<a name="How.to.import.files.and..folders.into.Notebooks"></a>
+<h3>How to import files and  folders into Notebooks</h3>
+
+<p>Notebooks stores all its books and documents as folders and files on your hard drive instead of hiding them away in a database. So there are two options to add documents and folders to Notebooks:</p>
+
+<ol>
+<li>you can drag &amp; drop files and folders from Finder onto a book in Notebooks; this copies the selected files and folders to the book (folder) in Notebooks</li>
+<li>you can move or copy documents to Notebooks’ hierarchy directly in Finder</li>
+</ol>
+
+
+<a name="How.to.rename.a.document"></a>
+<h3>How to rename a document</h3>
+
+<p>To rename a book or document in the tree view or list view, just select (highlight) the document and either type <em>Return</em> or <em>right-click</em> the item and select <em>Rename</em> from the context menu.<br>
+Documents you create in Notebooks by default use the first line of text as title; so changing the first line of text is another option to change a document’s title. (When title and first line do not match, Notebooks does not change the title when you modify the first line).</p>
+
+<a name="How.to.remove.or.change.the.ruled.background"></a>
+<h3>How to remove or change the ruled background</h3>
+
+<p>By default, Notebooks shows plain text documents on a ruled background. Formatted documents, however, always use a solid background color. You can easily change the background pattern or replace it with a solid color. There are three places where you can change that:</p>
+
+<ul>
+<li>In Notebooks' preferences &gt; “Fonts and Colors” you can set a “Background Pattern” or a “Background Color”. This setting will be used by default throughout Notebooks.</li>
+<li>Right-click (ctrl-click) on a book in the tree view (or click on the action button in the footer) and select “Background Pattern” or “Background Color”. This sets the default for the contents of this book (and its sub books) and overrides your preferences.</li>
+<li>To change the pattern or color for an individual (plain text) document, you can
+
+<ul>
+<li>right-click on the text of the document and select an option from the <em>Background</em> submenu</li>
+<li>From the <em>Format</em> Menu, select “Background Color” or “Background Pattern”</li>
+</ul>
+</li>
+</ul>
+
+
+<a name="What.are.plist.files.for."></a>
+<h3>What are plist files for?</h3>
+
+<p>For each document, Notebooks creates a separate file with the extension .plist. These files contain details and information about the document (description, selected font or color, creation date etc). When you synchronize the contents of Notebooks between multiple devices, these plist files make sure that books, documents and task lists appear identical on all devices.</p>
+
+<hr>
+
+<a name="Known.Issues.and.Limitations"></a>
+<h2>Known Issues and Limitations</h2>
+
+<ul>
+<li><p>A few users reported that the keyboard shortcuts for cut/copy/paste would refuse to work unless one of these function had been selected from the Edit menu. We have been trying to localize and fix this issue, but have been unable to. It may well be that you are not affected by that at all.</p></li>
+<li><p><strong>Protected Items</strong> from Notebooks on your iPad and iPhone appear unprotected in Notebooks on your PC. The reason is that Notebooks' protection does not encrypt your documents. When synced to Dropbox or your computer, the documents are freely accessible from Finder. While we could add protection and hide these documents in Notebooks for Win unless you enter a code, this would suggest a level of security that is not given (you can always access these document from Finder).<br>
+The ultimate solution to this is encryption, which we need to implement in Notebooks on iOS devices and on Win, but until then, protected documents are unprotected in Notebooks for Win.</p></li>
+</ul>
+
+
+<hr>
+
+<a name="Where.to.get.more.Info"></a>
+<h2>Where to get more Info</h2>
+
+<p>We are constantly providing updated guidelines and supportive information through our website and keep you up to date via Twitter:</p>
+
+<p>http://notebooksapp.com/pc/help<br>
+http://notebooksapp.com/Blog<br>
+http://twitter.com/NotebooksApp</p>
+
+<hr>
+
+<a name="Feature.Highlights"></a>
+<h2>Feature Highlights</h2>
+
+<ul>
+<li><strong>Create and Process Documents</strong>
+
+<ul>
+<li>Create <strong>Formatted documents</strong> (HTML) and use <strong>WYSIWYG editing</strong> to produce beautifully formatted texts with font styles, colors, lists, embedded images etc.</li>
+<li>Assign document styles (CSS) to your formatted documents.</li>
+<li>Create <strong>Plain Text</strong> notes if you do not want to care about styles and format. You can always convert them to a formatted document later.</li>
+<li>Use <strong>Markdown</strong> tags in plain text documents and convert them to formatted document later. You can also tell Notebooks to convert those Markdown documents on the fly and assign a custom document style.</li>
+<li>Type your notes and texts, no matter how long they are. If you want, Notebooks counts words or characters for you.</li>
+<li>Freely assign <strong>fonts, colors and backdrops (paper types)</strong> to your documents (backdrops are available for plain text only.  Notebooks provides a convenient set of colors and paper types, but you are free to define and add your own.</li>
+</ul>
+</li>
+<li><strong>Import Documents</strong>
+
+<ul>
+<li>Import <strong>text, HTML, RTF, PDF, MS Office, Apple iWork documents, pictures, websites, web archives, audio files and videos</strong>.</li>
+<li>Quickly create <strong>new documents from</strong> the contents of the <strong>Pasteboard</strong>. This makes Notebooks your <strong>Clipboard Manager</strong>.</li>
+<li>Grab <strong>web pages directly from Safari</strong> (you need the Notebooks Bookmarklet for that, it is available in the download area of our website).</li>
+</ul>
+</li>
+<li><strong>Task Management</strong>
+
+<ul>
+<li>Create, organize and manage your <strong>Task Lists</strong>.</li>
+<li>Create <strong>nested task lists</strong> if you want.</li>
+<li>Assign <strong>due dates</strong> to tasks.</li>
+<li>Maintain your <strong>reference library</strong> of documents that support you with your task management.</li>
+</ul>
+</li>
+<li><strong>Organization and Structure</strong>
+
+<ul>
+<li>Store and organize notes in <strong>nested books</strong>.</li>
+<li>Freely <strong>move, rename and restructure</strong> your notes and books.</li>
+<li><strong>Sort notes</strong> by title, modification, creation date.</li>
+<li>Find your notes with <strong>full text search</strong> (plain text, HTML, Office, RTF and web archives).</li>
+<li>Use Notebooks’ <strong>custom links</strong> (URLs) to reference notes or books within Notebooks and across applications.</li>
+</ul>
+</li>
+</ul>
+
+
+</body></html>

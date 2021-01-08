@@ -1,0 +1,31 @@
+ {
+        chart: {
+    theme: "froala",
+    is2D: "1",
+    caption: "국제 자산 피라미드",
+    subcaption: "Credit Suisse 2017",
+    showvalues: "1",
+    numbersuffix: " trn",
+    numberprefix: "$",
+    plottooltext:
+      "$label of세계의 인기 있는 오너 $dataValue of global wealth"
+  },
+  data: [
+    {
+      label: "최고 32M",
+      value: "128.7"
+    },
+    {
+      label: "다음 391M",
+      value: "111.4"
+    },
+    {
+      label: "다음 1054M",
+      value: "32.5"
+    },
+    {
+      label: "마지막 3474M",
+      value: "7.6"
+    }
+  ]
+}

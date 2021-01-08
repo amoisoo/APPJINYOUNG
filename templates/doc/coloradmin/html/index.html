@@ -1,0 +1,830 @@
+{% extends "COLORADMIN_ADMIN/BASE/base_layout.html" %}
+{% load static i18n %}
+
+{% block body_extra %}{% endblock %}
+
+
+
+
+
+{% block page_navi %}
+    {% if LAYOUT.NAVI_POSITION == 'TOP' %}
+        {% include 'COLORADMIN_ADMIN/COMMON/NAVI_TOP.html' %}
+    {% else %}
+        {% include 'COLORADMIN_ADMIN/COMMON/NAVI_SIDE.html' %}
+
+    {% endif %}
+{% endblock %}
+
+
+
+
+{% block page_content %}
+		<div id="content" class="content">
+            <div class="col-xl-12 col-sm-12">
+                <div class="m-b-10 f-s-10 m-t-10"><b class="text-inverse">HTML</b></div>
+                <!-- begin card -->
+                <div class="card border-0">
+                    <div class="card-body">
+                            <table border="1" cellpadding="2" cellspacing="0" width="100%">
+                                <thead>
+                                    <tr>
+                                        <th>html</th>
+                                        <th>head</th>
+                                        <th>body</th>
+                                        <th>Paragraph</th>
+                                        <th>Text</th>
+                                        <th>List</th>
+                                        <th>Table</th>
+                                        <th>form</th>
+                                        <th>form-type</th>
+                                        <th>multimedia</th>
+                                        <th>interactive</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td bgcolor="">html</td>
+                                        <td bgcolor="">head</td>
+                                        <td bgcolor="">body</td>
+                                        <td bgcolor="">h1-h6</td>
+                                        <td bgcolor="">a</td>
+                                        <td bgcolor="">ol</td>
+                                        <td bgcolor="">table</td>
+                                        <td bgcolor="">form</td>
+                                        <td bgcolor="">type=submig</td>
+                                        <td bgcolor="">img</td>
+                                        <td bgcolor="">details</td>
+                                    </tr>
+                                    <tr>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">meta</td>
+                                        <td bgcolor="">header</td>
+                                        <td bgcolor="">p</td>
+                                        <td bgcolor="">em</td>
+                                        <td bgcolor="">ul</td>
+                                        <td bgcolor="">caption</td>
+                                        <td bgcolor="">input</td>
+                                        <td bgcolor="">type=image</td>
+                                        <td bgcolor="">figure / figcaption</td>
+                                        <td bgcolor="">summary</td>
+                                    </tr>
+                                    <tr>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">title</td>
+                                        <td bgcolor="">navi</td>
+                                        <td bgcolor="">div</td>
+                                        <td bgcolor="">strong</td>
+                                        <td bgcolor="">li</td>
+                                        <td bgcolor="">tr</td>
+                                        <td bgcolor="">button</td>
+                                        <td bgcolor="">type=reset</td>
+                                        <td bgcolor="">map</td>
+                                        <td bgcolor="">menu</td>
+                                    </tr>
+                                    <tr>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">base</td>
+                                        <td bgcolor="">aside</td>
+                                        <td bgcolor="">blockquote</td>
+                                        <td bgcolor="">b</td>
+                                        <td bgcolor="">dl dt dd</td>
+                                        <td bgcolor="">td</td>
+                                        <td bgcolor="">textarea</td>
+                                        <td bgcolor="">type=hidden</td>
+                                        <td bgcolor="">area</td>
+                                        <td bgcolor="">menuitem</td>
+                                    </tr>
+                                    <tr>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">link</td>
+                                        <td bgcolor="">main</td>
+                                        <td bgcolor="">pre</td>
+                                        <td bgcolor="">i</td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">th</td>
+                                        <td bgcolor="">select</td>
+                                        <td bgcolor="">type=text</td>
+                                        <td bgcolor="">audio</td>
+                                        <td bgcolor="">dialog</td>
+                                    </tr>
+                                    <tr>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">style</td>
+                                        <td bgcolor="">section</td>
+                                        <td bgcolor="">hr</td>
+                                        <td bgcolor="">mark</td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="" style="background-color: rgb(250, 197, 28);">thead</td>
+                                        <td bgcolor="">option</td>
+                                        <td bgcolor="">type=search</td>
+                                        <td bgcolor="">video</td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">noscript</td>
+                                        <td bgcolor="">article</td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">u</td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="" style="background-color: rgb(250, 197, 28);">tbody</td>
+                                        <td bgcolor="">optiongroup</td>
+                                        <td bgcolor="">type=tel</td>
+                                        <td bgcolor="">track</td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">template</td>
+                                        <td bgcolor="">footer</td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">small</td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="" style="background-color: rgb(250, 197, 28);">tfoot</td>
+                                        <td bgcolor="">optgroup</td>
+                                        <td bgcolor="">type=url</td>
+                                        <td bgcolor="">source</td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">script</td>
+                                        <td bgcolor="">address</td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">s</td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="" style="background-color: rgb(247, 218, 100);">colgroup</td>
+                                        <td bgcolor="">datalist</td>
+                                        <td bgcolor="">type=email</td>
+                                        <td bgcolor="">embed</td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">cite</td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="" style="background-color: rgb(247, 218, 100);">col</td>
+                                        <td bgcolor="">label</td>
+                                        <td bgcolor="">type=password</td>
+                                        <td bgcolor="">object
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">q</td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">fieldset</td>
+                                        <td bgcolor="">type=datetime</td>
+                                        <td bgcolor="">param
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">dfn</td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">legend</td>
+                                        <td bgcolor="">type=month</td>
+                                        <td bgcolor="">picture
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">abbr</td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">keygen</td>
+                                        <td bgcolor="">type=week</td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">time</td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">output</td>
+                                        <td bgcolor="">type=date</td>
+                                        <td bgcolor="">canvas
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">data</td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">progress</td>
+                                        <td bgcolor="">type=time</td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">code</td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">meter</td>
+                                        <td bgcolor="">type=number</td>
+                                        <td bgcolor="">iframe
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">var</td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">type=range</td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">kbd</td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">type=checkbox</td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">samp</td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">type=radio</td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">bdo</td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">type=file</td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">bdi</td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">type=button</td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">br</td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">type=color</td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">wbr</td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                        <td bgcolor="">
+                                            <br>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <a href="https://html-coding.co.jp/annex/dictionary/css/"></a>
+                            <br><a href="https://html-coding.co.jp/annex/dictionary/css/">https://html-coding.co.jp/annex/dictionary/css/</a>
+                            <br>
+                            <br>
+                            <br>
+
+                            <table align="center" class="table table-sm mb-0 table-bordered" style="width: 80%;">
+                                <thead>
+                                    <tr>
+                                        <th>링크</th>
+                                        <th>text</th>
+                                        <th>paragraph</th>
+                                        <th style="width: 12.4018%;">방향</th>
+                                        <th style="width: 12.489%;">코드</th>
+                                        <th>시간</th>
+                                        <th>sup / sub</th>
+                                        <th>루비</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 12.5%;">a</td>
+                                        <td style="width: 12.5%;">b</td>
+                                        <td style="width: 12.5%;">br</td>
+                                        <td style="width: 12.4018%;">bdi</td>
+                                        <td style="width: 12.489%;">code</td>
+                                        <td style="width: 12.5%;">time</td>
+                                        <td style="width: 12.5%;">sup
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.5%;">ruby</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 12.5%;">
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.5%;">i</td>
+                                        <td style="width: 12.5%;">wbr</td>
+                                        <td style="width: 12.4018%;">bdo</td>
+                                        <td style="width: 12.489%;">var</td>
+                                        <td style="width: 12.5%;">
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.5%;">sub
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.5%;">rt</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 12.5%;">
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.5%;">u</td>
+                                        <td style="width: 12.5%;">span</td>
+                                        <td style="width: 12.4018%;">
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.489%;">kbd</td>
+                                        <td style="width: 12.5%;">
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.5%;">
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.5%;">rb</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 12.5%;">
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.5%;">strong</td>
+                                        <td style="width: 12.5%;">cite</td>
+                                        <td style="width: 12.4018%;">
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.489%;">samp</td>
+                                        <td style="width: 12.5%;">
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.5%;">
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.5%;">rp</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 12.5%;">
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.5%;">em</td>
+                                        <td style="width: 12.5%;">small</td>
+                                        <td style="width: 12.4018%;">
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.489%;">
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.5%;">
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.5%;">
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.5%;">rtc</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 12.5%;">
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.5%;">del</td>
+                                        <td style="width: 12.5%;">q</td>
+                                        <td style="width: 12.4018%;">
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.489%;">
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.5%;">
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.5%;">
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.5%;">
+                                            <br>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 12.5%;">
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.5%;">ins</td>
+                                        <td style="width: 12.5%;">abbr</td>
+                                        <td style="width: 12.4018%;">
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.489%;">
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.5%;">
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.5%;">
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.5%;">
+                                            <br>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 12.5%;">
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.5%;">mark</td>
+                                        <td style="width: 12.5%;">dfn</td>
+                                        <td style="width: 12.4018%;">
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.489%;">
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.5%;">
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.5%;">
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.5%;">
+                                            <br>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 12.5%;">
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.5%;">s</td>
+                                        <td style="width: 12.5%;">
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.4018%;">
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.489%;">
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.5%;">
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.5%;">
+                                            <br>
+                                        </td>
+                                        <td style="width: 12.5%;">
+                                            <br>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <br>
+                            <br>
+                    </div>
+                </div>
+            </div>
+		</div>
+
+{% endblock %}
+
+

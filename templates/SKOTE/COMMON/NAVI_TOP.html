@@ -1,0 +1,349 @@
+{% load static i18n %}
+
+
+<div class="topnav">
+    <div class="container-fluid">
+        <nav class="navbar navbar-light navbar-expand-lg topnav-menu">
+
+            <div class="collapse navbar-collapse" id="topnav-menu-content">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-dashboard" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="bx bx-home-circle mr-2"></i><span key="t-dashboards">대쉬보드</span> <div class="arrow-down"></div>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="topnav-dashboard">
+
+                            <a href="index.html" class="dropdown-item" key="t-default">Default</a>
+                            <a href="dashboard-saas.html" class="dropdown-item" key="t-saas">Saas</a>
+                            <a href="dashboard-crypto.html" class="dropdown-item" key="t-crypto">Crypto</a>
+
+                            <a href="layouts-vertical.html" class="dropdown-item" key="t-vertical">Vertical</a>
+                            <a href="layouts-horizontal.html" class="dropdown-item" key="t-horizontal">Horizontal</a>
+                            <a href="layouts-hori-topbar-light.html" class="dropdown-item" key="t-topbar-light">Topbar light</a>
+                            <a href="layouts-hori-boxed-width.html" class="dropdown-item" key="t-boxed-width">Boxed width</a>
+                            <a href="layouts-hori-preloader.html" class="dropdown-item" key="t-preloader">Preloader</a>
+                            <a href="layouts-hori-colored-header.html" class="dropdown-item" key="t-colored-topbar">Colored Header</a>
+                            <a href="layouts-hori-scrollable.html" class="dropdown-item" key="t-scrollable">Scrollable</a>
+                        </div>
+                    </li>
+
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-more" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="bx bx-file mr-2"></i><span key="t-extra-pages">종류</span> <div class="arrow-down"></div>
+                        </a>
+
+
+
+                        <div class="dropdown-menu" aria-labelledby="topnav-more">
+                            <a href="{{ APP.maindomain }}/doc/skote/chat/chat.html" class="dropdown-item" key="t-chat">채트</a>
+                            <a href="{{ APP.maindomain }}/doc/skote/calendar/calendar.html" class="dropdown-item" key="t-chat">달력</a>
+
+
+
+                            <div class="dropdown">
+                                <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-invoice"
+                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span key="t-invoices">컨텍트</span> <div class="arrow-down"></div>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="topnav-invoice">
+                                    <a href="{{ APP.maindomain }}/doc/skote/contact.html" class="dropdown-item" key="t-invoice-list">contact</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/contact-detail.html" class="dropdown-item" key="t-invoice-list">contact-detail</a>
+
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-utility"
+                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span key="t-utility">프로젝트</span> <div class="arrow-down"></div>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="topnav-utility">
+                                    <a href="{{ APP.maindomain }}/doc/skote/project/project.html" class="dropdown-item" key="t-invoice-list">project</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/project/project_grid.html" class="dropdown-item" key="t-invoice-list">project grid</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/project/project_create.html" class="dropdown-item" key="t-invoice-list">Create</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/project/project_overview.html" class="dropdown-item" key="t-invoice-list">Overview</a>
+
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-task"
+                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span key="t-tasks">태스크</span> <div class="arrow-down"></div>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="topnav-task">
+                                    <a href="{{ APP.maindomain }}/doc/skote/task/tasks-create.html" class="dropdown-item" key="t-invoice-list">create</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/task/tasks-kanban.html" class="dropdown-item" key="t-invoice-list">kanban</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/task/tasks-list.html" class="dropdown-item" key="t-invoice-list">list</a>
+
+                                </div>
+                            </div>
+
+                            <div class="dropdown">
+                                <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-task"
+                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span key="t-tasks">블로그</span> <div class="arrow-down"></div>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="topnav-task">
+                                    <a href="{{ APP.maindomain }}/doc/skote/blog/blog.html" class="dropdown-item" key="t-invoice-list">blog</a>
+
+                                    <a href="{{ APP.maindomain }}/doc/skote/blog/blog-archive.html" class="dropdown-item" key="t-invoice-list">blog-archive</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/blog/blog-details.html" class="dropdown-item" key="t-invoice-list">blog-details</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/blog/blog-grid.html" class="dropdown-item" key="t-invoice-list">blog-grid</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/blog/blog-list.html" class="dropdown-item" key="t-invoice-list">blog-list</a>
+
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-invoice"
+                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span key="t-invoices">영수증</span> <div class="arrow-down"></div>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="topnav-invoice">
+                                    <a href="{{ APP.maindomain }}/doc/skote/invoice/invoice_list.html" class="dropdown-item" key="t-invoice-list">Invoice list</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/invoice/invoice.html" class="dropdown-item" key="t-invoice-list">Invoice</a>
+
+
+                                </div>
+                            </div>
+
+
+                            <div class="dropdown">
+                                <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-auth"
+                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span key="t-authentication">인증</span> <div class="arrow-down"></div>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="topnav-auth">
+                                    <a href="{{ APP.maindomain }}/doc/skote/auth/login.html" class="dropdown-item" key="t-invoice-list">로그인</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/auth/regi.html" class="dropdown-item" key="t-invoice-list">등록</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/auth/lock.html" class="dropdown-item" key="t-invoice-list">잠금페이지</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/auth/pwchange.html" class="dropdown-item" key="t-invoice-list">패스워드 변경</a>
+
+                                    <a href="{{ APP.maindomain }}/doc/skote/auth/404.html" class="dropdown-item" key="t-invoice-list">404</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/auth/500.html" class="dropdown-item" key="t-invoice-list">500</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/auth/maintenance.html" class="dropdown-item" key="t-invoice-list">메인텐스</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/auth/commingsoon.html" class="dropdown-item" key="t-invoice-list">commingsoon</a>
+
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-utility"
+                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span key="t-utility">컴포넨트</span> <div class="arrow-down"></div>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="topnav-utility">
+
+                                    <a href="{{ APP.maindomain }}/doc/skote/qna.html" class="dropdown-item" key="t-invoice-list">qna</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/timeline.html" class="dropdown-item" key="t-invoice-list">timeline</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/price.html" class="dropdown-item" key="t-invoice-list">price</a>
+
+
+                                </div>
+                            </div>
+
+
+
+                            <div class="dropdown">
+                                <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-email"
+                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span key="t-email">이메일</span> <div class="arrow-down"></div>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="topnav-email">
+                                    <a href="{{ APP.maindomain }}/doc/skote/email/email-inbox.html" class="dropdown-item" key="t-inbox">Inbox</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/email/email-read.html" class="dropdown-item" key="t-read-email">Read Email</a>
+                                </div>
+                            </div>
+
+
+                            <div class="dropdown">
+                                <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-ecommerce"
+                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span key="t-ecommerce">이커머스</span> <div class="arrow-down"></div>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="topnav-ecommerce">
+                                    <a href="{{ APP.maindomain }}/doc/skote/ecommerce/ecommerce-shops.html"             class="dropdown-item" key="t-shops">Shops</a>
+
+                                    <a href="{{ APP.maindomain }}/doc/skote/ecommerce/ecommerce-products.html"          class="dropdown-item" key="t-products">Products</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/ecommerce/ecommerce-product-detail.html"    class="dropdown-item" key="t-product-detail">Product Detail</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/ecommerce/ecommerce-orders.html"            class="dropdown-item" key="t-orders">Orders</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/ecommerce/ecommerce-customers.html"         class="dropdown-item" key="t-customers">Customers</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/ecommerce/ecommerce-cart.html"              class="dropdown-item" key="t-cart">Cart</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/ecommerce/ecommerce-checkout.html"          class="dropdown-item" key="t-checkout">Checkout</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/ecommerce/ecommerce-add-product.html"       class="dropdown-item" key="t-add-product">Add Product</a>
+                                </div>
+                            </div>
+
+                            <div class="dropdown">
+                                <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-crypto"
+                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span key="t-crypto">암호화폐</span> <div class="arrow-down"></div>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="topnav-crypto">
+                                    <a href="{{ APP.maindomain }}/doc/skote/crypto/crypto-wallet.html" class="dropdown-item" key="t-wallet">Wallet</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/crypto/crypto-buy-sell.html" class="dropdown-item" key="t-buy">Buy/Sell</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/crypto/crypto-exchange.html" class="dropdown-item" key="t-exchange">Exchange</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/crypto/crypto-lending.html" class="dropdown-item" key="t-lending">Lending</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/crypto/crypto-orders.html" class="dropdown-item" key="t-orders">Orders</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/crypto/crypto-kyc-application.html" class="dropdown-item" key="t-kyc">KYC Application</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/crypto/crypto-ico-landing.html" class="dropdown-item" key="t-ico">ICO Landing</a>
+                                </div>
+                            </div>
+
+                            <div class="dropdown">
+                                <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-charts"
+                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span key="t-charts">차트</span> <div class="arrow-down"></div>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="topnav-charts">
+                                    <a href="{{ APP.maindomain }}/doc/skote/chart/charts-apex.html" class="dropdown-item" key="t-apex-charts">Apex charts</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/chart/charts-echart.html" class="dropdown-item" key="t-e-charts">E charts</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/chart/charts-chartjs.html" class="dropdown-item" key="t-chartjs-chart">Chartjs Chart</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/chart/charts-flot.html" class="dropdown-item" key="t-flot-chart">Flot Chart</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/chart/charts-tui.html" class="dropdown-item" key="t-ui-chart">Toast UI Chart</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/chart/charts-knob.html" class="dropdown-item" key="t-knob-chart">Jquery Knob Chart</a>
+                                    <a href="{{ APP.maindomain }}/doc/skote/chart/charts-sparkline.html" class="dropdown-item" key="t-sparkline-chart">Sparkline Chart</a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </li>
+
+
+
+
+
+
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-pages" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="bx bx-customize mr-2"></i><span key="t-apps">어플리케이션</span> <div class="arrow-down"></div>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="topnav-pages">
+
+
+
+
+
+                            <div class="dropdown">
+                                <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-table"
+                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span key="t-tables">Tables</span> <div class="arrow-down"></div>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="topnav-table">
+                                    <a href="tables-basic.html" class="dropdown-item" key="t-basic-tables">Basic Tables</a>
+                                    <a href="tables-datatable.html" class="dropdown-item" key="t-data-tables">Data Tables</a>
+                                    <a href="tables-responsive.html" class="dropdown-item" key="t-responsive-table">Responsive Table</a>
+                                    <a href="tables-editable.html" class="dropdown-item" key="t-editable-table">Editable Table</a>
+                                </div>
+                            </div>
+
+                            <div class="dropdown">
+                                <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-map"
+                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span key="t-maps">Maps</span> <div class="arrow-down"></div>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="topnav-map">
+                                    <a href="maps-google.html" class="dropdown-item" key="t-g-maps">Google Maps</a>
+                                    <a href="maps-vector.html" class="dropdown-item" key="t-v-maps">Vector Maps</a>
+                                    <a href="maps-leaflet.html" class="dropdown-item" key="t-l-maps">Leaflet Maps</a>
+                                </div>
+                            </div>
+
+                            <div class="dropdown">
+                                <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-form"
+                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span key="t-forms">Forms</span> <div class="arrow-down"></div>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="topnav-form">
+                                    <a href="form-elements.html" class="dropdown-item" key="t-form-elements">Form Elements</a>
+                                    <a href="form-layouts.html" class="dropdown-item" key="t-form-layouts">Form Layouts</a>
+                                    <a href="form-validation.html" class="dropdown-item" key="t-form-validation">Form Validation</a>
+                                    <a href="form-advanced.html" class="dropdown-item" key="t-form-advanced">Form Advanced</a>
+                                    <a href="form-editors.html" class="dropdown-item" key="t-form-editors">Form Editors</a>
+                                    <a href="form-uploads.html" class="dropdown-item" key="t-form-upload">Form File Upload</a>
+                                    <a href="form-xeditable.html" class="dropdown-item" key="t-form-xeditable">Form Xeditable</a>
+                                    <a href="form-repeater.html" class="dropdown-item" key="t-form-repeater">Form Repeater</a>
+                                    <a href="form-wizard.html" class="dropdown-item" key="t-form-wizard">Form Wizard</a>
+                                    <a href="form-mask.html" class="dropdown-item" key="t-form-mask">Form Mask</a>
+                                </div>
+                            </div>
+
+                            <div class="dropdown">
+                                <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-icons"
+                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span key="t-icons">Icons</span> <div class="arrow-down"></div>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="topnav-icons">
+                                    <a href="icons-boxicons.html" class="dropdown-item" key="t-boxicons">Boxicons</a>
+                                    <a href="icons-materialdesign.html" class="dropdown-item" key="t-material-design">Material Design</a>
+                                    <a href="icons-dripicons.html" class="dropdown-item" key="t-dripicons">Dripicons</a>
+                                    <a href="icons-fontawesome.html" class="dropdown-item" key="t-font-awesome">Font awesome</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-uielement" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="bx bx-tone mr-2"></i>
+                            <span key="t-ui-elements"> UI 엘리멘트</span>
+                            <div class="arrow-down"></div>
+                        </a>
+
+                        <div class="dropdown-menu mega-dropdown-menu px-2 dropdown-mega-menu-xl"
+                            aria-labelledby="topnav-uielement">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div>
+                                        <a href="{{ APP.maindomain }}/doc/skote/ui/ui-alerts.html" class="dropdown-item" key="t-alerts">Alerts</a>
+                                        <a href="{{ APP.maindomain }}/doc/skote/ui/ui-buttons.html" class="dropdown-item" key="t-buttons">Buttons</a>
+                                        <a href="{{ APP.maindomain }}/doc/skote/ui/ui-cards.html" class="dropdown-item" key="t-cards">Cards</a>
+                                        <a href="{{ APP.maindomain }}/doc/skote/ui/ui-carousel.html" class="dropdown-item" key="t-carousel">Carousel</a>
+                                        <a href="{{ APP.maindomain }}/doc/skote/ui/ui-dropdowns.html" class="dropdown-item" key="t-dropdowns">Dropdowns</a>
+                                        <a href="{{ APP.maindomain }}/doc/skote/ui/ui-images.html" class="dropdown-item" key="t-images">Images</a>
+                                        <a href="{{ APP.maindomain }}/doc/skote/ui/ui-modals.html" class="dropdown-item" key="t-modals">Modals</a>
+                                        <a href="{{ APP.maindomain }}/doc/skote/ui/ui-progressbars.html" class="dropdown-item" key="t-progress-bars">Progress Bars</a>
+                                        <a href="{{ APP.maindomain }}/doc/skote/ui/ui-tabs-accordions.html" class="dropdown-item" key="t-tabs-accordions">Tabs & Accordions</a>
+                                        <a href="{{ APP.maindomain }}/doc/skote/ui/ui-typography.html" class="dropdown-item" key="t-typography">Typography</a>
+                                        <a href="{{ APP.maindomain }}/doc/skote/ui/ui-general.html" class="dropdown-item" key="t-general">General</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div>
+                                        <a href="{{ APP.maindomain }}/doc/skote/ui/ui-colors.html" class="dropdown-item" key="t-colors">Colors</a>
+                                        <a href="{{ APP.maindomain }}/doc/skote/ui/ui-video.html" class="dropdown-item" key="t-video">Video</a>
+                                        <a href="{{ APP.maindomain }}/doc/skote/ui/ui-grid.html" class="dropdown-item" key="t-grid">Grid</a>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div>
+                                        <a href="{{ APP.maindomain }}/doc/skote/ui/ui-image-cropper.html" class="dropdown-item" key="t-image-cropper">Image Cropper</a>
+                                        <a href="{{ APP.maindomain }}/doc/skote/ui/ui-lightbox.html" class="dropdown-item" key="t-lightbox">Lightbox</a>
+                                        <a href="{{ APP.maindomain }}/doc/skote/ui/ui-notifications.html" class="dropdown-item" key="t-notifications">Notifications</a>
+                                        <a href="{{ APP.maindomain }}/doc/skote/ui/ui-rangeslider.html" class="dropdown-item" key="t-range-slider">Range Slider</a>
+                                        <a href="{{ APP.maindomain }}/doc/skote/ui/ui-rating.html" class="dropdown-item" key="t-rating">Rating</a>
+                                        <a href="{{ APP.maindomain }}/doc/skote/ui/ui-session-timeout.html" class="dropdown-item" key="t-session-timeout">Session Timeout</a>
+                                        <a href="{{ APP.maindomain }}/doc/skote/ui/ui-sweet-alert.html" class="dropdown-item" key="t-sweet-alert">Sweet-Alert</a>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>

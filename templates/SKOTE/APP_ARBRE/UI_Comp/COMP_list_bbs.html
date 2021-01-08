@@ -1,0 +1,107 @@
+{% extends "SKOTE/UI_Comp/base_comp_visible.html" %}
+{% load static i18n common%}
+
+
+
+{% block COMP_VISIBLE %}
+
+
+{% include 'SKOTE/UI_Comp/FORM_page_edit.html'   %}<br/><br/>
+
+
+
+
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mini-stats-wid">
+                <div class="card-body">
+                    <div class="media">
+                        <div class="media-body">
+                            <p class="text-muted font-weight-medium">완성한 프로젝트</p>
+                            <h4 class="mb-0">{{ PAGE_CHILD_LIST|hash:DATA.id | length }}</h4>
+                        </div>
+
+                        <div class="mini-stat-icon avatar-sm align-self-center rounded-circle bg-primary">
+                            <span class="avatar-title">
+                                <i class="bx bx-check-circle font-size-24"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mini-stats-wid">
+                <div class="card-body">
+                    <div class="media">
+                        <div class="media-body">
+                            <p class="text-muted font-weight-medium">미결정 프로젝트</p>
+                            <h4 class="mb-0">12</h4>
+                        </div>
+
+                        <div class="avatar-sm align-self-center mini-stat-icon rounded-circle bg-primary">
+                            <span class="avatar-title">
+                                <i class="bx bx-hourglass font-size-24"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mini-stats-wid">
+                <div class="card-body">
+                    <div class="media">
+                        <div class="media-body">
+                            <p class="text-muted font-weight-medium">모든 수입</p>
+                            <h4 class="mb-0">$36,524</h4>
+                        </div>
+
+                        <div class="avatar-sm align-self-center mini-stat-icon rounded-circle bg-primary">
+                            <span class="avatar-title">
+                                <i class="bx bx-package font-size-24"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-nowrap table-hover mb-0">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col" width="60%">제목</th>
+                    <th scope="col">부제목</th>
+                    <th scope="col">수정일</th>
+                    <th scope="col">수정</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                {% for pageChild in PAGE_CHILD_LIST|hash:DATA.id %}
+
+                        {% if forloop.first %}
+
+                        {% else %}
+
+                        {% endif %}
+
+                        <tr>
+                            <th scope="row">{{ pageChild.id }}</th>
+                            <td><a href="{% url 'book:page_detail' DATA.id object.parent.slug  object.slug %}">{{ pageChild.title }}</a> </td>
+                            <td>{{ pageChild.subtitle }}</td>
+                            <td>{{ pageChild.modified }}</td>
+                            <td>{% include 'SKOTE/UI_Comp/FORM_page_edit.html' with DATA=pageChild  %}</td>
+                        </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+{% endblock %}
+
+

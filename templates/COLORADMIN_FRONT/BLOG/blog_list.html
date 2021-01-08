@@ -1,0 +1,82 @@
+{% extends "COLORADMIN_FRONT/BLOG/base.html" %}
+{% load static i18n %}
+
+{% block body_extra %}{% endblock %}
+
+{% block page_content %}
+
+
+{% if user.is_authenticated %}
+
+
+
+        <hr/>
+					<div class="section-container">
+						<h4 class="section-title"><span>최근 글</span></h4>
+						<ul class="sidebar-recent-post">
+
+                            {% for object in blogs %}
+
+
+                                    <li><div class="info"><h4 class="title"><a href="{% url 'blog:detail'  object.id%}">({{ object.id  }})  {{ object.title }}</a></h4>
+                                    {% if  object.slug  %}
+
+                                        <div class="date"><a href="{% url 'blog:slug'  object.slug%}"> {{ object.slug }}</a></div>
+                                    {% endif %}
+
+
+                                    </div>
+                                    </li>
+
+
+                                <br/>
+
+                            {% endfor %}
+
+
+
+
+						</ul>
+					</div>
+
+
+
+
+        <hr/>
+
+
+            <div align="center">
+                    {% if page_obj.has_previous %}
+                        <a href="?page={{ page_obj.previous_page_number }}" > < </a>
+
+                    {% endif %}
+                    {% for page in paginator.page_range %}
+                        {%  if page == page_obj.number   %}
+                            <b>
+                        {% endif %}
+
+
+                        <a href="?page={{ page }}">{{ page }}   </a>
+
+
+                        {%  if page == page_obj.number   %}
+                             </b>
+                        {% endif %}
+
+                    {% endfor %}
+
+                    {% if page_obj.has_next %}
+                        <a href="?page={{ page_obj.next_page_number }}" > > </a>
+                    {% endif %}
+            </div>
+
+
+                {{ page_obj.number }}중{{ page_obj.paginator.num_pages }}
+
+{% else %}
+    <a class="nav-link" href="{% url 'accounts:login' %}">로그인</a>
+{% endif %}
+
+
+
+{% endblock %}

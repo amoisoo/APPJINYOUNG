@@ -1,0 +1,43 @@
+<Table>
+    <Record ParentIndex="-1" Expand="0" Index="1">
+        <TITLE color="None" background="None">Swift 란</TITLE>
+        <ID>1</ID>
+        <ID_SORT>1</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>45ec87a2_bc02_4840_929f_6c6b37994216</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>Menu</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>월 10월 7 19:04:08 2019</CREATED>
+        <MODIFED>월 10월 7 19:04:19 2019</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+</Table>
+

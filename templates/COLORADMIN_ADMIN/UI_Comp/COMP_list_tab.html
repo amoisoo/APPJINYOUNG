@@ -1,0 +1,52 @@
+{% load static i18n common%}
+
+
+<br/>
+<div class="row">
+
+    <div class="col-xl-12">
+        {% include 'COLORADMIN_ADMIN/UI_Comp/FORM_page_edit.html'   %}
+
+        <ul class="nav nav-pills mb-2">
+
+            {% for pageChild in PAGE_CHILD_LIST|hash:DATA.id %}
+                        <li class="nav-item">
+                                {% if forloop.first %}
+                                        <a href="#nav-pills-tab-{{ pageChild.id }}" data-toggle="tab" class="nav-link active">
+                                {% else %}
+                                        <a href="#nav-pills-tab-{{ pageChild.id }}" data-toggle="tab" class="nav-link ">
+                                {% endif %}
+                                <span class="d-sm-none">{{ pageChild.title }}</span>
+                                <span class="d-sm-blk doc-none">{{ pageChild.title }}</span>
+                            </a>
+                        </li>
+            {% endfor %}
+        </ul>
+
+        <div class="tab-content p-15 rounded bg-white mb-4">
+
+
+            {% for pageChild in PAGE_CHILD_LIST|hash:DATA.id %}
+                    {% if forloop.first %}
+                        <div class="tab-pane fade active show" id="nav-pills-tab-{{ pageChild.id }}">
+                    {% else %}
+                        <div class="tab-pane fade " id="nav-pills-tab-{{ pageChild.id }}">
+                    {% endif %}
+                        {% include 'COLORADMIN_ADMIN/UI_Comp/FORM_page_edit.html'  with DATA=pageChild  %}
+
+                        <h4 class="m-t-10">{{ pageChild.subtitle }}</h4>
+                        <p>
+                            {{ pageChild.note|safe }}
+                        </p>
+
+                        {% if  pageChild.subtitle == "" and pageChild.note == "" %}
+                                <br/><br/>
+                        {% endif %}
+
+                    </div>
+            {% endfor %}
+
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,33 @@
+
+{% load static i18n %}
+
+
+
+
+
+
+
+{% if user.is_authenticated %}
+        <hr/>
+        <form action="/" name="form_comment" method="POST">
+            <div class="card card-forum mb-4 mb-lg-0">
+                <div class="card-header">커멘트</div>
+                <div class="card-body p-0">
+                    <textarea class="textarea form-control" id="comment" placeholder="Leave your comment here ..." rows="12"></textarea>
+                </div>
+                <div class="card-footer bg-light">
+                    <button type="submit" class="btn btn-lg btn-inverse">댓글</button>
+                </div>
+            </div>
+        </form>
+        <!-- end comment-section -->
+
+{% else %}
+        <!-- begin comment-section -->
+        <div class="comment-banner-msg">
+
+            <a href="{% url 'accounts:login' %}">로그인</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="{% url 'accounts:signin' %}">계정등록</a>
+        </div>
+
+{% endif %}

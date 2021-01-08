@@ -1,0 +1,43 @@
+{% load static i18n %}
+
+
+
+<div class="widget-list widget-list-rounded m-b-30">
+
+
+{% for DATA in DATAS %}
+
+              <div class="widget-list-item">
+
+                <div class="widget-list-media icon"><i class="fa fa-align-justify bg-red text-inverse text-white"></i></div>
+                <div class="widget-list-content">
+                  <h3 class="widget-list-title"><a href="{% url 'forum:category_detail' DATA.parent.slug  DATA.id %}">{{ DATA.title }}</a> </h3>
+                  <p class="widget-list-desc">{{ DATA.subtitle }}</p>
+                </div>
+
+                {% if user.username == "lee" %}
+                            <div class="widget-list-action">
+                              <a href="#" data-toggle="dropdown" class="text-muted pull-right">
+                                <i class="fa fa-ellipsis-h f-s-14"></i>
+                              </a>
+                              <ul class="dropdown-menu dropdown-menu-right">
+                                    <a href="{% url 'forum:category_update' DATA.parent.slug  DATA.id %}" class="dropdown-item">편집</a>
+                                    <a href="{% url 'forum:category_delete' DATA.parent.slug  DATA.id %}" class="dropdown-item">삭제</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a href="#" class="dropdown-item">{{ DATA.id }}</a>
+                                    <a href="#" class="dropdown-item">{{ DATA.modified }}</a>
+                                    <a href="#" class="dropdown-item">{{ DATA.created }}</a>
+                                    <a href="#" class="dropdown-item">{{ DATA.user }}</a>
+                              </ul>
+                            </div>
+                {% else %}
+
+                {% endif %}
+
+                <div class="widget-list-action text-nowrap text-grey-darker text-right"><i class="fa fa-angle-right text-muted t-plus-1 fa-lg m-l-5"></i></div>
+
+              </div>
+
+{% endfor %}
+
+</div>

@@ -1,0 +1,170 @@
+{% extends "COLORADMIN_ADMIN/BASE/base_forum.html" %}
+{% load static i18n %}
+
+{% block body_extra %}{% endblock %}
+
+
+{% block page_navi %}
+    {% if LAYOUT.NAVI_POSITION == 'TOP' %}
+        {% include 'COLORADMIN_ADMIN/APP_FORUM/COMMON/NAVI_TOP.html' %}
+    {% else %}
+        {% include 'COLORADMIN_ADMIN/APP_FORUM/COMMON/NAVI_SIDE.html' %}
+
+    {% endif %}
+{% endblock %}
+
+
+
+
+{% block page_content %}
+      {% include 'FROALA/css_pre_include.html' %}
+
+
+<div id="content" class="content"><div class="col-xl-12">
+              <div class="shadow p-3 mb-5 bg-white rounded"><h4>Forum 작성</h4></div>
+
+
+
+              <form  method="POST"   enctype="multipart/form-data" novalidate>
+                  {% csrf_token %}
+                  <div class="form-row">
+                    <div class="form-group col-md-6"><label for="id_title">타이틀</label>
+                      <input type="text" class="form-control" id="id_title" name="title">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="id_slug">slug</label>
+                      <input type="text" class="form-control" id="id_slug"  name="slug">
+                    </div>
+
+                  </div>
+
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputCity">서브타이틀</label>
+                      <input type="text" class="form-control" id="subtitle"  name="subtitle">
+                    </div>
+                    <div class="form-group col-md-4">
+                      <label for="inputState">slug</label>
+                      <input type="text" class="form-control" id="slug"  name="slug">
+
+                    </div>
+                    <div class="form-group col-md-2">
+                      <label for="id">id</label>
+                      <input type="text" class="form-control" id="id"  name="id">
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="inputAddress2">이미지</label><br/>
+                    <input type="file"  id="image" name="image" />
+                  </div>
+
+
+
+
+
+
+					<!-- end tab-content -->
+					<!-- begin nav-pills -->
+					<ul class="nav nav-pills mb-2">
+						<li class="nav-item">
+							<a href="#nav-pills-tab-1" data-toggle="tab" class="nav-link active">
+								<span class="d-sm-none">노트</span>
+								<span class="d-sm-block d-none">노트</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="#nav-pills-tab-2" data-toggle="tab" class="nav-link">
+								<span class="d-sm-none">CODE</span>
+								<span class="d-sm-block d-none">code</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="#nav-pills-tab-3" data-toggle="tab" class="nav-link">
+								<span class="d-sm-none">CODELOG</span>
+								<span class="d-sm-block d-none">codelog</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="#nav-pills-tab-4" data-toggle="tab" class="nav-link">
+								<span class="d-sm-none">HTML</span>
+								<span class="d-sm-block d-none">html</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="#nav-pills-tab-5" data-toggle="tab" class="nav-link">
+								<span class="d-sm-none">CSS</span>
+								<span class="d-sm-block d-none">css</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="#nav-pills-tab-6" data-toggle="tab" class="nav-link">
+								<span class="d-sm-none">JS</span>
+								<span class="d-sm-block d-none">js</span>
+							</a>
+						</li>
+					</ul>
+					<!-- end nav-pills -->
+					<!-- begin tab-content -->
+					<div class="tab-content p-15 rounded bg-white mb-4">
+						<!-- begin tab-pane -->
+						<div class="tab-pane fade active show" id="nav-pills-tab-1">
+							<h3 class="m-t-10">노트</h3>
+
+                            <textarea class="form-control" id="note"  rows="10"  placeholder=""  name="note"></textarea>
+						</div>
+						<!-- end tab-pane -->
+						<!-- begin tab-pane -->
+						<div class="tab-pane fade" id="nav-pills-tab-2">
+							<h3 class="m-t-10">CODE</h3>
+                              <textarea class="form-control" rows="30"  id="id_code" name="code"></textarea>
+						</div>
+						<div class="tab-pane fade" id="nav-pills-tab-3">
+							<h3 class="m-t-10">CODELOG</h3>
+                              <textarea class="form-control" rows="30"  id="id_codelog" name="codelog"></textarea>
+						</div>
+						<!-- end tab-pane -->
+						<!-- begin tab-pane -->
+						<div class="tab-pane fade" id="nav-pills-tab-4">
+							<h3 class="m-t-10">HTML</h3>
+                              <textarea  class="form-control" rows="30" id="id_html" name="html"></textarea>
+						</div>
+						<!-- end tab-pane -->
+						<!-- begin tab-pane -->
+						<div class="tab-pane fade" id="nav-pills-tab-5">
+							<h3 class="m-t-10">CSS</h3>
+                              <textarea  class="form-control" rows="30"  id="id_css" name="css"></textarea>
+						</div>
+						<div class="tab-pane fade" id="nav-pills-tab-6">
+							<h3 class="m-t-10">JS</h3>
+                              <textarea  class="form-control" rows="30"  id="id_js" name="js"></textarea>
+						</div>
+						<!-- end tab-pane -->
+					</div>
+					<!-- end tab-content -->
+
+
+
+
+                  <br/><br/><br/>
+
+                  <button type="submit" class="btn btn-primary primaryAction   btn-block">{% trans "새글 작성" %}</button>
+
+
+
+                  {% if redirect_field_value %}
+                  <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+                  {% endif %}
+            </form>
+
+
+
+</div></div>
+
+
+          {% include 'FROALA/js_post_include.html' %}
+
+{% endblock %}
+
+
+

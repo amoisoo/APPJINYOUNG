@@ -1,0 +1,82 @@
+{% load static i18n common %}
+<div id="top-menu" class="top-menu"><ul class="nav" >
+
+
+    {% if URL_BOOK %}
+        <li class="has-sub active">
+            <a href="{% url 'book:book_detail' URL_BOOK %}"><i class="fa fa-th-home"></i><span>HOME</span></a>
+        </li>
+    {% endif %}
+
+
+
+
+
+
+    {% for MENU_ITEM in MENU_LIST %}
+
+				<li class="has-sub {% if object.depth_id == MENU_ITEM.id %}active{% endif %} ">
+					<a href="{% url 'book:menu_detail' MENU_ITEM.parent.slug  MENU_ITEM.slug %}">
+
+						<span>{{ MENU_ITEM.title }}</span>
+
+					</a>
+
+                    {% if MENU_LIST_SUB|hash:MENU_ITEM.id %}
+                            <ul class="sub-menu">
+                                {% for SUBMENU_ITEM in MENU_LIST_SUB|hash:MENU_ITEM.id %}
+
+                                        <li class=" {% if URL_MENU == SUBMENU_ITEM.slug %}active{% endif %} "><a   href="{% url 'book:menu_detail' SUBMENU_ITEM.parent.slug  SUBMENU_ITEM.slug %}" >{{ SUBMENU_ITEM.title }}</a></li>
+                                {%  endfor %}
+                            </ul>
+
+
+                    {% endif %}
+
+
+				</li>
+    {%  endfor %}
+
+
+				<li class="menu-control menu-control-left">
+					<a href="javascript:;" data-click="prev-menu"><i class="fa fa-angle-left"></i></a>
+				</li>
+				<li class="menu-control menu-control-right">
+					<a href="javascript:;" data-click="next-menu"><i class="fa fa-angle-right"></i></a>
+				</li>
+
+</ul></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

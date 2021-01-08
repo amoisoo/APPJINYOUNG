@@ -1,0 +1,65 @@
+{% extends "COLORADMIN_ADMIN/BASE/base_blog.html" %}
+{% load static i18n %}
+
+{% block body_extra %}{% endblock %}
+
+
+{% block page_navi %}
+    {% if LAYOUT.NAVI_POSITION == 'TOP' %}
+        {% include 'COLORADMIN_ADMIN/APP_BLOG/COMMON/NAVI_TOP.html' %}
+    {% else %}
+        {% include 'COLORADMIN_ADMIN/COMMON/NAVI_SIDE.html' %}
+
+    {% endif %}
+{% endblock %}
+
+
+
+
+{% block page_content %}
+<div id="content" class="content"><div class="col-xl-12">
+
+      {% include 'FROALA/css_pre_include.html' %}
+
+
+
+              <form  method="POST"   enctype="multipart/form-data" novalidate>
+                  {% csrf_token %}
+
+                   {% include 'COLORADMIN_ADMIN/COMMON/FORM_update_title.html' %}
+
+
+                  <div class="form-row">
+                   {% include 'COLORADMIN_ADMIN/COMMON/FORM_update_component_menu.html' %}
+                   {% include 'COLORADMIN_ADMIN/COMMON/FORM_update_id.html' %}
+                  </div>
+
+
+
+
+
+
+                   {% include 'COLORADMIN_ADMIN/COMMON/FORM_update_code.html' %}
+
+
+                  <br/><br/><br/>
+
+                  <button type="submit" class="btn btn-primary primaryAction   btn-block">{% trans "새글 작성" %}</button>
+
+
+
+                  {% if redirect_field_value %}
+                  <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+                  {% endif %}
+            </form>
+
+
+
+
+      {% include 'FROALA/js_post_include.html' %}
+
+</div></div>
+{% endblock %}
+
+
+

@@ -1,0 +1,29 @@
+{% load static i18n common%}
+
+
+    {% include 'COLORADMIN_ADMIN/UI_Comp/FORM_page_edit.html'   %}<br/><br/>
+
+
+<div class="row"></div>
+<dl class="row">
+
+
+    {% for pageChild in PAGE_CHILD_LIST|hash:DATA.id %}
+            {% if forloop.first %}
+
+            {% else %}
+
+            {% endif %}
+
+              <dt class="text-inverse text-right col-4 text-truncate">{{ pageChild.title }}</dt>
+
+              <dd class="col-8 text-truncate">
+                        {% include 'COLORADMIN_ADMIN/UI_Comp/FORM_page_edit.html'  with DATA=pageChild  %}
+
+                  {{ pageChild.note|safe }}
+              </dd>
+
+    {% endfor %}
+
+</dl>
+

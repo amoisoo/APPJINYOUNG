@@ -1,0 +1,123 @@
+{% load static i18n %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>{% block title %}amoisoo{% endblock %}</title>
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+	<meta content="" name="description" />
+	<meta content="" name="author" />
+	
+	<!-- ================== BEGIN BASE CSS STYLE ================== -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+	<link href="{% static 'COLORADMIN_ADMIN/css/default/app.min.css' %}" rel="stylesheet" />
+	<!-- ================== END BASE CSS STYLE ================== -->
+	
+	<!-- ================== BEGIN PAGE LEVEL STYLE ================== -->
+	<link href="{% static 'COLORADMIN_ADMIN/plugins/jvectormap-next/jquery-jvectormap.css' %}" rel="stylesheet" />
+	<link href="{% static 'COLORADMIN_ADMIN/plugins/bootstrap-datepicker/dist/css/bootstrap-datepicker.css' %}" rel="stylesheet" />
+	<link href="{% static 'COLORADMIN_ADMIN/plugins/gritter/css/jquery.gritter.css' %}" rel="stylesheet" />
+	<!-- ================== END PAGE LEVEL STYLE ================== -->
+  	<link href="{% static 'COLORADMIN_ADMIN/plugins/flag-icon-css/css/flag-icon.min.css' %}" rel="stylesheet" />
+
+
+  <script src="{% static 'FROALA_CHART/js/froalacharts.js' %}"></script>
+  <script src="{% static 'FROALA_CHART/js/themes/froalacharts.theme.froala.js' %}"></script>
+  <script src="{% static 'FROALA_CHART/js/themes/froalacharts.theme.candy.js' %}"></script>
+
+</head>
+
+{% if LAYOUT.BOX  %}
+    <body class="boxed-layout">
+{% else %}
+    <body >
+{% endif %}
+
+	<!-- begin #page-loader -->
+	<div id="page-loader" class="fade show">
+		<span class="spinner"></span>
+	</div>
+	<!-- end #page-loader -->
+	
+
+	                                    {% if LAYOUT.NAVI_POSITION == 'TOP' %}
+	<div id="page-container" class="   page-container fade page-sidebar-fixed page-header-fixed page-with-wide-sidebar page-with-top-menu page-without-sidebar">
+
+	                                       {% else %}
+	<div id="page-container" class="   page-container fade page-sidebar-fixed page-header-fixed page-with-wide-sidebar ">
+
+	                                    {% endif %}
+
+
+
+            {% block page_header %}
+                    {% include 'COLORADMIN_ADMIN/COMMON/HEADER.html' %}
+            {% endblock %}
+
+
+
+            {% block page_navi %}
+                {% if LAYOUT.NAVI_POSITION == 'TOP' %}
+                    {% include 'COLORADMIN_ADMIN/COMMON/NAVI_TOP.html' %}
+                {% else %}
+                    {% include '00_sample/coloradmin/page/MENU_SIDE.html' %}
+                {% endif %}
+            {% endblock %}
+
+            <!-- end page container -->
+            {% block page_content %}
+                <div id="content" class="content">
+                    contents
+                </div>
+            {% endblock %}
+
+
+            {% block page_footer %}
+                     {% include 'COLORADMIN_ADMIN/COMMON/FOOTER.html' %}
+            {% endblock %}
+
+    </div>
+	<!-- ================== BEGIN BASE JS ================== -->
+
+
+    <script src="{% static 'COLORADMIN_ADMIN/js/app.min.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/js/theme/default.min.js' %}"></script>
+
+	<!-- ================== END BASE JS ================== -->
+	
+	<!-- ================== BEGIN PAGE LEVEL JS ================== -->
+        {% block javascript_pre %}{% endblock %}
+
+
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/gritter/js/jquery.gritter.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/flot/source/jquery.canvaswrapper.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/flot/source/jquery.colorhelpers.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/flot/source/jquery.flot.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/flot/source/jquery.flot.saturated.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/flot/source/jquery.flot.browser.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/flot/source/jquery.flot.drawSeries.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/flot/source/jquery.flot.uiConstants.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/flot/source/jquery.flot.time.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/flot/source/jquery.flot.resize.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/flot/source/jquery.flot.pie.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/flot/source/jquery.flot.crosshair.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/flot/source/jquery.flot.categories.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/flot/source/jquery.flot.navigate.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/flot/source/jquery.flot.touchNavigate.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/flot/source/jquery.flot.hover.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/flot/source/jquery.flot.touch.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/flot/source/jquery.flot.selection.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/flot/source/jquery.flot.symbol.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/flot/source/jquery.flot.legend.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/jquery-sparkline/jquery.sparkline.min.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/jvectormap-next/jquery-jvectormap.min.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/jvectormap-next/jquery-jvectormap-world-mill.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/bootstrap-datepicker/dist/js/bootstrap-datepicker.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/js/demo/dashboard.js' %}"></script>
+        {% block javascript_body %}{% endblock %}
+        {% block javascrip_extrat %}{% endblock %}
+        {% block javascript_post %}{% endblock %}
+
+	<!-- ================== END PAGE LEVEL JS ================== -->
+</body>
+</html>

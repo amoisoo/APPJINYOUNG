@@ -1,0 +1,12 @@
+{% load static i18n %}
+
+<h1>탭 페이지</h1>
+
+
+
+
+{% for TABITEM in PAGE_TAB_DATA  %}
+   <h3>{{ TABITEM.TEXT }} : {{ TABITEM.WHATS_THIS }}</h3>
+    {{ TABITEM }} <br/><br/><br/><br/>
+
+{% endfor %}

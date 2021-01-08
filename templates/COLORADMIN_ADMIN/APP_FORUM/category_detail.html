@@ -1,0 +1,163 @@
+{% extends "COLORADMIN_ADMIN/BASE/base_forum.html" %}
+{% load static i18n %}
+
+{% block body_extra %}{% endblock %}
+
+
+{% block page_navi %}
+    {% if LAYOUT.NAVI_POSITION == 'TOP' %}
+        {% include 'COLORADMIN_ADMIN/APP_FORUM/COMMON/NAVI_TOP.html' %}
+    {% else %}
+        {% include 'COLORADMIN_ADMIN/APP_FORUM/COMMON/NAVI_SIDE.html' %}
+
+    {% endif %}
+{% endblock %}
+
+
+
+
+{% block page_content %}
+		<div id="content" class="content">
+			<!-- begin breadcrumb -->
+
+			<ol class="breadcrumb float-xl-right">
+				<li class="breadcrumb-item"><a href="javascript:;">{{ object.user  }}</a></li>
+				<li class="breadcrumb-item"><a href="javascript:;">{{ object.modified  }}</a></li>
+				<li class="breadcrumb-item active">{{ object.created  }}</li>
+			</ol>
+			<!-- end breadcrumb -->
+			<!-- begin page-header -->
+			<h1 class="page-header"><a  class="text-black"  href="{% url 'forum:detail' object.parent.slug %}">{{ object.title }} </a><small>({{ object.id }})</small></h1>
+			<!-- end page-header -->
+
+                    <span align="right"><a href="{% url 'forum:detail' object.parent.slug %}"  class="btn btn-default  btn-sm btn-rounded pl-2 pr-3">&nbsp;&nbsp;<i class="fa fa-arrow-alt-circle-left bg-default text-inverse"></i></a></span>
+
+                {% if user.is_authenticated %}
+                    <span align="right"><a href="{% url 'forum:category_update' object.parent.slug  object.id %}"  class="btn btn-primary btn-sm btn-rounded pl-2 pr-3">&nbsp;&nbsp;Edit</a></span>
+                    <span align="right"><a href="{% url 'forum:category_delete' object.parent.slug  object.id  %}"  class="btn btn-danger btn-sm btn-rounded pl-2 pr-3">&nbsp;&nbsp;Delete</a></span><br/><br/>
+                {% else %}
+                    <br/><br/>
+                {% endif %}
+
+
+
+			<div class="panel panel-default ">
+				<div class="panel-heading">
+					<h4 class="panel-title">{{ object.subtitle }}</h4>
+					<div class="panel-heading-btn">
+
+					</div>
+				</div>
+				<div class="panel-body">
+					{{ object.note|safe  }}
+
+
+                {% if  object.code or object.codelog %}
+                        <br/><br/>
+                        <table align="center" class="table table-sm mb-0 table-bordered" style="width: 80%;">
+                            <tbody>
+
+                                {% if  object.code %}
+                                        <tr><td style="width: 100%; background-color: rgb(235, 235, 235);">{{ object.code|linebreaksbr }}</td></tr>
+                                {% endif %}
+
+                                {% if  object.codelog %}
+                                        <tr><td style="width: 100%; background-color: rgb(181, 182, 183);">
+                                            {{ object.codelog|linebreaksbr }}
+                                        </td></tr>
+                                {% endif %}
+
+                            </tbody>
+                        </table>
+
+                {% endif %}
+
+
+
+
+
+                {% if  object.html %}<div class="alert alert-lime" role="alert">{{ object.html|linebreaksbr }}<span class="label label-inverse">label</span></div>{% endif %}
+                {% if  object.css %}<div class="alert alert-warning" role="alert">{{ object.css|linebreaksbr }}</div>{% endif %}
+                {% if  object.js %}<div class="alert alert-info" role="alert">{{ object.js|linebreaksbr }}</div>{% endif %}
+
+				</div>
+			</div>
+			<!-- end panel -->
+		</div>
+
+
+
+
+		<div id="content" class="content">
+
+
+
+			<div class="row">
+				<div class="col-xl-12">
+			            <div class="panel panel-default ">
+				<div class="panel-heading">
+					<h4 class="panel-title">페이지</h4>
+					<div class="panel-heading-btn">
+
+					</div>
+				</div>
+
+
+                    {% include 'COLORADMIN_ADMIN/APP_FORUM/WIDGET/PAGE.html' %}
+
+
+                    {% if user.is_authenticated %}
+                        {% include 'COLORADMIN_ADMIN/APP_FORUM/WIDGET/PAGE_FORM.html' with  DATAS=categories %}
+
+
+                    {% else %}
+                        <div align="center">
+                               <span align="right"><a href="{% url 'accounts:login'  %}"  class="btn btn-warning btn-sm btn-rounded pl-2 pr-3">댓글달기 : 로그인</a></span><br/><br/>
+                        </div>
+                    {% endif %}
+
+
+			</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="content" class="content">
+
+
+			<div class="row">
+                <div class="col-xl-2"></div>
+				<div class="col-xl-8">
+			            <div class="panel panel-default ">
+				<div class="panel-heading">
+					<h4 class="panel-title">댓글</h4>
+					<div class="panel-heading-btn">
+
+					</div>
+				</div>
+                    {% include 'COLORADMIN_ADMIN/APP_FORUM/WIDGET/COMMENT.html' with  DATAS=categories %}
+
+                    {% if user.is_authenticated %}
+                        {% include 'COLORADMIN_ADMIN/APP_FORUM/WIDGET/COMMENT_FORM.html' with  DATAS=categories %}
+
+
+                    {% else %}
+                        <div align="center">
+                               <span align="right"><a href="{% url 'accounts:login'  %}"  class="btn btn-warning btn-sm btn-rounded pl-2 pr-3">댓글달기 : 로그인</a></span><br/><br/>
+                        </div>
+                    {% endif %}
+
+
+			</div>
+				</div>
+                <div class="col-xl-2"></div>
+			</div>
+		</div>
+
+
+{% endblock %}
+
+
+
+

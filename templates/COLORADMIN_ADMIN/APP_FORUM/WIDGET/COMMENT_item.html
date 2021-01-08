@@ -1,0 +1,35 @@
+{% load static i18n %}
+
+
+<div class="media media-sm">
+    <a class="media-left" href="javascript:;">
+        <img src="{% static 'COLORADMIN_ADMIN/img/user/user-1.jpg' %}" alt="" class="media-object rounded" />
+    </a>
+    <div class="media-body">
+        <span class="media-heading f-s-16"><a class="text-black" href="{% url 'forum:comment_detail' object.parent.slug object.id  DATA.id %}">{{ DATA.title }}</a></span>
+
+
+
+                <span class="badge badge-secondary">{{ DATA.id }}</span>
+                <span class="badge badge-secondary">{{ DATA.user }}</span>
+                {% if user.is_authenticated %}
+                        <span class="label label-primary  "><a class="text-white" href="{% url 'forum:comment_update' object.parent.slug object.id  DATA.id %}">편집</a> </span> &nbsp;
+                        <span class="label label-danger  "><a class="text-white" href="{% url 'forum:comment_delete' object.parent.slug object.id  DATA.id %}">삭제</a> </span> &nbsp;
+                        <span class="label label-yellow ">댓글달기</span>
+
+                {% else %}
+
+                {% endif %}
+
+
+        {% if DATA.image %}
+            <img src="{{ MEDIA_URL }}{{ DATA.image }}"/>
+        {% endif %}
+
+        <p>{{ DATA.note|safe }}</p>
+
+
+        <span class="badge badge-default badge-square">{{ DATA.created }}</span>
+        <span class="badge badge-default badge-square">{{ DATA.modified }}</span>
+    </div>
+</div><hr/>

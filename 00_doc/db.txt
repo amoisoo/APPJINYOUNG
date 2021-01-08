@@ -1,0 +1,10 @@
+mysql
+
+
+한글입력에러
+
+utf8
+
+euckr 의 차이로 인한 에러
+
+http://blog.naver.com/PostView.nhn?blogId=besunmi&logNo=140201958288

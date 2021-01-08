@@ -1,0 +1,41 @@
+{% load static i18n %}
+
+
+
+
+<div class="row" >
+        <div class="col-lg-12">
+                {% if DATA.note %}
+                        <br/>
+
+                        <p align="center">
+                            <a class="btn btn-primary mt-1 mr-1" data-toggle="collapse" href="#collapseTABLE_{{ DATA.id }}" aria-expanded="false" aria-controls="collapseTABLE_{{ DATA.id }}">
+                               {{ DATA.context }} 테이블 보기
+                            </a>
+
+                        </p>
+
+                        <div class="collapse " id="collapseTABLE_{{ DATA.id }}">
+                                {{ DATA.note|safe }}
+                        </div>
+                {% elif DATA.json %}
+                        <br/>
+
+                        <p align="center">
+                            <a class="btn btn-primary mt-1 mr-1" data-toggle="collapse" href="#collapseTABLE_{{ DATA.id }}" aria-expanded="false" aria-controls="collapseTABLE_{{ DATA.id }}">
+                               {{ DATA.context }} 테이블 보기
+                            </a>
+
+                        </p>
+
+                        <div class="collapse " id="collapseTABLE_{{ DATA.id }}">
+                                <pre>{{ DATA.json }}</pre>
+                        </div>
+                {% else %}
+
+                {% endif %}
+        </div>
+</div>
+
+
+

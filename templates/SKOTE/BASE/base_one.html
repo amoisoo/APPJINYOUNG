@@ -1,0 +1,75 @@
+{% load static i18n %}
+<!doctype html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8" />
+        <title>{% block title %}amoisoo{% endblock %}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
+        <meta content="Themesbrand" name="author" />
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="{% static 'SKOTE/images/favicon.ico' %}">
+
+
+        <link rel="stylesheet" href="assets/libs/owl.carousel/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/libs/owl.carousel/assets/owl.theme.default.min.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" id="bootstrap-style"  type="text/css" />
+        <link rel="stylesheet" href="assets/css/icons.min.css"  type="text/css" />
+        <link rel="stylesheet" href="assets/css/app.min.css" id="app-style"  type="text/css" />
+
+
+        <!-- owl.carousel css -->
+        <link rel="stylesheet" href="{% static 'SKOTE/libs/owl.carousel/assets/owl.carousel.min.css' %}">
+        <link rel="stylesheet" href="{% static 'SKOTE/libs/owl.carousel/assets/owl.theme.default.min.css' %}">
+
+
+
+        <link href="{% static 'SKOTE/css/bootstrap.min.css' %}" id="bootstrap-style" rel="stylesheet" type="text/css" />
+        <link href="{% static 'SKOTE/css/icons.min.css' %}" rel="stylesheet" type="text/css" />
+        <link href="{% static 'SKOTE/css/app.min.css' %}" id="app-style" rel="stylesheet" type="text/css" />
+
+
+    </head>
+
+
+{% block body_extra %}
+    <body data-spy="scroll" data-target="#topnav-menu" data-offset="60">
+{% endblock %}
+
+
+
+        {% block page_content %}
+
+         {% endblock %}
+
+
+        <!-- JAVASCRIPT -->
+        <script src="{% static 'SKOTE/libs/jquery/jquery.min.js' %}"></script>
+        <script src="{% static 'SKOTE/libs/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+        <script src="{% static 'SKOTE/libs/metismenu/metisMenu.min.js' %}"></script>
+        <script src="{% static 'SKOTE/libs/simplebar/simplebar.min.js' %}"></script>
+        <script src="{% static 'SKOTE/libs/node-waves/waves.min.js' %}"></script>
+
+
+        <script src="{% static 'SKOTE/libs/jquery.easing/jquery.easing.min.js' %}"></script>
+
+        <!-- Plugins js-->
+        <script src="{% static 'SKOTE/libs/jquery-countdown/jquery.countdown.min.js' %}"></script>
+
+        <!-- owl.carousel js -->
+        <script src="{% static 'SKOTE/libs/owl.carousel/owl.carousel.min.js' %}"></script>
+
+
+
+        <!-- ICO landing init -->
+        <script src="{% static 'SKOTE/js/pages/ico-landing.init.js' %}"></script>
+
+        <script src="{% static 'SKOTE/js/pages/auth-2-carousel.init.js' %}"></script>
+
+
+        <script src="{% static 'SKOTE/js/app.js' %}"></script>
+
+    </body>
+</html>

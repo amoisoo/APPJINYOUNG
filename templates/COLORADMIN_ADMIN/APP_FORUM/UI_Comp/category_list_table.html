@@ -1,0 +1,61 @@
+{% load static i18n %}
+
+
+
+
+
+
+<div class="card border-0"><div class="card-body">
+
+
+
+
+
+    <table class="table table-bordered m-b-0 ">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>이미지</th>
+                <th>타이틀</th>
+                <th>서브타이틀</th>
+                <th>편집</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for DATA in DATAS %}
+
+                    <tr>
+                        <td  style="width: 50px;">{{ DATA.id }}</td>
+                        <td  style="width: 55px;" class="with-img">
+                            <img src="{% static 'COLORADMIN_ADMIN/img/user/user-1.jpg' %}" class="img-rounded height-30" />
+                        </td>
+                        <td><a href="{% url 'forum:category_detail' DATA.parent.slug  DATA.id %}">{{ DATA.title }}</a></td>
+                        <td style="width: 300px;" class="with-img"></td>
+						<td style="width: 265px;"  class="with-btn" nowrap>
+                            <a href="#" class="btn btn-sm btn-primary width-60 m-r-2">Edit</a>
+                            <a href="#" class="btn btn-sm btn-white width-60">Delete</a>
+												<div class="btn-group">
+													<a href="#" class="btn btn-white btn-sm width-90">Settings</a>
+													<a href="#" class="btn btn-white btn-sm dropdown-toggle width-30 no-caret" data-toggle="dropdown">
+													<span class="caret"></span>
+													</a>
+													<div class="dropdown-menu dropdown-menu-right">
+														<a href="#" class="dropdown-item">Action 1</a>
+														<a href="#" class="dropdown-item">Action 2</a>
+														<a href="#" class="dropdown-item">Action 3</a>
+														<div class="dropdown-divider"></div>
+														<a href="#" class="dropdown-item">Action 4</a>
+													</div>
+												</div>
+                        </td>
+
+                    </tr>
+
+            {% endfor %}
+
+        </tbody>
+    </table>
+
+
+
+</div></div><br/>

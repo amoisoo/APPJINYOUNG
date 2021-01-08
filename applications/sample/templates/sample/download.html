@@ -1,0 +1,30 @@
+{% load static i18n %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{{ MEDIA_URL }}
+{{ STATIC_URL }}
+ <br/>
+{{ title }}<br/>
+    <a href="{{ STATIC_URL }}img/11.png">STATIC_URL Download</a><br/>
+    <a href="{{ MEDIA_URL }}download/bootstrap.zip">Media Download</a><br/>
+
+<hr/>
+<a href = "{{ MEDIA_URL }}img/11.png"><img  style=" max-width:800px;"  class="d-block img-fluid" src="{{ MEDIA_URL }}/img/11.png" alt="{{ DATA.image }}" >  </a>
+<hr/>
+<hr/>
+<hr/>
+
+<img  src="{% static 'img/11.png' %}" />
+<img  src="{% static 'img/11.png' %}" />
+    <img class="mb-4" src="{% static 'bootstrap/brand/bootstrap-solid.svg' %}" alt="" width="72" height="72">
+    <img class="mb-4" src="{% static 'bootstrap/brand/bootstrap-solid.svg' %}" alt="" width="72" height="72">
+    <img class="mb-4" src="{% static 'bootstrap/brand/bootstrap-solid.svg' %}" alt="" width="72" height="72">
+    <img class="mb-4" src="{% static 'bootstrap/brand/bootstrap-solid.svg' %}" alt="" width="72" height="72">
+
+</body>
+</html>

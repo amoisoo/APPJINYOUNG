@@ -1,0 +1,30 @@
+{% load static i18n %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<h3>ARBRE Index</h3>
+
+{{ GET_LIST }}<br/><br/>
+
+{{ URL_BOOK }}<br/>
+{{ FILE_PATH }}<br/>
+<hr/>
+
+{{ MENU_LIST_SUB| random }}
+<hr/>
+{% for item in   MENU_LIST_SUB  %}
+    {{ item.id }} / {{ item.uuid }}  /  {{ item.title }}<br/>
+
+{% endfor %}
+
+<br/>
+        <img src="{{ MEDIA_URL }}/LIBDB/AAA_LIBDB_IMAGE/imgOutliner/Maya_M01_G_Preference_image/0d6e0b5c_d722_4e06_abaa_2b960f3dc168.png" alt="" />
+
+</body>
+</html>

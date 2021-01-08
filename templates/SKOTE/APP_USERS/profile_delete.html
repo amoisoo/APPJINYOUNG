@@ -1,0 +1,35 @@
+{% extends "SKOTE/APP_BOOK/BASE/base_h.html" %}
+{% load static i18n %}
+
+
+{% block page_header %}
+
+{% endblock %}
+
+{% block page_navi %}
+
+{% endblock %}
+
+
+{% block page_content %}
+
+            <a href="{% url 'users:profile_delete'  user.profile.id%}"> <h3>blog delete</h3> </a>
+
+
+            <form action="{% url 'users:profile_delete'  user.profile.id%}" class="login" method="POST"  novalidate>
+              {% csrf_token %}
+              {{ form }}
+              {% if redirect_field_value %}
+              <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+              {% endif %}
+
+              <div class="form-group mb-0 mt-4">
+                <button class="primaryAction btn btn-danger btn-block" type="submit">{% trans "글 삭제" %}</button>
+              </div>
+            </form>
+
+
+
+{% endblock %}
+
+

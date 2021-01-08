@@ -1,0 +1,82 @@
+01. pip install boto3 django-storages
+02. pip freeze > requirements.txt
+03. settgins.py
+
+
+
+
+pip3 install -r requirements.txt
+
+
+python manage.py collectstatic
+
+https://zladnrms.tistory.com/85
+https://richone.tistory.com/7
+https://nachwon.github.io/django-deploy-7-s3/
+https://siner308.github.io/2019/07/17/django-aws-s3/
+
+
+#--------------------------
+버킷정책
+https://uiandwe.tistory.com/1174
+
+https://blog.hannal.com/2015/04/start_with_django_webframework_06/
+https://blog.myungseokang.dev/posts/django-use-s3/
+
+{
+    "Version": "2012-10-17",
+    "Id": "Policy1605621591703",
+    "Statement": [
+        {
+            "Sid": "Stmt1605621571366",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "*"
+            },
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::amosioo-devjp/*"
+        }
+    ]
+}
+
+
+[
+    {
+        "AllowedHeaders": [
+            "*"
+        ],
+        "AllowedMethods": [
+            "PUT",
+            "POST",
+            "DELETE"
+        ],
+        "AllowedOrigins": [
+            "http://www.example1.com"
+        ],
+        "ExposeHeaders": []
+    },
+    {
+        "AllowedHeaders": [
+            "*"
+        ],
+        "AllowedMethods": [
+            "PUT",
+            "POST",
+            "DELETE"
+        ],
+        "AllowedOrigins": [
+            "http://www.example2.com"
+        ],
+        "ExposeHeaders": []
+    },
+    {
+        "AllowedHeaders": [],
+        "AllowedMethods": [
+            "GET"
+        ],
+        "AllowedOrigins": [
+            "*"
+        ],
+        "ExposeHeaders": []
+    }
+]

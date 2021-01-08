@@ -1,0 +1,17 @@
+{% load static i18n %}
+
+
+
+
+<div class="navbar-brand-box">
+    <a href="{% url 'arbre:index' %}" class="logo logo-dark">
+        <span class="logo-sm"><img src="{% static 'SKOTE/images/logo.svg' %}" alt="" height="22"></span>
+        <span class="logo-lg"><img src="{% static 'SKOTE/images/logo/logo-dark.png' %}" alt="" height="17">
+        </span>
+    </a>
+
+    <a href="{% url 'arbre:index' %}" class="logo logo-light">
+        <span class="logo-sm"><img src="{% static 'SKOTE/images/logo-light.svg' %}" alt="" height="22"></span>
+        <span class="logo-lg"><img src="{% static 'SKOTE/images/logo/logo-light.png' %}" alt="" height="19"></span>
+    </a>
+</div>

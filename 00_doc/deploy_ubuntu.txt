@@ -1,0 +1,79 @@
+sudo apt-get update
+ifconfig
+sudo apt install net-tools
+
+
+
+
+
+sudo git clone https://github.com/amoisoo/APPWEB2
+
+
+cd /var/www/APPWEB2/
+
+
+
+
+
+/----------------------------------------------------
+sudo apt install python3-pip
+
+
+sudo apt-get install python3-venv
+#sudo apt install python3.6-venv
+
+python3 -m venv venv
+ source venv/bin/activate
+pip3 install -r requirements.txt
+
+python3 manage.py migrate
+python3 manage.py createsuperuser
+
+python manage.py runserver
+
+/----------------------------------------------------
+user add : django
+sudo useradd django
+sudo passwd django
+su django
+
+sudo chown root:root /var/www/APPWEB2/
+sudo chmod g+w /var/www/APPWEB2/
+
+sudo apt-get install build-essential python3-dev
+pip3 install uwsgi
+
+----------------------
+uwsgi --http 172.31.44.237:8080 --home /var/www/APPWEB2/venv/  --module core.wsgi
+uwsgi --http 172.31.44.237:8080 --home /var/www/APPWEB2/venv/  --module core.wsgi  --static-map=/static=/var/www/APPWEB2/data/static --static-map=/media=/var/www/APPWEB2/data/media
+uwsgi --http 192.168.219.130:8080 --home /var/www/APPWEB2/venv/  --module core.wsgi  --static-map=/static=/var/www/APPWEB2/data/static --static-map=/media=/var/www/APPWEB2/data/media
+
+----------------------
+uwsgi -i core/run/uwsgi.ini
+uwsgi -i /var/www/APPWEB2/core/run/uwsgi.ini
+
+git pull
+git stash
+
+
+
+
+
+ sudo chown ubuntu:ubuntu /var/www/APPWEB2/
+ sudo chmod 777 /var/www/APPWEB2/
+
+
+ --------------------------------
+ sudo bash script-name
+
+ --------------------------------
+var/www/APPWEB2/core/run/uwsgi.service
+-> /etc/systemd/system/
+
+
+ sudo vi uwsgi.service
+
+sudo systemctl enable uwsgie.service
+sudo systemctl start uwsgi.service
+
+

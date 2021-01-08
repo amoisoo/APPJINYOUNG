@@ -1,0 +1,206 @@
+{% extends "SKOTE/APP_BLOG/BASE/base_h.html" %}
+{% load static i18n common%}
+
+
+{% block page_content %}
+
+<div class="container-fluid">
+
+    <!-- start page title -->
+    <div class="row">
+        <div class="col-12">
+            <div class="page-title-box d-flex align-items-center justify-content-between">
+                <h4 class="mb-0 font-size-18"><a class="text-black" href="{% url 'blog:index' %}">리스트 페이지로</a></h4>
+
+                <div class="page-title-right">
+                    <ol class="breadcrumb m-0">
+                        <li class="breadcrumb-item"><a href="javascript: void(0);">블로그</a></li>
+                        <li class="breadcrumb-item ">상세페이지</li>
+                        <li class="breadcrumb-item active">{{ object.id }}</li>
+                    </ol>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end page title -->
+
+
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-body">
+
+
+
+                    <div class="d-flex">
+                        <div class="mr-2"><h5 class="card-title mb-4">&nbsp;</h5></div>
+
+                        <div class="dropdown ml-auto">
+                            <a class="text-muted dropdown-toggle font-size-16" role="button" data-toggle="dropdown" aria-haspopup="true"><i class="mdi mdi-dots-horizontal"></i></a>
+
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a class="dropdown-item" href="{% url 'blog:update' object.id %}">편집</a>
+                                <a class="dropdown-item" href="{% url 'blog:delete' object.id %}">삭제</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">{{ object.id }}</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="pt-3">
+                        <div class="row justify-content-center">
+
+
+                            <div class="col-xl-8">
+                                <div>
+
+                                    <div class="text-center">
+                                        <div class="row">
+
+                                            <div class="col-sm-3">
+                                                <div class="mt-3 mt-sm-0">
+                                                    <p class="text-muted mb-2">작성자 - {{ object.user.profile }} </p>
+                                                    <h5 class="font-size-13">{{ object.user }}</h5>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div>
+                                                    <p class="text-muted mb-2">뷰 </p>
+                                                    <h5 class="font-size-13">{{ object.views|currency }}</h5>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div>
+                                                    <p class="text-muted mb-2">마지막 수정일</p>
+                                                    <h5 class="font-size-13">{{ object.modified | date:'Y-m-d : H:i' }}</h5>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="mt-3 mt-sm-0">
+                                                    <p class="text-muted mb-2">처음 작성일</p>
+                                                    <h5 class="font-size-13">{{ object.created | date:'Y-m-d : H:i'  }}</h5>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <hr>
+
+                                    <div class="text-center">
+
+                                        <h3>{{ object.title }}</h3>
+                                        <p class="text-muted mb-4">{{ object.subtitle }}</p>
+                                    </div>
+
+                                    <hr>
+
+
+                                    {% if  object.image %}
+                                        <div class="my-5">
+                                            <img src="{{ MEDIA_URL }}{{ object.image }}" alt="" class="img-thumbnail mx-auto d-block">
+                                        </div>
+                                        <hr>
+                                    {% endif %}
+
+                                    <div class="mt-4">
+                                        <div class="text-muted font-size-12">
+                                            <p>{{ object.note | safe }}</p>
+
+
+
+
+
+                                    {% if  object.code %}
+                                            <blockquote class="p-4 border-light border rounded mb-4">
+                                                <div class="d-flex">
+                                                    <div class="mr-3">
+                                                        <i class="bx bxs-quote-alt-left text-dark font-size-24"></i>
+                                                    </div>
+                                                    <div>
+                                                        <p class="mb-0">{{ object.code  }}&nbsp;&nbsp;&nbsp;</p>
+                                                    </div>
+                                                    <div class="mr-3">
+                                                        <i class="bx bxs-quote-alt-right text-dark font-size-24"></i>
+                                                    </div>
+                                                </div>
+                                            </blockquote>
+                                    {% endif %}
+
+                                            <p>{{ object.codelog}}</p>
+
+                                        </div>
+
+                                        <hr>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            {% if object.id == '0 '%}
+                             {% include 'SKOTE/APP_BLOG/blog_detail_comment.html' %}
+                            {% endif %}
+
+
+
+                        </div>
+                    </div>
+                    <div class="pt-3">
+                        <div class="row justify-content-center">
+
+
+                            <div class="col-xl-8">
+                                <div>
+                                    <div class="text-center">
+                                        <div class="mb-4">
+                                            <a href="#" class="badge badge-light font-size-12"><i class="bx bx-purchase-tag-alt align-middle text-muted mr-1"></i>{{ object.tag }}</a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                            <div class="col-xl-8">
+                                <div>
+                                    <div class="text-center">
+                                        좋아요 <i class="bx bx-like align-middle mr-1"></i>  {{ object.likes.all | length }}
+                                        <div class="mb-4">
+                                            {% for like in  object.likes.all %}
+                                                 <a href="#" class="badge badge-light font-size-12"><i class="bx bx-purchase-tag-alt align-middle text-muted mr-1"></i>{{ like }}</a><br/>
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <!-- end card body -->
+            </div>
+            <!-- end card -->
+        </div>
+        <!-- end col -->
+    </div>
+    <!-- end row -->
+
+<!-- SKOTE/APP_BLOG/blog_detail_comment.html -->
+
+{% include 'SKOTE/APP_BLOG/blog_detail_comment.html' %}
+
+</div> <!-- container-fluid -->
+
+
+{% endblock %}

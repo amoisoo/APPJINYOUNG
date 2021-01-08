@@ -1,0 +1,30 @@
+{% extends "COLORADMIN_ADMIN/BASE/base_forum.html" %}
+{% load static i18n %}
+
+{% block body_extra %}{% endblock %}
+
+
+{% block page_navi %}
+    {% if LAYOUT.NAVI_POSITION == 'TOP' %}
+        {% include 'COLORADMIN_ADMIN/APP_FORUM/COMMON/NAVI_TOP.html' %}
+    {% else %}
+        {% include 'COLORADMIN_ADMIN/APP_FORUM/COMMON/NAVI_SIDE.html' %}
+
+    {% endif %}
+{% endblock %}
+
+
+
+
+{% block page_content %}
+<div id="content" class="content">
+
+
+
+
+
+</div>
+{% endblock %}
+
+
+

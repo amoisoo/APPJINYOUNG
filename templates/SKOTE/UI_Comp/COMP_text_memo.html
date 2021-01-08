@@ -1,0 +1,21 @@
+{% extends "SKOTE/UI_Comp/base_comp_visible.html" %}
+{% load static i18n common%}
+
+
+
+{% block COMP_VISIBLE %}
+
+            {% include 'SKOTE/UI_Comp/FORM_page_edit.html'    %}
+
+
+
+<div class="card bg-warning text-white-50">
+    <div class="card-body">
+        <h5 class="mt-0 mb-4 text-white"><i class="mdi mdi-alert-outline mr-3"></i>{{ DATA.title }}</h5>
+        <p class="card-text">{{ DATA.note|safe }}</p>
+    </div>
+</div>
+
+{% endblock %}
+
+

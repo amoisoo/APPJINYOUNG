@@ -1,0 +1,74 @@
+{
+    "chart": {
+      "caption": "GDP 성장율 비교",
+      "yaxisname": "4분기 GDP 성장율 in %",
+      "subcaption": "인도와 중국",
+      "drawcrossline": "1",
+      "numbersuffix": "%",
+      "plottooltext": "$seriesName  GDP grew $dataValue in $label",
+      "theme": "froala"
+    },
+    "categories": [{
+      "category": [{
+        "label": "April 2016"
+      }, {
+        "label": "July 2016"
+      }, {
+        "label": "Oct 2016"
+      }, {
+        "label": "Jan 2017"
+      }, {
+        "label": "April 2017"
+      }]
+    }],
+    "dataset": [
+        {
+      seriesname: "인도",
+                  color: "#ffff00",
+
+      data: [{
+        value: "9.2"
+      }, {
+        value: "7.9"
+      }, {
+        value: "7.5"
+      }, {
+        value: "7"
+      }, {
+        value: "6.1"
+      }]
+    },
+        {
+      seriesname: "한국",
+                  color: "#00ff00",
+
+      data: [{
+        value: "3.2"
+      }, {
+        value: "2.9"
+      }, {
+        value: "1.5"
+      }, {
+        value: "6 "
+      }, {
+        value: "6.1"
+      }]
+    },
+        {
+      seriesname: "중국",
+      color: "#0f00ff",
+
+      data: [{
+        value: "6.7"
+      }, {
+        value: "6.7"
+      }, {
+        value: "6.7"
+      }, {
+        value: "6.8"
+      }, {
+        value: "6.9"
+      }]
+
+    }]
+  }

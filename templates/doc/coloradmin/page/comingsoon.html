@@ -1,0 +1,67 @@
+{% extends "COLORADMIN_ADMIN/BASE/base_commingsoon.html" %}
+{% load static i18n %}
+
+{% block body_extra %}{% endblock %}
+
+{% block page_content %}
+
+
+
+
+
+
+	<div id="page-container" class=" page-without-sidebar  page-container fade page-sidebar-fixed page-header-fixed page-with-wide-sidebar page-with-top-menu">
+		<!-- begin #header -->
+                {% include 'COLORADMIN_ADMIN/COMMON/HEADER.html' %}
+
+		<!-- end #header -->
+                {% include 'COLORADMIN_ADMIN/COMMON/NAVI_TOP.html' %}
+
+
+
+
+		<div class="coming-soon">
+			<!-- begin coming-soon-header -->
+			<div class="coming-soon-header">
+				<div class="bg-cover"></div>
+				<div class="brand">
+					<span class="logo"></span> <b>AMOISOO</b> 아모이스
+				</div>
+				<div class="desc">정보를 여기에 입력하세요</div>
+
+				<div class="timer">  <div id="timer"></div>  </div>
+			</div>
+			<!-- end coming-soon-header -->
+			<!-- begin coming-soon-content -->
+			<div class="coming-soon-content">
+				<div class="desc">
+                    곧 베타테스트를 종료하고 제품을 판매합니다.<br/> 제품을 판매 소식을 듣고 싶으면 아래의 메일로 등록하세요.
+				</div>
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="이메일" />
+					<div class="input-group-append">
+						<button type="button" class="btn btn-inverse">등록하기</button>
+					</div>
+				</div>
+				<p class="help-block m-b-25"><i>We don't spam. Your email address is secure with us.</i></p>
+				<p>
+					Follow us on
+					<a href="javascript:;" class="text-inverse"><i class="fab fa-twitter fa-lg fa-fw text-info"></i> 트위터</a>
+					<a href="javascript:;" class="text-inverse"><i class="fab fa-facebook-square fa-lg fa-fw text-blue"></i> 페이스북</a>
+				</p>
+			</div>
+			<!-- end coming-soon-content -->
+		</div>
+
+
+<!-- end widget-list -->
+
+
+		<div id="footer" class="footer" align="right">&copy; 2020 AMOISOO - 아모이스 All Rights Reserved</div>
+		<!-- end #footer -->
+
+
+	</div>
+
+
+{% endblock %}

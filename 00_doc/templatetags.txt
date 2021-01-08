@@ -1,0 +1,6 @@
+https://djangobrothers.com/blogs/custom_template_tags_filters/
+
+
+オリジナルのcontext_processorを追加する
+
+https://qiita.com/zabeth129/items/57c3e8a0f606633786b2

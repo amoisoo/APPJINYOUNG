@@ -1,0 +1,72 @@
+{% extends "SKOTE/BASE/base_h.html" %}
+{% load static i18n %}
+
+
+{% block page_content %}
+<div class="container-fluid">
+
+
+      {% include 'FROALA/css_pre_include.html' %}
+
+
+<div id="content" class="content"><div class="col-xl-12">
+              <div class="shadow p-3 mb-5 bg-white rounded"><h4>페이지 수정</h4></div>
+
+
+
+              <form  method="POST"   enctype="multipart/form-data" novalidate>
+                  {% csrf_token %}
+
+                   {% include 'COLORADMIN_ADMIN/COMMON/FORM_update_title.html' %}
+
+
+                  <div class="form-row">
+
+                   {% include 'COLORADMIN_ADMIN/COMMON/FORM_update_component_page.html' %}
+
+                   {% include 'COLORADMIN_ADMIN/COMMON/FORM_update_id.html' %}
+
+
+                  </div>
+
+
+
+
+
+
+                   {% include 'COLORADMIN_ADMIN/COMMON/FORM_update_code.html' %}
+
+
+
+                  <div class="form-row">
+                    <div class="form-group col-md-3">
+
+                    </div>
+                    <div class="form-group col-md-6">
+                            <button type="submit" class="btn btn-primary primaryAction   btn-block">{% trans "새 페이지 작성" %}</button>
+
+                    </div>
+                    <div class="form-group col-md-3">
+
+                    </div>
+                  </div>
+
+
+
+                  {% if redirect_field_value %}
+                  <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+                  {% endif %}
+            </form>
+
+
+
+</div></div>
+
+
+
+          {% include 'FROALA/js_post_include.html' %}
+
+
+
+</div>
+{% endblock %}

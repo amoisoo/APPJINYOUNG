@@ -1,0 +1,32 @@
+{% extends "SKOTE/UI_Comp/base_comp_visible.html" %}
+{% load static i18n common%}
+
+
+
+{% block COMP_VISIBLE %}
+
+
+{% include 'SKOTE/UI_Comp/FORM_page_edit.html'   %}<br/><br/>
+
+<dl class="row mb-0">
+    {% for pageChild in PAGE_CHILD_LIST|hash:DATA.id %}
+
+            {% if forloop.first %}
+
+            {% else %}
+
+            {% endif %}
+            <dt class="col-sm-2">{{ pageChild.title }}</dt>
+            <dd class="col-sm-9">{{ pageChild.note | safe }}</dd>
+            <dd class="col-sm-1">{% include 'SKOTE/UI_Comp/FORM_page_edit.html' with DATA=pageChild  %}</dd>
+
+
+    {% endfor %}
+</dl>
+
+
+
+
+{% endblock %}
+
+

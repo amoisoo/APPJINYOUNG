@@ -1,0 +1,54 @@
+{% load static i18n %}
+
+
+
+
+
+
+
+
+<div class="topnav">
+    <div class="container-fluid">
+        <nav class="navbar navbar-light navbar-expand-lg topnav-menu">
+
+            <div class="collapse navbar-collapse" id="topnav-menu-content">
+                <ul class="navbar-nav">
+
+
+
+                    <li class="nav-item ">
+                        <a class="nav-link dropdown-toggle arrow-none" href="{% url 'blog:index' %}"  >
+                            <i class="bx bx-home-circle mr-2"></i><span key="t-dashboards">블로그</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link dropdown-toggle arrow-none" href="{% url 'blog:search' %}"  >
+                            </i><span key="t-dashboards">검색</span>
+                        </a>
+                    </li>
+
+
+                    <li class="nav-item ">
+                        <a class="nav-link dropdown-toggle arrow-none" href="{% url 'blog:contact' %}"  >
+                            </i><span key="t-dashboards">지원</span>
+                        </a>
+                    </li>
+
+
+                    <li class="nav-item ">
+                        <a class="nav-link dropdown-toggle arrow-none" href="{% url 'blog:archive' %}"  >
+                            </i><span key="t-dashboards">아카이브</span>
+                        </a>
+                    </li>
+
+
+
+
+
+
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>

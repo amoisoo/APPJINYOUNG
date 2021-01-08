@@ -1,0 +1,43 @@
+<Table>
+    <Record Index="1" ParentIndex="-1" Expand="0">
+        <TITLE color="None" background="None">English</TITLE>
+        <ID>1</ID>
+        <ID_SORT>1</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>314703ba_65cc_4c5f_83b6_7900c5be2c95</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>Menu</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>토 9월 7 05:37:17 2019</CREATED>
+        <MODIFED>토 9월 7 05:37:21 2019</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+</Table>
+

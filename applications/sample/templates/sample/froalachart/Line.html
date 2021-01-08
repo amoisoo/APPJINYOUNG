@@ -1,0 +1,91 @@
+<html>
+
+<head>
+      <title>My first chart using FroalaCharts</title>
+    <meta charset="UTF-8">
+
+  <script src=https://unpkg.com/froalacharts@1.0.0/froalacharts.js></script>
+  <script src="https://unpkg.com/froalacharts@1.0.0/themes/froalacharts.theme.froala.js"></script>
+
+      <script type="text/javascript">
+        var data = {
+            chart: {
+    caption: "GDP 성장률 비교",
+    yaxisname: "4분기 GDP 성장률 in %",
+    subcaption: "인도 vs 중국",
+    drawcrossline: "1",
+    numbersuffix: "%",
+    plottooltext: "$seriesName 의 $label : GDP 성장 $dataValue ",
+    theme: "froala"
+  },
+
+  categories: [
+    {
+      category: [
+        {label: "2016 4월"},
+        {label: "2016 7월"},
+        {label: "2016 10월"},
+        {label: "2017 1월"},
+        {label: "2017 4월"}
+      ]
+    }
+  ],
+
+  dataset: [
+    {
+      seriesname: "인도",
+      data: [
+        {value: "50.2"},
+        {value: "7.9"},
+        {value: "7.5"},
+        {value: "7"},
+        {value: "6.1"}
+      ]
+    },
+    {
+      seriesname: "한국",
+      data: [
+        {value: "50.2"},
+        {value: "7.9"},
+        {value: "30.5"},
+        {value: "-7"},
+        {value: "6.1"}
+      ]
+    },
+    {
+      seriesname: "중국",
+      data: [
+        {value: "6.7"},
+        {value: "30.7"},
+        {value: "6.7"},
+        {value: "10.8"},
+        {value: "6.9"}
+      ]
+    }
+
+
+  ]
+};
+
+        FroalaCharts.ready(function () {
+            new FroalaCharts({
+                id: "chart_1",
+                type: 'line',
+                renderAt: 'ft',
+                width: '100%',
+                height: '500',
+                dataSource: data
+            }).render();
+        });
+    </script>
+
+</head>
+
+
+<div id="msg" class="mb-20"> Chart data in the selected format will be displayed here.</div>
+<br/><br/><br/><br/><br/>
+<body>
+    <div id="ft">FroalaCharts will render here</div>
+</body>
+
+</html>

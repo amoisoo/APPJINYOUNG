@@ -1,0 +1,67 @@
+{% extends "SKOTE/UI_Comp/base_comp_visible.html" %}
+{% load static i18n common%}
+
+
+{% block COMP_VISIBLE %}
+
+
+{% include 'SKOTE/UI_Comp/FORM_page_edit.html'   %}<br/><br/>
+
+
+    {% for pageChild in PAGE_CHILD_LIST|hash:DATA.id %}
+
+            {% if forloop.first %}
+
+            {% else %}
+
+            {% endif %}
+
+    {% endfor %}
+
+
+
+
+<!-- Nav tabs -->
+<ul class="nav nav-pills nav-justified" role="tablist">
+
+
+
+    {% for pageChild in PAGE_CHILD_LIST|hash:DATA.id %}
+            <li class="nav-item waves-effect waves-light">
+            {% if forloop.first %}
+                <a class="nav-link active" data-toggle="tab" href="#TAB_{{ DATA.id }}_{{ pageChild.id }}" role="tab">
+            {% else %}
+                <a class="nav-link " data-toggle="tab" href="#TAB_{{ DATA.id }}_{{ pageChild.id }}" role="tab">
+            {% endif %}
+                    <span class="d-block d-sm-none">{{ pageChild.title }}</span>
+                    <span class="d-none d-sm-block">{{ pageChild.title }}</span>
+                </a>
+            </li>
+    {% endfor %}
+
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content p-3 text-muted">
+
+
+    {% for pageChild in PAGE_CHILD_LIST|hash:DATA.id %}
+
+            {% if forloop.first %}
+                    <div class="tab-pane active" id="TAB_{{ DATA.id }}_{{ pageChild.id }}" role="tabpanel">
+            {% else %}
+                    <div class="tab-pane " id="TAB_{{ DATA.id }}_{{ pageChild.id }}" role="tabpanel">
+            {% endif %}
+                {% include 'SKOTE/UI_Comp/FORM_page_edit.html' with DATA=pageChild  %}
+
+                <p class="mb-0">{{ pageChild.note|safe  }}</p>
+            </div>
+    {% endfor %}
+
+
+
+</div>
+
+
+
+{% endblock %}

@@ -1,0 +1,37 @@
+{% load static i18n %}
+<H2>{{ object.title }} : Table</H2>
+
+{{ TABLES0 }}
+<hr/>
+{{ TABLES1 }}
+
+
+
+<hr/>
+{{ TABLES3 |safe }}<br/>
+
+{% for pageChild in TABLES5 %}
+        {% if forloop.first %}
+
+        {% else %}
+
+        {% endif %}
+        {{ pageChild }}<br/><br/>
+{% endfor %}
+{{ TABLES1.SCENE_NOTE }}
+<hr/>
+
+
+IO_DATA
+
+IO_TABLE
+
+ITEM_GRID
+
+TYPE_OUTLINER
+
+HTML_TABLE_BODY
+
+
+
+CMD_XMLInterator

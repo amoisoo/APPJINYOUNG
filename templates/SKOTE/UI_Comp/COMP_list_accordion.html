@@ -1,0 +1,55 @@
+{% extends "SKOTE/UI_Comp/base_comp_visible.html" %}
+{% load static i18n common%}
+
+
+
+{% block COMP_VISIBLE %}
+
+{% include 'SKOTE/UI_Comp/FORM_page_edit.html'   %}<br/><br/>
+
+<div id="accordion_{{ DATA.id }}">
+    <div class="card mb-1 shadow-none">
+
+
+
+
+    {% for pageChild in PAGE_CHILD_LIST|hash:DATA.id %}
+
+        <div class="card mb-1 shadow-none">
+        <div class="card-header" id="heading_{{ pageChild.id }}">
+            <h6 class="m-0">
+                {% if forloop.first %}
+                    <a href="#collapse_{{ pageChild.id }}" class="text-dark collapsed" data-toggle="collapse" aria-expanded="true" aria-controls="collapse_{{ pageChild.id }}">{{ pageChild.title }}</a>
+                {% else %}
+                    <a href="#collapse_{{ pageChild.id }}" class="text-dark collapsed" data-toggle="collapse" aria-expanded="false" aria-controls="collapse_{{ pageChild.id }}">{{ pageChild.title }}</a>
+                {% endif %}
+            </h6>
+        </div>
+            {% if forloop.first %}
+                    <div id="collapse_{{ pageChild.id }}" class="collapse show" aria-labelledby="heading_{{ pageChild.id }}" data-parent="#accordion_{{ DATA.id }}">
+            {% else %}
+                    <div id="collapse_{{ pageChild.id }}" class="collapse " aria-labelledby="heading_{{ pageChild.id }}" data-parent="#accordion_{{ DATA.id }}">
+            {% endif %}
+
+            <div class="card-body">
+                    {% include 'SKOTE/UI_Comp/FORM_page_edit.html' with DATA=pageChild  %}
+                    {{ pageChild.note|safe }}
+            </div>
+        </div>
+    </div>
+
+
+
+    {% endfor %}
+
+
+
+
+
+</div>
+
+
+
+{% endblock %}
+
+

@@ -1,0 +1,42 @@
+
+
+accounts
+users
+
+blog
+support
+sample
+
+book
+shelf
+
+play - Youtube
+api
+arbre
+
+project
+dev
+common
+edit
+portfolio
+
+
+Facebook
+Twitter
+Instagram
+
+
+python manage.py migrate
+python manage.py makemigrations
+python manage.py migrate
+
+python  manage.py  createsuperuser
+
+
+1. python manage.py startapp APP_NAME
+2. INSTALLED_APPS = ApplicationName
+3. views.py
+4. urls.py
+5. main urls.py
+
+

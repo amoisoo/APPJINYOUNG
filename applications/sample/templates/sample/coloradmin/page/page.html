@@ -1,0 +1,30 @@
+{% extends "COLORADMIN_ADMIN/BASE/base.html" %}
+{% load static i18n %}
+
+{% block body_extra %}{% endblock %}
+
+{% block page_content %}
+
+
+	<div id="page-container" class="page-container fade page-sidebar-fixed page-header-fixed page-with-wide-sidebar page-with-top-menu">
+		<!-- begin #header -->
+        {% include '00_sample/coloradmin/page/HEADER.html' %}
+
+		<!-- end #header -->
+        {% include '00_sample/coloradmin/page/MENU_TOP.html' %}
+
+		<!-- begin #sidebar -->
+        {% include '00_sample/coloradmin/page/MENU_SIDE.html' %}
+
+		<!-- end #sidebar -->
+
+        {% include '00_sample/coloradmin/page/BODY.html' %}
+
+
+        {% include '00_sample/coloradmin/page/THEME.html' %}
+
+
+	</div>
+
+
+{% endblock %}

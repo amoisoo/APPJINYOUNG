@@ -1,0 +1,83 @@
+{% load static i18n common%}
+
+
+<div class="vertical-menu">
+
+    <div data-simplebar class="h-100">
+
+        <!--- Sidemenu -->
+        <div id="sidebar-menu">
+            <!-- Left Menu Start -->
+            <ul class="metismenu list-unstyled" id="side-menu">
+
+                {% if user.is_authenticated %}
+                        <li class="menu-title" key="t-menu">메뉴</li>
+
+                        <li>
+                            <a href="javascript: void(0);" class="waves-effect">
+                                <i class="bx bx-home-circle"></i><span class="badge  badge-danger badge-pill  float-right">03</span>
+                                <span key="t-dashboards">메뉴</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="true">
+
+
+                                {% for item in   DB_LIST  %}
+                                    <li><a href="#" key="t-crypto">{{ item }}</a></li>
+
+                                {% endfor %}
+                            </ul>
+                        </li>
+
+                {% endif %}
+
+                <li class="menu-title" key="t-menu">Menu</li>
+
+
+
+
+
+                {% for MENU_ITEM in  MENU_LIST %}
+                    {% if MENU_ITEM.component == "Menu" %}
+                            <li>
+                                <a href="javascript: void(0);" class="has-arrow waves-effect ">
+                                    <i class="bx bx-layout"></i>
+                                    <span key="t-layouts">{{ MENU_ITEM.title }}</span>
+                                </a>
+
+                                <ul class="sub-menu" aria-expanded="false">
+
+                                    {% for SUBMENU_ITEM in MENU_LIST_SUB|hash:MENU_ITEM.id_sort %}
+
+                                            {% if SUBMENU_ITEM.component == "Menu" %}
+                                                {% include 'SKOTE/APP_ARBRE/COMMON/NAVI_SIDE_Comp_Menu.html' with DATA=SUBMENU_ITEM  %}
+
+                                            {% else %}
+                                                {% if SUBMENU_ITEM.uuid  == GET_ID %}
+                                                    <li><a href="./?db={{ DB_NAME }}&id={{ SUBMENU_ITEM.uuid }}"  class=" active" >{{ SUBMENU_ITEM.title }}</a></li>
+                                                {% else %}
+                                                    <li><a href="./?db={{ DB_NAME }}&id={{ SUBMENU_ITEM.uuid }}"   >{{ SUBMENU_ITEM.title }}</a></li>
+                                                {% endif %}
+                                            {% endif %}
+
+                                    {%  endfor %}
+
+                                </ul>
+
+                            </li>
+
+                    {% else %}
+
+                            <li><a href="#" class="waves-effect " ><i class="bx bx-edit"></i><span >{{ MENU_ITEM.title }}</span></a></li>
+                    {% endif %}
+
+
+
+
+
+                {%  endfor %}
+
+            </ul>
+        </div>
+        <!-- Sidebar -->
+    </div>
+</div>

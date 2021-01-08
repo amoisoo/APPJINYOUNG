@@ -1,0 +1,86 @@
+{% extends "COLORADMIN_ADMIN/BASE/base.html" %}
+{% load static i18n %}
+
+{% block body_extra %}{% endblock %}
+
+{% block page_content %}
+
+
+	<div id="page-container" class="fade">
+		<!-- begin register -->
+		<div class="register register-with-news-feed">
+			<!-- begin news-feed -->
+			<div class="news-feed">
+				<div class="news-image" style="background-image: url({% static 'COLORADMIN_ADMIN/img/login-bg/login-bg-2.jpg' %})"></div>
+				<div class="news-caption">
+                    <a href="{{ APP.maindomain }}"><h4 class="caption-title"> <b>AMOISOO </b> 아모이스</h4></a></a>
+                    <p>support@amoisoo.com</p>
+				</div>
+			</div>
+			<!-- end news-feed -->
+			<!-- begin right-content -->
+			<div class="right-content">
+				<!-- begin register-header -->
+				<h1 class="register-header">
+					로그인
+					<small>&nbsp;</small>
+				</h1>
+				<!-- end register-header -->
+				<!-- begin register-content -->
+				<div class="register-content">
+					<form class="login" method="POST"  class="margin-bottom-0" novalidate>
+                        {% csrf_token %}
+
+						<label class="control-label">이름 <span class="text-danger">*</span></label>
+						<div class="row row-space-10">
+							<div class="col-md-6 m-b-15">
+								<input type="text" name = "username"  class="form-control" placeholder="유저이름" required />
+							</div>
+
+						</div>
+
+
+
+						<label class="control-label">Password <span class="text-danger">*</span></label>
+						<div class="row m-b-15">
+							<div class="col-md-12"><input type="password" name = "password1" class="form-control" placeholder="패스워드" required /></div>
+						</div>
+						<div class="row m-b-15">
+							<div class="col-md-12"><input type="password" name = "password2" class="form-control" placeholder="패스워드 확인" required /></div>
+						</div>
+
+                        <div class="checkbox checkbox-css m-b-30">
+							<div class="checkbox checkbox-css m-b-30">
+								<input type="checkbox" id="agreement_checkbox" value="">
+								<label for="agreement_checkbox">
+								<a href="javascript:;">규약 </a><a href="javascript:;">개인정보, </a>,  <a href="javascript:;">쿠키사용</a>.
+								</label>
+							</div>
+						</div>
+
+						<label class="control-label">이메일 <span class="text-danger">*</span></label>
+						<div class="row m-b-15">
+							<div class="col-md-12">
+								<input type="text" class="form-control" placeholder="이메일" required />
+							</div>
+						</div>
+
+
+						<div class="register-buttons">
+							<button type="submit" class="btn btn-primary btn-block btn-lg">계정을 추가합니다</button>
+						</div>
+						<div class="m-t-30 m-b-30 p-b-30"><a href="{% url 'accounts:login' %}">로그인하기</a></div>
+						<hr />
+						<p class="text-center mb-0">support@amoisoo.com</p>
+					</form>
+				</div>
+				<!-- end register-content -->
+			</div>
+			<!-- end right-content -->
+		</div>
+		<!-- end register -->
+
+	</div>
+
+
+{% endblock %}

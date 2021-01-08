@@ -1,0 +1,63 @@
+<html>
+
+<head>
+  <title>My first chart using Froala Charts</title>
+  <script src="https://unpkg.com/froalacharts@1.0.0/froalacharts.js"></script>
+  <script src="https://unpkg.com/froalacharts@1.0.0/themes/froalacharts.theme.froala.js"></script>
+  <script type="text/javascript">
+  // Chart Data 
+  const chartData = [
+  {
+    data: [
+    {value: "10000",},
+    {value: "11500",},
+    {value: "12500",},
+    {value: "15500",},
+    {value: "15000",
+    }]
+  }];
+
+  const chartConfig = {
+    type: "column",
+    renderAt: "ft",
+    width: "100%",
+    height: "480",
+    dataSource:
+    {
+      chart:
+      {
+        theme: "froala",
+        caption: "상품의 차트를 여기에 표시합니다.",
+        xAxisname: "가로",
+        yAxisName: "세로 (In USD)",
+        numberPrefix: "원",
+      },
+      categories: [
+      {
+        category: [
+        {label: "하나",},
+        {label: "둘",},
+        {label: "둘",},
+        {label: "셋",},
+        {label: "넷",
+        }]
+      }],
+      dataset: chartData
+    }
+  };
+
+  FroalaCharts.ready(function()
+  {
+    froalacharts = new FroalaCharts(chartConfig);
+    froalacharts.render();
+  });
+
+
+  </script>
+</head>
+
+<body>
+  <div id="ft" align="center">Froala Charts 는 여기에 로드됩니다.</div>
+</body>
+
+</html>

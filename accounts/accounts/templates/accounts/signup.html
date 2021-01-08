@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<a href="{% url 'accounts:index' %}">  <h3>등록</h3></a>
+
+
+
+    <form method="POST" action="{% url 'accounts:signin' %}" class="password_change">
+        {% csrf_token %}
+        {{ form}}
+        <button class="btn btn-primary" type="submit" name="action">Change </button>
+    </form>
+
+    <form method="POST" action="{% url 'accounts:signin' %}" >
+                        {% csrf_token %}
+
+
+
+
+
+<input type="password" name="password1" autocomplete="new-password" required id="id_password1">
+<input type="password" name="password2" autocomplete="new-password" required id="id_password2">
+
+        <button class="btn btn-primary" type="submit" name="action">Change </button>
+    </form>
+</body>
+</html>

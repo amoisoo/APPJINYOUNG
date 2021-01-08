@@ -1,0 +1,9 @@
+
+html 템플릿 안에서 {{MEDIA_URL}}, {{STATIC_URL}}을 사용하려면
+settings.py 안의 TEMPLATES 안의 옵션에서 아래를 추가한다.
+
+
+                'django.template.context_processors.media',
+                'django.template.context_processors.static',
+
+

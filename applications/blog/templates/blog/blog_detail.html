@@ -1,0 +1,56 @@
+{% extends "BOOTSTRAP/base.html" %}
+{% load static i18n %}
+
+{% block body_extra %}{% endblock %}
+
+{% block page_content %}
+
+
+
+
+
+<a href="{% url 'blog:index' %}"> <h3>blog detail</h3> </a>
+
+    {{ object.id }} <br/>
+
+    {{ object.user }} <br/>
+    {{ object.created }} <br/>
+    {{ object.modified }} <br/>
+        <div align="right">
+                <a href="{% url 'blog:update'  object.id%}"> Edit</a>
+                <a href="{% url 'blog:delete'  object.id%}"> delete</a>
+                &nbsp;&nbsp;
+        </div>
+
+
+    <hr/>
+    <h2>   {{ object.title }}</h2>
+
+{{ object.note }} <br/>
+
+
+     <br/>
+
+
+  <img class="mb-4" src="{{ MEDIA_URL }}{{ object.image }}" alt="" >
+
+    <hr/>
+
+
+
+
+    {% if object.get_next  %}
+
+        <a href="{{  object.get_next.get_absolute_url }}">{{  object.get_next }}</a>
+    {% endif %}
+
+    &nbsp; &nbsp; | &nbsp; &nbsp;
+    {% if object.get_previous  %}
+        <a href="{{  object.get_previous.get_absolute_url }}">{{  object.get_previous }}</a>
+
+    {% endif %}
+
+
+
+
+{% endblock %}

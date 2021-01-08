@@ -1,0 +1,28 @@
+.table-row-back-1n tbody tr:nth-child(2n-1) {
+    background: #F2F3F4;
+}
+
+.table-row-back-2n tbody tr:nth-child(2n) {
+    background: #EAEDEF;
+}
+
+
+.table-width-80{
+  width: 80%;
+}
+
+.table-style-dash thead tr th, .table-style-dash tbody tr td  {
+border-style: dashed;
+}
+
+
+.class3   {
+text-align: right;
+vertical-align: bottom;
+
+}
+
+.class4 {
+background: #00ff00;
+
+}

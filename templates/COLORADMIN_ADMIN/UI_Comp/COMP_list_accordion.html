@@ -1,0 +1,34 @@
+{% load static i18n common%}
+
+<div  id="accordion"  class="accordion">
+        {% include 'COLORADMIN_ADMIN/UI_Comp/FORM_page_edit.html'   %}<br>
+
+
+            {% for pageChild in PAGE_CHILD_LIST|hash:DATA.id %}
+
+                <div class="card  text-white">
+                    <div class="card-header  pointer-cursor d-flex align-items-center text-black bg-grey-transparent-3" data-toggle="collapse" data-target="#collapse_id_{{ pageChild.id }}">
+                        <i class="fa fa-circle fa-fw  mr-2 f-s-8 text-aqua "></i>{{ pageChild.title }}
+
+                    </div>
+                                {% if forloop.first %}
+                    <div id="collapse_id_{{ pageChild.id }}" class="collapse show" data-parent="#accordion">
+                                {% else %}
+                    <div id="collapse_id_{{ pageChild.id }}" class="collapse " data-parent="#accordion">
+                                {% endif %}
+                        <div class="card-body  text-black bg-grey-transparent-1">
+                             {% include 'COLORADMIN_ADMIN/UI_Comp/FORM_page_edit.html'    with DATA=pageChild  %}
+
+                            {% if  pageChild.note %}
+                                {{ pageChild.note|safe }}
+
+                            {% else %}
+                                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                            {% endif %}
+
+                        <br/>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+</div><br/>

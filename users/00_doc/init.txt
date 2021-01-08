@@ -1,0 +1,15 @@
+
+
+AUTH_USER_MODEL = 'users.User'
+
+
+AUTH_USER_MODEL = 'accounts.users.User'
+처럼 계층구조가 3단계이면 에러가 발생한다.
+app_name.User  처럼 2단계로만 구성해야 한다.
+
+
+
+
+class User(AbstractBaseUser  ,PermissionsMixin):
+
+PermissionsMixin 를 제거하면 에러가 발생하지 않지만

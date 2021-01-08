@@ -1,0 +1,6575 @@
+<Table>
+    <Record Index="1" ParentIndex="-1" Expand="0">
+        <TITLE color="None" background="None">ㄱ</TITLE>
+        <ID>114</ID>
+        <ID_SORT>1</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>e0b3a3c2_e884_49af_9306_06b967fc3e45</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>Menu</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>일 12월 23 16:24:15 2018</CREATED>
+        <MODIFED>일 12월 23 16:24:29 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="2" ParentIndex="1" Expand="0">
+        <TITLE color="None" background="None">거리에서</TITLE>
+        <ID>7</ID>
+        <ID_SORT>2</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>bd385aaf_b593_4e23_9da7_fd93fe439dc6</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>달밤의 거리
+광풍(狂風)이 휘날리는
+북국(北國)의 거리
+도시의 진주
+전등 밑을 헤엄치는
+조그만 인어(人魚) 나,
+달과 전등에 비쳐
+한 몸에 둘셋의 그림자,
+커졌다 작아졌다.
+괴롬의 거리
+회색(灰色) 빛 밤거리를
+걷고 있는 이 마음
+선풍(旋風)이 일고 있네
+외로우면서도
+한갈피 두갈피
+피어나는 마음의 그림자,
+푸른 공상(空想)이
+높아졌다 낮아졌다.
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:17:15 2018</CREATED>
+        <MODIFED>火 2月 20 14:18:05 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="3" ParentIndex="1" Expand="0">
+        <TITLE color="None" background="None">공상</TITLE>
+        <ID>8</ID>
+        <ID_SORT>3</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>e5e3af30_817b_4065_83e0_5e60ba106dd5</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>공상 ㅡ
+내 마음의 탑
+나는 말없이 이 탑을 쌓고 있다.
+명예와 허영의 천공(天空)에다,
+무너질 줄도 모르고,
+한 층 두 층 높이 쌓는다.
+ 
+무한한 나의 공상 ㅡ
+그것은 내 마음의 바다,
+나는 두 팔을 펼쳐서,
+나의 바다에서
+자유로이 헤엄친다.
+황금, 지욕(知慾)의 수평선을 향하여.
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:17:15 2018</CREATED>
+        <MODIFED>火 2月 20 14:18:08 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="4" ParentIndex="1" Expand="0">
+        <TITLE color="None" background="None">고향집</TITLE>
+        <ID>87</ID>
+        <ID_SORT>4</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>e133578b_8f15_420b_a678_6b389eec8221</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>헌 짚신짝 끄을고
+나 여기 왜 왔노
+두만강을 건너서
+쓸쓸한 이 땅에
+ 
+ 
+남쪽 하늘  저 밑에
+따뜻한 내 고향
+내 어머니 계신곳
+그리운 고향집
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:56:56 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="5" ParentIndex="1" Expand="0">
+        <TITLE color="None" background="None">기왓장 내외</TITLE>
+        <ID>90</ID>
+        <ID_SORT>5</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>24173113_88fb_4365_a045_85140f039353</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>비오는날 저녁에 기왓장내외
+잃어버린 외아들 생각나선지
+꼬부라진 잔등을 어루만지며
+쭈룩쭈룩 구슬피 울음웁니다.
+
+대궐지붕 위에서 기왓장내외
+아름답든 옛날이 그리워선지
+주름잡힌 얼굴을 어루만지며
+물끄럼히 하늘만 쳐다봅니다.
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:56:56 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="6" ParentIndex="1" Expand="0">
+        <TITLE color="None" background="None">가슴 1</TITLE>
+        <ID>94</ID>
+        <ID_SORT>6</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>440d7f17_18db_4356_9da2_bbb43ecb9a60</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>소리 없는 북
+답답하면 주먹으로
+뚜다려 보오.
+그래 봐도
+후..
+가아는 한숨보다 못하오.
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:56:56 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="7" ParentIndex="1" Expand="0">
+        <TITLE color="None" background="None">가슴2</TITLE>
+        <ID>20</ID>
+        <ID_SORT>7</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>35f42536_92d2_48d1_b1e0_3a4d6abd0b88</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>불꺼진 화덕을
+안고 도는 겨울 밤은 깊었다.
+재만 남은 가슴이
+문풍지 소리에 떤다.
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:22:26 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="8" ParentIndex="1" Expand="0">
+        <TITLE color="None" background="None">꿈은 깨어지고</TITLE>
+        <ID>21</ID>
+        <ID_SORT>8</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>0e4cae0c_69b0_4e2a_99f8_944e8b725e1f</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>꿈은 눈을 떴다
+그윽한 유무(幽霧)에서
+
+
+노래하는 종다리
+도망쳐 날아가고,
+지난날 봄타령하던
+금잔디밭은 아니다.
+
+
+탑(塔)은 무너졌다,
+붉은 마음의 탑(塔)이--
+
+
+손톱으로 새긴 대리석탑이--
+하루 저녁 폭풍(暴風)에 여지(餘地) 없이도
+
+
+오오 황폐의 쑥밭,
+눈물과 목메임이여!
+꿈은 깨어졌다
+탑(塔)은 무너졌다.
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:22:26 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="9" ParentIndex="1" Expand="0">
+        <TITLE color="None" background="None">굴뚝</TITLE>
+        <ID>25</ID>
+        <ID_SORT>9</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>9914a44b_199e_4a2e_b9f9_48612652c796</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>산골작이 오막살이 낮은 굴뚝엔
+
+몽기몽기 웨인연기 대낮에 솟나
+
+ 
+
+감자를 굽는 게지 총각애들이
+
+깜박깜박 검은 눈이 모여 앉아서
+
+입술에 꺼멓게 숯을 바르고
+
+옛이야기 한 커리에 감자 하나씩
+
+ 
+
+산골작이 오막살이 낮은 굴뚝엔
+
+살랑살랑 솟아나네 감자 굽는 내
+
+
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:22:26 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="10" ParentIndex="1" Expand="0">
+        <TITLE color="None" background="None">가을 밤</TITLE>
+        <ID>26</ID>
+        <ID_SORT>10</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>f988b36e_54d1_441e_98e7_1e3b359a12bf</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>궂은비 나리는 가을밤
+벌거숭이 그대로
+잠자리에서 뛰쳐나와
+마루에 쭈그리고 서서
+아이인 양하고
+솨─ 오줌을 쏘오. 
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:22:26 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="11" ParentIndex="1" Expand="0">
+        <TITLE color="None" background="None">간판 없는 거리</TITLE>
+        <ID>86</ID>
+        <ID_SORT>11</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>24246884_b447_4e32_8858_bce10b3340bd</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>정거장 플랫포옴에
+내렸을 때 아무도 없어
+ 
+​
+다들 손님들뿐
+손님 같은 사람들뿐
+ 
+ 
+집집마다 간판(看板)이 없어
+집 찾을 근심이 없어
+ 
+ 
+빨갛게
+파랗게
+불붙는 문자도 없이
+ 
+ 
+모퉁이마다
+자애로운 헌 와사등(瓦斯燈)에
+불을 켜놓고,
+ 
+ 
+손목을 잡으면
+다들, 어진 사람들
+다들, 어진 사람들
+ 
+ 
+봄, 여름, 가을, 겨울
+순서로 돌아들고.
+</NOTE>
+        <CODE>정거장 플랫포옴에
+내렸을 때 아무도 없어
+ 
+​
+다들 손님들뿐
+손님 같은 사람들뿐
+ 
+ 
+집집마다 간판(看板)이 없어
+집 찾을 근심이 없어
+ 
+ 
+빨갛게
+파랗게
+불붙는 문자도 없이
+ 
+ 
+모퉁이마다
+자애로운 헌 와사등(瓦斯燈)에
+불을 켜놓고,
+ 
+ 
+손목을 잡으면
+다들, 어진 사람들
+다들, 어진 사람들
+ 
+ 
+봄, 여름, 가을, 겨울
+순서로 돌아들고.
+</CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:40:59 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="12" ParentIndex="1" Expand="0">
+        <TITLE color="None" background="None">간</TITLE>
+        <ID>85</ID>
+        <ID_SORT>12</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>ee59a48e_6f58_412e_aff0_25b059c87023</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>바닷가 햇빛 바른 바위 위에 
+습한 간(肝)을 펴서 말리우자.
+
+코카사쓰 산중에서 도망해 온 토끼처럼
+둘러리를 빙빙 돌며 간(肝)을 지키자,
+
+내가 오래 기르던 여윈 독수리야!
+와서 뜯어 먹어라, 시름없이
+
+너는 살찌고 
+나는 여위어야지, 그러나, 
+
+거북이야!
+다시는 용궁의 유혹에 안떨어진다.
+
+프로메테우스 불쌍한 프로메테우스
+불 도적한 죄로 목에 맷돌을 달고
+끝없이 침전(沈澱)하는 프로메테우스
+
+</NOTE>
+        <CODE>바닷가 햇빛 바른 바위 위에 
+습한 간(肝)을 펴서 말리우자.
+
+코카사쓰 산중에서 도망해 온 토끼처럼
+둘러리를 빙빙 돌며 간(肝)을 지키자,
+
+내가 오래 기르던 여윈 독수리야!
+와서 뜯어 먹어라, 시름없이
+
+너는 살찌고 
+나는 여위어야지, 그러나, 
+
+거북이야!
+다시는 용궁의 유혹에 안떨어진다.
+
+프로메테우스 불쌍한 프로메테우스
+불 도적한 죄로 목에 맷돌을 달고
+끝없이 침전(沈澱)하는 프로메테우스
+
+</CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:40:59 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="13" ParentIndex="1" Expand="0">
+        <TITLE color="None" background="None">길</TITLE>
+        <ID>82</ID>
+        <ID_SORT>13</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>31b1be0d_2aa2_41b0_af8c_b35b70adc053</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>잃어버렸습니다 
+무얼 어디다 잃었는지 몰라 
+두손이 주머니를 더듬어 
+길에 나아갑니다 
+  
+돌과 돌과 돌이 끝없이 연달아 
+길은 돌담을 끼고 갑니다 
+  
+담은 쇠문을 굳게 닫아 
+길 위엔 그림자를 드리우고 
+  
+길은 아침에서 저녁으로 
+저녁에서 아침으로 통했습니다 
+  
+돌담을 더듬어 눈물짓다 
+쳐다보면 하늘은 부끄럽게 푸릅니다 
+  
+풀 한포기 없는 이길을 겉는 것은 
+담 저쪽에 내가 남아 있는 까닭이고 
+  
+내가 사는 것은 다만 
+잃은 것을 찾는 까닭입니다
+</NOTE>
+        <CODE>잃어버렸습니다 
+무얼 어디다 잃었는지 몰라 
+두손이 주머니를 더듬어 
+길에 나아갑니다 
+  
+돌과 돌과 돌이 끝없이 연달아 
+길은 돌담을 끼고 갑니다 
+  
+담은 쇠문을 굳게 닫아 
+길 위엔 그림자를 드리우고 
+  
+길은 아침에서 저녁으로 
+저녁에서 아침으로 통했습니다 
+  
+돌담을 더듬어 눈물짓다 
+쳐다보면 하늘은 부끄럽게 푸릅니다 
+  
+풀 한포기 없는 이길을 겉는 것은 
+담 저쪽에 내가 남아 있는 까닭이고 
+  
+내가 사는 것은 다만 
+잃은 것을 찾는 까닭입니다
+</CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:40:59 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="14" ParentIndex="1" Expand="0">
+        <TITLE color="None" background="None">귀뚜라미와 나와</TITLE>
+        <ID>47</ID>
+        <ID_SORT>14</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>49c99010_a68a_4299_b861_27afeb4c2b36</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>귀뚜라미와 나와
+잔디밭에서 이야기했다.
+
+귀뚤귀뚤
+귀뚤귀뚤
+아무에게도 아르켜 주지 않고
+우리 둘만 알자고 약속했다.
+
+귀뚤귀뚤
+귀뚤귀뚤
+
+귀뚜라미와 나와
+달밝은 밤에 이야기했다.
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:25:16 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="15" ParentIndex="1" Expand="0">
+        <TITLE color="None" background="None">그 여자</TITLE>
+        <ID>102</ID>
+        <ID_SORT>15</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>3bd6deb4_6e25_4dd7_bfee_12a78052fc84</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>함께 핀 꽃에 처음 익은 능금은 
+먼저 떨어졌습니다.
+
+오늘도 가을바람은 그냥 붑니다.
+
+길가에 떨어진 붉은 능금은 
+지나는 손님이 집아갔습니다.
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 15:00:09 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="16" ParentIndex="1" Expand="0">
+        <TITLE color="None" background="None">거짓부리</TITLE>
+        <ID>37</ID>
+        <ID_SORT>16</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>5e32844e_2239_4077_a245_405b04886348</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>똑,똑,똑
+문 좀 열어주세요.
+하룻밤 자고 갑시다.
+밤은 깊고 날은 추운데
+거 누굴까?
+문 열어주고 보니
+검둥이의 꼬리가
+거짓부리한걸.
+ 
+꼬끼오,꼬끼오,
+달갈 낳았다.
+간난아 어서 집어 가거라
+가난이 뛰어가 보니
+달갈은 무슨 달걀,
+고놈의 암탁이 
+대낮에 새빨간
+거짓부리한걸. 
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:22:26 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="17" ParentIndex="1" Expand="0">
+        <TITLE color="None" background="None">겨울</TITLE>
+        <ID>112</ID>
+        <ID_SORT>17</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>8b397cb1_ce37_4c02_97e9_fca6dbf6292d</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>Menu</COMPONENTS>
+        <CONTEXT>Tab</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>수 11월 21 15:52:18 2018</CREATED>
+        <MODIFED>수 11월 21 15:52:43 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="18" ParentIndex="17" Expand="0">
+        <TITLE color="None" background="None">겨울</TITLE>
+        <ID>34</ID>
+        <ID_SORT>18</ID_SORT>
+        <DEPTH>17</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>32c276bc_1929_46fa_bb76_d658631952a9</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>처마 밑에
+시래기 다래미
+바삭바삭
+추어요
+ 
+길바닥에
+말똥 동그램이
+말랑말랑
+얼어요
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:22:26 2018</CREATED>
+        <MODIFED>수 11월 21 15:52:43 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="19" ParentIndex="17" Expand="0">
+        <TITLE color="None" background="None">Winter</TITLE>
+        <ID>113</ID>
+        <ID_SORT>19</ID_SORT>
+        <DEPTH>17</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>6e3581d0_7953_4448_a9ae_b74e1a68f768</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>html</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">Under the eaves, &lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">bundles of turnip greens &lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">turn crispy &lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">cold. &lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">On the street, &lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">balls of horse droppings &lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">freeze, &lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">drop by drop. &lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>
+&lt;p align="right" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">Winter 1936&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>수 11월 21 15:52:45 2018</CREATED>
+        <MODIFED>수 11월 21 15:54:06 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="20" ParentIndex="-1" Expand="0">
+        <TITLE color="None" background="None">ㄴ</TITLE>
+        <ID>115</ID>
+        <ID_SORT>20</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>832c3ec6_a8b4_4a25_a16f_ac936339fe2f</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>Menu</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>일 12월 23 16:24:15 2018</CREATED>
+        <MODIFED>일 12월 23 16:24:30 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="21" ParentIndex="20" Expand="0">
+        <TITLE color="None" background="None">내일은 없다</TITLE>
+        <ID>5</ID>
+        <ID_SORT>21</ID_SORT>
+        <DEPTH>20</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>5fa4345d_8402_4ec1_97e7_13aad337d52b</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>내일 내일 하기에 
+물었더니 
+밤을 자고 동틀 때 
+내일이라고 
+
+새날을 찾던 나는
+잠을 자고 돌아보니
+그때는 내일이 아니라
+오늘이더라
+
+무리여! 동무여!
+내일은 없나니
+······</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:17:14 2018</CREATED>
+        <MODIFED>火 2月 20 14:17:59 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="22" ParentIndex="20" Expand="0">
+        <TITLE color="None" background="None">남쪽 하늘</TITLE>
+        <ID>9</ID>
+        <ID_SORT>22</ID_SORT>
+        <DEPTH>20</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>833039b7_b6dd_4f32_a3bb_80b5a4b90d50</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>제비는 두 나래를 가지었다.
+스산한 가을날 ㅡ
+
+어머니의 젖가슴이 그리운 
+서리 내리는 저녁 ㅡ
+어린 영(靈)은 쪽나래의 향수(鄕愁)를 타고
+남쪽 하늘에 떠돌 뿐 ㅡ 
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:17:15 2018</CREATED>
+        <MODIFED>火 2月 20 14:18:11 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="23" ParentIndex="20" Expand="0">
+        <TITLE color="None" background="None">눈</TITLE>
+        <ID>32</ID>
+        <ID_SORT>23</ID_SORT>
+        <DEPTH>20</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>34ed048a_11f3_4a1b_bbd1_05cd6fefc75c</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>지난밤에 
+눈이 소오복이 왔네
+
+지붕이랑 
+길이랑 밭이랑 
+추워 한다고 
+덮어주는 이불인가바 
+
+그러기에 
+추운 겨울에만 나리지
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:22:26 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="24" ParentIndex="20" Expand="0">
+        <TITLE color="None" background="None">눈 감고 간다</TITLE>
+        <ID>75</ID>
+        <ID_SORT>24</ID_SORT>
+        <DEPTH>20</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>05e1614d_0296_467e_9d4f_9ae5f8531b47</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>태양을 사모하는 아이들아
+별을 사랑하는 아이들아
+ 
+ 
+밤이 어두웠는데 
+눈을 감고 가거라.
+ 
+ 
+가진바 씨앗을 
+뿌리면서 가거라.
+ 
+ 
+발부리에 돌이 채이거든 
+감앗던 눈을 와짝 떠라.
+</NOTE>
+        <CODE>태양을 사모하는 아이들아
+별을 사랑하는 아이들아
+ 
+ 
+밤이 어두웠는데 
+눈을 감고 가거라.
+ 
+ 
+가진바 씨앗을 
+뿌리면서 가거라.
+ 
+ 
+발부리에 돌이 채이거든 
+감앗던 눈을 와짝 떠라.
+</CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:40:59 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="25" ParentIndex="20" Expand="0">
+        <TITLE color="None" background="None">눈 오는 지도</TITLE>
+        <ID>73</ID>
+        <ID_SORT>25</ID_SORT>
+        <DEPTH>20</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>5276a71f_2390_4188_a10d_62b6be75f856</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>순이가 떠난다는 아침에 말못할 마음으로 함박눈이 나려, 슬픈 것처럼 창밖에 아득히 깔린 지도 위에 덮힌다.
+방안을 돌아다보아야 아무도 없다. 벽과 천정이 하얗다. 방안에까지 눈이 나리는 것일까, 정말 너는 잃어버린 역사처럼 홀홀이 가는 것이냐, 떠나기 전에 일러둘 말이 있던 것을 편지를 써서도 네가 가는 곳을 몰라 어느 거리, 어느 마을, 어느 지붕 밑, 너는 내 마음 속에만 남아 있는 것이냐, 네 쪼고만 발자욱을 눈이 자꾸 나려 덮혀 따라갈 수도 없다. 눈이 녹으면 남은 발자욱 자리마다 꽃이 피리니 꽃 사이로 발자욱을 찾아 나서면 일년 열두 달 하냥 내 마음에는 눈이 나리리라.
+</NOTE>
+        <CODE>순이가 떠난다는 아침에 말못할 마음으로 함박눈이 나려, 슬픈 것처럼 창밖에 아득히 깔린 지도 위에 덮힌다.
+방안을 돌아다보아야 아무도 없다. 벽과 천정이 하얗다. 방안에까지 눈이 나리는 것일까, 정말 너는 잃어버린 역사처럼 홀홀이 가는 것이냐, 떠나기 전에 일러둘 말이 있던 것을 편지를 써서도 네가 가는 곳을 몰라 어느 거리, 어느 마을, 어느 지붕 밑, 너는 내 마음 속에만 남아 있는 것이냐, 네 쪼고만 발자욱을 눈이 자꾸 나려 덮혀 따라갈 수도 없다. 눈이 녹으면 남은 발자욱 자리마다 꽃이 피리니 꽃 사이로 발자욱을 찾아 나서면 일년 열두 달 하냥 내 마음에는 눈이 나리리라.
+</CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:40:59 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="26" ParentIndex="20" Expand="0">
+        <TITLE color="None" background="None">나무</TITLE>
+        <ID>97</ID>
+        <ID_SORT>26</ID_SORT>
+        <DEPTH>20</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>73c0e606_1ea3_4898_aa2d_acce343cefcd</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>나무가 춤을 추면
+바람이 불고
+나무가 잠잠하면 
+바람도 자오
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 15:00:09 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="27" ParentIndex="-1" Expand="0">
+        <TITLE color="None" background="None">ㄷ</TITLE>
+        <ID>116</ID>
+        <ID_SORT>27</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>0239a340_d7f3_46b8_9317_a48c67718682</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>Menu</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>일 12월 23 16:24:15 2018</CREATED>
+        <MODIFED>일 12월 23 16:24:31 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="28" ParentIndex="27" Expand="0">
+        <TITLE color="None" background="None">닭</TITLE>
+        <ID>96</ID>
+        <ID_SORT>28</ID_SORT>
+        <DEPTH>27</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>6c64059e_80ce_434f_9d46_423d0e806962</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>한간 계사(鷄舍) 그 너머 창공이 깃들어
+자유의 향토를 잊은 닭들이
+시들은 생활을 주잘 대고
+생산의 고로를 부르짖었다.
+   
+陰酸(음산)한 계사에서 쏠러 나온
+외래종 레구홍,
+학원에서 새무리가 밀려 나오는
+3월의 맑은 오후도 있다.
+   
+닭들은 녹아드는 두엄을 파기에
+雅淡(아담)한 두 다리가 분주하고
+굶주렸든 주둥이가 바지런하다.
+두 눈이 붉게 여무도록</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:56:56 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="29" ParentIndex="27" Expand="0">
+        <TITLE color="None" background="None">또 다른 고향</TITLE>
+        <ID>81</ID>
+        <ID_SORT>29</ID_SORT>
+        <DEPTH>27</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>189d61a4_5e95_4a72_8ed6_2e768d166fc6</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>고향에 돌아온 날 밤에
+내 백골(白骨)이 따라와 한 방에 누웠다.
+
+어둔 방은 우주(宇宙)로 통하고 
+하늘에선가 소리처럼 바람이 불어온다.
+
+어둠 속에서 곱게 풍화작용(風化作用) 하는
+백골(白骨)을 들여다보며 
+눈물짓는 것이 내가 우는 것이냐 
+백골(白骨)이 우는 것이냐 
+아름다운 혼(魂)이 우는 것이냐 
+
+지조(志操) 높은 개는 
+밤을 새워 어둠을 짖는다.
+
+어둠을 짖는 개는 
+나를 쫓는 것일게다. 
+
+가자 가자 
+쫓기우는 사람처럼 가자. 
+백골(白骨) 몰래 
+아름다운 또 다른 고향에 가자.
+
+</NOTE>
+        <CODE>고향에 돌아온 날 밤에
+내 백골(白骨)이 따라와 한 방에 누웠다.
+
+어둔 방은 우주(宇宙)로 통하고 
+하늘에선가 소리처럼 바람이 불어온다.
+
+어둠 속에서 곱게 풍화작용(風化作用) 하는
+백골(白骨)을 들여다보며 
+눈물짓는 것이 내가 우는 것이냐 
+백골(白骨)이 우는 것이냐 
+아름다운 혼(魂)이 우는 것이냐 
+
+지조(志操) 높은 개는 
+밤을 새워 어둠을 짖는다.
+
+어둠을 짖는 개는 
+나를 쫓는 것일게다. 
+
+가자 가자 
+쫓기우는 사람처럼 가자. 
+백골(白骨) 몰래 
+아름다운 또 다른 고향에 가자.
+
+</CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:40:59 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="30" ParentIndex="27" Expand="0">
+        <TITLE color="None" background="None">돌아와 보는 밤</TITLE>
+        <ID>79</ID>
+        <ID_SORT>30</ID_SORT>
+        <DEPTH>27</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>bad46912_bc17_49e3_b89a_abbb8fe21804</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>세상으로부터 돌아오듯이
+이제 내 좁은 방에 돌아와 불을 끄옵니다.
+불을 켜 두는 것은 너무나 괴로운 일이옵니다.
+그것은 낮의 연장(延長)이옵기에ㅡ
+ 
+ 
+이제 창(窓)을 열어 공기를 바꾸어 들여야 할텐데
+밖을 가만히 내다보아야
+방 안과 같이 어두워 꼭 세상 같은데
+비를 맞고 오던 길이
+그대로 비 속에 젖어 있사옵니다.
+ 
+ 
+하루의 울분을 씻을 바 없어
+가만히 눈을 감으면
+마음 속으로 흐르는 소리,
+이제, 사상(思想)이
+능금처럼 저절로 익어 가옵니다.</NOTE>
+        <CODE>세상으로부터 돌아오듯이
+이제 내 좁은 방에 돌아와 불을 끄옵니다.
+불을 켜 두는 것은 너무나 괴로운 일이옵니다.
+그것은 낮의 연장(延長)이옵기에ㅡ
+ 
+ 
+이제 창(窓)을 열어 공기를 바꾸어 들여야 할텐데
+밖을 가만히 내다보아야
+방 안과 같이 어두워 꼭 세상 같은데
+비를 맞고 오던 길이
+그대로 비 속에 젖어 있사옵니다.
+ 
+ 
+하루의 울분을 씻을 바 없어
+가만히 눈을 감으면
+마음 속으로 흐르는 소리,
+이제, 사상(思想)이
+능금처럼 저절로 익어 가옵니다.</CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:40:59 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="31" ParentIndex="27" Expand="0">
+        <TITLE color="None" background="None">또 태초의 아침</TITLE>
+        <ID>74</ID>
+        <ID_SORT>31</ID_SORT>
+        <DEPTH>27</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>9521feb4_fa1d_423a_8390_1d0ba82b2366</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>하얗게 눈이 덮이었고
+전신주가 잉잉 울어
+하나님 말씀이 들려온다.
+
+무슨 계시일까.
+
+빨리
+봄이 오면
+죄를 짓고
+눈이 밝아
+
+이브가 해산하는 수고를 다하면
+무화과 잎사귀로 부끄러운 테를 가리고
+나는 이마에 땀을 흘려야겠다.</NOTE>
+        <CODE>하얗게 눈이 덮이었고
+전신주가 잉잉 울어
+하나님 말씀이 들려온다.
+
+무슨 계시일까.
+
+빨리
+봄이 오면
+죄를 짓고
+눈이 밝아
+
+이브가 해산하는 수고를 다하면
+무화과 잎사귀로 부끄러운 테를 가리고
+나는 이마에 땀을 흘려야겠다.</CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>True</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:40:59 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="32" ParentIndex="27" Expand="0">
+        <TITLE color="None" background="None">달같이</TITLE>
+        <ID>53</ID>
+        <ID_SORT>32</ID_SORT>
+        <DEPTH>27</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>501bc46b_8dff_4a93_ab60_99e55672050f</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>연륜이 자라듯이
+달이 자라는 고요한 밤에
+달같이 외로운 사랑이
+가슴 하나 삐근히
+연륜처럼 피어나간다.
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:25:16 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="33" ParentIndex="27" Expand="0">
+        <TITLE color="None" background="None">달밤</TITLE>
+        <ID>99</ID>
+        <ID_SORT>33</ID_SORT>
+        <DEPTH>27</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>a29639ad_bea0_438f_8358_9c9eb2aa0fa4</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>흐르는 달의 흰 물결을 밀쳐
+여윈 나무 그림자를 밟으며,
+북망산(北邙山)을 향(向)한 발걸음은 무거웁고
+고독(孤獨)을 반려(伴侶)한 마음은 슬프기도 하다.
+
+누가 있어만 싶던 (墓地)엔 아무도 없고,
+정적(靜寂)만이 군데군데 흰 물결에 폭 젖었다.
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>True</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 15:00:09 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="34" ParentIndex="27" Expand="0">
+        <TITLE color="None" background="None">둘 다</TITLE>
+        <ID>38</ID>
+        <ID_SORT>34</ID_SORT>
+        <DEPTH>27</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>6b8bbfbd_efe8_4b79_9144_d74673701133</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>바다도 푸르고
+하늘도 푸르고
+
+바다도 끝없고
+하늘도 끝없고
+
+바다에 돌 던지고
+하늘에 침 뱉고
+
+바다는 벙글
+하늘은 잠잠
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:22:26 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="35" ParentIndex="-1" Expand="0">
+        <TITLE color="None" background="None">ㄹ</TITLE>
+        <ID>117</ID>
+        <ID_SORT>35</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>d8d8e503_96e1_44a7_929c_083c9f8d9641</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>Menu</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>일 12월 23 16:24:16 2018</CREATED>
+        <MODIFED>일 12월 23 16:24:34 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="36" ParentIndex="-1" Expand="0">
+        <TITLE color="None" background="None">ㅁ</TITLE>
+        <ID>118</ID>
+        <ID_SORT>36</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>62a3bc97_2d3c_4f42_a92a_a4eaf43171b2</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>Menu</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>일 12월 23 16:24:16 2018</CREATED>
+        <MODIFED>일 12월 23 16:24:35 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="37" ParentIndex="36" Expand="0">
+        <TITLE color="None" background="None">무얼 먹고 사나</TITLE>
+        <ID>27</ID>
+        <ID_SORT>37</ID_SORT>
+        <DEPTH>36</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>a407d810_bc5f_4871_bbca_dcff25bd892d</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000">1936. 10</SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>바닷가 사람
+물고기 잡아먹고 살고
+
+산골엣 사람
+감자 구워 먹고 살고
+
+별나라 사람
+무얼 먹고 사나.</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:22:26 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="38" ParentIndex="36" Expand="0">
+        <TITLE color="None" background="None">못 자는 밤</TITLE>
+        <ID>80</ID>
+        <ID_SORT>38</ID_SORT>
+        <DEPTH>36</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>1d064751_ccc0_44a2_b035_b7893f713a2d</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>하나, 둘, 셋, 네 
+... ... ... ... 
+밤은 
+많기도 하다. 
+
+</NOTE>
+        <CODE>하나, 둘, 셋, 네 
+... ... ... ... 
+밤은 
+많기도 하다. 
+
+</CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:40:59 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="39" ParentIndex="36" Expand="0">
+        <TITLE color="None" background="None">무서운 시간</TITLE>
+        <ID>71</ID>
+        <ID_SORT>39</ID_SORT>
+        <DEPTH>36</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>1778df31_4754_4e8a_8572_8755016b24f6</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>거 나를 부르는 것이 누구요,
+가랑잎 이파리 푸르러 나오는 그늘인데,
+나 아직 여기 호흡이 남아 있소.
+ 
+한번도 손 들어 보지 못한 나를
+손 들어 표할 하늘도 없는 나를
+ 
+어디에 내 한 몸 둘 하늘이 있어
+나를 부르는 것이오.
+ 
+일을 마치고 내 죽는 날 아침에는
+서럽지도 않은 가랑잎이 떨어질 텐데......
+ 
+나를 부르지 마오.</NOTE>
+        <CODE>거 나를 부르는 것이 누구요,
+가랑잎 이파리 푸르러 나오는 그늘인데,
+나 아직 여기 호흡이 남아 있소.
+ 
+한번도 손 들어 보지 못한 나를
+손 들어 표할 하늘도 없는 나를
+ 
+어디에 내 한 몸 둘 하늘이 있어
+나를 부르는 것이오.
+ 
+일을 마치고 내 죽는 날 아침에는
+서럽지도 않은 가랑잎이 떨어질 텐데......
+ 
+나를 부르지 마오.</CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:40:59 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="40" ParentIndex="36" Expand="0">
+        <TITLE color="None" background="None">명상</TITLE>
+        <ID>105</ID>
+        <ID_SORT>40</ID_SORT>
+        <DEPTH>36</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>2f705372_9279_48de_895d_4d570ffe508f</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000">1937. 8</SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>가츨가츨한 머리칼은 오막살이 처마 끝,
+휘파람에 콧마루가 서운한 양 간질키오.
+
+들창 샅은 눈은 가볍게 닫혀
+이 밤에 연정은 어둠처럼 골골이 스며드오.
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 15:00:09 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="41" ParentIndex="-1" Expand="0">
+        <TITLE color="None" background="None">ㅂ</TITLE>
+        <ID>119</ID>
+        <ID_SORT>41</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>702f871e_add7_4ea4_8347_1e24902b6069</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>Menu</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>일 12월 23 16:24:16 2018</CREATED>
+        <MODIFED>일 12월 23 16:24:36 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="42" ParentIndex="41" Expand="0">
+        <TITLE color="None" background="None">병아리</TITLE>
+        <ID>88</ID>
+        <ID_SORT>42</ID_SORT>
+        <DEPTH>41</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>6faa48d8_17b9_441d_bd02_f81a4178a601</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>"뾰, 뾰, 뾰
+엄마 젖 좀 주"
+병아리 소리.
+ 
+ 
+"꺽, 꺽, 꺽
+오냐 좀 기다려"
+엄마 닭 소리.
+ 
+ 
+좀 있다가
+병아리들은
+엄마 품속으로
+다 들어갔지요.
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:56:56 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="43" ParentIndex="41" Expand="0">
+        <TITLE color="None" background="None">비둘기</TITLE>
+        <ID>91</ID>
+        <ID_SORT>43</ID_SORT>
+        <DEPTH>41</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>99b7bf56_6ad4_4cb7_8a70_ec8d85a16b9f</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>안아보고싶게 귀여운
+산비들기 일곱마리
+하늘끝까지 보일듯이 맑은 공일날 아침에
+벼를 거두어 빤빤한 논에
+앞을 다투어 모이를 주으며
+어려운 이야기를 주고 받으오
+
+날신한 두나래로 주용한 공기를 흔들어
+두마리가 나오
+집에 새끼 생각이 나는 모양이오.
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:56:56 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="44" ParentIndex="41" Expand="0">
+        <TITLE color="None" background="None">빨래</TITLE>
+        <ID>22</ID>
+        <ID_SORT>44</ID_SORT>
+        <DEPTH>41</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>096bfb83_bb90_4d95_b751_52bf707e4308</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>빨랫줄에 두 다리를 드리우고 
+흰 빨래들이 귓속말하는 오후, 
+
+쨍쨍한 칠월 햇발은 고요히도 
+아담한 빨래에만 달린다.
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:22:26 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="45" ParentIndex="41" Expand="0">
+        <TITLE color="None" background="None">빗자루</TITLE>
+        <ID>24</ID>
+        <ID_SORT>45</ID_SORT>
+        <DEPTH>41</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>a60f9bb9_4a80_440c_a224_8a23cb96d464</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>요─리조리 베면 저고리 되고,
+이─렇게 베면 큰 총 되지.
+누나하고 나하고
+가위로 종이 쏠았더니
+어머니가 빗자루 들고
+누나 하나 나 하나
+볼기짝을 때렸소
+방바닥이 어지럽다고─.
+
+아니 아─니
+고놈이 빗자루가
+방바닥 쓸기 싫으니
+그랬지 그래서
+괘씸하여 벽장 속에 감췄더니
+이튿날 아침 빗자루가 없다고
+어머니가 야단이지요.
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:22:26 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="46" ParentIndex="41" Expand="0">
+        <TITLE color="None" background="None">봄1</TITLE>
+        <ID>28</ID>
+        <ID_SORT>46</ID_SORT>
+        <DEPTH>41</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>15eabc3d_dee8_43e7_b5e7_1e1b58fdd6f7</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>우리 애기는 
+아래발치에서 코올 코올,
+
+고양이는 
+부뚜막에서 가릉가릉,
+
+애기 바람이 
+나뭇가지에서 소올소올,
+
+아저씨 햇님이 
+하늘 한가운데서 째앵째앵, 
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:22:26 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="47" ParentIndex="41" Expand="0">
+        <TITLE color="None" background="None">버선본</TITLE>
+        <ID>29</ID>
+        <ID_SORT>47</ID_SORT>
+        <DEPTH>41</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>2ab72a11_b763_41ff_8d32_55acbf371bd0</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>어머니
+누나 쓰다 버린 습자지는
+두었다가 뭣에 쓰나요?
+
+그런 줄 몰랐더니
+습자지에다 내 버선 놓고
+가위로 오려
+버선본 만드는 걸
+
+어머니
+내가 쓰다 버린 몽당연필은
+두었다간 뭣에 쓰나요?
+
+그런 줄 몰랐더니
+천 위에다 버선본 놓고
+침 발라 점을 찍곤
+내 버선 만드는 걸
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:22:26 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="48" ParentIndex="41" Expand="0">
+        <TITLE color="None" background="None">봄2</TITLE>
+        <ID>65</ID>
+        <ID_SORT>48</ID_SORT>
+        <DEPTH>41</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>b9996f22_5ad2_4e86_9f84_dd5e713b2327</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>봄이 혈관속에 시내처럼 흘러
+돌, 돌, 시내 가차운 언덕에
+개나리, 진달래, 노 — 란 배추꽃,
+
+삼동을 참아온 나는
+풀포기처럼 피어난다.
+
+즐거운 종달새야
+어느 이랑에서나 즐거웁게 솟쳐라.
+
+푸르른 하늘은
+아른, 아른, 높기도 한데......
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:35:41 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="49" ParentIndex="41" Expand="0">
+        <TITLE color="None" background="None">별 혜는 밤</TITLE>
+        <ID>83</ID>
+        <ID_SORT>49</ID_SORT>
+        <DEPTH>41</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>67292d09_9322_41fc_9c73_fd2cb23203fc</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>계절이 지나가는 하늘에는
+가을로 가득 차 있습니다
+
+나는 아무 걱정도 없이
+가을 속의 별들을 다 헤일 듯합니다
+
+가슴속에 하나 둘 새겨지는 별을
+이제 다 못 헤는 것은
+쉬이 아침이 오는 까닭이요, 내일 밤이 남은 까닭이요,
+아직 나의 청춘이 다하지 않은 까닭입니다
+
+별 하나에 추억과
+별 하나에 사랑과
+별 하나에 쓸쓸함과
+별 하나에 동경과
+별 하나에 시와
+별 하나에 어머니, 어머니, 어머님, 나는 별 하나에 아름다운 말 한 마디씩 불러 봅니다. 소학교 때 책상을 같이 했든 아이들의 이름과 패, 경, 옥 이런 이국 소녀들의 이름과 벌써 애기 어머니 된 계집애들의 이름과 가난한 이웃 사람들의 이름과 비둘기, 강아지, 토끼, 노새, 노루, '프랑시스 잠', '라이너 마리아 릴케', 이런 시인의 이름을 불러봅니다.
+
+이네들은 너무나 멀리 있습니다, 별이 아슬히 멀 듯이
+
+어머님, 그리고 당신은 멀리 북간도에 계십니다
+
+나는 무엇인지 그리워
+이 많은 별빛이 나린 언덕 우에
+내 이름자를 써 보고, 흙으로 덮어 버리었습니다
+
+딴은 밤을 새워 우는 벌레는
+부끄러운 이름을 슬퍼하는 까닭입니다
+
+그러나 겨울이 지나고 나의 별에도 봄이 오면
+무덤 우에 파란 잔디가 피어나듯이
+내 이름자 묻힌 언덕 우에도
+자랑처럼 풀이 무성할 게외다</NOTE>
+        <CODE>계절이 지나가는 하늘에는
+가을로 가득 차 있습니다
+
+나는 아무 걱정도 없이
+가을 속의 별들을 다 헤일 듯합니다
+
+가슴속에 하나 둘 새겨지는 별을
+이제 다 못 헤는 것은
+쉬이 아침이 오는 까닭이요, 내일 밤이 남은 까닭이요,
+아직 나의 청춘이 다하지 않은 까닭입니다
+
+별 하나에 추억과
+별 하나에 사랑과
+별 하나에 쓸쓸함과
+별 하나에 동경과
+별 하나에 시와
+별 하나에 어머니, 어머니, 어머님, 나는 별 하나에 아름다운 말 한 마디씩 불러 봅니다. 소학교 때 책상을 같이 했든 아이들의 이름과 패, 경, 옥 이런 이국 소녀들의 이름과 벌써 애기 어머니 된 계집애들의 이름과 가난한 이웃 사람들의 이름과 비둘기, 강아지, 토끼, 노새, 노루, '프랑시스 잠', '라이너 마리아 릴케', 이런 시인의 이름을 불러봅니다.
+
+이네들은 너무나 멀리 있습니다, 별이 아슬히 멀 듯이
+
+어머님, 그리고 당신은 멀리 북간도에 계십니다
+
+나는 무엇인지 그리워
+이 많은 별빛이 나린 언덕 우에
+내 이름자를 써 보고, 흙으로 덮어 버리었습니다
+
+딴은 밤을 새워 우는 벌레는
+부끄러운 이름을 슬퍼하는 까닭입니다
+
+그러나 겨울이 지나고 나의 별에도 봄이 오면
+무덤 우에 파란 잔디가 피어나듯이
+내 이름자 묻힌 언덕 우에도
+자랑처럼 풀이 무성할 게외다</CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:40:59 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="50" ParentIndex="41" Expand="0">
+        <TITLE color="None" background="None">바람이 불어</TITLE>
+        <ID>78</ID>
+        <ID_SORT>50</ID_SORT>
+        <DEPTH>41</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>f71d04de_50fe_4535_9e43_5c3cebf6d189</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>바람이 어디로부터 불어와
+어디로 불려 가는 것일까,
+
+바람이 부는데
+내 괴로움에는 이유가 없다.
+
+내 괴로움에는 이유가 없을까,
+
+단 한 여자를 사랑한 일도 없다.
+시대를 슬퍼한 일도 없다.
+
+바람이 자꾸 부는데
+내 발이 반석 위에 섰다.
+
+강물이 자꾸 흐르는데
+내 발이 언덕 위에 섰다.
+</NOTE>
+        <CODE>바람이 어디로부터 불어와
+어디로 불려 가는 것일까,
+
+바람이 부는데
+내 괴로움에는 이유가 없다.
+
+내 괴로움에는 이유가 없을까,
+
+단 한 여자를 사랑한 일도 없다.
+시대를 슬퍼한 일도 없다.
+
+바람이 자꾸 부는데
+내 발이 반석 위에 섰다.
+
+강물이 자꾸 흐르는데
+내 발이 언덕 위에 섰다.
+</CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:40:59 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="51" ParentIndex="41" Expand="0">
+        <TITLE color="None" background="None">병원</TITLE>
+        <ID>70</ID>
+        <ID_SORT>51</ID_SORT>
+        <DEPTH>41</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>30305aae_76a1_4865_a85f_4c865ea15980</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>살구나무 그늘로 얼굴을 가리고, 병원 뒤뜰에 누워, 젊은 여자가 흰 옷 아래로 하얀 다리를 드러내놓고 일광욕을 한다. 한나절이 기울도록 가슴을 앓는다는 이 여자를 찾아오는 이, 나비 한 마리도 없다. 슬프지도 않은 살구나무 가지에는 바람조차 없다.
+ 
+  나도 모를 아픔을 오래 참다 처음으로 이곳에 찾아왔다. 그러나 나의 늙은 의사는 젊은이의 병을 모른다. 나한테는 병이 없다고 한다. 이 지나친 시련, 이 지나친 피로, 나는 성내서는 안 된다.
+ 
+  여자는 자리에서 일어나 옷깃을 여미고 화단에서 금잔화 한 포기를 따 가슴에 꽂고 병실 안으로 사라진다. 나는 그 여자의 건강이― 아니 내 건강도 속히 회복되기를 바라며 그가 누웠던 자리에 누워본다
+
+</NOTE>
+        <CODE>살구나무 그늘로 얼굴을 가리고, 병원 뒤뜰에 누워, 젊은 여자가 흰 옷 아래로 하얀 다리를 드러내놓고 일광욕을 한다. 한나절이 기울도록 가슴을 앓는다는 이 여자를 찾아오는 이, 나비 한 마리도 없다. 슬프지도 않은 살구나무 가지에는 바람조차 없다.
+ 
+  나도 모를 아픔을 오래 참다 처음으로 이곳에 찾아왔다. 그러나 나의 늙은 의사는 젊은이의 병을 모른다. 나한테는 병이 없다고 한다. 이 지나친 시련, 이 지나친 피로, 나는 성내서는 안 된다.
+ 
+  여자는 자리에서 일어나 옷깃을 여미고 화단에서 금잔화 한 포기를 따 가슴에 꽂고 병실 안으로 사라진다. 나는 그 여자의 건강이― 아니 내 건강도 속히 회복되기를 바라며 그가 누웠던 자리에 누워본다
+
+</CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:40:59 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="52" ParentIndex="41" Expand="0">
+        <TITLE color="None" background="None">별똥 떨어진 데</TITLE>
+        <ID>57</ID>
+        <ID_SORT>52</ID_SORT>
+        <DEPTH>41</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>8331f6cb_b5f7_4697_94d5_85959ce5df86</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>밤이다.
+　하늘은 푸르다 못해 농회색(濃灰色)으로 캄캄하나 별들만은 또렷또렷 빛난다. 침침한 어둠뿐만 아니라 오삭오삭 춥다. 이 육중한 기류(氣流) 가운데 자조(自嘲)하는 한 젊은이가 있다. 그를 나라고 불러 두자.
+　나는 이 어둠에서 배태(胚胎)되고 이 어둠에서 생장(生長)하여서 아직도 이 어둠 속에 그대로 생존(生存)하나 보다. 이제 내가 갈 곳이 어딘지 몰라 허우적거리는 것이다. 하기는 나는 세기(世紀)의 초점(焦点)인 듯 초췌(憔悴)하다. 얼핏 생각하기에는 내 바닥을 반듯이 받들어 주는 것도 없고 그렇다고 내 머리를 갑박이 내려 누르는 아무 것도 없는 듯하다마는 내막(內幕)은 그렇지도 않다. 나는 도무지 자유(自由)스럽지 못하다. 다만 나는 없는 듯 있는 하루살이처럼 허공에 부유(浮遊)하는 한 점에 지나지 않는다. 이것이 하루살이처럼 경쾌(輕快)하다면 마침 다행할 것인데 그렇지를 못하구나!
+　이 점의 대칭위치(對稱位置)에 또 하나 다른 밝음(明)의 초점(焦点)이 도사리고 있는 듯 생각된다. 덥석 움키었으면 잡힐 듯도 하다.
+　마는 그것을 휘잡기에는 나 자신(自身)이 둔질(鈍質)이라는 것보다 오히려 내 마음에 아무런 준비(準備)도 배포치 못한 것이 아니냐. 그리고 보니 행복이란 별스러운 손님을 불러들이기에도 또 다른 한 가닥 구실을 치르지 않으면 안될까 보다.
+　이 밤이 나에게 있어 어릴 적처럼 한낱 공포(恐怖)의 장막인 것은 벌써 흘러간 전설(傳設)이오. 따라서 이 밤이 향락(享樂)의 도가니라는 이야기도 나의 염두(念頭)에선 아직 소화(消化)시키지 못할 돌덩이다. 오로지 밤은 나의 도전(挑戰)의 호적(好敵)이면 그만이다.
+　이것이 생생한 관념 세계(觀念 世界)에만 머무른다면 애석한 일이다. 어둠 속에 깜박깜박 졸며 다닥다닥 나란히 한 초가(草家)들이 아름다운 시의 화사(華詞)가 될 수 있다는 것은 벌써 지나간 제너레이션의 이야기요, 오늘에 있어서는 다만 말 못하는 비극(悲劇)의 배경(背景)이다.
+　이제 닭이 홰를 치면서 맵짠 울음을 뽑아 밤을 쫓고 어둠을 짓내몰아 동켠으로 훤히 새벽이란 새로운 손님을 불러온다 하자. 하나 경망(輕妄)스럽게 그리 반가워할 것은 없다. 보아라, 가령(假令) 새벽이 왔다 하더라도 이 마을은 그대로 암담(暗澹)하고 나도 그대로 암담(暗澹)하고 하여서 너나 나나 이 가랑지질에서 주저주저 아니치 못할 존재(存在)들이 아니냐.
+　나무가 있다.
+　그는 나의 오랜 이웃이요, 벗이다. 그렇다고 그와 내가 성격이나 환경이나 생활이 공통한 데 있어서가 아니다. 말하자면 극단과 극단 사이에도 애정(愛情)이 관통(貫通)할 수 있다는 기적적인 교분(交分)의 한 표본(標本)에 지나지 못할 것이다.
+　나는 처음 그를 퍽 불행한 존재(存在)로 가소롭게 여겼다. 그의 앞에 설 때 슬퍼지고 측은(惻隱)한 마음이 앞을 가리곤 하였다. 마는 오늘 돌이켜 생각건대 나무처럼 행복한 생물은 다시 없을 듯하다. 굳음에는 이루 비길 데 없는 바위에도 그리 탐탁지는 못할망정 자양분(滋養分)이 있다 하거늘 어디로 간들 생의 뿌리를 박지 못하며 어디로 간들 생활의 불평이 있을쏘냐. 칙칙하면 솔솔 솔바람이 불어 오고, 심심하면 새가 와서 노래를 부르다 가고, 촐촐하면 한 줄기 비가 오고, 밤이면 수많은 별들과 오순도순 이야기할 수 있고───보다 나무는 행동의 방향이란 거추장스러운 과제(課題)에 봉착(逢着)하지 않고 인위적(人爲的)으로든 우연(偶然)으로써든 탄생(誕生)시켜 준 자리를 지켜 무궁무진(無窮無盡)한 영양소(營養素)를 흡취(吸取)하고 영롱(鈴瓏)한 햇빛을 받아들여 손쉽게 생활을 영위(營爲)하고 오로지 하늘만 바라고 뻗어질 수 있는 것이 무엇보다 행복스럽지 않으냐.
+　이 밤도 과제(課題)를 풀지 못하여 안타까운 나의 마음에 나무의 마음이 점점 옮아오는 듯하고, 행동할 수 있는 자랑을 자랑치 못함에 뼈저리는 듯하나 나의 젊은 선배(先輩)의 웅변(雄辯)에 왈(曰) 선배(先輩)도 믿지 못할 것이라니 그러면 영리(怜悧)한 나무에게 나의 방향을 물어야 할 것인가.
+　어디로 가야 하느냐 동이 어디냐 서가 어디냐 남이 어디냐 북이 어디냐. 아차! 저 별이 번쩍 흐른다. 별똥 떨어진 데가 내가 갈 곳인가 보다. 하면 별똥아! 꼭 떨어져야 할 곳에 떨어져야 한다.
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:25:16 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="53" ParentIndex="41" Expand="0">
+        <TITLE color="None" background="None">달을 쏘다</TITLE>
+        <ID>50</ID>
+        <ID_SORT>53</ID_SORT>
+        <DEPTH>41</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>74f7223e_1bbe_440a_88b8_3f97e72b192e</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000">조선일보 1939년(23세) 1월 23일자에 발표.</SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>번거롭던 사위(四圍)가 잠잠해지고 시계(時計)소리가 또렷하나보니 밤은 저윽히 깊을 대로 깊은 모양이다. 보던 책자(冊子)를 책상(冊床)머리에 밀어놓고 잠자리를 수습한 다음 잠옷을 걸치는 것이다. '딱' 스위치 소리와 함께 전등(電燈)을 끄고 창(窓) 옆의 침대(寢臺)에 드러누우니 이때까지 밖은 휘황한 달밤이었던 것을 감각(感覺)치 못하였댔다. 이것도 밝은 전등의 혜택(惠澤)이었을까.
+  나의 누추(陋醜)한 방(房)이 달빛에 잠겨 아름다운 그림이 된다는 것보다도 오히려 슬픈 선창(船艙)이 되는 것이다. 창살이 이마로부터 콧마루, 입술 이렇게 해서 가슴에 여민 손등에까지 어른거려 나의 마음을 간지르는 것이다. 옆에 누운 분의 숨소리에 방(房)은 무시무시해진다. 아이처럼 황황해지는 가슴에 눈을 치떠서 밖을 내다보니 가을하늘은 역시 맑고 우거진 송림(松林)은 한 폭의 묵화(墨畵)다. 달빛은 솔가지에 솔가지에 쏟아져 바람인양 쏴―소리가 날 듯하다. 들리는 것은 시계소리와 숨소리와 귀뚜리 울음뿐 벅적하던 기숙사(奇宿舍)도 절간보다 더 한층 고요한 것이 아니냐?
+  나는 깊은 사념(思念)에 잠기우기 한창이다. 딴은 사랑스런 아가씨를 사유(私有)할 수 있는 아름다운 상화(想華)&lt;생각>도 좋고, 어릴 적 미련(未練)을 두고 온 고향(故鄕)에의 향수도 좋거니와 그보다 손쉽게 표현(表現) 못할 심각(深刻)한 그 무엇이 있다.
+  바다를 건너온 H군(君)의 편지사연을 곰곰 생각할수록 사람과 사람 사이의 감정(感情)이란 미묘(微妙)한 것이다. 감상적인 그에게도 필연(必然)코 가을은 왔나보다.
+  편지는 너무나 지나치지 않았던가 그 중(中) 한 토막.
+  '군(君)아! 나는 지금 울며 울며 이 글을 쓴다. 이 밤도 달이 뜨고, 바람이 불고, 인간(人間)인 까닭에 가을이란 흙냄새도 안다. 정(情)의 눈물 따뜻한 예술학도(藝術學徒)였던 정(情)의 눈물도 이 밤이 마지막이다.'
+  또 마지막 켠으로 이런 구절(句節)이 있다.
+  '당신은 나를 영원(永遠)히 쫓아버리는 것이 정직(正直)할 것이오.'
+  나는 이 글의 뉘앙스를 해득(解得)할 수 있다. 그러나 사실 나는 그에게 아픈 소리 한 마디 한 일이 없고 설운 글 한쪽 보낸 일이 없지 아니한가. 생각건대 이 죄(罪)는 다만 가을에게 지워 보낼  수밖에 없다.
+  홍안서생(紅顔書生)으로 이런 단안(斷案)을 내리는 것은 외람한 일이나 동무란 한낱 괴로운 존재(存在)요 우정(友情)이란 진정코 위태로운 잔에 또 넣은 물이다. 이 말을 반대(反對)할 자(者) 누구랴. 그러나 지기(知己) 하나 얻기 힘든다 하거늘 알뜰한 동무 하나 잃어버린다는 것이 살을 베어내는 아픔이다.
+  나는 나를 정원(庭園)에서 발견(發見)하고 창(窓)을 넘어 나왔다든가 방문을 열고 나왔다든가 왜 나왔느냐 하는 어리석은 생각에 두뇌(頭腦)를 괴롭게 할 필요(必要)는 없는 것이다. 다만 귀뚜라미 울음에도 수줍어지는 코스모스 앞에 그윽히 서서 닥터 빌링스의 동상(銅像) 그림자처럼 슬퍼지면 그만이다. 나는 이 마음을 아무에게나 전가(轉家)시킬 심보는 없다. 옷깃은 민감(敏感)이어서 달빛에도 싸늘히 추워지고 가을 이슬이란 선득선득하여서 설운 사나이의 눈물인 것이다.
+  발걸음은 몸뚱이를 옮겨 못가에 세워줄 때 못 속에도 역시 가을이 있고, 삼경(三經)이 있고 나무가 있고, 달이 있다.(달이 있고―)
+  그 찰나(刹那) 가을이 원망(怨望)스럽고 달이 미워진다. 더듬어 돌을 찾아 달을 향(向)하여 죽어라고 팔매질을 하였다. 통쾌(痛快)! 달은 산산(散散)히 부서지고 말았다. 그러나 놀랐던 물결이 잦어들 때 오래잖아 달은 도로 살아난 것이 아니냐, 문득 하늘을 쳐다보니 얄미운 달은 머리 위에서 빈정대는 것을―
+  나는 곳곳한 나무가를 고나 띠를 째서 줄을 메워 훌륭한 활을 만들었다. 그리고 좀 탄탄한 갈대로 화살을 삼아 무사(武士)의 마음을 먹고 달을 쏘다. 
+
+
+
+
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:25:16 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="54" ParentIndex="41" Expand="0">
+        <TITLE color="None" background="None">비오는 밤</TITLE>
+        <ID>44</ID>
+        <ID_SORT>54</ID_SORT>
+        <DEPTH>41</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>a2ba280c_3aff_4665_a2fe_c9497faf39f6</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>솨― 철석! 파도소리 문살에 부서져
+잠 살포시 꿈이 흩어진다.
+ 
+잠은 한낱 검은 고래 떼처럼 설레어
+달랠 아무런 재주도 없다.
+ 
+불을 밝혀 잠옷을 정성스리 여미는 삼경. 염원.
+ 
+동경의 땅 강남에 또 홍수질 것만 싶어
+바다의 향수보다 더 호젓해진다</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:25:16 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="55" ParentIndex="41" Expand="0">
+        <TITLE color="None" background="None">바다</TITLE>
+        <ID>108</ID>
+        <ID_SORT>55</ID_SORT>
+        <DEPTH>41</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>9e213c2f_2320_4cd4_bc9c_1db2f09d72a9</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>실어다 뿌리는
+바람조차 시원타.
+ 
+솔나무 가지마다 새촘히
+고개를 돌리어 뻐들어지고,
+ 
+밀치고
+밀치운다.
+ 
+이랑을 넘는 물결은
+폭포처럼 피어오른다.
+ 
+해변(海邊)에 아이들이 모인다
+찰찰 손을 씻고 구보로.
+바다는 자꾸 설워진다.
+갈매기의 노래에.....
+ 
+돌아다보고 돌아다보고
+돌아가는 오늘의 바다여!
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 15:00:09 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="56" ParentIndex="41" Expand="0">
+        <TITLE color="None" background="None">비로봉</TITLE>
+        <ID>107</ID>
+        <ID_SORT>56</ID_SORT>
+        <DEPTH>41</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>eea1f58e_723e_4786_bca9_ceab64612f6c</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>만상(萬尙)을
+굽어 보기란──
+
+무릎이
+오들오들 떨린다.
+
+백화(白花)
+어려서 늙었다.
+
+새가
+나비가 된다.
+
+정말 구름이
+비가 된다.
+
+옷자락이
+춥다.
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 15:00:09 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="57" ParentIndex="41" Expand="0">
+        <TITLE color="None" background="None">비애</TITLE>
+        <ID>104</ID>
+        <ID_SORT>57</ID_SORT>
+        <DEPTH>41</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>adcff7c5_eb8e_4285_a120_4e6297724899</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>호적한 세기의 달을 따라
+알 듯 모를 듯한 데로 거닐고자!
+
+아닌 밤중에 튀기듯이
+잠자리를 뛰쳐
+끝없는 광야를 홀로 거니는
+사람의 심사는 외로우려니
+
+아..이 젊은이는
+피라밋처럼 슬프구나
+
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 15:00:09 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="58" ParentIndex="41" Expand="0">
+        <TITLE color="None" background="None">밤</TITLE>
+        <ID>39</ID>
+        <ID_SORT>58</ID_SORT>
+        <DEPTH>41</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>72317606_c66a_4871_99d2_864d339d0063</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>외양간 당나귀
+아앙 앙 외마디 울음 울고,
+ 
+당나귀 소리에
+으-아 아 애기 소스라쳐 깨고
+ 
+등잔에 불을 다오.
+ 
+아버지는 당나귀에게
+짚을 한 키 담아주고,
+ 
+어머니는 애기에게
+젖을 한 모금 먹이고,
+ 
+밤은 다시 고요히 잠드오. </NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:22:26 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="59" ParentIndex="41" Expand="0">
+        <TITLE color="None" background="None">반딧불</TITLE>
+        <ID>35</ID>
+        <ID_SORT>59</ID_SORT>
+        <DEPTH>41</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>d2815e3b_d61f_4874_b976_32574e5fcae6</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>가자, 가자, 가자,
+숲으로 가자
+달조각을 주우러 
+숲으로 가자
+
+그믐달 반딧불은 
+부서진 달조각
+
+가자, 가자, 가자,
+숲으로 가자
+달조각을 주우러 
+숲으로 가자
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:22:26 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="60" ParentIndex="-1" Expand="0">
+        <TITLE color="None" background="None">ㅅ</TITLE>
+        <ID>120</ID>
+        <ID_SORT>60</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>fb57e224_492d_479a_b4d7_55290b1734da</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>Menu</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>일 12월 23 16:24:17 2018</CREATED>
+        <MODIFED>일 12월 23 16:24:38 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="61" ParentIndex="60" Expand="0">
+        <TITLE color="None" background="None">산상</TITLE>
+        <ID>16</ID>
+        <ID_SORT>61</ID_SORT>
+        <DEPTH>60</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>4d708a57_f8f7_4258_b6fd_0bf96b4174f5</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>거리가 바둑판처럼 보이고,
+강물이 배암의 새끼처럼 기는
+산 위에까지 왔다.
+아직쯤은 사람들이
+바둑돌처럼 벌려 있으리라.
+
+
+한나절의 태양이
+함석지붕에만 비치고,
+굼벵이 걸음을 하던 기차가
+정거장에 섰다가 검은 내를 토하고
+또 걸음발을 탄다.
+
+
+텐트 같은 하늘이 무너져
+이 거리를 덮을까 궁금하면서
+좀 더 높은데로 올라가고 싶다.
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:22:26 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="62" ParentIndex="60" Expand="0">
+        <TITLE color="None" background="None">새로운 길</TITLE>
+        <ID>17</ID>
+        <ID_SORT>62</ID_SORT>
+        <DEPTH>60</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>ae45a0cf_0619_4853_8733_94d7af006cad</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>내를 건너서 숲으로 
+고개를 넘어서 마을로​
+
+어제도 가고 오늘도 갈
+나의 길 새로운 길
+
+
+민들레가 피고 까치가 날고 
+아가씨가 지나고 바람이 일고
+
+나의 길은 언제나 새로운 길
+오늘도… 내일도…
+
+내를 건너서 숲으로 
+고개를 넘어서 마을로</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:22:26 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="63" ParentIndex="60" Expand="0">
+        <TITLE color="None" background="None">산림</TITLE>
+        <ID>18</ID>
+        <ID_SORT>63</ID_SORT>
+        <DEPTH>60</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>20bcc419_7e1e_420f_8039_100a0bfa2222</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>시계가 자근자근 가슴을 때려 
+불안한 마음을 산림(山林)이 부른다.
+
+천년 오래인 연륜에 찌들은 유암(幽暗)한 
+산림(山林)이, 고달픈 한 몸을 포옹(抱擁) 할 
+인연을 가졌나보다.
+
+산림의 검은 파동(波動)위로부터
+어둠은 어린 가슴을 짓밟고
+
+이파리를 흔드는 저녁 바람이
+솨ㅡ공포에 떨게 한다.
+
+멀리 첫여름의 개구리 재질댐에 
+흘러간 마을의 과거는 아질타.
+
+나무틈으로 반짝이는 별만이 
+새날의 희망으로 나를 이끈다.
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:22:26 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="64" ParentIndex="60" Expand="0">
+        <TITLE color="None" background="None">사랑스런 추억(追憶)</TITLE>
+        <ID>64</ID>
+        <ID_SORT>64</ID_SORT>
+        <DEPTH>60</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>f70ea59a_1375_4b0e_adf2_bd9c97487d86</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>봄이 오던 아침, 서울 어느 조그만 정거장에서 
+희망과 사랑처럼 기차를 기다려,
+
+나는 플랫폼에 간신히 그림자를 떨어뜨리고,
+담배를 피웠다.
+
+내 그림자는 담배 연기 그림자를 날리고 
+비둘기 한 떼가 부끄러울 것도 없이
+나래 속을 속, 속, 햇빛에 비춰, 날았다.
+
+기차는 아무 새로운 소식도 없이 
+나를 멀리 실어다 주어, 
+
+봄은 다 가고 ㅡ 동경(東京) 교외 어느 조용한 
+하숙방에서, 옛 거리에 남은 나를 희망과
+사랑처럼 그리워한다.
+
+오늘도 기차는 몇 번이나 무의미하게 지나가고,
+
+오늘도 나는 누구를 기다려
+정거장 가까운 언덕에서 서성거릴 게다.
+
+ㅡ 아아 젊음은 오래 거기 남아 있거라.
+
+</NOTE>
+        <CODE>
+Rectangle
+{
+	width : compSub.width
+	height : 50
+	color : "grey"
+}
+</CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:35:41 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="65" ParentIndex="60" Expand="0">
+        <TITLE color="None" background="None">쉽게 쓰여진 시</TITLE>
+        <ID>66</ID>
+        <ID_SORT>65</ID_SORT>
+        <DEPTH>60</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>323734ad_8197_4399_bda1_ccb957a2fb15</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>창(窓) 밖에 밤비가 속살거려
+육첩방(六疊房)은 남의 나라
+
+시인(詩人)이란 슬픈 천명(天命) 인 줄 알면서도
+한 줄 시(詩)를 적어 볼까
+
+땀내와 사랑내 포근히 품긴
+보내주신 학비(學費) 봉투(封套)를 받아
+
+대학(大學) 노-트를 끼고
+늙은 교수(敎授)의 강의(講義) 들으러 간다
+
+생각해 보면 어린때 동무들 
+하나 둘 죄다 잃어 버리고 
+
+나는 무얼 바라 
+다만 홀로 침전(沈澱)하는 것일까
+
+인생(人生)은 살기 어렵다는데
+詩가 이렇게 쉽게 씌어지는 것은
+부끄러운 일이다
+
+육첩방(六疊房)은 남의 나라
+창(窓) 밖에 밤비가 속살거리는데
+
+등불을 밝혀 어둠을 조금 내몰고
+시대(時代) 처럼 올 아침을 기다리는 최후의 나
+
+나는 나에게 적은 손을 내밀어
+눈물과 위안(慰安)으로 잡는 최초(最初)의 악수(握手)</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:35:41 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="66" ParentIndex="60" Expand="0">
+        <TITLE color="None" background="None">서시</TITLE>
+        <ID>84</ID>
+        <ID_SORT>66</ID_SORT>
+        <DEPTH>60</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>18d836a4_ba96_452e_bb40_4dac65e80fdd</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>죽는 날까지 하늘을 우러러
+한 점 부끄럼이 없기를,
+잎새에 이는 바람에도
+나는 괴로워했다.
+
+별을 노래하는 마음으로
+모든 죽어 가는 것을 사랑해야지
+그리고 나한테 주어진 길을
+걸어가야겠다.
+
+오늘 밤에도 별이 바람에 스치운다.
+</NOTE>
+        <CODE>죽는 날까지 하늘을 우러러
+한 점 부끄럼이 없기를,
+잎새에 이는 바람에도
+나는 괴로워했다.
+
+별을 노래하는 마음으로
+모든 죽어 가는 것을 사랑해야지
+그리고 나한테 주어진 길을
+걸어가야겠다.
+
+오늘 밤에도 별이 바람에 스치운다.
+</CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:40:59 2018</CREATED>
+        <MODIFED>火 2月 20 17:09:09 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="67" ParentIndex="60" Expand="0">
+        <TITLE color="None" background="None">십자가</TITLE>
+        <ID>77</ID>
+        <ID_SORT>67</ID_SORT>
+        <DEPTH>60</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>81e59849_f073_4c90_8715_45ec0fdcc1e2</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>쫓아오던 햇빛인데
+지금 교회당 꼭대기
+십자가에 걸리었습니다.
+  
+첨탑(尖塔)이 저렇게도 높은데
+어떻게 올라갈 수 있을까요.
+  
+종소리도 들려오지 않는데
+휘파람이나 불며 서성거리다가
+  
+괴로웠던 사나이
+행복한 예수 그리스도에게
+처럼
+십자가가 허락된다면
+  
+모가지를 드리우고
+꽃처럼 피어나는 피를
+어두워 가는 하늘 밑에
+조용히 흘리겠습니다.
+</NOTE>
+        <CODE>쫓아오던 햇빛인데
+지금 교회당 꼭대기
+십자가에 걸리었습니다.
+  
+첨탑(尖塔)이 저렇게도 높은데
+어떻게 올라갈 수 있을까요.
+  
+종소리도 들려오지 않는데
+휘파람이나 불며 서성거리다가
+  
+괴로웠던 사나이
+행복한 예수 그리스도에게
+처럼
+십자가가 허락된다면
+  
+모가지를 드리우고
+꽃처럼 피어나는 피를
+어두워 가는 하늘 밑에
+조용히 흘리겠습니다.
+</CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:40:59 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="68" ParentIndex="60" Expand="0">
+        <TITLE color="None" background="None">새벽이 올 때까지</TITLE>
+        <ID>76</ID>
+        <ID_SORT>68</ID_SORT>
+        <DEPTH>60</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>396068e0_8399_4b45_8eea_8fb5992a9c32</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>다들 죽어가는 사람들에게
+검은 옷을 입히시오
+
+다들 살아가는 사람들에게
+흰 옷을 입히시오
+
+그리고 한 침대에 
+가지런히 잠을 재우시오
+
+다들 울거들랑
+젖을 먹이시오
+
+이제 새벽이 오면
+나팔소리 들려올 게외다
+</NOTE>
+        <CODE>다들 죽어가는 사람들에게
+검은 옷을 입히시오
+
+다들 살아가는 사람들에게
+흰 옷을 입히시오
+
+그리고 한 침대에 
+가지런히 잠을 재우시오
+
+다들 울거들랑
+젖을 먹이시오
+
+이제 새벽이 오면
+나팔소리 들려올 게외다
+</CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:40:59 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="69" ParentIndex="60" Expand="0">
+        <TITLE color="None" background="None">소년(少年)</TITLE>
+        <ID>56</ID>
+        <ID_SORT>69</ID_SORT>
+        <DEPTH>60</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>a3219686_8538_4bdc_becb_d931677c3dbf</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>여기저기서 단풍잎 같은 슬픈 가을이 뚝뚝 떨어진다.
+단풍잎 떨어져 나온 자리마다 봄을 마련해 놓고 
+나뭇가지 우에 하늘이 펼쳐있다. 
+가만히 하늘을 들여다보려면 눈썹에 파란 물감이 든다.
+두 손으로 따뜻한 볼을 쓸어보면 
+손바닥에도 파란 물감이 묻어난다.
+
+다시 손바닥을 들여다본다.
+손금에는 맑은 강물이 흐르고, 강물 속에는 
+사랑처럼 슬픈 얼굴 ㅡ 아름다운 순이(順伊)의 얼굴이 어린다.
+소년은 황홀히 눈을 감아 본다.
+그래도 맑은 강물은 흘려 
+사랑처럼 슬픈 얼굴 ㅡ 아름다운 순이(順伊)의 얼굴은 어린다.
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:25:16 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="70" ParentIndex="60" Expand="0">
+        <TITLE color="None" background="None">산골 물</TITLE>
+        <ID>54</ID>
+        <ID_SORT>70</ID_SORT>
+        <DEPTH>60</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>5a575ec9_d3ad_448d_b325_5c8517d18194</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>괴로운 사람아 괴로운 사람아 
+옷자락 물결속에서도 
+가슴속 깊이 돌돌 샘물이 흘려 
+이 밤을 더불어 말할 이 없도다.
+거리의 소음과 노래 부를 수 없도다. 
+
+그런 듯이 냇가에 앉았으니 
+사랑과 일을 거리에 맡기고 
+가만히 가만히 
+바다로 가자, 
+바다로 가자.
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:25:16 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="71" ParentIndex="60" Expand="0">
+        <TITLE color="None" background="None">슬픈 존속</TITLE>
+        <ID>48</ID>
+        <ID_SORT>71</ID_SORT>
+        <DEPTH>60</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>acc8f52d_e2d0_4923_8789_278ecf4b838e</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>흰 수건이 검은 머리를 두르고
+흰 고무신이 거친 발에 걸리우다.
+
+흰 저고리 치마가 슬픈 몸집을 가리고
+흰 띠가 가는 허리를 질끈 동이다.
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:25:16 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="72" ParentIndex="60" Expand="0">
+        <TITLE color="None" background="None">사랑의 전당(殿堂)</TITLE>
+        <ID>46</ID>
+        <ID_SORT>72</ID_SORT>
+        <DEPTH>60</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>b28fad13_d2d8_4aa2_b207_84bee15e008b</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>순(順)아 너는 내 전(殿)에 언제 들어왔든 것이냐?"
+내사 언제 네 전(殿)에 들어갔든 것이냐?
+ 
+우리들의 전당(殿堂)은
+고풍(古風) 한 풍습이 어린 사랑의 전당(殿堂)
+ 
+순(順)아 암사슴처럼 수정눈을 나려감어라.
+난 사자처럼 엉크린 머리를 고루련다.
+ 
+우리들의 사랑은 한낱 벙어리였다.
+ 
+청춘!
+성스런 촛대에 열(熱)한 불이 꺼지기 전
+순아 너는 앞문으로 내달려라.
+ 
+어둠과 바람이 우리 창에 부닥치기 전
+나는 영원한 사랑를 안은 채
+뒷문으로 멀리 사라지련다.
+ 
+이제
+네게는 삼림 속의 아늑한 호수가 있고,
+내게는 험준한 산맥이 있다.
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:25:16 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="73" ParentIndex="60" Expand="0">
+        <TITLE color="None" background="None">산울림</TITLE>
+        <ID>43</ID>
+        <ID_SORT>73</ID_SORT>
+        <DEPTH>60</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>6c0b626c_770b_472a_a129_00cf5b593ab4</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>까치가 울어서
+산울림.
+아무도 못 들은
+산울림.
+
+까치가 들었다,
+산울림.
+저 혼자 들었다,
+산울림
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:25:16 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="74" ParentIndex="60" Expand="0">
+        <TITLE color="None" background="None">산협의 오후</TITLE>
+        <ID>106</ID>
+        <ID_SORT>74</ID_SORT>
+        <DEPTH>60</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>ad7cb7c9_5c83_4ff0_9dd4_9ad03327f9f4</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>내 노래는 오히려
+설은 산울림.
+
+골짜기 길에
+떨어진 그림자는
+너무나 슬프구나
+
+오후의 명상暝想은
+아- 졸려.</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 15:00:09 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="75" ParentIndex="60" Expand="0">
+        <TITLE color="None" background="None">소낙비</TITLE>
+        <ID>103</ID>
+        <ID_SORT>75</ID_SORT>
+        <DEPTH>60</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>280fde12_88a3_4909_a48f_904c1594747f</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>번개, 뇌성, 왁자기근 뚜다려
+머ㅡㄴ 도회지(都會地)에 낙뢰가 있어만 싶다.
+
+벼룻짱 엎어논 하늘로 
+살 같은 비가 살처럼 쏟아진다.
+
+손바닥만한 나의 정원(庭園)이
+마음같이 흐린 호수(湖水)되기 일수다.
+
+바람이 팽이처럼 돈다.
+나무가 머리를 이루 잡지 못한다.
+
+내 경건(敬虔)한 마음을 모셔드려
+노아 때 하늘을 한 모금 마시다.
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 15:00:09 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="76" ParentIndex="-1" Expand="0">
+        <TITLE color="None" background="None">ㅇ</TITLE>
+        <ID>121</ID>
+        <ID_SORT>76</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>36b3a4d8_1abe_4fad_89e3_b37f710a534c</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>Menu</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>일 12월 23 16:24:17 2018</CREATED>
+        <MODIFED>일 12월 23 16:24:40 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="77" ParentIndex="76" Expand="0">
+        <TITLE color="None" background="None">오줌싸개 지도</TITLE>
+        <ID>89</ID>
+        <ID_SORT>77</ID_SORT>
+        <DEPTH>76</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>fec0d992_665b_45f5_8ff0_6596b8b39879</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>빨래줄에 걸어논
+      요에다 그린 지도
+지난밤에 내 동생
+      오줌싸 그린 지도
+ 
+꿈에 가본 엄마 계신
+       별나라 지돈가?
+돈 벌러 간 아빠 계신
+       만주땅 지돈가?
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:56:56 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="78" ParentIndex="76" Expand="0">
+        <TITLE color="None" background="None">이별</TITLE>
+        <ID>92</ID>
+        <ID_SORT>78</ID_SORT>
+        <DEPTH>76</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>515c457b_a728_45a2_ba9c_12ab2d8c9031</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>눈이 오다 물이 되는 날
+잿빛 하늘에 또 뿌연 내, 그리고
+크다란 기관차는 빼- 액-울며
+조그만 가슴은 울렁거린다.
+
+이별이 너무 재빠르다, 안타깝게도,
+사랑하는 사람을,
+일터에서 만나자 하고-
+더운 손의 맛과 구슬눈물이 마르기 전
+기차는 꼬리를 산굽으로 돌렸다.
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:56:56 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="79" ParentIndex="76" Expand="0">
+        <TITLE color="None" background="None">양지쪽</TITLE>
+        <ID>14</ID>
+        <ID_SORT>79</ID_SORT>
+        <DEPTH>76</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>ba9acd86_2264_4838_afc1_b7ec30cd86d1</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>저쪽으로 황토 실은 이 땅 봄바람이
+호인의 물레바퀴처럼 돌아 지나고
+
+아롱진 사월 태양의 손길이
+벽을 등진 설운 가슴마다 올올이 만진다.
+
+지도째기 놀음에 뉘 땅인 줄 모르는 애 둘이
+한 뼘 손가락이 짧음을 한 함이여
+
+아서라! 가뜩이나 엷은 평화가
+깨어질까 근심스럽다.
+
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:22:26 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="80" ParentIndex="76" Expand="0">
+        <TITLE color="None" background="None">오후의 구장</TITLE>
+        <ID>15</ID>
+        <ID_SORT>80</ID_SORT>
+        <DEPTH>76</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>a40a2dba_b45b_47c8_97f8_d94ec77231f3</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>늦은봄기다리든토요일날.
+오후 세시반의 경성행열차는,
+석탄연기를자욱이 품기고,
+소리치고 지나가고
+
+한몸을끟을기에 강하든.
+뿔이 자력을잃고
+한목음의물이
+불붓는목을.
+축이기에 넉넉하다,
+젊은 가슴의 피순환이 잣고,
+두 철각이 늘어진다,
+
+검은 기차연기와함께.
+풀은 산이
+아지랑저쪽으로
+까라안는다,
+
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:22:26 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="81" ParentIndex="76" Expand="0">
+        <TITLE color="None" background="None">이런 날</TITLE>
+        <ID>19</ID>
+        <ID_SORT>81</ID_SORT>
+        <DEPTH>76</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>7baa962f_da9f_4dbc_9f09_653537e647bf</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>사이좋은 정문의 두 돌기둥 끝에서
+五色旗오색기와 태양기(太陽旗)가 춤을 추는 날
+금(線선)을 그은 지역의 아이들이 즐거워하다.
+아이들에게 하루의 乾燥건조한 學課학과로
+해말간 권태(勸怠)가 깃들고
+'모순(矛盾)' 두 자를 이해치 못하도록
+머리가 단순하였구나.
+이런 날에는
+잃어버린 완고하던 형을
+부르고 싶다.
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:22:26 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="82" ParentIndex="76" Expand="0">
+        <TITLE color="None" background="None">위로(慰勞)</TITLE>
+        <ID>68</ID>
+        <ID_SORT>82</ID_SORT>
+        <DEPTH>76</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>f6964136_dafc_48c6_9cd2_4b7ef16a8d5b</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>거미란 놈이 흉한 심보로 
+병원 뒤뜰 난간과 꽃밭 사이
+사람 발이 잘 닿지 않은 곳에 그물을 
+쳐놓았다.
+옥외 요양(屋外療養)을 받는
+젊은 사나이가 누워서 쳐다보기 바르게ㅡ
+
+나비가 한 마리 꽃밭에 날아 들다 
+그물에 걸리었다.
+노ㅡ란 날개를 파득거려도
+나비는 자꾸 감기우기만 한다.
+거미가 쏟살같이 가더니 끝없는 실을 뽑아
+나비의 온몸을 감아 버린다.
+
+사나이는 긴 한숨을 쉬었다.
+
+나이보다 무수한 고생 끝에 
+때를 잃고 병(病)을 얻은 이 사나이를 
+위로(慰勞)할 말이ㅡ
+거미줄을 헝클어 버리는 것밖에 위로의
+말이 없었다.
+
+</NOTE>
+        <CODE>거미란 놈이 흉한 심보로 
+병원 뒤뜰 난간과 꽃밭 사이
+사람 발이 잘 닿지 않은 곳에 그물을 
+쳐놓았다.
+옥외 요양(屋外療養)을 받는
+젊은 사나이가 누워서 쳐다보기 바르게ㅡ
+
+나비가 한 마리 꽃밭에 날아 들다 
+그물에 걸리었다.
+노ㅡ란 날개를 파득거려도
+나비는 자꾸 감기우기만 한다.
+거미가 쏟살같이 가더니 끝없는 실을 뽑아
+나비의 온몸을 감아 버린다.
+
+사나이는 긴 한숨을 쉬었다.
+
+나이보다 무수한 고생 끝에 
+때를 잃고 병(病)을 얻은 이 사나이를 
+위로(慰勞)할 말이ㅡ
+거미줄을 헝클어 버리는 것밖에 위로의
+말이 없었다.
+
+</CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:40:59 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="83" ParentIndex="76" Expand="0">
+        <TITLE color="None" background="None">아우의 인상화</TITLE>
+        <ID>49</ID>
+        <ID_SORT>83</ID_SORT>
+        <DEPTH>76</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>94fdbb29_a0b2_40ef_9be8_38a8f7ff7edc</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>붉은 이마에 싸늘한 달이 서리어
+아우의 얼글은 슬픈 그림이다.
+
+발걸음을 멈추어
+살그머니 앳된 손을 잡으며
+'늬는 자라 무엇이 되려니'
+'사람이 되지'
+아우의 설은 진정코 설은 대답이다.
+
+슬며시 잡았던 손을 놓고
+아우의 얼굴을 다시 들여다본다.
+
+싸늘한 달이 붉은 이마에 젖어
+아우의 얼굴은 슬픈 그림이다.
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:25:16 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="84" ParentIndex="76" Expand="0">
+        <TITLE color="None" background="None">이적(異蹟)</TITLE>
+        <ID>45</ID>
+        <ID_SORT>84</ID_SORT>
+        <DEPTH>76</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>3570a595_713c_4f5d_b852_4d228769ea5e</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>발에 터부한 것을 다 빼어 버리고
+황혼이 호수위로 걸어 오듯이
+나도 사뿐사뿐 걸어 보리이까?
+ 
+ 
+내사 이 호수가로
+부르는 이 없이
+불리워 온 것은
+참말 이적(異蹟)이외다.
+ 
+ 
+오늘 따라
+연정(戀情), 자홀(自惚), 시기(猜忌),
+이것들이 자꾸 금메달처럼 만져지는구려
+ 
+ 
+하나, 내 모든 것을 여념(餘念)없이
+물결에 씻어 보내려니
+당신은 호면(湖面)으로 불러 내소서.
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:25:16 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="85" ParentIndex="76" Expand="0">
+        <TITLE color="None" background="None">애기의 새벽</TITLE>
+        <ID>41</ID>
+        <ID_SORT>85</ID_SORT>
+        <DEPTH>76</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>b8f890ac_5d2b_443f_b90f_9fcda4d2df6c</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>우리집에는 
+닭도 없단다. 
+다만 
+애기가 젖달라 울어서 
+새벽이 된다.
+
+우리집에는 
+시계도 없단다. 
+다만 
+애기가 젖달라 보채어 
+새벽이 된다.
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:25:16 2018</CREATED>
+        <MODIFED>火 2月 20 16:15:45 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="86" ParentIndex="76" Expand="0">
+        <TITLE color="None" background="None">유언</TITLE>
+        <ID>110</ID>
+        <ID_SORT>86</ID_SORT>
+        <DEPTH>76</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>2a1fe43d_06df_4b55_a317_5d27a201c825</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>후어─ㄴ한 房방에
+유언(遺言)은 소리 없는 입놀림.
+──바다에 진주(眞珠) 캐러 갔다는 아들
+해녀(海女)와사랑을 속삭인다는 맏아들
+이 밤에사 돌아오나 내다 봐라──
+평생(平生) 외로운 아버지의 운명(殞命),
+감기우는 눈에 슬픔이 어린다.
+외딴집에 개가 짖고,
+휘황찬 달이 문살에 흐르는 밤. 
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 15:00:09 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="87" ParentIndex="76" Expand="0">
+        <TITLE color="None" background="None">아침</TITLE>
+        <ID>33</ID>
+        <ID_SORT>87</ID_SORT>
+        <DEPTH>76</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>4af61a81_b0c6_4837_b457_01055ead5186</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>흭, 휙, 휙, 
+소꼬리가 부드러운 채찍질로 
+어둠을 좇아, 
+캄, 캄, 어둠이 깊다깊다 밝으오. 
+  
+이제 이 동리의 아침이 
+풀살 오는 소엉덩이처럼 푸드오. 
+이 동리 콩죽 먹은 사람들이 
+땀물을 뿌려 이 여름을 길렀오. 
+  
+잎, 잎, 풀잎마다 땀방울이 맺혔오. 
+  
+구김살 없는 이 아침을 
+심호흡하오 또 하오. 
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:22:26 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="88" ParentIndex="-1" Expand="0">
+        <TITLE color="None" background="None">ㅈ</TITLE>
+        <ID>122</ID>
+        <ID_SORT>88</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>f7a76a61_f7c5_4740_b5e7_3e18dccf66b0</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>Menu</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>일 12월 23 16:24:17 2018</CREATED>
+        <MODIFED>일 12월 23 16:24:40 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="89" ParentIndex="88" Expand="0">
+        <TITLE color="None" background="None">삶과 죽음</TITLE>
+        <ID>4</ID>
+        <ID_SORT>89</ID_SORT>
+        <DEPTH>88</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>f8920b35_1a20_4f88_8fe3_d90d6edfeff0</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>삶은 오늘도 죽음의 서곡을 노래하였다.
+이 노래가 언제나 끝나랴
+
+세상 사람은ㅡ
+뼈를 녹여내는 듯한 삶의 노래에
+춤을 춘다
+사람들은 해가 넘어가기 전 
+이 노래 끝의 공포를 
+생각할 사이가 없었다.
+
+하늘 복판에 알 새기듯이
+이 노래를 부른 자가 누구뇨
+
+그리고 소낙비 그친 뒤같이도
+이 노래를 그친 자가 누구뇨
+
+죽고 뼈만 남은 
+죽음의 승리자(勝利者) 위인(偉人)들!</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:15:27 2018</CREATED>
+        <MODIFED>火 2月 20 14:17:48 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="90" ParentIndex="88" Expand="0">
+        <TITLE color="None" background="None">조개껍질</TITLE>
+        <ID>11</ID>
+        <ID_SORT>90</ID_SORT>
+        <DEPTH>88</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>d0c36e25_7a88_4544_921e_294f95226453</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>아롱아롱 조개껍데기
+울언니　 바닷가에서
+주워온　 조개껍데기
+
+여긴여긴 북쪽나라요
+조개는　 귀여운선물
+장난감　 조개껍데기
+
+데굴데굴 굴리며놀다
+짝잃은　 조개껍데기
+한짝을　 그리워하네
+
+아롱아롱 조개껍데기
+나처럼　 그리워하네
+물소리　 바닷물소리
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:17:16 2018</CREATED>
+        <MODIFED>火 2月 20 14:18:15 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="91" ParentIndex="88" Expand="0">
+        <TITLE color="None" background="None">종달새</TITLE>
+        <ID>95</ID>
+        <ID_SORT>91</ID_SORT>
+        <DEPTH>88</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>cb065d4e_e419_43ab_aaef_a41c6fefaa13</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>종달새 이른 봄날
+질디진 거리의 뒷골목이
+싫더라
+명랑한 봄 하늘
+가벼운 두 나래를 펴서
+요염한 봄 노래가
+좋더라
+그러나
+오늘도 구멍 뚫린 구두를 끌고,
+훌렁훌렁 뒷거리 길로
+고기새끼 같은 나는 헤매나니
+나래와 노래가 없음인가.
+가슴이 답답하구나.
+</NOTE>
+        <CODE>
+
+</CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:56:56 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="92" ParentIndex="88" Expand="0">
+        <TITLE color="None" background="None">종시(終始)</TITLE>
+        <ID>59</ID>
+        <ID_SORT>92</ID_SORT>
+        <DEPTH>88</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>404e272e_d452_4217_9797_1fc30bebac23</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>종점(終点)이 시점(始点)이 된다. 다시 시점이 종점이 된다.
+　아침저녁으로 이 자국을 밟게 되는데 이 자국을 밟게 된 연유(緣由)가 있다. 일찍이 서산대사가 살았을 듯한 우거진 송림 속, 게다가  덩그러니 살림집은 외따로 한 채뿐이었으나 
+  식구(食口)로는 굉장한 것이어서 한 지붕 밑에서 팔도(八道) 사투리를 죄다 들을 만큼 모아 놓은 미끈한 장정(將丁)들만이 욱실욱실하였다. 이곳에 법령(法令)은 없었으나 여인 금납구(禁納區)였다. 만일 강심장의 여인이 있어 불의의 침입이 있다면 우리들의 호기심(好奇心)을 적이 자아내었고, 방마다 새로운 화제가 생기곤 하였다. 이렇듯 수도 생활에 나는 소라 속처럼 안도하였던 것이다.
+　사건이란 언제나 큰 데서 동기가 되는 것보다 오히려 작은 데서 더 많이 발작(發作)하는 것이다.
+　 
+    눈 온 날이었다. 동숙(同宿)하는 친구의 친구가 한 시간 남짓한 문안 들어가는 차 시간까지를 낭비하기 위하여 나의 친구를 찾아 들어와서 하는 대화였다.
+　"자네 여보게 이 집 귀신이 되려나?"
+　"조용한 게 공부하기 작히나 좋잖은가."
+　"그래 책장이나 뒤적뒤적하면 공분 줄 아나? 전차간에서 내다볼 수 있는 광경, 정거장에서 맛볼 수 있는 광경, 다시 기차(汽車) 속에서 대할 수 있는 모든 일들이 생활 아닌 것이 없거든. 
+생활 때문에 싸우는 이 분위기(雰圍氣)에 잠겨서, 보고, 생각하고, 분석하고, 이거야말로 진정한 의미의 교육이 아니겠는가.
+여보게! 자네 책장만 뒤지고 인생이 어떠하니 사회가 어떠하니 하는 것은 십육 세기에서나 찾아볼 일일세. 단연 문안으로 나오도록 마음을 돌리게." 
+ 
+　나한테 하는 권고(勸告)는 아니었으나 이 말에 귀띔 뚫려 상푸둥(과연) 그러리라고 생각하였다. 非但비단 여기만이 아니라 인간을 떠나서 도를 닦는다는 것이 한낱 오락이요, 오락이매 생활이 될 수 없고, 생활이 없으매 이 또한 죽은 공부가 아니랴. 하여 공부도 생활화하여야 되리라 생각하고 불일내에 문안으로 들어가기를 내심으로 단정해 버렸다. 그 뒤 매일같이 이 자국을 밟게 된 것이다.
+　나만 일찍이 아침거리의 새로운 감촉을 맛볼 줄만 알았더니 벌써 많은 사람들의 발자국에 포도(鋪道)는 어수선할대로 어수선했고 정류장에 머물 때마다 이 많은 무리를 죄다 어디 갖다 터트릴 心算심산인지 꾸역꾸역 자꾸 박아 싣는데 늙은이, 젊은이, 아이 할 것 없이 손에 꾸러미를 안 든 사람은 없다. 이것이 그들 생활의 꾸러미요, 동시에 권태의 꾸러민지도 모르겠다. 
+　이 꾸러미를 든 사람들의 얼굴을 하나하나씩 뜯어보기로 한다. 늙은이 얼굴이란 너무 오래 세파(世波)에 짜들어서 문제도 안 되겠거니와 그 젊은이들 낯짝이란 도무지 말씀이 아니다. 열이면 열이 다 우수(憂愁) 그것이요, 백이면 백이 다 비참 그것이다. 이들에게 웃음이란 가물에 콩싹이다. 필경 귀여우리라는 아이들의 얼굴을 보는 수밖에 없는데 아이들의 얼굴이란 너무나 창백하다. 혹시 숙제를 못해서 先生선생한테 꾸지람 들을 것이 걱정인지 풀이 죽어 쭈그러뜨린 것이 활기(活氣)란 도무지 찾아볼 수 없다. 내 상도 필연(必然)코 그 꼴일 텐데 내 눈으로 그 꼴을 보지 못하는 것이 다행이다. 만일 다른 사람의 얼굴을 보듯 그렇게 자주 내 얼굴을 대한다고 할 것 같으면 요사(夭死) 하였을는지도 모른다.
+　나는 내 눈을 의심하기로 하고 단념하자! 
+ 
+　차라리 성벽 위에 펼친 하늘을 쳐다보는 편이 더 통쾌하다. 눈은 하늘과 성벽 경계선을 따라 자꾸 달리는 것인데 이 성벽이란 현대로서 카무플라주한 옛 금성(禁城)이다. 이 안에 어떤 일이 이루어졌으며 어떤 일이 행하여지고 있는지 城성 밖에서 살아왔고 살고 있는 우리들에게는 알 바가 없다. 이제 다만 한 가닥 희망은 이 성벽이 끊어지는 곳이다.
+　기대(企待)는 언제나 크게 가질 것이 못 되어서 성벽이 끊어지는 곳에 총독부, 도청, 무슨 참고관, 체신국, 신문사, 소방조, 무슨 주식회사, 부청, 양복점, 고물상 등 나란히 하고 연달아 오다가 아이스케이크 간판에 눈이 잠깐 머무는데 이놈을 눈 내린 겨울에 빈집을 지키는 꼴이라든가, 제 身分신분에 맞잖는 가게를 지키는 꼴을 살짝 필름에 올리어 본달 것 같으면 한 폭의 고등 풍자만화가 될 터인데 하고 나는 눈을 감고 생각하기로 한다. 사실 요즈음 아이스케이크 간판(看板) 신세(身勢)를 면치 아니지 못할 자가 얼마나 되랴. 아이스케이크 간판은 정열에 불타는 염서가 진정 아쉽다. 
+ 
+　눈을 감고 한참 생각하노라면 한 가지 거리끼는 것이 있는데 이것은 도덕률이란 거추장스러운 의무감이다. 젊은 녀석이 눈을 딱 감고 버티고 앉아 있다고 손가락질하는 것 같아서 번쩍 눈을 떠 본다. 하나 가까이 자선할 대상이 없음에 자리를 잃지 않겠다는 심정보다 오히려 아니꼽게 본 사람이 없으리란 데 안심이 된다.
+　이것은 과단성 있는 동무의 주장이지만 전차에서 만난 사람은 원수요, 기차에서 만난 사람은 지기라는 것이다. 딴은 그러리라고 얼만큼 수긍하였었다. 한자리에서 몸을 비비적거리면서도 "오늘은 좋은 날씨올시다.", "어디서 내리시나요.?" 쯤의 인사는 주고받을 법한데, 일언반구 없이 뚱─한 꼴들이 작히나 큰 원수를 맺고 지내는 사이들 같다. 만일 상냥한 사람이 있어 요만큼의 예의를 밟는다고 할 것 같으면 전차 속의 사람들은 이를 정신이상자로 대접할 게다. 그러나 기차에서는 그렇지 않다. 名銜명함을 서로 바꾸고 고향 이야기, 행방 이야기를 거리낌 없이 주고받고 심지어 남의 여로를 자기의 여로인 것처럼 걱정하고, 이 얼마다 다정한 인생행로냐? 
+ 
+　이러는 사이에 남대문을 지나쳤다. 누가 있어 '자네 매일같이 남대문을 두 번씩 지날 터인데 그래 늘 보곤 하는가.'라는 어리석은 듯한 멘탈 테스트를 낸다면은 나는 아연(啞然)해지지 않을 수 없다. 가만히 기억을 더듬어 본달 것 같으면 늘이 아니라 이 자국을 밟은 이래(以來) 그 모습을 한 번이라도 쳐다본 적이 있었던 것 같지 않다. 하기는 나의 생활에 긴한 일이 아니매 당연한 일일 게다. 하나 여기에 하나의 교훈이 있다. 횟수가 너무 잦으면 모든 것이 피상적이 되어 버리느니라.
+　이것과는 관련이 먼 이야기 같으나 무료한 시간을 까기 위하여 한마디 하면서 지나가자. 
+　시골서는 내로라고 하는 양반이었던 모양인데 처음 서울 구경을 하고 돌아가서 며칠 동안 배운 서울 말씨를 섣불리 써 가며 서울 거리를 손으로 형용하고 말로써 떠벌려 옮겨 놓더란데, 정거장에 턱 내리니 앞에 고색(古色)이 창연한 남대문이 반기는 듯 가로막혀 있고, 총독부 집이 크고, 창경원에 백 가지 금수가 봄 직했고, 덕수궁의 옛 궁전이 회포를 자아냈고, 화신 승강기는 머리가 휭─했고, 본정엔 전등이 낮처럼 밝은데 사람이 물 밀리듯 밀리고 전차란 놈이 윙윙 소리를 지르며 지르며 연달아 달리고── 서울이 자기 하나를 위하여 이루어진 것처럼 우쭐했는데 이것쯤은 있을 듯한 일이다. 한데 게도 방정꾸러기가 있어
+　"남대문이란 현판이 참 명필이지요?" 하고 물으니 대답이 걸작이다.
+　"암 명필이고 말고. '남'자, '대'자, '문'자 하나하나 살아서 막 꿈틀거리는 것 같데."
+　어느 모로나 서울 자랑하려는 이 양반으로서는 가당한 대답일 게다. 이분에게 아현(阿峴) 고개 막바지에, ─아니 치벽한 데 말고,─ 가까이 종로 뒷골목에 무엇이 있던 가를 물었더라면 얼마나 당황해 했으랴.
+　
+   나는 종점을 시점으로 바꾼다.
+　내가 내린 곳이 나의 &lt;종점이요, 내가 타는 곳이 나의 시점이 되는 까닭이다. 이 짧은 순간 많은 사람들 속에 나를 묻는 것인데 나는 이네들에게 너무나 피상적이 된다. 나의 휴머니티를 이네들에게 발휘해 낸다는 재주가 없다. 이네들의 기쁨과 슬픔과 아픈 데를 나로서는 측량한다는 수가 없는 까닭이다. 너무 막연(漠然)하다. 사람이란 횟수가 잦은 데와 양이 많은 데는 너무나 쉽게 피상적이 되나 보다. 그럴수록 자기 하나 간수하기에 분망하나 보다. 
+ 
+　시그널(signal)을 밟고 기차는 왱─ 떠난다. 고향으로 향한 차도 아니건만 공연히 가슴은 설렌다. 우리 기차는 느릿느릿 가다 숨차면 가정거장에서도 선다. 매일같이 웬 여자들이 주룽주룽 서 있다. 제마다 꾸러미를 안았는데 예의 그 꾸러민 듯싶다. 다들 방년 된 아가씨들인데 몸매로 보아하니 공장으로 가는 직공들은 아닌 모양이다. 얌전히들 서서 기차를 기다리는 모양이다. 판단을 기다리는 모양이다. 하나 경망스럽게 유리창을 통하여 미인 판단을 내려서는 안된다. 피상 법칙이 여기에도 적용될지 모른다. 투명한 듯하여 믿지 못할 것이 유리다. 얼굴에 찌그러 놓듯이 한다든가 이마를 좁다랗게 한다든가 코를 말코로 만든다든가 턱을 조개 턱으로 만든다든가 하는 악희를 유리창이 때때로 감행하는 까닭이다.
+판단을 내리는 자에게는 별반 이해관계가 없다손 치더라도 판단을 받는 당자에게 오려던 행운이 도망갈는지를 누가 보장할쏘냐. 여하간 아무리 투명한 꺼풀일지라도 깨끗이 베껴버리는 것이 마땅할 것이다.
+　이윽고 터널이 입을 벌리고 기다리는데 거리 한가운데 지하철도도 아닌 터널이 있다는 것이 얼마나 슬픈 일이냐, 이 터널이란 인류 역사의 암흑시대요, 인생행로의 고민상이다. 공연히 바퀴 소리만 요란하다. 구역날 악질의 연기가 스며든다. 하나 미구(未久)에 우리에게 광명의 천지가 있다. 
+ 
+　터널을 벗어났을 때 요즈음 복선 공사에 분주한 노동자들을 볼 수 있다. 아침 첫차에 나갔을 때에도 일하고 저녁 늦車차에 들어올 때에도 그네들은 그대로 일하는데 언제 시작하여 언제 그치는지 나로서는 헤아릴 수 없다. 이네들이야말로 건설(建設)의 사도(使徒)들이다. 땀과 피를 아끼지 않는다. 
+　그 육중한 트럭을 밀면서도 마음만은 요원한 데 있어 트럭 판장에다 서투른 글씨로 신경행이니 북경행이니 남경행이니라고 써서 타고 다니는 것이 아니라 밀고 다닌다. 그네들의 마음을 볼 수 있다. 그것이 고력에 위안이 안 된다고 누가 주장하랴. 
+ 
+ 이제 나는 곧 종시(終始)를 바꿔야 한다. 하나 내 차에도 신경행, 북경행, 남경행을 달고 싶다. 세계일주행이라고 달고 싶다. 아니 그보다도 진정한 내 고향이 있다면 고향행을 달겠다. 다음 도착(到着)하여야 할 시대의 정거장이 있다면 더 좋다
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:25:16 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="93" ParentIndex="88" Expand="0">
+        <TITLE color="None" background="None">자화상(自畵像)</TITLE>
+        <ID>52</ID>
+        <ID_SORT>93</ID_SORT>
+        <DEPTH>88</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>6759dc8a_0c97_43cb_866f_78fcd4af05c2</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>산모퉁이를 돌아 논가 외딴 우물을 홀로 찾아가선
+가만히 들여다봅니다.
+
+우물 속에는 달이 밝고 구름이 흐르고 하늘이
+펼치고 파아란 바람이 불고 가을이 있습니다.
+
+그리고 한 사나이가 있습니다.
+어쩐지 그 사나이가 미워져 돌아갑니다.
+
+돌아가다 생각하니 그 사나이가 가엾어집니다.
+도로 가 들여다보니 사나이는 그대로 있습니다.
+
+다시 그 사나이가 미워져 돌아갑니다.
+돌아가다 생각하니 그 사나이가 그리워집니다.
+
+우물 속에는 달이 밝고 구름이 흐르고 하늘이
+펼치고 파아란 바람이 불고 가을이 있고
+추억처럼 사나이가 있습니다.
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:25:16 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="94" ParentIndex="88" Expand="0">
+        <TITLE color="None" background="None">장미 병들어</TITLE>
+        <ID>51</ID>
+        <ID_SORT>94</ID_SORT>
+        <DEPTH>88</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>39032d13_3847_4f5b_9292_2ed13990bdae</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>장미 병들어 
+옮겨 놓을 이웃이 없도다.
+
+달랑달랑 외로이 
+황마차(幌馬車) 태워 산에 보낼거나
+
+뚜---구슬피
+화륜선(火輪船) 태워 대양에 보낼거나
+
+프로펠러 소리 요란히
+비행기 태워 성층권(成層圈)에 보낼거나
+
+이것저것
+다 그만두고
+
+자라나는 아들이 꿈을 깨기 전
+이 내 가슴에 묻어다오
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:25:16 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="95" ParentIndex="88" Expand="0">
+        <TITLE color="None" background="None">장</TITLE>
+        <ID>98</ID>
+        <ID_SORT>95</ID_SORT>
+        <DEPTH>88</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>afad430b_fddc_43c3_b02f_2653ded8227e</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>이른 아침 아낙네들은 시들은 生活을
+바구니 하나 가득 담아 이고·······
+업고 지고······  안고 들고······
+모여드오 바꾸 장에 모여드오。
+가난한 生活을 골골이 버려놓고
+밀려 가고 밀려 오고······
+제마다 生活을 외치오······  싸우오。
+왼하로 올망졸망한 生活을
+되질하고 저울질하고 자질하다가
+날이 저물어 아낙네들이
+쓴 生活과 바꾸어 또 이고 돌아가오。
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 15:00:09 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="96" ParentIndex="-1" Expand="0">
+        <TITLE color="None" background="None">ㅊ</TITLE>
+        <ID>123</ID>
+        <ID_SORT>96</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>5596d22c_2926_4ea6_9599_bc3f83953c69</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>Menu</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>일 12월 23 16:24:18 2018</CREATED>
+        <MODIFED>일 12월 23 16:24:43 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="97" ParentIndex="96" Expand="0">
+        <TITLE color="None" background="None">초 한 대</TITLE>
+        <ID>6</ID>
+        <ID_SORT>97</ID_SORT>
+        <DEPTH>96</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>f32bc64c_c642_4de1_8332_5e36b7f1326f</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>초 한대 
+내 방에 품긴 향내를 맡는다.
+  
+광명의 제단이 무너지기 전
+나는 깨끗한 제물을 보았다.
+  
+염소의 갈비뼈 같은 그의 몸
+그의 생명인 심지
+  
+백옥 같은 눈물과 피를 흘려
+불살려 버린다.
+  
+그리고 책상머리에 아롱거리며
+선녀처럼 촛불은 춤을 춘다.
+  
+매를 본 꿩이 도망하듯이
+암흑이 창구멍으로 도망한
+나의 방에 품긴
+제물의 위대한 향내를 맛보노라.
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:17:15 2018</CREATED>
+        <MODIFED>火 2月 20 14:18:03 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="98" ParentIndex="96" Expand="0">
+        <TITLE color="None" background="None">창공(蒼空) </TITLE>
+        <ID>10</ID>
+        <ID_SORT>98</ID_SORT>
+        <DEPTH>96</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>2e7da8cc_3967_4335_b03f_055c3b09c8b2</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>그 여름날
+열정(熱情)의 포플라는
+오려는 창공(蒼空)의 푸른 젖가슴을
+어루만지려
+팔을 펼쳐 흔들거렸다.
+끓는 태양(太陽)그늘 좁다란 지점에서
+ 
+ 
+천막(天幕)같은 하늘밑에서
+떠돌던 소나기
+그리고 번개를,
+춤추던 구름을 이끌고
+남방(南方)으로 도망하고,
+높다랗게 창공(蒼空)은 한 폭으로
+가지 위에 퍼지고
+둥근 달과 기러기를 불러왔다.
+ 
+ 
+푸드른 어린 마음이 이상(理想)에 타고,
+그의 동경의 날 가을에
+조락(凋落)의 눈물을 비웃다.</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:17:15 2018</CREATED>
+        <MODIFED>火 2月 20 14:18:12 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="99" ParentIndex="96" Expand="0">
+        <TITLE color="None" background="None">참새</TITLE>
+        <ID>31</ID>
+        <ID_SORT>99</ID_SORT>
+        <DEPTH>96</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>86e9f62e_640e_4fb0_a3ec_b13c3a6c54f1</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>가을 지난 마당은 하이얀 종이 
+참새들이 글씨를 공부하지요
+
+째액째액 입으로 받아 읽으며 
+두 발로는 글씨를 연습하지요 
+
+하루종일 글씨를 연습하여도 
+짹자 한 자 밖에는 더 못 쓰는 걸. </NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:22:26 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="100" ParentIndex="96" Expand="0">
+        <TITLE color="None" background="None">참회록(懺悔錄)</TITLE>
+        <ID>61</ID>
+        <ID_SORT>100</ID_SORT>
+        <DEPTH>96</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>9d167237_65db_4132_b666_76d4f3071a73</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000">1942. 1. 24</SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>파란 녹이 낀 구리 거울 속에 
+내 얼굴이 남아 있는 것은
+어느 왕조의 유물이기에 
+이다지도 욕될까.
+
+나는 나의 참회(懺悔)의 글을 한 줄에 줄이자.
+---만(滿) 이십사년 일개월을 
+무슨 기쁨을 바라 살아왔던가.
+
+내일이나 모레나 그 어느 즐거운 날에
+나는 또 한 줄의 참회록을 써야 한다.
+---그때 그 젊은 나이에 
+왜 그런 부끄런 고백을 했던가.
+
+밤이면 밤마다 나의 거울을 
+손바닥으로 발바닥으로 닦아보자.
+
+그러면 어느 운석 밑으로 홀로 걸어가는 
+슬픈 사람의 뒷모양이 
+거울 속에 나타나 온다.
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:35:41 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="101" ParentIndex="96" Expand="0">
+        <TITLE color="None" background="None">창</TITLE>
+        <ID>109</ID>
+        <ID_SORT>101</ID_SORT>
+        <DEPTH>96</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>4b5aee4c_6115_46e8_84b6_693199062019</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>쉬는 시간마다
+나는 창옄으로 갑니다.
+
+-창은 산 가르침.
+
+이글이글 불을 피워주소,
+이방에 찬것이 서립니다.
+
+단풍잎 하나
+맴 도나 보니
+아마도 작으마한 선풍이 인게웨다.
+
+그래도 싸느란 유리창에
+햇살이 쨍쩅한 무렵,
+상학종이 울어만 싶습니다.
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 15:00:09 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="102" ParentIndex="-1" Expand="0">
+        <TITLE color="None" background="None">ㅋ</TITLE>
+        <ID>124</ID>
+        <ID_SORT>102</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>1c1d8879_6bf5_4845_9446_85f0b444c955</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>Menu</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>일 12월 23 16:24:23 2018</CREATED>
+        <MODIFED>일 12월 23 16:24:44 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="103" ParentIndex="-1" Expand="0">
+        <TITLE color="None" background="None">ㅌ</TITLE>
+        <ID>125</ID>
+        <ID_SORT>103</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>c358fde8_e37e_4f2b_aacc_ad687efd5abb</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>Menu</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>일 12월 23 16:24:23 2018</CREATED>
+        <MODIFED>일 12월 23 16:24:45 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="104" ParentIndex="103" Expand="0">
+        <TITLE color="None" background="None">태초의 아침</TITLE>
+        <ID>72</ID>
+        <ID_SORT>104</ID_SORT>
+        <DEPTH>103</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>532c294c_d4b5_4be1_8d87_8e1ad6676cc5</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>봄날 아침도 아니고
+여름, 가을, 겨울,
+그런 날 아침도 아닌 아침에
+ 
+빨--간 꽃이 피어났네,
+햇빛이 푸른데,
+ 
+그 전날 밤에
+그 전날 밤에
+모든 것이 마련되었네,
+ 
+사랑은 뱀과 함께
+독은 어린 꽃과 함께.
+</NOTE>
+        <CODE>봄날 아침도 아니고
+여름, 가을, 겨울,
+그런 날 아침도 아닌 아침에
+ 
+빨--간 꽃이 피어났네,
+햇빛이 푸른데,
+ 
+그 전날 밤에
+그 전날 밤에
+모든 것이 마련되었네,
+ 
+사랑은 뱀과 함께
+독은 어린 꽃과 함께.
+</CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:40:59 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="105" ParentIndex="103" Expand="0">
+        <TITLE color="None" background="None">투르게네프의 언던</TITLE>
+        <ID>55</ID>
+        <ID_SORT>105</ID_SORT>
+        <DEPTH>103</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>6a05beeb_a297_4940_b3fa_e54c6d73ccc6</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>나는 고갯길을 넘고 있었다……
+그때에 세 소년 거지가 나를 지나쳤다.
+첫째 아이는 잔등에 바구니를 둘러메고,
+바구니 속에는 사이다병, 간스메통, 헌
+양말짝 등 폐물이 가득하였다.
+둘째 아이도 그러하였다.
+셋째 아이도 그러하였다.
+텁수룩한 머리털, 시커먼 얼굴에 눈물
+고인 충혈된 눈, 색 잃어 푸르스름한 입술,
+너덜너덜한 남루, 찢겨진 맨발, 아아,
+얼마나 무서운 가난이 이 어린 소년들을
+삼키었느냐!
+나는 측은한 마음이 움직이었다.
+나는 호주머니를 뒤지었다. 두툼한 지갑,
+시계, 손수건……있을 것은 죄다 있었다.
+그러나 무턱대고 이것들을 내줄 용기는
+없었다.
+손으로 만지작 만지작거릴 뿐이었다.
+다정스레 이야기나 하리라 하고
+"얘들아" 불러 보았다.
+첫째 아이가 충혈된 눈으로 흘끔 돌아다볼
+뿐이었다.
+둘째 아이도 그러할 뿐이었다.
+셋째 아이도 그러할 뿐이었다.
+그리고는 너는 상관없다는 듯이 자기네끼리
+소곤소곤 이야기하면서 고개로 넘어갔다.
+언덕위에는 아무도 없었다.
+짙어가는 황혼이 밀려들 뿐.
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:25:16 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="106" ParentIndex="-1" Expand="0">
+        <TITLE color="None" background="None">ㅍ</TITLE>
+        <ID>126</ID>
+        <ID_SORT>106</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>f74a330b_6a06_4060_89fd_0b35aa151865</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>Menu</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>일 12월 23 16:24:24 2018</CREATED>
+        <MODIFED>일 12월 23 16:24:46 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="107" ParentIndex="106" Expand="0">
+        <TITLE color="None" background="None">편지</TITLE>
+        <ID>30</ID>
+        <ID_SORT>107</ID_SORT>
+        <DEPTH>106</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>25d511ca_5a0c_4951_b655_11976766577b</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>누나!
+이 겨울에도
+눈이 가득히 왔습니다.
+
+흰 봉투에
+눈을 한 줌 넣고
+글씨도 쓰지 말고
+우표도 붙이지 말고
+말쑥하게 그대로
+편지를 부칠까요?
+누나 가신 나라엔
+눈이 아니 온다기에.</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:22:26 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="108" ParentIndex="106" Expand="0">
+        <TITLE color="None" background="None">팔복</TITLE>
+        <ID>69</ID>
+        <ID_SORT>108</ID_SORT>
+        <DEPTH>106</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>49c92981_3815_4b3c_acf8_26dadb668424</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>슬퍼하는 자는 복이 있나니
+슬퍼하는 자는 복이 있나니
+슬퍼하는 자는 복이 있나니
+슬퍼하는 자는 복이 있나니
+슬퍼하는 자는 복이 있나니
+슬퍼하는 자는 복이 있나니
+슬퍼하는 자는 복이 있나니
+슬퍼하는 자는 복이 있나니
+ 
+저희가 영원히 슬플 것이오
+</NOTE>
+        <CODE>슬퍼하는 자는 복이 있나니
+슬퍼하는 자는 복이 있나니
+슬퍼하는 자는 복이 있나니
+슬퍼하는 자는 복이 있나니
+슬퍼하는 자는 복이 있나니
+슬퍼하는 자는 복이 있나니
+슬퍼하는 자는 복이 있나니
+슬퍼하는 자는 복이 있나니
+ 
+저희가 영원히 슬플 것이오
+</CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:40:59 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="109" ParentIndex="106" Expand="0">
+        <TITLE color="None" background="None">풍경</TITLE>
+        <ID>100</ID>
+        <ID_SORT>109</ID_SORT>
+        <DEPTH>106</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>f1a92f2a_1a16_4c95_bb9e_4986defb89c9</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>봄바람을 등진 초록빛 바다
+쏟아질 듯 쏟아질 듯 위태롭다.
+
+잔주름 치마폭의 두둥실거리는 
+오스라질 듯  한끝 경쾌롭다.
+
+마스트 끝에 붉은  기(旗) ㅅ 발이 
+여인의 머리칼처럼 나부낀다.
+
+이 생생한 풍경을 앞세우며 뒤세우며 
+외ㅡ ㄴ 하로 거닐고 싶다.
+
+ㅡ 우중충한 오월 하늘 아래로,
+ㅡ 바다및 포기포기에 수놓은 언덕으로
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 15:00:09 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="110" ParentIndex="-1" Expand="0">
+        <TITLE color="None" background="None">ㅎ</TITLE>
+        <ID>127</ID>
+        <ID_SORT>110</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>7a1837ff_1cdd_4364_98bd_6c4e182c954d</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>Menu</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>일 12월 23 16:24:24 2018</CREATED>
+        <MODIFED>일 12월 23 16:24:49 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="111" ParentIndex="110" Expand="0">
+        <TITLE color="None" background="None">황혼</TITLE>
+        <ID>93</ID>
+        <ID_SORT>111</ID_SORT>
+        <DEPTH>110</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>7affed47_0a3c_4f5d_90f4_498b2a4ca342</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>햇살은 미닫이 틈으로
+길죽한 일자를 쓰고......지우고......
+
+까마귀떼 지붕 우으로
+둘, 둘, 셋, 넷, 자꼬 날아 지난다.
+쑥쑥, 꿈틀꿈틀 북쪽 하늘로,
+
+내사.........
+북쪽 하늘에 나래를 펴고 싶다.
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:56:56 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="112" ParentIndex="110" Expand="0">
+        <TITLE color="None" background="None">해비</TITLE>
+        <ID>23</ID>
+        <ID_SORT>112</ID_SORT>
+        <DEPTH>110</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>ec416745_7b69_40f1_ab3e_1ee33a80b03b</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000">1936. 9. 9.</SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>아씨처럼 내린다
+보슬보슬 해비
+맞아주자, 다 같이
+옥수숫대처럼 크게
+닷 자 엿 자 자라게
+해님이 웃는다.
+나 보고 웃는다.
+
+하늘 다리 놓였다.
+알롱달롱 무지개
+노래하자, 즐겁게
+동무들아 이리오나.
+다 같이 춤을 추자.
+해님이 웃는다.
+즐거워 웃는다.
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:22:26 2018</CREATED>
+        <MODIFED>火 2月 27 22:17:11 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="113" ParentIndex="110" Expand="0">
+        <TITLE color="None" background="None">흰 그림자</TITLE>
+        <ID>62</ID>
+        <ID_SORT>113</ID_SORT>
+        <DEPTH>110</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>61a3780f_3411_47be_99ee_2cb96d90c81b</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>황혼이 짙어지는 길모금에서
+하루 종일 시든 귀를 가만히 기울이면
+땅거미 옮겨지는 발자취 소리,
+
+발자취 소리를 들을 수 있도록 
+나는 총명했던가요.
+
+이제 어리석게도 모든 것을 깨달은 다음
+오래 마음 깊은 속에 
+괴로워하던 수많은 나를 
+하나, 둘, 제 고향으로 돌려보내면
+거리 모퉁이 어둠 속으로 
+소리없이 사라지는 흰 그림자,
+
+흰 그림자들
+연연히 사랑하던 흰 그림자들,
+내 모든 것을 돌려보낸 뒤
+허전하게 뒷골목을 돌아
+황혼처럼 물드는 내 방으로 돌아오면
+
+신념이 깊은 의젓한 양처럼
+하루 종일 시름없이 풀 포기나 뜯자.
+
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:35:41 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="114" ParentIndex="110" Expand="0">
+        <TITLE color="None" background="None">흐르는 거리</TITLE>
+        <ID>63</ID>
+        <ID_SORT>114</ID_SORT>
+        <DEPTH>110</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>fae744fd_a7d7_4630_a757_6fb24ca57d09</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>으스럼히 안개가 흐른다.
+거리가 흘러간다.
+저 전차, 자동차, 모든 바퀴가
+어디로 흘리워 가는 것일까?
+정박(碇泊)할 아무 항구도 없이,
+가련한 많은 사람들을 싣고서,
+안개 속에 잠긴 거리는,
+
+거리 모퉁이 붉은 포스트 상자를
+붙잡고 섰을 라면 모든 것이 흐르는 속에
+어렴풋이 빛나는 가로등,
+꺼지지 않는 것은 무슨 상징일까?
+사랑하는 동무 박(朴)이여!
+그리고 김(金)이여!
+자네들은 지금 어디 있는가?
+끝없이 안개가 흐르는데,
+
+「새로운 날 아침 우리 다시 정답게 손목을 잡아보세」
+몇 자 적어 포스트 속에 떨어뜨리고,
+밤을 세워 기다리면
+금휘장(金徽章)에 금단추를 삐었고
+거인처럼 찬란히 나타나는 배달부,
+아침과 함께 즐거운 내임(來臨),
+이 밤을 하염없이 안개가 흐른다.
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:35:41 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="115" ParentIndex="110" Expand="0">
+        <TITLE color="None" background="None">화원에 꽃이 핀다</TITLE>
+        <ID>58</ID>
+        <ID_SORT>115</ID_SORT>
+        <DEPTH>110</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>5dfba81b_f48b_439c_8ea0_694a750eb4c5</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>개나리, 진달래, 앉은뱅이, 라일락, 민들레, 찔레, 복사, 들장미, 해당화, 모란, 릴리, 창포, 튤립, 카네이션, 봉선화, 백일홍, 채송화, 달리아, 해바라기, 코스모스─── 코스모스가 홀홀히 떨어지는 날 우주(宇宙)의 마지막은 아닙니다. 여기에 푸른 하늘이 높아지고 빨간 노란 단풍이 꽃에 못지않게 가지마다 물들었다가 귀뚜라미 울음이 끊어짐과 함께 단풍의 세계가 무너지고, 그 위에 하룻밤 사이에 소복이 흰 눈이 내려, 쌓이고 화로(火爐)에는 빨간 숯불이 피어오르고 많은 이야기와 많은 일이 이 화롯가에서 이루어집니다.
+　독자재현(讀者諸賢)! 여러분은 이 글이 씌어지는 때를 독특(獨特)한 계절(季節)로 짐작해서는 아니됩니다. 아니, 봄, 여름, 가을, 겨울, 어느 철로나 상정(想定)하셔도 무방합니다. 사실 일 년 내내 봄일 수는 없습니다. 하나 이 화원(花園)에는 사철내 봄이 청춘(靑春)들과 함께 싱싱하게 등대하여 있다고 하면 과분(過分)한 자포자기(自己宣傳) 선전일까요. 하나의 꽃밭이 이루어지도록 손쉽게 되는 것이 아니라 고생과 노력이 있어야 하는 것입니다. 딴은 얼마의 단어를 모아 이 졸문(拙文)을 집적거리는 데도 내 머리는 그렇게 명석(明晳)한 것이 못 됩니다. 한 해 동안을 내 두뇌로써가 아니라 몸으로써 일일이 헤아려 세포 사이마다 간직해 두어서야 겨우 몇 줄의 글이 이루어집니다. 그리하여 나에게 있어 글을 쓴다는 것이 그리 즐거운 일일 수는 없습니다. 봄바람의 고민에 짜들고 녹음(綠陰)의 권태(捲怠)에 시들고, 가을 하늘 ﻿﻿
+감상에 울고, 노변의 사색(思索)에 졸다가 이 몇 줄의 글과 나의 화원과 함께 나의 일 년은 이루어집니다.
+　시간을 먹는다는(이 말의 의의와 이 말의 묘미는 칠판 앞에 서 보신 분과 칠판 밑에 앉아 보신 분은 누구나 아실 것입니다.) 것은 확실히 즐거운 일임이 틀림없습니다. 하루를 휴강한다는 것보다(하긴 슬그머니 까먹어 버리면 그만이지만). 다 못한 시간, 예습, 숙제를 못해 왔다든가 따분하고 졸리고 한 때, 한 시간의 휴강은 진실로 살로 가는 것이어서, 만일 교수가 불편하여서 못 나오셨다고 하더라도 미처 우리들의 예의(禮儀)를 갖출 사이가 없는 것입니다. 그러나 이것을 우리들의 망발과 시간의 낭비라고 속단(速斷)하셔선 아니됩니다. 여기에 화원이 있습니다. 한 포기 푸른 풀과 한 떨기의 붉은 꽃과 함께 웃음이 있습니다. 노트북을 적시는 것보다 汗牛充棟한우충동에 묻혀 글줄과 씨름하는 것보다 더 명확한 진리를 탐구할 수 있을는지, 보다 더 많은 지식을 획득할 수 있을는지, 보다 더 효과적인 성과가 있을지를 누가 부인하겠습니까.
+　나는 이 귀한 시간을 슬그머니 동무들을 떠나서 단 혼자 화원을 거닐 수 있습니다. 단 혼자 꽃들과 풀들과 이야기할 수 있다는 것이 얼마나 다행한 일이겠습니까. 참말 나는 온정으로 이들을 대할 수 있고 그들은 나를 웃음으로 맞아 줍니다. 그 웃음을 눈물로 대한다는 것은 나의 감상일까요. 고독, 정적도 확실히 아름다운 것임이 틀림이 없으나, 여기에 또 서로 마음을 주는 동무가 있는 것도 다행한 일이 아닐 수 없습니다. 우리 화원 속에 모인 동무들 중에, 집에 학비를 청구하는 편지를 쓰는 날 저녁이면 생각하고 생각하던 끝 겨우 몇 줄 써 보낸다는 A군, 기뻐해야 할 서류(통칭 월급 봉투)를 받아든 손이 떨린다는 B군, 사랑을 위하여서는 밥맛을 잃고 잠을 잊어버린다는 C군, 사상적(思想的) 당착(撞着)에 자살을 기약한다는 D군…… 나는 이 여러 동무들의 갸륵한 심정을 내 것인것처럼 이해할 수 있습니다. 서로 너그러운 마음으로 대할 수 있습니다.
+　나는 세계관, 인생관, 이런 좀더 큰 문제보다 바람과 구름과 햇빛과 나무와 우정, 이런 것들에 더 많이 괴로워해 왔는지도 모르겠습니다. 단지 이 말이 나의 역설(逆設)이나 나 자신을 흐리는 데 지날 뿐일까요. 일반은 현대 학생 도덕이 부패했다고 말합니다. 스승을 섬길 줄을 모른다고들 합니다. 옳은 말씀들입니다. 부끄러울 따름입니다. 하나 이 결함을 괴로워하는 우리들 어깨에 지워 광야로 내쫓아 버려야 하나요. 우리들의 아픈 데를 알아 주는 스승, 우리들의 생채기를 어루만져 주는 따뜻한 세계가 있다면 박탈(剝脫)된 도덕일지언정 기울여 스승을 진심으로 존경(尊敬)하겠습니다. 온정의 거리에서 원수를 만나면 손목을 붙잡고 목놓아 울겠습니다.
+　세상은 해를 거듭 역성에 떠들썩하건만 극히 조용한 가운데 우리들 동산에서 서로 융합할 수 있고 이해할 수 있고 종전(從前)의 ×가 있는 것은 시세(時勢)의 역효과일까요.
+　봄이 가고, 여름이 가고, 가을, 코스모스가 홀홀이 떨어지는 날 우주의 마지막은 아닙니다. 단풍의 세계가 있고,─ 이상이생빙지(履霜而堅氷至)가─서리를 밟거든 얼음이 굳어질 것을 각오하라가 아니라, 우리는 서릿발에 끼친 낙엽을 밟으면서 멀리 봄이 올 것을 믿습니다.
+　노변(爐邊)에서 많은 일이 이뤄질 것입니다.
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:25:16 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="116" ParentIndex="110" Expand="0">
+        <TITLE color="None" background="None">햇빛 바람</TITLE>
+        <ID>42</ID>
+        <ID_SORT>116</ID_SORT>
+        <DEPTH>110</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>3f707cba_d9d8_4125_9c61_382483f7e087</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>손가락에 침 발라
+쏘옥, 쏙, 쏙.
+장에 가는 엄마 내다보려
+문풍지를
+쏘옥, 쏙, 쏙.
+
+아침에 햇빛이 반짝.
+
+손가락에 침 발라
+쏘옥, 쏙, 쏙.
+장에 가신 엄마 돌아오나
+문풍지를
+쏘옥, 쏙, 쏙.
+
+저녁에 바람이 솔솔.
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:25:16 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="117" ParentIndex="110" Expand="0">
+        <TITLE color="None" background="None">해바리기 얼굴</TITLE>
+        <ID>40</ID>
+        <ID_SORT>117</ID_SORT>
+        <DEPTH>110</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>3a0a395d_c41a_4c29_8610_f42c9a905e3d</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>누나의 얼굴은
+해바리기 얼굴
+해가 금방 뜨자
+일터에 간다.
+ 
+해바라기 얼굴은
+누나의 얼굴
+얼굴이 숙어들어
+집으로 온다.</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:25:16 2018</CREATED>
+        <MODIFED>火 2月 20 16:12:33 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="118" ParentIndex="110" Expand="0">
+        <TITLE color="None" background="None">황혼이 바다가 되어</TITLE>
+        <ID>36</ID>
+        <ID_SORT>118</ID_SORT>
+        <DEPTH>110</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>959f0152_126f_4ada_9474_92f5c6b3d8dd</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>하루도 검푸른 물결에
+흐르적 잠기고 잠기고
+저웬 검은 고기떼가
+물든 바자를 날아 횡단할고
+ 
+낙옆이 된 해초
+해초마다 슬프기도 하오
+서창에 걸린 해말간 풍경화
+옷고름 너어는 고아의 서름
+ 
+이제 첫 향해하는 마음을 먹고
+반바닥에 나딩구오 딩구오
+황혼의 바다가 되어 오늘도
+수많은 배가 나와 함께
+이물결에 잠겼을 게오
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 14:22:26 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="119" ParentIndex="110" Expand="0">
+        <TITLE color="None" background="None">한란계</TITLE>
+        <ID>101</ID>
+        <ID_SORT>119</ID_SORT>
+        <DEPTH>110</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>91712fe3_c40f_41b2_a093_a624f262ec75</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>싸늘한 대리석(大理石) 기둥에 모가지를 비틀어 맨 한란계(寒暖計),
+문득 들여다 볼 수 있는 운명(運命)한 오척육촌(五尺六寸)의 가는 수은주(水銀柱),
+마음은 유리관(琉璃管)보다 맑소이다.
+
+혈관(血管)이 단조(單調)로위 신경질(神經質)인 여론동물(輿論動物)
+가끔 분수(噴水) 같은 냉(冷)침을 억지로 삼키기에
+정력(精力)을 낭비(浪費)합니다.
+
+영하(零下)로 손가락질 할 수돌네 房방처럼 추운 겨울보다
+해바라기가 만발(滿發)할 팔월교정(八月校庭)이 이상(理想) 고프오이다.
+피 끓을 그날이─
+
+어제는 막 소낙비가 퍼붓더니 오늘은 좋은 날씨올시다.
+동저고리 바람에 언덕으로, 숲으로 하시구려─
+이렇게 가만가만 혼자서 귓속 이야기를 하였습니다.
+나는 또 내가 모르는 사이에─
+
+나는 아마도 진실(眞實)한 세기(世紀)의 계절(季節)을 따라,
+하늘만 보이는 울타리 안을 뛰쳐
+역사(歷史) 같은 포지션을 지켜야 봅니다.
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>火 2月 20 15:00:09 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+</Table>
+

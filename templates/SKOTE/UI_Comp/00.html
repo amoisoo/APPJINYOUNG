@@ -1,0 +1,26 @@
+{% extends "SKOTE/UI_Comp/base_comp_visible.html" %}
+{% load static i18n common%}
+
+
+
+{% block COMP_VISIBLE %}
+
+
+{% include 'SKOTE/UI_Comp/FORM_page_edit.html'   %}<br/><br/>
+
+
+    {% for pageChild in PAGE_CHILD_LIST|hash:DATA.id %}
+
+            {% if forloop.first %}
+
+            {% else %}
+
+            {% endif %}
+            {% include 'SKOTE/UI_Comp/FORM_page_edit.html' with DATA=pageChild  %}
+
+    {% endfor %}
+
+
+{% endblock %}
+
+

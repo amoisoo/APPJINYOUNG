@@ -1,0 +1,172 @@
+{% extends "COLORADMIN_ADMIN/BASE/base_map_vector.html" %}
+{% load static i18n %}
+
+{% block body_extra %}{% endblock %}
+
+{% block page_content %}
+
+
+
+
+
+
+	<div id="page-container" class=" page-without-sidebar  page-container fade page-sidebar-fixed page-header-fixed page-with-wide-sidebar page-with-top-menu">
+		<!-- begin #header -->
+                {% include 'COLORADMIN_ADMIN/COMMON/HEADER.html' %}
+
+		<!-- end #header -->
+                {% include 'COLORADMIN_ADMIN/COMMON/NAVI_TOP.html' %}
+
+
+
+
+		<div id="content" class="content content-full-width content-inverse-mode">
+			<!-- begin breadcrumb -->
+			<ol class="breadcrumb float-xl-right">
+				<li class="breadcrumb-item"><a href="javascript:;">Home</a></li>
+				<li class="breadcrumb-item"><a href="javascript:;">Map</a></li>
+				<li class="breadcrumb-item active">Vector Map</li>
+			</ol>
+			<!-- end breadcrumb -->
+			<!-- begin page-header -->
+			<h1 class="page-header">벡터 맵<small>header small text goes here...</small></h1>
+			<!-- end page-header -->
+			<!-- begin map -->
+			<div class="map">
+				<div id="world-map"></div>
+				<!-- begin map-float-table -->
+				<div class="map-float-table d-none d-xl-block p-15">
+					<h4 class="m-t-0"><i class="fa fa-map-marker-alt text-danger m-r-5"></i>벡터맵</h4>
+					<!-- begin scrollbar -->
+					<div data-scrollbar="true" class="height-md">
+						<table class="table table-transparent">
+							<thead>
+								<tr>
+									<th>국가</th><th>총 방문</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Vatican City</td><td><span class="text-success">9,820 <i class="fa fa-arrow-up"></i></span></td>
+								</tr>
+								<tr>
+									<td>모나코</td><td>1,920</td>
+								</tr>
+								<tr>
+									<td>Nauru</td><td><span class="text-danger">1,346 <i class="fa fa-arrow-down"></i></span></td>
+								</tr>
+								<tr>
+									<td>Tuvalu</td><td><span class="text-success">6,543 <i class="fa fa-arrow-up"></i></span></td>
+								</tr>
+								<tr>
+									<td>San Marino</td>
+									<td><span class="text-success">7,321 <i class="fa fa-arrow-up"></i></span></td>
+								</tr>
+								<tr>
+									<td>Liechtenstein</td>
+									<td>3,434</td>
+								</tr>
+								<tr>
+									<td>Marshall Islands</td>
+									<td>1,922</td>
+								</tr>
+								<tr>
+									<td>Saint Kitts and Nevis</td>
+									<td><span class="text-danger">9,812 <i class="fa fa-arrow-down"></i></span></td>
+								</tr>
+								<tr>
+									<td>Maldives</td>
+									<td><span class="text-danger">4,182 <i class="fa fa-arrow-down"></i></span></td>
+								</tr>
+								<tr>
+									<td>Malta</td>
+									<td>9,188</td>
+								</tr>
+								<tr>
+									<td>Grenada</td>
+									<td>11,198</td>
+								</tr>
+								<tr>
+									<td>Saint Vincent</td>
+									<td><span class="text-success">9,101 <i class="fa fa-arrow-up"></i></span></td>
+								</tr>
+								<tr>
+									<td>Barbados</td>
+									<td><span class="text-success">9,192 <i class="fa fa-arrow-up"></i></span></td>
+								</tr>
+								<tr>
+									<td>Antigua and Barbuda</td>
+									<td><span class="text-success">5,282 <i class="fa fa-arrow-up"></i></span></td>
+								</tr>
+								<tr>
+									<td>Seychelles</td>
+									<td><span class="text-success">8,283 <i class="fa fa-arrow-up"></i></span></td>
+								</tr>
+								<tr>
+									<td>Palau</td>
+									<td><span class="text-danger">1,222 <i class="fa fa-arrow-down"></i></span></td>
+								</tr>
+								<tr>
+									<td>Andorra</td>
+									<td>146</td>
+								</tr>
+								<tr>
+									<td>Saint Lucia</td>
+									<td>3,923</td>
+								</tr>
+								<tr>
+									<td>Federated States</td>
+									<td>9,827</td>
+								</tr>
+								<tr>
+									<td>Singapore</td>
+									<td>7,293</td>
+								</tr>
+								<tr>
+									<td>Kiribati</td>
+									<td>9,238</td>
+								</tr>
+								<tr>
+									<td>Tonga</td>
+									<td>6,422</td>
+								</tr>
+								<tr>
+									<td>Dominica</td>
+									<td><span class="text-success">3,341 <i class="fa fa-arrow-up"></i></span></td>
+								</tr>
+								<tr>
+									<td>Mauritius</td>
+									<td><span class="text-success">532 <i class="fa fa-arrow-up"></i></span></td>
+								</tr>
+								<tr>
+									<td>Bahrain</td>
+									<td><span class="text-success">8,754 <i class="fa fa-arrow-up"></i></span></td>
+								</tr>
+								<tr>
+									<td>São Tomé and Príncipe</td>
+									<td>5,742</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<!-- end scrollbar -->
+				</div>
+				<!-- end map-float-table -->
+			</div>
+			<!-- end map -->
+		</div>
+
+
+<!-- end widget-list -->
+
+
+		<div id="footer" class="footer" align="right">&copy; 2020 AMOISOO - 아모이스 All Rights Reserved</div>
+		<!-- end #footer -->
+
+
+
+
+	</div>
+
+
+{% endblock %}

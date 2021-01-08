@@ -1,0 +1,193 @@
+{% extends "COLORADMIN_ADMIN/BASE/base_layout.html" %}
+{% load static i18n %}
+
+{% block body_extra %}{% endblock %}
+
+
+
+{% block page_navi %}
+    {% if LAYOUT.NAVI_POSITION == 'TOP' %}
+        {% include 'COLORADMIN_ADMIN/COMMON/NAVI_TOP.html' %}
+    {% else %}
+        {% include 'COLORADMIN_ADMIN/COMMON/NAVI_SIDE.html' %}
+
+    {% endif %}
+{% endblock %}
+
+
+{% block page_content %}
+
+
+
+
+
+
+		<!-- begin #content -->
+		<div id="content" class="content">
+                <a href="#" class="widget-card widget-card-rounded">
+                  <div class="widget-card-cover" style="background-image: url({% static 'COLORADMIN_ADMIN/img/gallery/gallery-portrait-11-thumb.jpg' %})"></div>
+                  <div class="widget-card-content">
+                    <b class="text-white">&nbsp;</b>
+                  </div>
+                  <div class="widget-card-content bottom">
+                    <i class="fab fa-pushed fa-5x text-indigo"></i>
+                    <h4 class="text-white m-t-10"><b>Support<br />지원페이지</b></h4>
+                    <h5 class="f-s-12 text-white-transparent-7 m-b-2"><b></b></h5>
+                  </div>
+                </a>
+
+
+			<h1 class="page-header">Support<small>&nbsp;&nbsp;&nbsp;메인 페이지</small></h1>
+			<!-- end page-header -->
+
+
+		</div>
+		<div id="content" class="content">
+
+                <div class="row">
+                    <!-- begin col-6 -->
+                    <div class="col-xl-12   col-lg-12  m-b-5 p-b-1">
+                        <!-- begin card-group -->
+                        <div class="card-group">
+                            <!-- begin card -->
+                            <div class="card">
+                                <div class="card-body bg-lime">
+                                    <h4 class="card-title "> <a class = "text-white"  href="{% url 'support:download' %}" class="widget-list-item">다운로드</a> </h4>
+                                    <p class="card-text text-white">&nbsp;</p>
+                                    <p class="card-text ">
+                                        <span class="badge badge-secondary">파일</span>
+                                        <span class="badge badge-secondary">소스코드</span>
+                                        <span class="badge badge-secondary">실행파일</span>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-body bg-lime">
+                                    <h4 class="card-title "> <a class = "text-white"  href="{% url 'support:download' %}" class="widget-list-item">헬프</a> </h4>
+                                    <p class="card-text text-white">&nbsp;</p>
+                                    <p class="card-text ">
+                                        <span class="badge badge-secondary">지원</span>
+                                        <span class="badge badge-secondary">Source Code</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body bg-lime">
+                                    <h4 class="card-title "> <a class = "text-white"  href="{% url 'support:qna' %}" class="widget-list-item">QnA</a> </h4>
+                                    <p class="card-text text-white">&nbsp;</p>
+                                    <p class="card-text ">
+                                        <span class="badge badge-secondary">자주 있는 질문</span>
+                                        <span class="badge badge-secondary">라이센스</span>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-body bg-lime">
+                                    <h4 class="card-title "> <a class = "text-white"  href="{% url 'support:doc' %}" class="widget-list-item">문서</a> </h4>
+                                    <p class="card-text text-white">&nbsp;</p>
+                                    <p class="card-text ">
+                                        <span class="badge badge-secondary">File</span>
+                                        <span class="badge badge-secondary">Source Code</span>
+                                    </p>
+                                </div>
+                            </div>
+
+
+
+
+
+                            <!-- end card -->
+                            <!-- begin card -->
+
+                            <!-- end card -->
+
+                            <!-- end card -->
+                        </div>
+                        <!-- end card-group -->
+                    </div>
+                    <!-- end col-6 -->
+
+                </div>
+		</div>
+
+		<div id="content" class="content">
+			<!-- begin panel -->
+                <div class="widget-list widget-list-rounded">
+                  <!-- begin widget-list-item -->
+
+                  <a href="{% url 'support:download' %}" class="widget-list-item">
+                    <div class="widget-list-media icon">  <i class="fa fa-desktop bg-lime text-inverse text-white"></i></div>
+                    <div class="widget-list-content"><h4 class="widget-list-title">Download</h4></div>
+                    <div class="widget-list-action text-nowrap text-grey-darker text-right">설명<i class="fa fa-angle-right text-muted t-plus-1 fa-lg m-l-5"></i></div>
+                  </a>
+                  <a href="{% url 'support:help' %}" class="widget-list-item">
+                    <div class="widget-list-media icon">  <i class="fa fa-globe bg-lime text-inverse text-white"></i></div>
+                    <div class="widget-list-content"><h4 class="widget-list-title">Help</h4></div>
+                    <div class="widget-list-action text-nowrap text-grey-darker text-right">설명<i class="fa fa-angle-right text-muted t-plus-1 fa-lg m-l-5"></i></div>
+                  </a>
+                  <a href="{% url 'support:qna' %}" class="widget-list-item">
+                    <div class="widget-list-media icon">  <i class="fa fa-globe bg-lime text-inverse text-white"></i></div>
+                    <div class="widget-list-content"><h4 class="widget-list-title">QnA</h4></div>
+                    <div class="widget-list-action text-nowrap text-grey-darker text-right">설명<i class="fa fa-angle-right text-muted t-plus-1 fa-lg m-l-5"></i></div>
+                  </a>
+
+                  <!-- end widget-list-item -->
+
+                </div>
+
+		</div>
+
+		<div id="content" class="content">
+			<!-- begin panel -->
+                <div class="widget-list widget-list-rounded">
+
+                  <a href="{% url 'support:doc' %}" class="widget-list-item">
+                    <div class="widget-list-media icon">  <i class="fa fa-file-alt bg-lime text-inverse text-white"></i></div>
+                    <div class="widget-list-content"><h4 class="widget-list-title">Doc</h4></div>
+                    <div class="widget-list-action text-nowrap text-grey-darker text-right">설명<i class="fa fa-angle-right text-muted t-plus-1 fa-lg m-l-5"></i></div>
+                  </a>
+                  <!-- end widget-list-item -->
+
+                </div>
+
+		</div>
+		<div id="content" class="content">
+			<!-- begin panel -->
+
+
+                <div class="widget-list widget-list-rounded">
+                  <!-- begin widget-list-item -->
+
+                  <a href="{% url 'support:newslatter' %}" class="widget-list-item">
+                    <div class="widget-list-media icon"><i class="fa fa-link bg-lime text-inverse text-white"></i></div>
+                    <div class="widget-list-content"><h4 class="widget-list-title">뉴스 레터</h4></div>
+                    <div class="widget-list-action text-nowrap text-grey-darker text-right"><i class="fa fa-angle-right text-muted t-plus-1 fa-lg m-l-5"></i></div>
+                  </a>
+
+                  <!-- end widget-list-item -->
+                  <a href="{% url 'support:css' %}" class="widget-list-item">
+                    <div class="widget-list-media icon"><i class="fa fa-link bg-lime text-inverse text-white"></i></div>
+                    <div class="widget-list-content"><h4 class="widget-list-title">css</h4></div>
+                    <div class="widget-list-action text-nowrap text-grey-darker text-right">설명<i class="fa fa-angle-right text-muted t-plus-1 fa-lg m-l-5"></i></div>
+                  </a>
+
+                </div>
+
+
+
+		</div>
+
+
+
+
+
+
+
+{% endblock %}
+
+
+{% block page_footer %}
+         {% include 'COLORADMIN_ADMIN/APP_SUPPORT/COMMON/FOOTER.html' %}
+{% endblock %}

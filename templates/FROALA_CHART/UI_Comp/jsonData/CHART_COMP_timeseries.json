@@ -1,0 +1,45 @@
+          {
+        "chart": {
+          "paletteColors": "#228B22	, #00ff00, #0000ff",
+          "animation": "0",
+          "multicanvas": 0
+        },
+        "caption": {
+          "text": "Temperature readings of an Italian Town"
+        },
+        "yAxis": [{
+          "plot": "Temperature",
+          "title": "Temperature",
+          "plotType": "line",
+          "format": {
+            "suffix": "°C",
+            "label": "Controlled Temperature",
+            "value": "10"
+          }
+        }],
+        "xAxis": {
+          "binning": {
+            "year":[1],
+            "month": [1],
+            "day": [1],
+            //"hour": []
+            }
+        },
+        datamarker: [{
+                    time: "18/4/2006",
+                    type: "flag",
+                    identifier: "A",
+                    timeformat: "%-d/%-m/%Y",
+                    tooltext: "Data marker"
+                }],
+
+        data: dataStore.createDataTable(data, schema)
+
+
+
+
+
+
+
+
+          }

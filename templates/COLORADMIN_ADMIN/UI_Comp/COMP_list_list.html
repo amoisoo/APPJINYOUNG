@@ -1,0 +1,18 @@
+{% load static i18n common%}
+
+<br/>
+    {% include 'COLORADMIN_ADMIN/UI_Comp/FORM_page_edit.html'   %}
+
+<ol>
+
+    {% for pageChild in PAGE_CHILD_LIST|hash:DATA.id %}
+            {% if forloop.first %}
+
+            {% else %}
+
+            {% endif %}
+            <li>{{ pageChild }}  {% include 'COLORADMIN_ADMIN/UI_Comp/FORM_page_edit.html'  with DATA=pageChild  %} </li>
+    {% endfor %}
+
+
+</ol>

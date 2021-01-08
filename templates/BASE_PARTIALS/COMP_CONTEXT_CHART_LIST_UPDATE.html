@@ -1,0 +1,37 @@
+{% load static i18n %}
+
+
+        {% if object.context == "" %}<option selected></option>{% else %}<option ></option>{% endif %}
+
+        {% if object.context == "pie" %}<option selected>pie</option>{% else %}<option >pie</option>{% endif %}
+        {% if object.context == "doughnut" %}<option selected>doughnut</option>{% else %}<option >doughnut</option>{% endif %}
+        {% if object.context == "pyramid" %}<option selected>pyramid</option>{% else %}<option >pyramid</option>{% endif %}
+        {% if object.context == "funnel" %}<option selected>funnel</option>{% else %}<option >funnel</option>{% endif %}
+
+        {% if object.context == "radar" %}<option selected>radar</option>{% else %}<option >radar</option>{% endif %}
+
+        {% if object.context == "angulargauge" %}<option selected>angulargauge</option>{% else %}<option >angulargauge</option>{% endif %}
+
+        {% if object.context == "line" %}<option selected>line</option>{% else %}<option >line</option>{% endif %}
+        {% if object.context == "area" %}<option selected>area</option>{% else %}<option >area</option>{% endif %}
+
+
+        {% if object.context == "bar" %}<option selected>bar</option>{% else %}<option >bar</option>{% endif %}
+        {% if object.context == "column" %}<option selected>column</option>{% else %}<option >column</option>{% endif %}
+
+        {% if object.context == "stackedarea" %}<option selected>stackedarea</option>{% else %}<option >stackedarea</option>{% endif %}
+        {% if object.context == "stackedbar" %}<option selected>stackedbar</option>{% else %}<option >stackedbar</option>{% endif %}
+        {% if object.context == "stackedcolumn" %}<option selected>stackedcolumn</option>{% else %}<option >stackedcolumn</option>{% endif %}
+
+        {% if object.context == "chord" %}<option selected>chord</option>{% else %}<option >chord</option>{% endif %}
+        {% if object.context == "sankey" %}<option selected>sankey</option>{% else %}<option >sankey</option>{% endif %}
+
+
+        {% if object.context == "bubble" %}<option selected>bubble</option>{% else %}<option >bubble</option>{% endif %}
+        {% if object.context == "scatter" %}<option selected>scatter</option>{% else %}<option >scatter</option>{% endif %}
+
+        {% if object.context == "combination" %}<option selected>combination</option>{% else %}<option >combination</option>{% endif %}
+
+        {% if object.context == "heatmap" %}<option selected>heatmap</option>{% else %}<option >heatmap</option>{% endif %}
+
+        {% if object.context == "timeseries" %}<option selected>timeseries</option>{% else %}<option >timeseries</option>{% endif %}

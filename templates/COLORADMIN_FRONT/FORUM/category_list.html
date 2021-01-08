@@ -1,0 +1,126 @@
+{% load static i18n %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Color Admin | Support Forum Front End Theme</title>
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+	<meta content="" name="description" />
+	<meta content="" name="author" />
+	
+	<!-- ================== BEGIN BASE CSS STYLE ================== -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+	<link href="{% static 'COLORADMIN_FRONT/css/forum/app.min.css' %}" rel="stylesheet" />
+	<!-- ================== END BASE CSS STYLE ================== -->
+</head>
+<body>
+  <!-- begin #header -->
+    {% include 'COLORADMIN_FRONT/FORUM/COMMON/HEADER.html' %}
+	<!-- end #header -->
+	
+	<!-- begin page-title -->
+	<div class="page-title has-bg">
+		<!-- begin bg-cover -->
+		<div class="bg-cover" data-paroller="true" data-paroller-factor="0.5" data-paroller-factor-xs="0.01"  style="background-image: url({% static 'COLORADMIN_FRONT/img/cover/cover-2.jpg' %})"></div>
+		<!-- end bg-cover -->
+		<!-- begin container -->
+		<div class="container">
+			<!-- begin breadcrumb -->
+			<ul class="breadcrumb">
+				<li class="breadcrumb-item"><a href="index.html">포럼</a></li>
+				<li class="breadcrumb-item active">&nbsp;</li>
+			</ul>
+			<!-- end breadcrumb -->
+			<h1>{{ FORUM.slug  }}</h1>
+		</div>
+		<!-- end container -->
+	</div>
+	<!-- end page-title -->
+	
+	<!-- begin content -->
+	<div class="content">
+		<!-- begin container -->
+		<div class="container">
+			<!-- begin row -->
+			<div class="row">
+				<!-- begin col-9 -->
+				<div class="col-lg-12">
+					<!-- begin pagination -->
+                {{ board }}
+ {{ slug }}
+                {{ pk }}
+
+
+
+<hr/>
+
+
+
+
+
+
+                    {% if user.is_authenticated %}
+                            <div class="alert alert-danger" role="alert">
+                            {{ FORUM.id  }} / {{ FORUM.slug  }} <br/>
+                            </div>
+
+                            <div class="alert alert-info" role="alert">
+                                            <a href="{% url 'forum:update' FORUM.slug  %}"> Edit  </a>
+                                            <a href="{% url 'forum:delete' FORUM.slug  %}"> Delete  </a>
+                                            <a href="{% url 'forum:create_sub' FORUM.id  %}"> CREATE </a>
+                            </div>
+                    {% else %}
+
+                    {% endif %}
+
+
+
+
+                        {% if  FORUM.image %}
+                                <div class="alert alert-light" role="alert" align="center">
+                                    <img src="{{ MEDIA_URL }}{{ FORUM.image }}">
+                                </div>
+                        {% endif %}
+
+
+                     {{ FORUM.note|safe  }}<br/><br/>
+					<!-- end pagination -->
+					<!-- begin card-forum -->
+					<div class="card card-forum mb-4">
+						<!-- begin forum-list -->
+						<ul class="forum-list forum-topic-list">
+                            {% for object in categories %}
+                                    {% include 'COLORADMIN_FRONT/FORUM/UI_Comp/CATEGORY_list.html' with DATA=object %}
+                            {% endfor %}
+
+						</ul>
+						<!-- end forum-list -->
+					</div>
+
+
+					<!-- end pagination -->
+				</div>
+				<!-- end col-3 -->
+			</div>
+
+
+            {% include 'COLORADMIN_FRONT/FORUM/UI_Comp/CATEGORY_list_pagination.html' with DATA=object %}
+
+
+			<!-- end row -->
+		</div>
+		<!-- end container -->
+	</div>
+	<!-- end content -->
+	
+	<!-- begin #footer -->
+    {% include 'COLORADMIN_FRONT/FORUM/COMMON/FOOTER.html' %}
+	<!-- end #footer -->
+
+
+	
+	<!-- ================== BEGIN BASE JS ================== -->
+	<script src="{% static 'COLORADMIN_FRONT/js/forum/app.min.js' %}"></script>
+	<!-- ================== END BASE JS ================== -->
+</body>
+</html>

@@ -1,0 +1,37 @@
+{% load static i18n  common%}
+
+
+
+<div class="row">
+
+    <div class="col-xl-12">
+        {% include 'COLORADMIN_ADMIN/UI_Comp/FORM_page_edit.html'   %}<br>
+        <div class="card-group">
+
+
+
+            {% for pageChild in PAGE_CHILD_LIST|hash:DATA.id %}
+                    {% if forloop.first %}
+
+                    {% else %}
+
+                    {% endif %}
+                        <div class="card">
+                            <img class="card-img-top" src="{% static 'COLORADMIN_ADMIN/img/gallery/gallery-9.jpg' %}" alt="Card image cap" />
+                            <div class="card-body">
+                                <h4 class="card-title">{{ pageChild.title }}</h4>
+                                <p class="card-text">{{ pageChild.subtitle }}</p>
+                                <p class="card-text text-gray">DDD</p>
+                            </div>
+                        </div>
+
+            {% endfor %}
+
+        </div>
+
+
+
+
+    </div>
+
+</div>

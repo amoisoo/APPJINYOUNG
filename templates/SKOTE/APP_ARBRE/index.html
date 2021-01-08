@@ -1,0 +1,29 @@
+{% load static i18n %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<h3>ARBRE Index</h3>
+
+{{ GET_LIST }}<br/><br/>
+
+{{ URL_BOOK }}<br/>
+{{ FILE_PATH }}<br/>
+<hr/>
+
+{{ MENU_LIST_SUB }}
+<hr/>
+{% for item in   MENU_LIST_SUB  %}
+    {{ item.id }} / {{ item.uuid }}  /  {{ item.note }}<br/>
+
+{% endfor %}
+
+<br/>
+
+</body>
+</html>

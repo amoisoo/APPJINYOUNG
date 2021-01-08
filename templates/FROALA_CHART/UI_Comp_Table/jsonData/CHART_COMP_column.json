@@ -1,0 +1,88 @@
+            {
+            "chart": {
+        "theme": "froala",
+        "caption": "Comparison of Quarterly Revenue",
+		"subCaption":"Two Years",
+        "xAxisname": "분기",
+        "yAxisName": "수익 (단위 : 달러)",
+        "numberPrefix": "$",
+        "plotFillAlpha": "80",
+        "divLineIsDashed": "1",
+        "divLineDashLen": "1",
+		"exportEnabled": "1",
+        "divLineGapLen": "1"
+      },
+      "categories": [{
+        "category": [
+          {"label": "기관"}
+        , {"label": "오프라인 스토어"}
+        , {"label": "이메일 캠페인"}
+        , {"label": "소셜 이벤트"}
+        , {"label": "지불 방식"}
+        ]
+      }],
+
+      "dataset": [
+        {
+        "seriesname": "2017",
+          "color": "#0000ff",
+
+        "data": [
+          {"value": "10000"}
+        , {"value": "11500"}
+        , {"value": "12500"}
+        , {"value": "15000"}
+        , {"value": "6250"}
+        ]
+      }
+      , {
+        "seriesname": "2018",
+        "data": [
+          {"value": "25400"}
+        , {"value": "29800"}
+        , {"value": "21800"}
+        , {"value": "26800"}
+        , {"value": "10005"}
+        ]
+      }
+      , {
+        "seriesname": "2019",
+        "data": [
+          {"value": "25400"}
+        , {"value": "29800"}
+        , {"value": "21800"}
+        , {"value": "26800"}
+        , {"value": "10005"}
+        ]
+      }
+      , {
+        "seriesname": "2020",
+        "data": [
+          {"value": "15400"}
+        , {"value": "22980"}
+        , {"value": "23800"}
+        , {"value": "1800"}
+        , {"value": "1005"}
+        ]
+      }
+      ],
+      "trendlines": [{
+        "line": [{
+          "startvalue": "12250",
+          "color": "#5D62B5",
+          "displayvalue": "Previous{br}Average",
+          "valueOnRight": "1",
+          "thickness": "1",
+          "showBelow": "1",
+          "tooltext": "Previous year quarterly target  : $13.5K"
+        }, {
+          "startvalue": "25950",
+          "color": "#29C3BE",
+          "displayvalue": "Current{br}Average",
+          "valueOnRight": "1",
+          "thickness": "1",
+          "showBelow": "1",
+          "tooltext": "Current year quarterly target  : $23K"
+        }]
+      }]
+    }

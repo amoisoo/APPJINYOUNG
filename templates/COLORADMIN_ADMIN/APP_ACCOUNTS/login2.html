@@ -1,0 +1,36 @@
+{% extends "COLORADMIN_ADMIN/BASE/base.html" %}
+{% load static i18n %}
+
+{% block body_extra %}{% endblock %}
+
+{% block page_content %}
+	<div class="login-cover">
+		<div class="login-cover-image" style="background-image: url({% static 'COLORADMIN_ADMIN/img/login-bg/login-bg-2.jpg' %})" data-id="login-cover-image"></div>
+		<div class="login-cover-bg"></div>
+	</div>
+
+	<div id="page-container" class="fade">
+		<!-- begin login -->
+		<div class="login login-v2" data-pageload-addclass="animated fadeIn">
+                {% include 'COLORADMIN_ADMIN/APP_ACCOUNTS/COMMON/LOGIN.html' %}
+
+		</div>
+		<!-- end login -->
+
+		<ul class="login-bg-list clearfix">
+			<li class="active"><a href="javascript:;" data-click="change-bg" data-img="{% static 'COLORADMIN_ADMIN/img/login-bg/login-bg-2.jpg' %}" style="background-image: url({% static 'COLORADMIN_ADMIN/img/login-bg/login-bg-2.jpg' %})"></a></li>
+			<li><a href="javascript:;" data-click="change-bg" data-img="{% static 'COLORADMIN_ADMIN/img/login-bg/login-bg-17.jpg' %}" style="background-image: url({% static 'COLORADMIN_ADMIN/img/login-bg/login-bg-17.jpg' %})"></a></li>
+			<li><a href="javascript:;" data-click="change-bg" data-img="{% static 'COLORADMIN_ADMIN/img/login-bg/login-bg-16.jpg' %}" style="background-image: url({% static 'COLORADMIN_ADMIN/img/login-bg/login-bg-16.jpg' %})"></a></li>
+			<li><a href="javascript:;" data-click="change-bg" data-img="{% static 'COLORADMIN_ADMIN/img/login-bg/login-bg-15.jpg' %}" style="background-image: url({% static 'COLORADMIN_ADMIN/img/login-bg/login-bg-15.jpg' %})"></a></li>
+			<li><a href="javascript:;" data-click="change-bg" data-img="{% static 'COLORADMIN_ADMIN/img/login-bg/login-bg-14.jpg' %}" style="background-image: url({% static 'COLORADMIN_ADMIN/img/login-bg/login-bg-14.jpg' %})"></a></li>
+			<li><a href="javascript:;" data-click="change-bg" data-img="{% static 'COLORADMIN_ADMIN/img/login-bg/login-bg-13.jpg' %}" style="background-image: url({% static 'COLORADMIN_ADMIN/img/login-bg/login-bg-13.jpg' %})"></a></li>
+			<li><a href="javascript:;" data-click="change-bg" data-img="{% static 'COLORADMIN_ADMIN/img/login-bg/login-bg-12.jpg' %}" style="background-image: url({% static 'COLORADMIN_ADMIN/img/login-bg/login-bg-12.jpg' %})"></a></li>
+
+		</ul>
+
+
+	</div>
+
+
+
+{% endblock %}

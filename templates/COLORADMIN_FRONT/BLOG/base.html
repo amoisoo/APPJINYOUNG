@@ -1,0 +1,78 @@
+{% load static i18n %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Color Admin | Blog Concept Front End Theme</title>
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+	<meta content="" name="description" />
+	<meta content="" name="author" />
+	
+	<!-- ================== BEGIN BASE CSS STYLE ================== -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+	<link href="{% static 'COLORADMIN_FRONT/css/blog/app.min.css' %}" rel="stylesheet" />
+	<!-- ================== END BASE CSS STYLE ================== -->
+</head>
+<body>
+
+    {% include 'COLORADMIN_FRONT/BLOG/COMMON/PART_nav.html' %}
+
+
+	<!-- begin #page-title -->
+	<div id="page-title" class="page-title has-bg">
+		<div class="bg-cover" data-paroller="true" data-paroller-factor="0.5" data-paroller-factor-xs="0.2" style="background: url({% static APP.BLOG.blog_title_img %}) center 0px / cover no-repeat"></div>
+		<div class="container">
+			<h1>{{ APP.BLOG.blog_title }}</h1>
+			<p>{{ APP.BLOG.blog_subtitle }}</p>
+		</div>
+	</div>
+	<!-- end #page-title -->
+
+
+	<!-- begin #content -->
+	<div id="content" class="content">
+		<!-- begin container -->
+		<div class="container">
+            {% block page_content %}
+                {% include 'COLORADMIN_FRONT/BLOG/COMMON/PART_body.html' %}
+            {% endblock %}
+		</div>
+		<!-- end container -->
+	</div>
+	<!-- end #content -->
+    
+    {% include 'COLORADMIN_FRONT/BLOG/COMMON/PART_footer.html' %}
+
+	
+
+	
+	<!-- begin theme-panel -->
+	<div class="theme-panel">
+		<a href="javascript:;" data-click="theme-panel-expand" class="theme-collapse-btn"><i class="fa fa-cog"></i></a>
+		<div class="theme-panel-content">
+			<ul class="theme-list clearfix">
+
+
+				<li><a href="javascript:;" class="bg-red" data-theme="red" data-theme-file="{% static 'COLORADMIN_FRONT/css/blog/theme/red.min.css' %}" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Red" data-original-title="" title="">&nbsp;</a></li>
+				<li><a href="javascript:;" class="bg-pink" data-theme="pink" data-theme-file="{% static 'COLORADMIN_FRONT/css/blog/theme/pink.min.css' %}" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Pink" data-original-title="" title="">&nbsp;</a></li>
+				<li><a href="javascript:;" class="bg-orange" data-theme="orange" data-theme-file="{% static 'COLORADMIN_FRONT/css/blog/theme/orange.min.css' %}" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Orange" data-original-title="" title="">&nbsp;</a></li>
+				<li><a href="javascript:;" class="bg-yellow" data-theme="yellow" data-theme-file="{% static 'COLORADMIN_FRONT/css/blog/theme/yellow.min.css' %}" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Yellow" data-original-title="" title="">&nbsp;</a></li>
+				<li><a href="javascript:;" class="bg-lime" data-theme="lime" data-theme-file="{% static 'COLORADMIN_FRONT/css/blog/theme/lime.min.css' %}" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Lime" data-original-title="" title="">&nbsp;</a></li>
+				<li><a href="javascript:;" class="bg-green" data-theme="green" data-theme-file="{% static 'COLORADMIN_FRONT/css/blog/theme/green.min.css' %}" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Green" data-original-title="" title="">&nbsp;</a></li>
+				<li class="active"><a href="javascript:;" class="bg-teal" data-theme-file="" data-theme="default" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Default" data-original-title="" title="">&nbsp;</a></li>
+				<li><a href="javascript:;" class="bg-aqua" data-theme="aqua" data-theme-file="{% static 'COLORADMIN_FRONT/css/blog/theme/aqua.min.css' %}" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Aqua" data-original-title="" title="">&nbsp;</a></li>
+				<li><a href="javascript:;" class="bg-blue" data-theme="blue" data-theme-file="{% static 'COLORADMIN_FRONT/css/blog/theme/blue.min.css' %}" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Blue" data-original-title="" title="">&nbsp;</a></li>
+				<li><a href="javascript:;" class="bg-purple" data-theme="purple" data-theme-file="{% static 'COLORADMIN_FRONT/css/blog/theme/purple.min.css' %}" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Purple" data-original-title="" title="">&nbsp;</a></li>
+				<li><a href="javascript:;" class="bg-indigo" data-theme="indigo" data-theme-file="{% static 'COLORADMIN_FRONT/css/blog/theme/indigo.min.css' %}" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Indigo" data-original-title="" title="">&nbsp;</a></li>
+				<li><a href="javascript:;" class="bg-black" data-theme="black" data-theme-file="{% static 'COLORADMIN_FRONT/css/blog/theme/black.min.css' %}" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Black" data-original-title="" title="">&nbsp;</a></li>
+
+			</ul>
+		</div>
+	</div>
+	<!-- end theme-panel -->
+    
+	<!-- ================== BEGIN BASE JS ================== -->
+	<script src="{% static 'COLORADMIN_FRONT/js/blog/app.min.js' %}"></script>
+	<!-- ================== END BASE JS ================== -->
+</body>
+</html>

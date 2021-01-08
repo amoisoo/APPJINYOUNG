@@ -1,0 +1,29 @@
+{% extends "COLORADMIN_FRONT/BLOG/base.html" %}
+{% load static i18n %}
+
+{% block body_extra %}{% endblock %}
+
+{% block page_content %}
+
+<a href="{% url 'blog:index' %}"> <h3>blog Archive Month</h3> </a>
+
+
+    {% for date in date_list %}
+            {{ date }}
+
+        <br/>
+
+    {% endfor %}
+
+    <hr/>
+
+
+
+{% for object in object_list %}
+
+    ({{ object.created|date:'Y-m-d' }})
+    <a href="{{ object.get_url_slug }}"> {{ object.title }} &nbsp;&nbsp;&nbsp; {{ object.modified }}</a><br>
+
+{% endfor %}
+
+{% endblock %}

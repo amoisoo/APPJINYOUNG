@@ -1,0 +1,26 @@
+{% extends "SKOTE/UI_Comp/base_comp_visible.html" %}
+{% load static i18n common%}
+
+
+
+{% block COMP_VISIBLE %}
+
+
+
+{% if DATA.layout == "LEFT" %}
+    {% include 'SKOTE/APP_ARBRE/UI_Comp/COMP_list_tab_vercial.html'   %}
+{% elif DATA.layout == "TOP" %}
+    {% include 'SKOTE/APP_ARBRE/UI_Comp/COMP_list_tab_horizontal.html'   %}
+{% else %}
+    {% include 'SKOTE/APP_ARBRE/UI_Comp/COMP_list_tab_base.html'   %}
+{% endif %}
+
+
+
+
+
+
+
+{% endblock %}
+
+

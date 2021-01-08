@@ -1,0 +1,70 @@
+{% extends "SKOTE/APP_BOOK/BASE/base_h.html" %}
+{% load static i18n %}
+
+
+{% block page_header %}
+        {% include 'SKOTE/APP_BOOK/COMMON/HEADER.html' %}
+
+{% endblock %}
+
+{% block page_navi %}
+
+{% endblock %}
+
+
+
+{% block page_content %}
+<div class="container-fluid">
+      {% include 'FROALA/css_pre_include.html' %}
+
+              <form  method="POST"   enctype="multipart/form-data" novalidate>
+                  {% csrf_token %}
+
+                   {% include 'COLORADMIN_ADMIN/COMMON/FORM_update_title.html' %}
+
+
+                  <div class="form-row">
+
+                   {% include 'COLORADMIN_ADMIN/COMMON/FORM_update_component_menu.html' %}
+
+                   {% include 'COLORADMIN_ADMIN/COMMON/FORM_update_id.html' %}
+
+                  </div>
+
+
+
+
+
+
+
+
+
+                   {% include 'COLORADMIN_ADMIN/COMMON/FORM_update_code.html' %}
+
+
+
+
+                  <div class="form-row">
+                    <div class="form-group col-md-3">
+
+                    </div>
+                    <div class="form-group col-md-6">
+                            <button type="submit" class="btn btn-primary primaryAction   btn-block">{% trans "새글 작성" %}</button>
+
+                    </div>
+                    <div class="form-group col-md-3">
+
+                    </div>
+                  </div>
+
+
+                  {% if redirect_field_value %}
+                  <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+                  {% endif %}
+            </form>
+
+
+          {% include 'FROALA/js_post_include.html' %}
+
+</div>
+{% endblock %}

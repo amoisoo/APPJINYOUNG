@@ -1,0 +1,123 @@
+{% load static i18n %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Color Admin | Support Forum Front End Theme</title>
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+	<meta content="" name="description" />
+	<meta content="" name="author" />
+	
+	<!-- ================== BEGIN BASE CSS STYLE ================== -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+	<link href="{% static 'COLORADMIN_FRONT/css/forum/app.min.css' %}" rel="stylesheet" />
+	<!-- ================== END BASE CSS STYLE ================== -->
+	
+	<!-- ================== BEGIN PAGE LEVEL STYLE ================== -->
+	<link href="{% static 'COLORADMIN_FRONT/plugins/summernote/dist/summernote-bs4.css' %}" rel="stylesheet" />
+	<!-- ================== END PAGE LEVEL STYLE ================== -->
+</head>
+<body>
+  <!-- begin #header -->
+    {% include 'COLORADMIN_FRONT/FORUM/COMMON/HEADER.html' %}
+	<!-- end #header -->
+	
+	<!-- begin page-title -->
+	<div class="page-title has-bg">
+		<!-- begin bg-cover -->
+		<div class="bg-cover" data-paroller="true" data-paroller-factor="0.5" data-paroller-factor-xs="0.01" style="background-image: url({% static 'COLORADMIN_FRONT/img/cover/cover-11.jpg' %})"></div>
+		<!-- end bg-cover -->
+		<!-- begin container -->
+		<div class="container">
+			<!-- begin breadcrumb -->
+			<ul class="breadcrumb">
+				<li class="breadcrumb-item"><a href="{% url 'forum:index' %}">포럼 홈</a></li>
+				<li class="breadcrumb-item"><a href="{% url 'forum:detail' object.parent.slug %}">{{ object.parent }}</a></li>
+				<li class="breadcrumb-item active">&nbsp;</li>
+			</ul>
+			<!-- end breadcrumb -->
+
+            <h1>&nbsp;</h1>
+		</div>
+		<!-- end container -->
+	</div>
+	<!-- end page-title -->
+
+	<!-- begin content -->
+	<div class="content">
+		<!-- begin container -->
+		<div class="container">
+			<!-- begin row -->
+			<div class="row">
+				<!-- begin col-9 -->
+				<div class="col-lg-12">
+					<!-- begin pagination -->
+                    <a href="{% url 'forum:detail' object.parent.slug %}"><h1>{{ object.title }}</h1></a><br/>
+					<!-- end pagination -->
+					<!-- begin forum-list -->
+
+
+
+
+
+					<ul class="forum-list forum-detail-list mb-4">
+                         {% include 'COLORADMIN_FRONT/FORUM/UI_Comp/CATEGORY_detail.html' with DATA=object %}
+
+					</ul>
+					<!-- end forum-list -->
+					<!-- begin pagination -->
+					<!-- end pagination --><br/><br/><br/><br/>
+                                {% include 'COLORADMIN_FRONT/FORUM/UI_Comp/CATEGORY_detail_comment.html' %}
+
+				</div>
+				<!-- end col-9 -->
+				<!-- begin col-3 -->
+				<!-- end col-3 -->
+			</div>
+			<!-- end row -->
+		</div>
+		<!-- end container -->
+	</div>
+	<!-- end content -->
+
+    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+	<!-- begin #footer -->
+
+    {% include 'COLORADMIN_FRONT/FORUM/COMMON/FOOTER.html' %}
+	<!-- end #footer -->
+
+	
+
+	
+	<!-- ================== BEGIN BASE JS ================== -->
+	<script src="{% static 'COLORADMIN_FRONT/js/forum/app.min.js' %}"></script>
+	<!-- ================== END BASE JS ================== -->
+	
+	<!-- ================== BEGIN PAGE LEVEL JS ================== -->
+	<script src="{% static 'COLORADMIN_FRONT/plugins/summernote/dist/summernote-bs4.min.js' %}"></script>
+	<script src="{% static 'COLORADMIN_FRONT/js/forum/forum-details-page.js' %}"></script>
+	<!-- ================== END PAGE LEVEL JS ================== -->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

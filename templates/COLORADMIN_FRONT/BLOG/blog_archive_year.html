@@ -1,0 +1,51 @@
+{% extends "COLORADMIN_FRONT/BLOG/base.html" %}
+{% load static i18n %}
+
+{% block body_extra %}{% endblock %}
+
+{% block page_content %}
+
+
+
+<a href="{% url 'blog:index' %}"> <h3>blog Archive Year</h3> </a>
+
+
+    {% for date in date_list %}
+            {{ date }}
+
+        <br/>
+
+    {% endfor %}
+
+    <hr/>
+
+    {% for object in object_list %}
+             {{ object.id }} {{ object.title }}  &nbsp;&nbsp;&nbsp;{{ object.created|date:'Y-m-d' }}
+
+        <br/>
+
+    {% endfor %}
+
+
+{% for date in date_list %}
+
+    <a href="{% url 'blog:archive_month' date|date:'Y' date|date:'b'  %}"> {{date|date:"F"}} </a><br>
+{% endfor %}
+
+<hr>
+
+{% for date in date_list %}
+
+    <a href="{% url 'blog:archive_month' date|date:'Y' date|date:'b'  %}"> {{date|date:"F"}} </a><br>
+{% endfor %}
+
+<hr>
+
+{% for object in object_list %}
+
+    ({{ object.created|date:'Y-m-D' }})
+    <a href="{{ object.get_url_slug }}"> {{ object.title }} &nbsp;&nbsp;&nbsp; {{ object.modified }}</a><br>
+
+{% endfor %}
+
+{% endblock %}

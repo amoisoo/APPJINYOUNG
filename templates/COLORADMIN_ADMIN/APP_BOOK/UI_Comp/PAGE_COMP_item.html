@@ -1,0 +1,45 @@
+{% load static i18n %}
+
+
+<div class="col-xl-12 col-sm-12">
+    <div class="m-b-10 f-s-10 m-t-10"><b class="text-inverse"></b></div>
+    <!-- begin card -->
+    <div class="card border-0">
+
+
+
+        <div class="card-body">
+                {% if user.is_authenticated %}
+                    <div class="widget-list-action">
+                          <a href="#" data-toggle="dropdown" class="text-muted pull-right">
+                            <i class="fa fa-ellipsis-h f-s-14"></i> &nbsp;
+                          </a>
+                          <ul class="dropdown-menu dropdown-menu-right">
+                                <a href="{% url 'book:page_update' DATA.id object.parent.slug  object.slug %}" class="dropdown-item text-blue">편집</a>
+                                <a href="{% url 'book:page_delete' DATA.id object.parent.slug  object.slug %}" class="dropdown-item text-red">삭제</a>
+                                <div class="dropdown-divider"></div>
+                                <a href="{% url 'book:page_detail' DATA.id object.parent.slug  object.slug %}" class="dropdown-item text-success">상세페이지</a>
+
+                                <div class="dropdown-divider"></div>
+                                <a href="#" class="dropdown-item">{{ DATA.id }}</a>
+                                <a href="#" class="dropdown-item">{{ DATA.modified }}</a>
+                                <a href="#" class="dropdown-item">{{ DATA.created }}</a>
+
+                          </ul>
+                    </div>
+                {% endif %}
+            <h3>{{ DATA.title }}</h3>
+
+            {% if DATA.image %}
+                    <div align="center"><img src="{{ MEDIA_URL }}{{ DATA.image }}" /></div>
+            {% endif %}
+
+            {{ DATA.note|safe }}
+
+
+        </div>
+
+
+    </div>
+
+</div>

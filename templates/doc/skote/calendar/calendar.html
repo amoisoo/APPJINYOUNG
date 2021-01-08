@@ -1,0 +1,67 @@
+{% extends "SKOTE/BASE/base_h.html" %}
+{% load static i18n %}
+
+
+{% block page_content %}
+<div class="container-fluid">
+
+        <link rel="stylesheet" type="text/css" href="{% static 'SKOTE/libs/tui-time-picker/tui-time-picker.min.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'SKOTE/libs/tui-date-picker/tui-date-picker.min.css' %}">
+        <link href="{% static 'SKOTE/libs/tui-calendar/tui-calendar.min.css' %}" rel="stylesheet" type="text/css" />
+
+                        <!-- start page title -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="page-title-box d-flex align-items-center justify-content-between">
+                                    <h4 class="mb-0 font-size-18">Calendar</h4>
+
+                                    <div class="page-title-right">
+                                        <ol class="breadcrumb m-0">
+                                            <li class="breadcrumb-item"><a href="javascript: void(0);">Skote</a></li>
+                                            <li class="breadcrumb-item active">Calendar</li>
+                                        </ol>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end page title -->
+
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div id="lnb">
+                                            <div class="lnb-new-schedule float-sm-right ml-sm-3">
+                                                <button id="btn-new-schedule" type="button" class="btn btn-primary lnb-new-schedule-btn" data-toggle="modal">
+                                                    New schedule</button>
+                                            </div>
+                                            <div id="calendarList" class="lnb-calendars-d1 mt-4 mr-sm-0 mb-4"></div>
+
+
+                                            <div id="calendar" style="height: 800px;"></div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end row -->
+
+        <script src="https://uicdn.toast.com/tui.code-snippet/latest/tui-code-snippet.min.js"></script>
+        <script src="{% static 'SKOTE/libs/tui-dom/tui-dom.min.js' %}"></script>
+
+        <script src="{% static 'SKOTE/libs/tui-time-picker/tui-time-picker.min.js' %}"></script>
+        <script src="{% static 'SKOTE/libs/tui-date-picker/tui-date-picker.min.js' %}"></script>
+
+        <script src="{% static 'SKOTE/libs//moment/min/moment.min.js' %}"></script>
+        <script src="{% static 'SKOTE/libs/chance/chance.min.js' %}"></script>
+
+        <script src="{% static 'SKOTE/libs/tui-calendar/tui-calendar.min.js' %}"></script>
+
+        <script src="{% static 'SKOTE/js/pages/calendars.js' %}"></script>
+        <script src="{% static 'SKOTE/js/pages/schedules.js' %}"></script>
+        <script src="{% static 'SKOTE/js/pages/calendar.init.js' %}"></script>
+
+</div>
+{% endblock %}

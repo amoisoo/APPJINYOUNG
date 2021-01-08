@@ -1,0 +1,223 @@
+{% load static i18n %}
+<!doctype html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8" />
+        <title>{% block title %}amoisoo{% endblock %}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
+        <meta content="Themesbrand" name="author" />
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="{% static 'SKOTE/images/favicon.ico' %}">
+
+        <!-- Bootstrap Css -->
+        <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+        <!-- Icons Css -->
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <!-- App Css-->
+        <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+
+
+        <!-- Bootstrap Css -->
+        <link href="{% static 'SKOTE/css/bootstrap.min.css' %}" id="bootstrap-style" rel="stylesheet" type="text/css" />
+        <!-- Icons Css -->
+        <link href="{% static 'SKOTE/css/icons.min.css' %}" rel="stylesheet" type="text/css" />
+        <!-- App Css-->
+        <link href="{% static 'SKOTE/css/app.min.css' %}" id="app-style" rel="stylesheet" type="text/css" />
+
+
+    </head>
+
+
+    <!-- <body data-sidebar="dark"> -->
+
+    <body  data-topbar="dark">
+
+        <!-- Begin page -->
+        <div id="layout-wrapper">
+
+
+
+
+            {% block page_header %}
+                {% include 'SKOTE/COMMON/HEADER_V.html' %}
+            {% endblock %}
+
+            {% block page_navi %}
+                {% include 'SKOTE/COMMON/NAVI_SIDE.html' %}
+            {% endblock %}
+
+
+
+
+            <!-- ============================================================== -->
+            <!-- Start right Content here -->
+            <!-- ============================================================== -->
+            <div class="main-content">
+
+                <div class="page-content">
+                    {% block page_content %}
+
+
+                    <div class="container-fluid">
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="page-title-box d-flex align-items-center justify-content-between">
+                                    <h4 class="mb-0 font-size-18">시작</h4>
+
+                                    <div class="page-title-right">
+                                        <ol class="breadcrumb m-0">
+                                            <li class="breadcrumb-item"><a href="javascript: void(0);">Utility</a></li>
+                                            <li class="breadcrumb-item active">Starter Page</li>
+                                        </ol>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="invoice-title">
+                                            <h4 class="float-right font-size-16">Order # 12345</h4>
+                                            <div class="mb-4">
+                                                <img src="{% static 'SKOTE/images/logo-dark.png' %}" alt="logo" height="20"/>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <address>
+                                                    <strong>Billed To:</strong><br>
+                                                    John Smith<br>
+                                                    1234 Main<br>
+                                                    Apt. 4B<br>
+                                                    Springfield, ST 54321
+                                                </address>
+                                            </div>
+                                            <div class="col-sm-6 text-sm-right">
+                                                <address class="mt-2 mt-sm-0">
+                                                    <strong>Shipped To:</strong><br>
+                                                    Kenny Rigdon<br>
+                                                    1234 Main<br>
+                                                    Apt. 4B<br>
+                                                    Springfield, ST 54321
+                                                </address>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6 mt-3">
+                                                <address>
+                                                    <strong>Payment Method:</strong><br>
+                                                    Visa ending **** 4242<br>
+                                                    jsmith@email.com
+                                                </address>
+                                            </div>
+                                            <div class="col-sm-6 mt-3 text-sm-right">
+                                                <address>
+                                                    <strong>Order Date:</strong><br>
+                                                    October 16, 2019<br><br>
+                                                </address>
+                                            </div>
+                                        </div>
+                                        <div class="py-2 mt-3">
+                                            <h3 class="font-size-15 font-weight-bold">Order summary</h3>
+                                        </div>
+                                        <div class="table-responsive">
+                                            <table class="table table-nowrap">
+                                                <thead>
+                                                    <tr>
+                                                        <th style="width: 70px;">No.</th>
+                                                        <th>Item</th>
+                                                        <th class="text-right">Price</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>01</td>
+                                                        <td>Skote - Bootstrap 4 Admin Dashboard</td>
+                                                        <td class="text-right">$499.00</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>02</td>
+                                                        <td>Skote - Bootstrap 4 Landing Template</td>
+                                                        <td class="text-right">$399.00</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>03</td>
+                                                        <td>Veltrix - Bootstrap 4 Admin Template</td>
+                                                        <td class="text-right">$499.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="2" class="text-right">Sub Total</td>
+                                                        <td class="text-right">$1397.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="2" class="border-0 text-right">
+                                                            <strong>Shipping</strong></td>
+                                                        <td class="border-0 text-right">$13.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="2" class="border-0 text-right">
+                                                            <strong>Total</strong></td>
+                                                        <td class="border-0 text-right"><h4 class="m-0">$1410.00</h4></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div class="d-print-none">
+                                            <div class="float-right">
+                                                <a href="javascript:window.print()" class="btn btn-success waves-effect waves-light mr-1"><i class="fa fa-print"></i></a>
+                                                <a href="#" class="btn btn-primary w-md waves-effect waves-light">Send</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
+
+                 {% endblock %}
+                </div>
+
+
+                {% include 'SKOTE/COMMON/FOOTER.html' %}
+
+
+
+            </div>
+            <!-- end main content-->
+
+        </div>
+        <!-- END layout-wrapper -->
+
+        {% include 'SKOTE/COMMON/NAVI_SIDE_RIGHT.html' %}
+
+        {% block javascript_pre %}{% endblock %}
+
+        <!-- JAVASCRIPT -->
+        <script src="{% static 'SKOTE/libs/jquery/jquery.min.js' %}"></script>
+        <script src="{% static 'SKOTE/libs/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+        <script src="{% static 'SKOTE/libs/metismenu/metisMenu.min.js' %}"></script>
+        <script src="{% static 'SKOTE/libs/simplebar/simplebar.min.js' %}"></script>
+        <script src="{% static 'SKOTE/libs/node-waves/waves.min.js' %}"></script>
+        {% block javascript_body %}{% endblock %}
+
+        <script src="{% static 'SKOTE/js/app.js' %}"></script>
+        {% block javascrip_extrat %}{% endblock %}
+        {% block javascript_post %}{% endblock %}
+    </body>
+</html>

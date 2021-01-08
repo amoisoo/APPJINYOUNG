@@ -1,0 +1,96 @@
+{% extends "SKOTE/APP_BOOK/BASE/base_h.html" %}
+{% load static i18n %}
+
+
+{% block page_header %}
+        {% include 'SKOTE/APP_BOOK/COMMON/HEADER.html' %}
+
+{% endblock %}
+
+{% block page_navi %}
+
+{% endblock %}
+
+
+{% block page_content %}
+
+<div class="container-fluid">
+
+
+
+
+</div> <!-- container-fluid -->
+
+
+
+<div class="container-fluid">
+
+    <!-- start page title -->
+    <div class="row">
+        <div class="col-12">
+            <div class="page-title-box d-flex align-items-center justify-content-between">
+                <h4 class="mb-0 font-size-18">유저 프로필</h4>
+
+                <div class="page-title-right">
+                    <ol class="breadcrumb m-0">
+                        <li class="breadcrumb-item"><a href="javascript: void(0);">Users</a></li>
+                        <li class="breadcrumb-item active">Profile</li>
+                    </ol>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end page title -->
+
+
+    <hr/>
+    {% if user.profile == '' %}
+            <div align="right"><a href="{% url 'users:profile_create' %}"  class="btn btn-success btn-sm btn-rounded pl-2 pr-3">&nbsp;&nbsp;프로필 작성 작성</a><br/><br/></div>
+            <div align="right">
+                프로필이 작성되지 않았습니다. <br/>
+                프로필을 작성하세요.
+            </div>
+    {% else %}
+            <div align="right">
+                <a href="{% url 'users:profile_update' user.profile.id%}"  class="btn btn-secondary btn-sm btn-rounded pl-2 pr-3">&nbsp;&nbsp;프로필 편집</a>
+                <a href="{% url 'users:profile_delete' user.profile.id%}"  class="btn btn-danger btn-sm btn-rounded pl-2 pr-3">&nbsp;&nbsp;프로필 삭제</a>
+            </div>
+
+    {% endif %}
+    <hr/>
+
+
+    {{ user.email }} <br/>
+    {{ user.uuid }} <br/>
+    {{ user.last_login }} <br/>
+    <hr/>
+
+    {{ user.username }} <br/>
+    {{ user.name }} <br/>
+    {{ user.first_name }} <br/>
+
+    {{ user.is_staff }} <br/>
+    {{ user.is_superuser }} <br/>
+    <hr/>
+
+
+
+    {{ user.profile.id }} <br/>
+    {{ user.profile.nickname }} <br/>
+    {{ user.profile.image }} <br/>
+
+    {% if  user.profile.image%}
+        <img src="{{ MEDIA_URL }}{{ user.profile.image }}">
+    {% endif %}
+    <hr/>
+
+
+
+
+
+</div>
+
+
+
+{% endblock %}

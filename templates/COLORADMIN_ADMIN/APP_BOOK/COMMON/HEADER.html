@@ -1,0 +1,34 @@
+{% load static i18n %}
+
+
+		<div id="header" class="header navbar-default">
+			<!-- begin navbar-header -->
+			<div class="navbar-header">
+				<a href="{% url 'book:index' %}" class="navbar-brand"><span class="navbar-logo"></span> <b>AMOISOO</b>&nbsp;<b>책</b></a>
+
+				<button type="button" class="navbar-toggle" data-click="sidebar-toggled">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+
+
+
+                {% include 'COLORADMIN_ADMIN/APP_BOOK/COMMON/MENU_MEGA.html' %}
+
+
+
+            <!-- COLORADMIN_ADMIN/COMMON/HEADER_MENU.html -->
+			<ul class="navbar-nav navbar-left">
+
+			</ul>
+
+
+			<!-- end navbar-header --><!-- begin header-nav -->
+			<ul class="navbar-nav navbar-right">
+                {% include 'COLORADMIN_ADMIN/APP_BOOK/COMMON/HEADER_LOGIN.html' %}
+
+			</ul>
+			<!-- end header-nav -->
+		</div>

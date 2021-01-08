@@ -1,0 +1,43 @@
+<Table>
+    <Record ParentIndex="-1" Expand="0" Index="1">
+        <TITLE color="None" background="None">UIActivityIndicatorView</TITLE>
+        <ID>1</ID>
+        <ID_SORT>1</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>e5ab775a_5611_486c_ba83_ab06694fdb3a</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>Menu</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>True</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>금 8월 30 00:08:52 2019</CREATED>
+        <MODIFED>월 10월 7 23:37:51 2019</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+</Table>
+

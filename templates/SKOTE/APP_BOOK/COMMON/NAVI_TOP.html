@@ -1,0 +1,60 @@
+{% load static i18n common%}
+
+
+
+
+<div class="topnav">
+    <div class="container-fluid">
+        <nav class="navbar navbar-light navbar-expand-lg topnav-menu">
+
+            <div class="collapse navbar-collapse" id="topnav-menu-content">
+                <ul class="navbar-nav">
+
+
+
+                    <li class="nav-item ">
+                        <a class="nav-link dropdown-toggle arrow-none" href="{% url 'book:book_detail' URL_BOOK %}"  >
+                            <i class="bx bx-home-circle mr-2"></i><span key="t-dashboards">홈</span>
+                        </a>
+
+                    </li>
+
+
+
+
+    {% for MENU_ITEM in MENU_LIST %}
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle arrow-none" href="{% url 'book:menu_detail' MENU_ITEM.parent.slug  MENU_ITEM.slug %}" id="topnav-pages" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="bx bx-customize mr-2"></i>
+                            <span key="t-apps">{{ MENU_ITEM.title }}</span>
+                            <div class="arrow-down"></div>
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="topnav-more">
+                                     {% if user.is_authenticated %}
+                                    <a href="{% url 'book:menu_detail' MENU_ITEM.parent.slug  MENU_ITEM.slug %}" class="dropdown-item" key="t-chat" style="color: tomato ; ">{{ MENU_ITEM.title }}</a>
+                                    {% endif %}
+
+                            {% if MENU_LIST_SUB|hash:MENU_ITEM.id %}
+
+                                {% for SUBMENU_ITEM in MENU_LIST_SUB|hash:MENU_ITEM.id %}
+
+                                    <a href="{% url 'book:menu_detail' SUBMENU_ITEM.parent.slug  SUBMENU_ITEM.slug %}" class="dropdown-item" key="t-chat">{{ SUBMENU_ITEM.title }}</a>
+                                {%  endfor %}
+
+                            {% endif %}
+
+                        </div>
+
+                    </li>
+    {%  endfor %}
+
+
+
+
+
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>

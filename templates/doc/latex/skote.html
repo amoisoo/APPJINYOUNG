@@ -1,0 +1,50 @@
+{% extends "SKOTE/BASE/base_h.html" %}
+{% load static i18n %}
+
+
+{% block page_content %}
+<div class="container-fluid">
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+    <hr/>
+
+\begin{align}
+\langle f_1(x)\,|\, \phi(x-\ell)\rangle_{L^2}
+&= \sum_k c^*_k\int_{-\infty}^\infty
+     \phi\left(2(t-\frac{k}{2})\right)^*\phi(t-\ell)\,dt\\
+&= \sum_\ell \left\{ c_{2\ell}\int_{\ell}^{\ell+\frac12}
+     \phi\left(2(t-\ell)\right)^*\phi(t-\ell)\,dt \right. \nonumber \\
+& \left. \qquad + c_{2\ell+1}\int_{\ell+\frac12}^{\ell+1}
+     \phi\left(2(t-\ell-\frac12)\right)^*\phi(t-\ell)\,dt\right\} \\
+& = 0 \quad\text{であるためには $c_{2\ell}=-c_{2\ell+1}$ に限る} \nonumber
+\end{align}
+
+
+\[
+\sqrt{2} \approx 1.41421356237
+\]
+
+
+
+\[
+\sum_{k=1}^n k = 1 + 2 + \dots + n = \frac{ n ( n-1 )} {300 }
+\]
+
+
+$(a+b)^n$ は2項係数 $\displaystyle\binom{n}{n-k}=\frac{n!}{(n-k)!\times k!}$ を使って
+\[
+(a+b)^n=\sum_{k=0}^n \binom{n}{n-k}a^{n-k}b^k
+\]
+と表される。
+
+
+
+
+    \begin{align*}
+    f_0 &= 1\\
+    f_1 &= 1\\
+    f_n &= f_{n-1}+f_{n-2}, \qquad n\geq 2
+    \end{align*}
+</div>
+{% endblock %}

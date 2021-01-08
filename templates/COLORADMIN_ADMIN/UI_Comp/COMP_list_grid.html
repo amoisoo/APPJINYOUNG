@@ -1,0 +1,28 @@
+{% load static i18n common%}
+    {% include 'COLORADMIN_ADMIN/UI_Comp/FORM_page_edit.html'   %}
+    <br/>
+<div class="row">
+
+
+
+{% for pageChild in PAGE_CHILD_LIST|hash:DATA.id %}
+        {% if forloop.first %}
+
+        {% else %}
+
+        {% endif %}
+    <div class="col-xl-2 col-md-6 m-0 p-1 ">
+            <div class="card border-0   bg-white border-danger"><div class="card-body">
+                {% include 'COLORADMIN_ADMIN/UI_Comp/FORM_page_edit.html' with DATA=pageChild    %}
+
+                {{ pageChild.title }}
+            </div></div>
+    </div>
+{% endfor %}
+
+
+
+</div>
+<br/>
+
+

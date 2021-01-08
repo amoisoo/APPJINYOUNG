@@ -1,0 +1,50 @@
+
+{% load static i18n %}
+
+
+
+<li>
+    <!-- begin media -->
+    <div class="media">
+        <img src="{% static 'COLORADMIN_FRONT/img/icon/icon-chat-bubble.png' %}" alt="" />
+    </div>
+    <!-- end media -->
+    <!-- begin info-container -->
+    <div class="info-container">
+        <div class="info">
+            <h4 class="title"><a href="{% url 'forum:detail'   DATA.slug %}">{{ DATA.title  }}</a></h4>
+
+            <p class="desc">{{ DATA.subtitle }}</p>
+        </div>
+
+
+
+        {% if user.is_authenticated %}
+
+                <div class="total-count">
+                    <span class="total-comment"><a href="{% url 'forum:update' DATA.slug %}">편집</a></span>
+                    <span class="divider">/</span>
+                    <span class="total-comment"><a href="{% url 'forum:delete' DATA.slug %}">삭제</a></span>
+                    <span class="divider">/</span>
+                    <span class="total-comment">{{ DATA.id }}</span>
+
+                </div>
+
+        {% else %}
+
+        {% endif %}
+
+
+        <div class="latest-post">
+            {% if user.username == "lee" %}
+                <h4 class="title"><a href="category.html">{{ DATA.modified }}</a></h4>
+                <p class="time">{{ DATA.created }}<a href="category_list.html" class="user">{{ DATA.user }}</a></p>
+            {% else %}
+
+            {% endif %}
+        </div>
+
+    </div>
+    <!-- end info-container -->
+</li>
+

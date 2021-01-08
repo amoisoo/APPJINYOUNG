@@ -1,0 +1,922 @@
+{% extends "COLORADMIN_ADMIN/BASE/base_book.html" %}
+{% load static i18n %}
+
+{% block body_extra %}{% endblock %}
+
+
+{% block page_navi %}
+    {% if LAYOUT.NAVI_POSITION == 'TOP' %}
+        {% include 'COLORADMIN_ADMIN/APP_BOOK/COMMON/NAVI_TOP.html' %}
+    {% else %}
+        {% include 'COLORADMIN_ADMIN/APP_BOOK/COMMON/NAVI_SIDE.html' %}
+
+    {% endif %}
+{% endblock %}
+
+
+
+
+{% block page_content %}
+
+		<div id="content" class="content">
+			<!-- begin breadcrumb -->
+
+			<h1 class="page-header">Book<small>책</small></h1>
+			<div class="row">
+				<!-- begin col-4 -->
+
+				<div class="col-xl-3 col-lg-12">
+					<!-- begin card -->
+					<div class="card border-0 mb-3 bg-dark-darker text-white">
+						<!-- begin card-body -->
+						<div class="card-body" style="background: no-repeat bottom right; background-image: url(../assets/img/svg/img-4.svg); background-size: auto 60%;">
+							<!-- begin title -->
+							<div class="mb-3 text-grey">
+								<b>웹사이트</b>
+								<span class="text-grey ml-2"><i class="fa fa-info-circle" data-toggle="popover" data-trigger="hover" data-title="Sales by social source" data-placement="top" data-content="Total online store sales that came from a social referrer source."></i></span>
+							</div>
+							<!-- end title -->
+							<!-- begin sales -->
+							<h3 class="m-b-10"><span data-animation="number" data-value="20">0.00</span>권</h3>
+							<!-- end sales -->
+							<!-- begin percentage -->
+							<div class="text-grey m-b-1"><i class="fa fa-caret-up"></i> <span data-animation="number" data-value="3">0.00</span>권 추가</div>
+							<!-- end percentage -->
+						</div>
+						<!-- end card-body -->
+						<!-- begin widget-list -->
+						<div class="widget-list widget-list-rounded inverse-mode">
+							<!-- begin widget-list-item -->
+
+							<!-- end widget-list-item -->
+							<!-- begin widget-list-item -->
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-blue text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">HTML</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-indigo text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">CSS</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-red text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">JS</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-green text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">장고</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-grey text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">Linux</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-yellow text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">Ubuntu</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-success text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">AWS</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+
+
+
+
+						</div>
+						<!-- end widget-list -->
+					</div>
+					<!-- end card -->
+				</div>
+
+				<div class="col-xl-3 col-lg-12">
+					<!-- begin card -->
+					<div class="card border-0 mb-3 bg-dark-darker text-white">
+						<!-- begin card-body -->
+						<div class="card-body" style="background: no-repeat bottom right; background-image: url(../assets/img/svg/img-4.svg); background-size: auto 60%;">
+							<!-- begin title -->
+							<div class="mb-3 text-grey">
+								<b>개발</b>
+								<span class="text-grey ml-2"><i class="fa fa-info-circle" data-toggle="popover" data-trigger="hover" data-title="Sales by social source" data-placement="top" data-content="Total online store sales that came from a social referrer source."></i></span>
+							</div>
+							<!-- end title -->
+							<!-- begin sales -->
+							<h3 class="m-b-10"><span data-animation="number" data-value="178">0.00</span>권</h3>
+							<!-- end sales -->
+							<!-- begin percentage -->
+							<div class="text-grey m-b-1"><i class="fa fa-caret-up"></i> <span data-animation="number" data-value="3">0.00</span>권 추가</div>
+							<!-- end percentage -->
+						</div>
+						<!-- end card-body -->
+						<!-- begin widget-list -->
+						<div class="widget-list widget-list-rounded inverse-mode">
+							<!-- begin widget-list-item -->
+
+							<!-- end widget-list-item -->
+							<!-- begin widget-list-item -->
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-blue text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">HTML</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-blue text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">CSS</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-blue text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">JS</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-blue text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">장고</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-blue text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">Linux</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-blue text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">Ubuntu</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-blue text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">AWS</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+
+
+
+
+						</div>
+						<!-- end widget-list -->
+					</div>
+					<!-- end card -->
+				</div>
+				<div class="col-xl-3 col-lg-12">
+					<!-- begin card -->
+					<div class="card border-0 mb-3 bg-dark-darker text-white">
+						<!-- begin card-body -->
+						<div class="card-body" style="background: no-repeat bottom right; background-image: url(../assets/img/svg/img-4.svg); background-size: auto 60%;">
+							<!-- begin title -->
+							<div class="mb-3 text-grey">
+								<b>CG</b>
+								<span class="text-grey ml-2"><i class="fa fa-info-circle" data-toggle="popover" data-trigger="hover" data-title="Sales by social source" data-placement="top" data-content="Total online store sales that came from a social referrer source."></i></span>
+							</div>
+							<!-- end title -->
+							<!-- begin sales -->
+							<h3 class="m-b-10"><span data-animation="number" data-value="12">0.00</span>권</h3>
+							<!-- end sales -->
+							<!-- begin percentage -->
+							<div class="text-grey m-b-1"><i class="fa fa-caret-up"></i> <span data-animation="number" data-value="3">0.00</span>권 추가</div>
+							<!-- end percentage -->
+						</div>
+						<!-- end card-body -->
+						<!-- begin widget-list -->
+						<div class="widget-list widget-list-rounded inverse-mode">
+							<!-- begin widget-list-item -->
+
+							<!-- end widget-list-item -->
+							<!-- begin widget-list-item -->
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-blue text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">HTML</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-indigo text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">CSS</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-red text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">JS</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-green text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">장고</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-grey text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">Linux</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-yellow text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">Ubuntu</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-success text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">AWS</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+
+
+
+
+						</div>
+						<!-- end widget-list -->
+					</div>
+					<!-- end card -->
+				</div>
+				<div class="col-xl-3 col-lg-12">
+					<!-- begin card -->
+					<div class="card border-0 mb-3 bg-dark-darker text-white">
+						<!-- begin card-body -->
+						<div class="card-body" style="background: no-repeat bottom right; background-image: url(../assets/img/svg/img-4.svg); background-size: auto 60%;">
+							<!-- begin title -->
+							<div class="mb-3 text-grey">
+								<b>Maya</b>
+								<span class="text-grey ml-2"><i class="fa fa-info-circle" data-toggle="popover" data-trigger="hover" data-title="Sales by social source" data-placement="top" data-content="Total online store sales that came from a social referrer source."></i></span>
+							</div>
+							<!-- end title -->
+							<!-- begin sales -->
+							<h3 class="m-b-10"><span data-animation="number" data-value="48">0.00</span>권</h3>
+							<!-- end sales -->
+							<!-- begin percentage -->
+							<div class="text-grey m-b-1"><i class="fa fa-caret-up"></i> <span data-animation="number" data-value="3">0.00</span>권 추가</div>
+							<!-- end percentage -->
+						</div>
+						<!-- end card-body -->
+						<!-- begin widget-list -->
+						<div class="widget-list widget-list-rounded inverse-mode">
+							<!-- begin widget-list-item -->
+
+							<!-- end widget-list-item -->
+							<!-- begin widget-list-item -->
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-blue text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">HTML</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-indigo text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">CSS</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-red text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">JS</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-green text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">장고</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-grey text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">Linux</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-yellow text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">Ubuntu</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-success text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">AWS</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+
+
+
+
+						</div>
+						<!-- end widget-list -->
+					</div>
+					<!-- end card -->
+				</div>
+				<!-- end col-4 -->
+				<!-- end col-4 -->
+				<!-- begin col-4 -->
+				<!-- end col-4 -->
+				<!-- begin col-4 -->
+				<!-- end col-4 -->
+			</div>
+
+
+		</div>
+
+
+
+		<div id="content" class="content">
+			<!-- begin breadcrumb -->
+
+			<h1 class="page-header">Book<small>책</small></h1>
+			<div class="row">
+				<!-- begin col-4 -->
+				<div class="col-xl-12 col-lg-12">
+					<!-- begin card -->
+					<div class="card border-0 mb-3 bg-dark text-white">
+						<!-- begin card-body -->
+						<div class="card-body">
+							<!-- begin title -->
+							<div class="mb-3 text-grey">
+								<b>개발 관련 서적</b>
+								<span class="ml-2"><i class="fa fa-info-circle" data-toggle="popover" data-trigger="hover" data-title="마케팅 캠페인" data-placement="top" data-content="고객에게 제공되는 상품들"></i></span>
+							</div>
+							<!-- end title -->
+							<div class="row align-items-center p-b-1">
+								<!-- begin col-4 -->
+								<div class="col-4">
+									<div class="height-100 d-flex align-items-center justify-content-center">
+										<img src="{% static 'COLORADMIN_ADMIN/img/svg/img-1.svg' %}" class="mw-100 mh-100" />
+									</div>
+								</div>
+								<!-- end col-4 -->
+								<!-- begin col-8 -->
+								<div class="col-8">
+									<div class="m-b-2 text-truncate">HTML</div>
+									<div class="m-b-2  text-grey f-s-11">2020.10.24 - 2020.10.31</div>
+									<div class="d-flex align-items-center m-b-2">
+										<div class="flex-grow-1">
+											<div class="progress progress-xs rounded-corner bg-white-transparent-1">
+												<div class="progress-bar progress-bar-striped bg-blue" data-animation="width" data-value="80%" style="width: 0%"></div>
+											</div>
+										</div>
+										<div class="ml-2 f-s-11 width-30 text-center"><span data-animation="number" data-value="80">0</span>%</div>
+									</div>
+									<div class="text-grey f-s-11 m-b-15 text-truncate">
+										57.5% 사람이 이메일을 클릭하였습니다.
+									</div>
+									<a href="#" class="btn btn-xs btn-blue f-s-10 pl-2 pr-2">HTML</a>
+									<a href="#" class="btn btn-xs btn-blue f-s-10 pl-2 pr-2">CSS3</a>
+									<a href="#" class="btn btn-xs btn-blue f-s-10 pl-2 pr-2">JS</a>
+									<a href="#" class="btn btn-xs btn-blue f-s-10 pl-2 pr-2">JQery</a>
+								</div>
+								<!-- end col-8 -->
+							</div>
+							<!-- end row -->
+							<hr class=" bg-white-transparent-2 m-t-20 m-b-20" />
+							<div class="row align-items-center p-b-1">
+								<!-- begin col-4 -->
+								<div class="col-4">
+									<div class="height-100 d-flex align-items-center justify-content-center">
+										<img src="{% static 'COLORADMIN_ADMIN/img/svg/img-4.svg' %}" class="mw-100 mh-100" />
+									</div>
+								</div>
+								<!-- end col-4 -->
+								<!-- begin col-8 -->
+								<div class="col-8">
+									<div class="m-b-2 text-truncate">장고 프로젝트</div>
+									<div class="m-b-2  text-grey f-s-11">2020.10.24 - 2020.10.31</div>
+									<div class="d-flex align-items-center m-b-2">
+										<div class="flex-grow-1">
+											<div class="progress progress-xs rounded-corner bg-white-transparent-1">
+												<div class="progress-bar progress-bar-striped bg-red" data-animation="width" data-value="80%" style="width: 0%"></div>
+											</div>
+										</div>
+										<div class="ml-2 f-s-11 width-30 text-center"><span data-animation="number" data-value="80">0</span>%</div>
+									</div>
+									<div class="text-grey f-s-11 m-b-15 text-truncate">
+										57.5% 사람이 이메일을 클릭하였습니다.
+									</div>
+									<a href="#" class="btn btn-xs btn-red f-s-10 pl-2 pr-2">캠페인 보기</a>
+									<a href="#" class="btn btn-xs btn-red f-s-10 pl-2 pr-2">캠페인 보기</a>
+									<a href="#" class="btn btn-xs btn-red f-s-10 pl-2 pr-2">캠페인 보기</a>
+
+								</div>
+								<!-- end col-8 -->
+							</div>
+							<!-- end row -->
+							<hr class=" bg-white-transparent-2 m-t-20 m-b-20" />
+							<div class="row align-items-center p-b-1">
+								<!-- begin col-4 -->
+								<div class="col-4">
+									<div class="height-100 d-flex align-items-center justify-content-center">
+										<img src="{% static 'COLORADMIN_ADMIN/img/svg/img-2.svg' %}" class="mw-100 mh-100" />
+									</div>
+								</div>
+								<!-- end col-4 -->
+								<!-- begin col-8 -->
+								<div class="col-8">
+									<div class="m-b-2 text-truncate">이메일 마케팅 캠페인</div>
+									<div class="m-b-2  text-grey f-s-11">2020.10.24 - 2020.10.31</div>
+									<div class="d-flex align-items-center m-b-2">
+										<div class="flex-grow-1">
+											<div class="progress progress-xs rounded-corner bg-white-transparent-1">
+												<div class="progress-bar progress-bar-striped bg-indigo" data-animation="width" data-value="80%" style="width: 0%"></div>
+											</div>
+										</div>
+										<div class="ml-2 f-s-11 width-30 text-center"><span data-animation="number" data-value="80">0</span>%</div>
+									</div>
+									<div class="text-grey f-s-11 m-b-15 text-truncate">
+										57.5% 사람이 이메일을 클릭하였습니다.
+									</div>
+									<a href="#" class="btn btn-xs btn-indigo f-s-10 pl-2 pr-2">캠페인 보기</a>
+								</div>
+								<!-- end col-8 -->
+							</div>
+							<!-- end row -->
+							<hr class=" bg-white-transparent-2 m-t-20 m-b-20" />
+							<!-- begin row -->
+							<div class="row align-items-center">
+								<!-- begin col-4 -->
+								<div class="col-4">
+									<div class="height-100 d-flex align-items-center justify-content-center">
+										<img src="{% static 'COLORADMIN_ADMIN/img/svg/img-3.svg' %}" class="mw-100 mh-100" />
+									</div>
+								</div>
+								<!-- end col-4 -->
+								<!-- begin col-8 -->
+								<div class="col-8">
+									<div class="m-b-2 text-truncate">페이스북 마케팅 캠페인</div>
+									<div class="m-b-2  text-grey f-s-11">2020.11.24 - 2020.11.31</div>
+									<div class="d-flex align-items-center m-b-2">
+										<div class="flex-grow-1">
+											<div class="progress progress-xs rounded-corner bg-white-transparent-1">
+												<div class="progress-bar progress-bar-striped bg-warning" data-animation="width" data-value="60%" style="width: 0%"></div>
+											</div>
+										</div>
+										<div class="ml-2 f-s-11 width-30 text-center"><span data-animation="number" data-value="60">0</span>%</div>
+									</div>
+									<div class="text-grey f-s-11 m-b-15 text-truncate">
+										+124k 페이스북에서 방문
+									</div>
+									<a href="#" class="btn btn-xs btn-warning f-s-10 pl-2 pr-2">캠페인 보기</a>
+								</div>
+								<!-- end col-8 -->
+							</div>
+							<!-- end row -->
+						</div>
+						<!-- end card-body -->
+					</div>
+					<!-- end card -->
+				</div>
+
+
+				<!-- end col-4 -->
+				<!-- end col-4 -->
+				<!-- begin col-4 -->
+				<!-- end col-4 -->
+				<!-- begin col-4 -->
+				<!-- end col-4 -->
+			</div>
+
+
+		</div>
+		<div id="content" class="content">
+			<!-- begin breadcrumb -->
+
+			<h1 class="page-header">Book<small>책</small></h1>
+			<div class="row">
+
+				<div class="col-xl-12 col-lg-12">
+					<!-- begin card -->
+					<div class="card border-0 mb-3 bg-dark text-white">
+						<!-- begin card-body -->
+						<div class="card-body">
+							<!-- begin title -->
+							<div class="mb-3 text-grey">
+								<b>최고로 판매된 물품</b>
+								<span class="ml-2 "><i class="fa fa-info-circle" data-toggle="popover" data-trigger="hover" data-title="Top products with units sold" data-placement="top" data-content="Products with the most individual units sold. Includes orders from all sales channels."></i></span>
+							</div>
+							<!-- end title -->
+							<!-- begin product -->
+							<div class="d-flex align-items-center m-b-15">
+								<div class="widget-img rounded-lg m-r-10 bg-white p-3 width-30">
+									<div class="h-100 w-100" style="background: url({% static 'COLORADMIN_ADMIN/img/product/product-8.jpg' %}) center no-repeat; background-size: auto 100%;"></div>
+								</div>
+								<div class="text-truncate">
+									<div>애플 아이폰 (2019)</div>
+									<div class="text-grey">500,000원</div>
+								</div>
+								<div class="ml-auto text-center">
+									<div class="f-s-13"><span data-animation="number" data-value="195">0</span></div>
+									<div class="text-grey f-s-10">판매</div>
+								</div>
+							</div>
+							<!-- end product -->
+							<!-- begin product -->
+							<div class="d-flex align-items-center m-b-15">
+								<div class="widget-img rounded-lg m-r-10 bg-white p-3 width-30">
+									<div class="h-100 w-100" style="background: url({% static 'COLORADMIN_ADMIN/img/product/product-9.jpg' %}) center no-repeat; background-size: auto 100%;"></div>
+								</div>
+								<div class="text-truncate">
+									<div>애플 아이폰 (2019)</div>
+									<div class="text-grey">500,000원</div>
+								</div>
+								<div class="ml-auto text-center">
+									<div class="f-s-13"><span data-animation="number" data-value="195">0</span></div>
+									<div class="text-grey f-s-10">판매</div>
+								</div>
+							</div>
+
+							<!-- end product -->
+							<!-- begin product -->
+							<div class="d-flex align-items-center m-b-15">
+								<div class="widget-img rounded-lg m-r-10 bg-white p-3 width-30">
+									<div class="h-100 w-100" style="background: url({% static 'COLORADMIN_ADMIN/img/product/product-10.jpg' %}) center no-repeat; background-size: auto 100%;"></div>
+								</div>
+								<div class="text-truncate">
+									<div>애플 아이폰 (2019)</div>
+									<div class="text-grey">500,000원</div>
+								</div>
+								<div class="ml-auto text-center">
+									<div class="f-s-13"><span data-animation="number" data-value="195">0</span></div>
+									<div class="text-grey f-s-10">판매</div>
+								</div>
+							</div>
+
+							<!-- end product -->
+							<!-- begin product -->
+							<div class="d-flex align-items-center m-b-15">
+								<div class="widget-img rounded-lg m-r-10 bg-white p-3 width-30">
+									<div class="h-100 w-100" style="background: url({% static 'COLORADMIN_ADMIN/img/product/product-11.jpg' %}) center no-repeat; background-size: auto 100%;"></div>
+								</div>
+								<div class="text-truncate">
+									<div>애플 아이폰 (2019)</div>
+									<div class="text-grey">500,000원</div>
+								</div>
+								<div class="ml-auto text-center">
+									<div class="f-s-13"><span data-animation="number" data-value="195">0</span></div>
+									<div class="text-grey f-s-10">판매</div>
+								</div>
+							</div>
+
+							<!-- end product -->
+							<!-- begin product -->
+							<div class="d-flex align-items-center m-b-15">
+								<div class="widget-img rounded-lg m-r-10 bg-white p-3 width-30">
+									<div class="h-100 w-100" style="background: url({% static 'COLORADMIN_ADMIN/img/product/product-12.jpg' %}) center no-repeat; background-size: auto 100%;"></div>
+								</div>
+								<div class="text-truncate">
+									<div>애플 아이폰 (2019)</div>
+									<div class="text-grey">500,000원</div>
+								</div>
+								<div class="ml-auto text-center">
+									<div class="f-s-13"><span data-animation="number" data-value="195">0</span></div>
+									<div class="text-grey f-s-10">판매</div>
+								</div>
+							</div>
+
+							<!-- end product -->
+						</div>
+						<!-- end card-body -->
+					</div>
+					<!-- end card -->
+				</div>
+				<!-- end col-4 -->
+				<!-- begin col-4 -->
+				<!-- end col-4 -->
+			</div>
+
+
+		</div>
+
+
+		<div id="content" class="content">
+		<div id="content" class="content">
+			<!-- begin breadcrumb -->
+
+			<h1 class="page-header">Book<small>책</small></h1>
+			<div class="row">
+				<!-- begin col-4 -->
+
+				<div class="col-xl-3 col-lg-12">
+					<!-- begin card -->
+					<div class="card border-0 mb-3 bg-dark-darker text-white">
+						<!-- begin card-body -->
+						<div class="card-body" style="background: no-repeat bottom right; background-image: url(../assets/img/svg/img-4.svg); background-size: auto 60%;">
+							<!-- begin title -->
+							<div class="mb-3 text-grey">
+								<b>웹사이트</b>
+								<span class="text-grey ml-2"><i class="fa fa-info-circle" data-toggle="popover" data-trigger="hover" data-title="Sales by social source" data-placement="top" data-content="Total online store sales that came from a social referrer source."></i></span>
+							</div>
+							<!-- end title -->
+							<!-- begin sales -->
+							<h3 class="m-b-10"><span data-animation="number" data-value="20">0.00</span>권</h3>
+							<!-- end sales -->
+							<!-- begin percentage -->
+							<div class="text-grey m-b-1"><i class="fa fa-caret-up"></i> <span data-animation="number" data-value="3">0.00</span>권 추가</div>
+							<!-- end percentage -->
+						</div>
+						<!-- end card-body -->
+						<!-- begin widget-list -->
+						<div class="widget-list widget-list-rounded inverse-mode">
+							<!-- begin widget-list-item -->
+
+							<!-- end widget-list-item -->
+							<!-- begin widget-list-item -->
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-blue text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">HTML</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-indigo text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">CSS</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-red text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">JS</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-green text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">장고</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-grey text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">Linux</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-yellow text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">Ubuntu</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-success text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">AWS</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+
+
+
+
+						</div>
+						<!-- end widget-list -->
+					</div>
+					<!-- end card -->
+				</div>
+
+				<div class="col-xl-3 col-lg-12">
+					<!-- begin card -->
+					<div class="card border-0 mb-3 bg-dark-darker text-white">
+						<!-- begin card-body -->
+						<div class="card-body" style="background: no-repeat bottom right; background-image: url(../assets/img/svg/img-4.svg); background-size: auto 60%;">
+							<!-- begin title -->
+							<div class="mb-3 text-grey">
+								<b>개발</b>
+								<span class="text-grey ml-2"><i class="fa fa-info-circle" data-toggle="popover" data-trigger="hover" data-title="Sales by social source" data-placement="top" data-content="Total online store sales that came from a social referrer source."></i></span>
+							</div>
+							<!-- end title -->
+							<!-- begin sales -->
+							<h3 class="m-b-10"><span data-animation="number" data-value="20">0.00</span>권</h3>
+							<!-- end sales -->
+							<!-- begin percentage -->
+							<div class="text-grey m-b-1"><i class="fa fa-caret-up"></i> <span data-animation="number" data-value="3">0.00</span>권 추가</div>
+							<!-- end percentage -->
+						</div>
+						<!-- end card-body -->
+						<!-- begin widget-list -->
+						<div class="widget-list widget-list-rounded inverse-mode">
+							<!-- begin widget-list-item -->
+
+							<!-- end widget-list-item -->
+							<!-- begin widget-list-item -->
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-blue text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">HTML</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-indigo text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">CSS</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-red text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">JS</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-green text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">장고</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-grey text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">Linux</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-yellow text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">Ubuntu</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fas fa-book bg-success text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">AWS</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span >개발</span></div>
+							</a>
+
+
+
+
+						</div>
+						<!-- end widget-list -->
+					</div>
+					<!-- end card -->
+				</div>
+				<div class="col-xl-3 col-lg-12">
+					<!-- begin card -->
+					<div class="card border-0 mb-3 bg-dark-darker text-white">
+						<!-- begin card-body -->
+						<div class="card-body" style="background: no-repeat bottom right; background-image: url(../assets/img/svg/img-4.svg); background-size: auto 60%;">
+							<!-- begin title -->
+							<div class="mb-3 text-grey">
+								<b>CG</b>
+								<span class="text-grey ml-2"><i class="fa fa-info-circle" data-toggle="popover" data-trigger="hover" data-title="Sales by social source" data-placement="top" data-content="Total online store sales that came from a social referrer source."></i></span>
+							</div>
+							<!-- end title -->
+							<!-- begin sales -->
+							<h3 class="m-b-10"><span data-animation="number" data-value="200000000">0.00</span>원</h3>
+							<!-- end sales -->
+							<!-- begin percentage -->
+							<div class="text-grey m-b-1"><i class="fa fa-caret-up"></i> <span data-animation="number" data-value="45.76">0.00</span>% 증가</div>
+							<!-- end percentage -->
+						</div>
+						<!-- end card-body -->
+						<!-- begin widget-list -->
+						<div class="widget-list widget-list-rounded inverse-mode">
+							<!-- begin widget-list-item -->
+							<a href="#" class="widget-list-item rounded-0 p-t-3">
+								<div class="widget-list-media icon"><i class="fab fa-apple bg-indigo text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">Apple 스토어</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span data-animation="number" data-value="500000">0.00</span>원</div>
+							</a>
+							<!-- end widget-list-item -->
+							<!-- begin widget-list-item -->
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fab fa-facebook-f bg-blue text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">페이스북</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span data-animation="number" data-value="120000">0.00</span>원</div>
+							</a>
+							<!-- end widget-list-item -->
+							<!-- begin widget-list-item -->
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon">
+									<i class="fab fa-twitter bg-aqua text-white"></i>
+								</div>
+								<div class="widget-list-content"><div class="widget-list-title">트위터</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span data-animation="number" data-value="50000">0.00</span>원</div>
+
+							</a>
+							<!-- end widget-list-item -->
+							<!-- begin widget-list-item -->
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon">
+									<i class="fab fa-google bg-red text-white"></i>
+								</div>
+								<div class="widget-list-content"><div class="widget-list-title">구글</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span data-animation="number" data-value="30000">0.00</span>원</div>
+
+							</a>
+							<!-- end widget-list-item -->
+							<!-- begin widget-list-item -->
+							<a href="#" class="widget-list-item p-b-3">
+								<div class="widget-list-media icon">
+									<i class="fab fa-instagram bg-pink text-white"></i>
+								</div>
+								<div class="widget-list-content"><div class="widget-list-title">인스타그램</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span data-animation="number" data-value="20000">0.00</span>원</div>
+
+							</a>
+							<!-- end widget-list-item -->
+						</div>
+						<!-- end widget-list -->
+					</div>
+					<!-- end card -->
+				</div>
+				<div class="col-xl-3 col-lg-12">
+					<!-- begin card -->
+					<div class="card border-0 mb-3 bg-dark-darker text-white">
+						<!-- begin card-body -->
+						<div class="card-body" style="background: no-repeat bottom right; background-image: url(../assets/img/svg/img-4.svg); background-size: auto 60%;">
+							<!-- begin title -->
+							<div class="mb-3 text-grey">
+								<b>쇼시얼 네트워트로 판매</b>
+								<span class="text-grey ml-2"><i class="fa fa-info-circle" data-toggle="popover" data-trigger="hover" data-title="Sales by social source" data-placement="top" data-content="Total online store sales that came from a social referrer source."></i></span>
+							</div>
+							<!-- end title -->
+							<!-- begin sales -->
+							<h3 class="m-b-10"><span data-animation="number" data-value="200000000">0.00</span>원</h3>
+							<!-- end sales -->
+							<!-- begin percentage -->
+							<div class="text-grey m-b-1"><i class="fa fa-caret-up"></i> <span data-animation="number" data-value="45.76">0.00</span>% 증가</div>
+							<!-- end percentage -->
+						</div>
+						<!-- end card-body -->
+						<!-- begin widget-list -->
+						<div class="widget-list widget-list-rounded inverse-mode">
+							<!-- begin widget-list-item -->
+							<a href="#" class="widget-list-item rounded-0 p-t-3">
+								<div class="widget-list-media icon"><i class="fab fa-apple bg-indigo text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">Apple 스토어</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span data-animation="number" data-value="500000">0.00</span>원</div>
+							</a>
+							<!-- end widget-list-item -->
+							<!-- begin widget-list-item -->
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon"><i class="fab fa-facebook-f bg-blue text-white"></i></div>
+								<div class="widget-list-content"><div class="widget-list-title">페이스북</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span data-animation="number" data-value="120000">0.00</span>원</div>
+							</a>
+							<!-- end widget-list-item -->
+							<!-- begin widget-list-item -->
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon">
+									<i class="fab fa-twitter bg-aqua text-white"></i>
+								</div>
+								<div class="widget-list-content"><div class="widget-list-title">트위터</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span data-animation="number" data-value="50000">0.00</span>원</div>
+
+							</a>
+							<!-- end widget-list-item -->
+							<!-- begin widget-list-item -->
+							<a href="#" class="widget-list-item">
+								<div class="widget-list-media icon">
+									<i class="fab fa-google bg-red text-white"></i>
+								</div>
+								<div class="widget-list-content"><div class="widget-list-title">구글</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span data-animation="number" data-value="30000">0.00</span>원</div>
+
+							</a>
+							<!-- end widget-list-item -->
+							<!-- begin widget-list-item -->
+							<a href="#" class="widget-list-item p-b-3">
+								<div class="widget-list-media icon">
+									<i class="fab fa-instagram bg-pink text-white"></i>
+								</div>
+								<div class="widget-list-content"><div class="widget-list-title">인스타그램</div></div>
+								<div class="widget-list-action text-nowrap text-grey"><span data-animation="number" data-value="20000">0.00</span>원</div>
+
+							</a>
+							<!-- end widget-list-item -->
+						</div>
+						<!-- end widget-list -->
+					</div>
+					<!-- end card -->
+				</div>
+				<!-- end col-4 -->
+				<!-- end col-4 -->
+				<!-- begin col-4 -->
+				<!-- end col-4 -->
+				<!-- begin col-4 -->
+				<!-- end col-4 -->
+			</div>
+
+
+		</div>
+
+        <div align="right">
+		    <a href="{% url 'blog:create' %}"  class="btn btn-success btn-sm btn-rounded pl-2 pr-3">&nbsp;&nbsp;북작성</a><br/><br/>
+        </div>
+
+            <div class="widget-list widget-list-rounded m-b-30">
+              <!-- begin widget-list-item -->
+                     {% for object in blogs %}
+                        <div class="widget-list-item">
+                                <div class="widget-list-media">
+                                  <img src="{% static 'COLORADMIN_ADMIN/img/user/user-1.jpg' %}" class="rounded" />
+                                </div>
+                                <div class="widget-list-content">
+                                  <h4 class="widget-list-title"><a class="text-black" href="{% url 'blog:detail'  object.id%}">({{ object.id  }})  {{ object.title }}</a> </h4>
+                                  <p class="widget-list-desc"><a href="{% url 'blog:slug'  object.slug%}"> {{ object.slug }}</a></p>
+                                </div>
+                                <div class="widget-list-action">
+                                  <a href="#" data-toggle="dropdown" class="text-muted pull-right">
+                                    <i class="fa fa-ellipsis-h f-s-14"></i>
+                                  </a>
+                                  <ul class="dropdown-menu dropdown-menu-right">
+                                        <a href="{% url 'blog:update' object.id %}" class="dropdown-item">편집</a>
+                                        <a href="{% url 'blog:delete' object.id %}" class="dropdown-item">삭제</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a href="#" class="dropdown-item">( {{ object.id }} )</a>
+                                  </ul>
+                                </div>
+                              </div>
+                    {% endfor %}
+            </div>
+
+
+		</div>
+
+
+
+
+
+{% endblock %}
+
+
+

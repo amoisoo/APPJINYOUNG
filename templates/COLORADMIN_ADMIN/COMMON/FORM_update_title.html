@@ -1,0 +1,24 @@
+
+{% load static i18n %}
+
+
+
+<div class="form-row">
+<div class="form-group col-md-3">
+    <label for="id_title">타이틀</label>
+  <input type="text" class="form-control" id="id_title" name="title" value="{{ object.title }}">
+</div>
+<div class="form-group col-md-3">
+  <label for="id_slug">서브타이틀</label>
+  <input type="text" class="form-control" id="subtitle"  name="subtitle" value="{{ object.subtitle }}">
+</div>
+<div class="form-group col-md-3">
+  <label for="id_slug">slug</label>
+  <input type="text" class="form-control" id="id_slug"  name="slug" value="{{ object.slug }}">
+</div>
+<div class="form-group col-md-3">
+  <label for="id_tag">tag</label>
+  <input type="text" class="form-control" id="id_tag"  name="tag" value="{{ object.tag }}">
+</div>
+
+</div>

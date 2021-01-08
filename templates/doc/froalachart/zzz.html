@@ -1,0 +1,363 @@
+
+{% extends "COLORADMIN_ADMIN/BASE/base_layout.html" %}
+{% load static i18n %}
+
+{% block body_extra %}{% endblock %}
+
+
+
+
+
+{% block page_navi %}
+    {% if LAYOUT.NAVI_POSITION == 'TOP' %}
+        {% include 'COLORADMIN_ADMIN/COMMON/NAVI_TOP.html' %}
+    {% else %}
+        {% include 'COLORADMIN_ADMIN/COMMON/NAVI_SIDE.html' %}
+
+    {% endif %}
+{% endblock %}
+
+
+
+
+{% block page_content %}
+<div id="content" class="content" >
+
+    <table align="center" class="table mb-0 table-bordered table-sm" style="width: 80%; background-color: white">
+	<thead>
+		<tr>
+			<th style="text-align: center;">Single Series Charts</th>
+			<th style="text-align: center;">Stacked Charts</th>
+			<th style="text-align: center;">Combination Charts</th>
+			<th style="text-align: center;">XY Plot Charts</th>
+			<th style="text-align: center;">Gagues</th>
+			<th style="text-align: center;">Other Charts</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="width: 16.6%;">Pie
+				<br>
+			</td>
+			<td style="width: 16.6%;">Stacked Column
+				<br>
+			</td>
+			<td style="width: 16.6%;">Combination
+				<br>
+			</td>
+			<td style="width: 16.6%;">Scatter
+				<br>
+			</td>
+			<td style="width: 16.6%;">Angular Gauge
+				<br>
+			</td>
+			<td style="width: 17%;">Funnel
+				<br>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 16.6%;">Doughnut
+				<br>
+			</td>
+			<td style="width: 16.6%;">Stacked Bar
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 16.6%;">Bubble
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 17%;">Pyramid
+				<br>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 16.6%;">Column
+				<br>
+			</td>
+			<td style="width: 16.6%;">Stacked Area
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 17%;">Heatmap
+				<br>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 16.6%;">Bar
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 17%;">Sankey
+				<br>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 16.6%;">Area
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 17%;">Chord
+				<br>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 16.6%;">Line
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 17%;">Radar
+				<br>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 17%;">Timeseries
+				<br>
+			</td>
+		</tr>
+	</tbody>
+</table>
+		</div>
+
+
+
+		<div id="content" class="content" style=" background: url({% static 'COLORADMIN_ADMIN/img/cover/cover-scrum-board.png' %}) no-repeat fixed; background-size: 360px; background-position: right bottom;">
+
+      <script type="text/javascript">
+        var data = {
+            chart: {
+    caption: "GDP 성장률 비교",
+    yaxisname: "4분기 GDP 성장률 in %",
+    subcaption: "인도 vs 중국",
+    drawcrossline: "1",
+    numbersuffix: "%",
+    plottooltext: "$seriesName 의 $label : GDP 성장 $dataValue ",
+    theme: "froala" //candy
+  },
+
+  categories: [
+    {
+      category: [
+        {label: "2016 4월"},
+        {label: "2016 7월"},
+        {label: "2016 10월"},
+        {label: "2017 1월"},
+        {label: "2017 4월"}
+      ]
+    }
+  ],
+
+  dataset: [
+    {
+      seriesname: "인도",
+      data: [
+        {value: "50.2"},
+        {value: "7.9"},
+        {value: "7.5"},
+        {value: "7"},
+        {value: "6.1"}
+      ]
+    },
+    {
+      seriesname: "한국",
+      data: [
+        {value: "50.2"},
+        {value: "7.9"},
+        {value: "30.5"},
+        {value: "-7"},
+        {value: "6.1"}
+      ]
+    },
+    {
+      seriesname: "중국",
+      data: [
+        {value: "6.7"},
+        {value: "30.7"},
+        {value: "6.7"},
+        {value: "10.8"},
+        {value: "6.9"}
+      ]
+    }
+
+
+  ]
+};
+
+    </script>
+
+
+      <script type="text/javascript">
+
+        FroalaCharts.ready(function () {
+            new FroalaCharts({
+                id: "chart_1",
+                type: 'line',
+                renderAt: 'ft',
+                width: '100%',
+                height: '500',
+                dataSource: data
+            }).render();
+        });
+    </script>
+    <div id="ft">FroalaCharts will render here</div>
+
+
+
+		</div>
+
+
+<div id="content" class="content" style=" background: url({% static 'COLORADMIN_ADMIN/img/cover/cover-scrum-board.png' %}) no-repeat fixed; background-size: 360px; background-position: right bottom;">
+      <script type="text/javascript">
+        var data2 = {
+            "chart": {
+        "theme": "froala",
+        "caption": "Comparison of Quarterly Revenue",
+		"subCaption":"Two Years",
+        "xAxisname": "Quarter",
+        "yAxisName": "Revenues (In USD)",
+        "numberPrefix": "$",
+        "plotFillAlpha": "80",
+        "divLineIsDashed": "1",
+        "divLineDashLen": "1",
+		"exportEnabled": "1",
+        "divLineGapLen": "1"
+      },
+      "categories": [{
+        "category": [{
+          "label": "Q1"
+        }, {
+          "label": "Q2"
+        }, {
+          "label": "Q3"
+        }, {
+          "label": "Q4"
+        }]
+      }],
+      "dataset": [{
+        "seriesname": "Previous Year",
+        "data": [{
+          "value": "10000"
+        }, {
+          "value": "11500"
+        }, {
+          "value": "12500"
+        }, {
+          "value": "15000"
+        }]
+      }, {
+        "seriesname": "Current Year",
+        "data": [{
+          "value": "25400"
+        }, {
+          "value": "29800"
+        }, {
+          "value": "21800"
+        }, {
+          "value": "26800"
+        }]
+      }],
+      "trendlines": [{
+        "line": [{
+          "startvalue": "12250",
+          "color": "#5D62B5",
+          "displayvalue": "Previous{br}Average",
+          "valueOnRight": "1",
+          "thickness": "1",
+          "showBelow": "1",
+          "tooltext": "Previous year quarterly target  : $13.5K"
+        }, {
+          "startvalue": "25950",
+          "color": "#29C3BE",
+          "displayvalue": "Current{br}Average",
+          "valueOnRight": "1",
+          "thickness": "1",
+          "showBelow": "1",
+          "tooltext": "Current year quarterly target  : $23K"
+        }]
+      }]
+    };
+    </script>
+
+      <script type="text/javascript">
+        FroalaCharts.ready(function () {
+            froalacharts = new FroalaCharts({
+                id: "chart_1",
+                type: 'column',
+                renderAt: 'ft2',
+                width: '100%',
+                height: '500',
+                dataSource: data2
+            });
+            froalacharts.render();
+        });
+    </script>
+
+    <div id="ft2">FroalaCharts will render here</div>
+
+</div>
+
+
+{% endblock %}
+
+
+

@@ -1,0 +1,65 @@
+{% extends "SKOTE/UI_Comp/base_comp_visible.html" %}
+{% load static i18n common%}
+
+
+
+{% block COMP_VISIBLE %}
+
+{% include 'SKOTE/UI_Comp/FORM_page_edit.html'   %}<br/><br/>
+
+
+
+
+
+    <div class="row">
+        <div class="col-md-3">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+
+            {% for pageChild in PAGE_CHILD_LIST|hash:DATA.id %}
+
+                    {% if forloop.first %}
+                         <a class="nav-link mb-2 active"     id="v-pills-{{ DATA.id }}-{{ pageChild.id }}" data-toggle="pill" href="#v-pills-{{ pageChild.id }}" role="tab" aria-controls="v-pills-{{ pageChild.id }}" aria-selected="true">{{ pageChild.title  }}</a>
+
+                    {% else %}
+                         <a class="nav-link mb-2 "     id="v-pills-{{ DATA.id }}-{{ pageChild.id }}" data-toggle="pill" href="#v-pills-{{ pageChild.id }}" role="tab" aria-controls="v-pills-{{ pageChild.id }}" aria-selected="true">{{ pageChild.title  }}</a>
+
+                    {% endif %}
+
+
+            {% endfor %}
+
+
+
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="tab-content text-muted mt-4 mt-md-0" id="v-pills-tabContent">
+
+
+
+
+            {% for pageChild in PAGE_CHILD_LIST|hash:DATA.id %}
+
+                    {% if forloop.first %}
+                            <div class="tab-pane fade show active" id="v-pills-{{ pageChild.id }}" role="tabpanel" aria-labelledby="v-pills-{{ DATA.id }}-{{ pageChild.id }}">
+
+                    {% else %}
+                            <div class="tab-pane fade show " id="v-pills-{{ pageChild.id }}" role="tabpanel" aria-labelledby="v-pills-{{ DATA.id }}-{{ pageChild.id }}">
+
+                    {% endif %}
+
+                        {% include 'SKOTE/UI_Comp/FORM_page_edit.html' with DATA=pageChild  %}
+                        <h2>{{ pageChild.title }}</h2>
+                        <p class="mb-0">{{ pageChild.note|safe }}</p>
+
+
+                    </div>
+            {% endfor %}
+
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+
+

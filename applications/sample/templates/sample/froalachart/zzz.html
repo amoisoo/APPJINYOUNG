@@ -1,0 +1,274 @@
+
+{% extends "COLORADMIN_ADMIN/BASE/base_layout.html" %}
+{% load static i18n %}
+
+{% block body_extra %}{% endblock %}
+
+
+
+
+
+{% block page_navi %}
+    {% if LAYOUT.NAVI_POSITION == 'TOP' %}
+        {% include 'COLORADMIN_ADMIN/COMMON/NAVI_TOP.html' %}
+    {% else %}
+        {% include 'COLORADMIN_ADMIN/COMMON/NAVI_SIDE.html' %}
+
+    {% endif %}
+{% endblock %}
+
+
+
+
+{% block page_content %}
+<div id="content" class="content" >
+
+    <table align="center" class="table mb-0 table-bordered table-sm" style="width: 80%; background-color: white">
+	<thead>
+		<tr>
+			<th style="text-align: center;">Single Series Charts</th>
+			<th style="text-align: center;">Stacked Charts</th>
+			<th style="text-align: center;">Combination Charts</th>
+			<th style="text-align: center;">XY Plot Charts</th>
+			<th style="text-align: center;">Gagues</th>
+			<th style="text-align: center;">Other Charts</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="width: 16.6%;">Pie
+				<br>
+			</td>
+			<td style="width: 16.6%;">Stacked Column
+				<br>
+			</td>
+			<td style="width: 16.6%;">Combination
+				<br>
+			</td>
+			<td style="width: 16.6%;">Scatter
+				<br>
+			</td>
+			<td style="width: 16.6%;">Angular Gauge
+				<br>
+			</td>
+			<td style="width: 17%;">Funnel
+				<br>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 16.6%;">Doughnut
+				<br>
+			</td>
+			<td style="width: 16.6%;">Stacked Bar
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 16.6%;">Bubble
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 17%;">Pyramid
+				<br>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 16.6%;">Column
+				<br>
+			</td>
+			<td style="width: 16.6%;">Stacked Area
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 17%;">Heatmap
+				<br>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 16.6%;">Bar
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 17%;">Sankey
+				<br>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 16.6%;">Area
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 17%;">Chord
+				<br>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 16.6%;">Line
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 17%;">Radar
+				<br>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 16.6%;">
+				<br>
+			</td>
+			<td style="width: 17%;">Timeseries
+				<br>
+			</td>
+		</tr>
+	</tbody>
+</table>
+		</div>
+
+
+
+		<div id="content" class="content" style="min-height: 100vh; background: url({% static 'COLORADMIN_ADMIN/img/cover/cover-scrum-board.png' %}) no-repeat fixed; background-size: 360px; background-position: right bottom;">
+
+  <script src=https://unpkg.com/froalacharts@1.0.0/froalacharts.js></script>
+  <script src="https://unpkg.com/froalacharts@1.0.0/themes/froalacharts.theme.froala.js"></script>
+  <script src="https://unpkg.com/froalacharts@1.0.0/themes/froalacharts.theme.candy.js"></script>
+
+      <script type="text/javascript">
+        var data = {
+            chart: {
+    caption: "GDP 성장률 비교",
+    yaxisname: "4분기 GDP 성장률 in %",
+    subcaption: "인도 vs 중국",
+    drawcrossline: "1",
+    numbersuffix: "%",
+    plottooltext: "$seriesName 의 $label : GDP 성장 $dataValue ",
+    theme: "froala" //candy
+  },
+
+  categories: [
+    {
+      category: [
+        {label: "2016 4월"},
+        {label: "2016 7월"},
+        {label: "2016 10월"},
+        {label: "2017 1월"},
+        {label: "2017 4월"}
+      ]
+    }
+  ],
+
+  dataset: [
+    {
+      seriesname: "인도",
+      data: [
+        {value: "50.2"},
+        {value: "7.9"},
+        {value: "7.5"},
+        {value: "7"},
+        {value: "6.1"}
+      ]
+    },
+    {
+      seriesname: "한국",
+      data: [
+        {value: "50.2"},
+        {value: "7.9"},
+        {value: "30.5"},
+        {value: "-7"},
+        {value: "6.1"}
+      ]
+    },
+    {
+      seriesname: "중국",
+      data: [
+        {value: "6.7"},
+        {value: "30.7"},
+        {value: "6.7"},
+        {value: "10.8"},
+        {value: "6.9"}
+      ]
+    }
+
+
+  ]
+};
+
+        FroalaCharts.ready(function () {
+            new FroalaCharts({
+                id: "chart_1",
+                type: 'line',
+                renderAt: 'ft',
+                width: '100%',
+                height: '500',
+                dataSource: data
+            }).render();
+        });
+    </script>
+    <div id="ft">FroalaCharts will render here</div>
+
+
+
+		</div>
+
+
+
+
+
+{% endblock %}
+
+
+

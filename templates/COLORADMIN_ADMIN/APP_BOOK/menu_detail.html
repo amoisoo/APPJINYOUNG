@@ -1,0 +1,218 @@
+{% extends "COLORADMIN_ADMIN/APP_BOOK/BASE/base_layout.html" %}
+{% load static i18n common %}
+
+{% block body_extra %}{% endblock %}
+
+
+
+{% block page_layout %}
+
+            {% if object.parent.layout == 'TOP' %}
+                <div id="page-container" class="   page-container fade page-sidebar-fixed page-header-fixed page-with-wide-sidebar page-with-top-menu page-without-sidebar">
+
+           {% else %}
+                <div id="page-container" class="   page-container fade page-sidebar-fixed page-header-fixed page-with-wide-sidebar ">
+
+        {% endif %}
+{% endblock %}
+
+
+{% block page_navi %}
+    {% if object.parent.layout == 'TOP' %}
+        {% include 'COLORADMIN_ADMIN/APP_BOOK/COMMON/NAVI_TOP.html' %}
+    {% else %}
+        {% include 'COLORADMIN_ADMIN/APP_BOOK/COMMON/NAVI_SIDE.html' %}
+
+    {% endif %}
+{% endblock %}
+
+
+
+
+{% block page_content %}
+
+      {% include 'FROALA/css_pre_include.html' %}
+
+
+<div id="content" class="content">
+    <!-- begin breadcrumb -->
+{% if user.is_authenticated %}
+			<div class="alert alert-info">
+				<span class="label label-inverse m-r-5">노트!</span> 편집자 모드입니다.
+			</div>
+{% endif %}
+    <h1 class="page-header">{{ object.title }}<small>&nbsp; {{ object.subtitle }} </small></h1>
+
+
+            {% if user.is_authenticated %}
+                    <div align="right">
+                        <a href="#"  class="btn btn-light btn-sm btn-rounded pl-2 pr-3">{{ object.id }}</a>
+
+                        <a href="{% url 'book:menu_update' object.parent.slug  object.slug  %}"  class="btn btn-success btn-sm btn-rounded pl-2 pr-3">&nbsp;&nbsp;MENU 수정</a>
+                        <a href="{% url 'book:menu_delete' object.parent.slug  object.slug  %}"  class="btn btn-danger btn-sm btn-rounded pl-2 pr-3">&nbsp;&nbsp;MENU 삭제</a>
+                    </div>
+            {% else %}
+            {% endif %}
+
+
+            {% if object.note %}
+                    <hr/>
+                    <div class="col-xl-12 col-sm-12">
+                        <div class="m-b-10 f-s-10 m-t-10"><b class="text-inverse"></b></div>
+                        <!-- begin card -->
+                        <div class="card border-0">
+                            <div class="card-body">
+                                <br/>
+                                {% if object.image %}
+                                        <div align="center"><img src="{{ MEDIA_URL }}{{ object.image }}" /></div>
+                                {% endif %}
+                                {{ object.note|safe }}
+
+
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <hr/>
+            {% else %}
+            {% endif %}
+
+
+<br/>
+
+
+
+
+
+
+{% if object.visible == "True"  or object.visible == ""  %}
+            {% include 'COLORADMIN_ADMIN/UI_Comp/COMP.html'  %}
+
+{% elif  object.visible == "False" %}
+
+            {% if user.is_superuser %}
+                        <div class="alert alert-danger">
+                            <span class="label label-success m-r-5">노트!</span> 공개되지 않는 페이지이지만 관리자 모드로 편집중입니다.
+                        </div>
+                        {% include 'COLORADMIN_ADMIN/UI_Comp/COMP.html'  %}
+            {% else %}
+                    <div class="alert alert-danger">
+                        <span class="label label-danger m-r-5">노트!</span> 공개되지 않는 페이지입니다.
+                    </div>
+            {% endif %}
+{% else %}
+
+{% endif %}
+
+
+
+
+
+
+</div>
+
+
+
+
+{% if object.component != "Menu"  %}
+
+            {% if user.is_authenticated %}
+                    <div id="content" class="content">
+                                            <hr/>
+                                          <form action="{%url 'book:page_create' object.parent.slug  object.slug %}" method="POST"   enctype="multipart/form-data" novalidate>
+                                              {% csrf_token %}
+                                                <div class="row">
+                        <div class="col-xl-3"></div>
+                        <div class="col-xl-6">
+                                              <div class="form-row">
+                                                <div class="form-group col-md-12"><label for="id_title"></label>
+                                                  <input type="text" class="form-control" id="id_title" name="title" value="" placeholder="페이지 이름">
+                                                </div>
+                                              </div>
+
+                        </div>
+                        <div class="col-xl-3"></div>
+                    </div>
+
+
+
+                                          <input type="hidden" id = "id_component" name="component"  value="Header">
+
+                                          <input type="hidden" id = "id_parent" name="parent"  value="{{ object.id }}">
+
+
+                                                <div align="center">
+                                                        <button class="btn btn-primary btn-sm btn-rounded pl-2 pr-3" type="submit" class="btn btn-primary primaryAction   btn-block">{% trans "페이지 작성" %}</button>
+                                                </div>
+
+                                              {% if redirect_field_value %}
+                                              <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+                                              {% endif %}
+                                        </form>
+
+
+            </div>
+            {% else %}
+            {% endif %}
+
+{% else %}
+
+                {% if user.is_authenticated %}
+                        <div id="content" class="content">
+                                                <hr/>
+                                              <form action="{%url 'book:menu_create' %}" method="POST"   enctype="multipart/form-data" novalidate>
+                                                  {% csrf_token %}
+                                                    <div class="row">
+                            <div class="col-xl-3"></div>
+                            <div class="col-xl-6">
+                                                  <div class="form-row">
+                                                    <div class="form-group col-md-12"><label for="id_title"></label>
+                                                      <input type="text" class="form-control" id="id_title" name="title" value="" placeholder="서브메뉴 이름">
+                                                    </div>
+                                                  </div>
+
+                            </div>
+                            <div class="col-xl-3"></div>
+                        </div>
+
+
+
+                                                <input type="hidden" id = "id_componenet" name="component"  value="Page">
+
+                                              <input type="hidden" id = "id_parent" name="parent"  value="{{ object.parent.id }}">
+                                              <input type="hidden" id = "depth" name="depth"  value="{{ object.id }}">
+
+                                              <input type="hidden" id = "book_slug" name="book_slug"  value="{{ object.parent.slug }}">
+                                              <input type="hidden" id = "menu_slug" name="menu_slug"  value="{{ object.slug }}">
+
+                                                    <div align="center">
+                                                            <button class="btn btn-primary btn-sm btn-rounded pl-2 pr-3" type="submit" class="btn btn-primary primaryAction   btn-block">{% trans "서브메뉴 작성" %}</button>
+                                                    </div>
+
+                                                  {% if redirect_field_value %}
+                                                  <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+                                                  {% endif %}
+                                            </form>
+
+
+                </div>
+                {% else %}
+                {% endif %}
+
+{% endif %}
+
+
+
+
+
+
+          {% include 'FROALA/js_post_include.html' %}
+
+
+
+{% endblock %}
+
+
+

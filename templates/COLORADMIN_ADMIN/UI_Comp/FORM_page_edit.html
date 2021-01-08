@@ -1,0 +1,125 @@
+{% load static i18n %}
+
+{% if user.is_authenticated %}
+    <div class="widget-list-action">
+          <a href="#" data-toggle="dropdown" class="text-muted pull-right">
+            <i class="fa fa-ellipsis-h f-s-14"></i> &nbsp;
+          </a>
+          <ul class="dropdown-menu dropdown-menu-right">
+                <a href="#" class="dropdown-item text-blue" data-toggle="modal" data-target="#exampleModal_{{ DATA.id }}_Center">작성</a>
+
+                              <div class="dropdown-divider" > </div>
+
+                <a href="{% url 'book:page_update' DATA.id object.parent.slug  object.slug %}" class="dropdown-item text-blue">편집</a>
+                <a href="{% url 'book:page_delete' DATA.id object.parent.slug  object.slug %}" class="dropdown-item text-red">삭제</a>
+                <div class="dropdown-divider"></div>
+                <a href="{% url 'book:page_detail' DATA.id object.parent.slug  object.slug %}" class="dropdown-item text-success">상세페이지</a>
+
+                <div class="dropdown-divider"></div>
+                <a href="#" class="dropdown-item">{{ DATA.id }}</a>
+                <a href="#" class="dropdown-item">{{ DATA.modified }}</a>
+                <a href="#" class="dropdown-item">{{ DATA.created }}</a>
+
+          </ul>
+    </div>
+
+
+
+<div class="modal fade" id="exampleModal_{{ DATA.id }}_Center" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">모달 타이틀{{ DATA.id }}</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+                      <form action="{%url 'book:page_create' object.parent.slug  object.slug %}" method="POST"   enctype="multipart/form-data" novalidate>
+
+      <div class="modal-body">
+
+                          {% csrf_token %}
+                            <div class="row">
+                                <div class="col-xl-3"></div>
+                                <div class="col-xl-6">
+                                      <div class="form-row">
+                                        <div class="form-group col-md-12"><label for="id_title"></label>
+                                          <input type="hidden" class="form-control" id="id_title" name="title" value="AAA" placeholder="페이지 이름">
+                                        </div>
+                                      </div>
+
+                                </div>
+
+                            </div>
+
+                            <select id="id_component"  name="component">
+
+
+
+                                <option ></option>
+                                <option >Header</option>
+                                <option selected>Section</option>
+
+                                <option >Table</option>
+                                <option >Parameter</option>
+                                <option >Parameter2</option>
+                                <option >Memo</option>
+                                <option >Note</option>
+                                <option >Info</option>
+                                <option >Text</option>
+                                <option >Code</option>
+                                <option >Latex</option>
+                                <option >ImageView</option>
+
+                                <option >Tab</option>
+                                <option >Timeline</option>
+                                <option >Accrodion</option>
+                                <option >List</option>
+                                <option >Detail</option>
+                                <option >FAQ</option>
+                                <option >Carousel</option>
+                                <option >Card</option>
+                                <option >Box</option>
+                                <option >Grid</option>
+                                <option >Todo</option>
+                                <option >Bbs</option>
+                                <option >Search</option>
+                                <option >Company</option>
+                                <option >Gallery</option>
+                                <option >Chart</option>
+
+
+                            </select>
+
+
+                      <input type="hidden" id = "id_parent" name="parent"  value="{{ object.id }}">
+                      <input type="hidden" id = "id_depth" name="depth"  value="{{ DATA.id }}">
+
+
+
+                          {% if redirect_field_value %}
+                          <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+                          {% endif %}
+
+
+
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">작성</button>
+      </div>
+
+                        </form>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+{% endif %}
+
+

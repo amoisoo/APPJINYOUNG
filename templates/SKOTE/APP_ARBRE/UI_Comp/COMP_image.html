@@ -1,0 +1,41 @@
+{% extends "SKOTE/UI_Comp/base_comp_visible.html" %}
+{% load static i18n common%}
+
+
+
+{% block COMP_VISIBLE %}
+{% if DATA.image %}
+
+<div class="col-lg-12">
+        <div class="row no-gutters align-items-center">
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-8">
+
+                        <div class="card border-0 text-white  text-center ">
+
+
+                            <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}arbre/{{DB_NAME_ONLY}}_image/{{ DATA.image }}" alt="Card image cap" />
+
+
+                            <div class="card-img-overlay">
+
+                                <h4 class="card-title">&nbsp;</h4>
+                                <p class="card-text">{{ DATA.note|safe }}</p>
+
+                            </div>
+                        </div>
+                </div>
+
+
+
+        </div>
+</div>
+
+
+
+
+{% endif %}
+{% endblock %}
+
+

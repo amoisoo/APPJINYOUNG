@@ -1,0 +1,64 @@
+{% load i18n static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<a href="{% url 'accounts:index' %}">  <h3>로그인</h3></a>
+
+
+
+
+<div class="account-pages mt-5 mb-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-lg-6 col-xl-5">
+        <div class="card bg-pattern">
+
+          <div class="card-body p-4">
+            <div class="text-center w-75 m-auto">
+              <a href="/">
+                <span><img src="{% static 'images/logo-dark.png' %}" alt="" height="22"></span>
+              </a>
+              <p class="text-muted mb-4 mt-3"><br>이메일이나 유저이름을 입력하세요</p>
+            </div>
+
+            <form class="login" method="POST"  novalidate>
+              {% csrf_token %}
+              {{ form }}
+              {% if redirect_field_value %}
+              <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+              {% endif %}
+
+              <div class="form-group mb-0 mt-4">
+                <button class="primaryAction btn btn-primary btn-block" type="submit">{% trans "로그인하기" %}</button>
+              </div>
+            </form>
+
+          </div>
+        </div>
+
+        <div class="row mt-3">
+          <div class="col-12 text-center">
+
+            <p class="text-white-50">
+              {% blocktrans %}계정이 없으면 아래버턴을 클릭하여 새 계정을 만드세요.
+              <a href="{{ signup_url }}" class="text-white"><b></b></a>{% endblocktrans %}
+
+
+            </p>
+          </div> <!-- end col -->
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

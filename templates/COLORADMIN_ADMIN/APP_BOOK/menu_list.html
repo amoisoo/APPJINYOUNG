@@ -1,0 +1,82 @@
+{% extends "COLORADMIN_ADMIN/APP_BOOK/BASE/base.html" %}
+{% load static i18n %}
+
+{% block body_extra %}{% endblock %}
+
+
+{% block page_navi %}
+        {% include 'COLORADMIN_ADMIN/APP_BOOK/COMMON/NAVI_TOP.html' %}
+
+{% endblock %}
+
+
+
+
+{% block page_content %}
+
+		<div id="content" class="content">
+			<!-- begin breadcrumb -->
+
+            <h1 class="page-header">Book<small>책</small></h1>
+
+
+            {% if user.is_authenticated %}
+                    <div align="right"><a href="{% url 'book:book_create' %}"  class="btn btn-success btn-sm btn-rounded pl-2 pr-3">&nbsp;&nbsp;북 작성</a><br/><br/></div>
+            {% else %}
+            {% endif %}
+
+			<div class="row">
+				<!-- begin col-4 -->
+
+
+				<div class="col-xl-12 col-lg-12">
+					<!-- begin card -->
+					<div class="card border-0 mb-3 bg-dark-darker text-white">
+						<!-- begin card-body -->
+						<div class="card-body" style="background: no-repeat bottom right; background-image: url({% static 'COLORADMIN_ADMIN/img/svg/img-4.svg' %}); background-size: auto 60%;">
+							<!-- begin title -->
+							<div class="mb-3 text-grey">
+								<b>웹사이트</b>
+								<span class="text-grey ml-2"><i class="fa fa-info-circle" data-toggle="popover" data-trigger="hover" data-title="Sales by social source" data-placement="top" data-content="Total online store sales that came from a social referrer source."></i></span>
+							</div>
+							<!-- end title -->
+							<!-- begin sales -->
+							<h3 class="m-b-10"><span data-animation="number" data-value="">200</span>권</h3>
+							<!-- end sales -->
+							<!-- begin percentage -->
+							<div class="text-grey m-b-1"><i class="fa fa-caret-up"></i> <span data-animation="number" data-value="{{ objects|length }}">&nbsp;</span>권</div>
+							<!-- end percentage -->
+						</div>
+						<!-- end card-body -->
+						<!-- begin widget-list -->
+						<div class="widget-list widget-list-rounded inverse-mode">
+							<!-- begin widget-list-item -->
+
+							<!-- end widget-list-item -->
+							<!-- begin widget-list-item -->
+                        {% for DATA in objects %}
+
+                                <a href="{% url 'book:book_detail' DATA.slug %}" class="widget-list-item">
+                                    <div class="widget-list-media icon"><i class="fas fa-book bg-blue text-white"></i></div>
+                                    <div class="widget-list-content"><div class="widget-list-title">{{ DATA.title }}</div></div>
+                                    <div class="widget-list-action text-nowrap text-grey"><span >({{ DATA.id }})  {{ DATA.slug }}</span></div>
+                                </a>
+                        {% endfor %}
+
+
+						</div>
+						<!-- end widget-list -->
+					</div>
+					<!-- end card -->
+				</div>
+
+
+
+			</div>
+
+
+		</div>
+{% endblock %}
+
+
+

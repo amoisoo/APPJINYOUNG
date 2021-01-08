@@ -1,0 +1,46 @@
+{% load static i18n  %}
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
+      {% include 'FROALA/css_pre_include.html' %}
+
+
+</head>
+
+<body>
+
+https://froala.com/wysiwyg-editor/docs/
+<br/>
+
+
+      <div >
+        <div style="margin-top: 30px;">
+          <h1>Custom Buttons</h1>
+
+
+
+        </div>
+      </div>
+
+        <form action="save" method="POST">
+          <textarea name="note" id="note">dfdfdf</textarea>
+          <button>Submit</button>
+        </form>
+
+
+
+      {% include 'FROALA/js_post_include.html' %}
+
+
+
+
+
+</body>
+
+</html>

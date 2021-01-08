@@ -1,0 +1,55 @@
+{% load static i18n %}
+
+
+
+
+<div class="media">
+
+
+    {% if DATA.image %}
+        <a class="media-left" href="{{ MEDIA_URL }}{{ DATA.image }}">
+            <img src="{{ MEDIA_URL }}{{ DATA.image }}" alt="" class="media-object rounded" />
+        </a>
+    {% else %}
+
+    {% endif %}
+
+    <div class="media-body">
+        <h5 class="media-heading"><a class="text-black" href="{% url 'forum:page_detail' object.parent.slug object.id  DATA.id %}">{{ DATA.title }}</a>
+                {% if user.is_authenticated %}
+                        &nbsp;&nbsp;&nbsp;<span class="label label-default  ">{{ DATA.modified }} </span> &nbsp;
+                {% else %} {% endif %}
+        </h5>
+        <br/>
+        {{ DATA.note|safe }}
+
+        <br/><br/>
+        {{ DATA.code|linebreaksbr }}
+
+
+    </div>
+        <span class="badge badge-default badge-square">{{ DATA.user }}</span> &nbsp;
+
+        <span class="badge badge-primary badge-square"><a class="text-white" href="{% url 'forum:page_update' object.parent.slug object.id  DATA.id %}">편집</a> </span> &nbsp;
+        <span class="badge badge-danger badge-square"><a class="text-white" href="{% url 'forum:page_delete' object.parent.slug object.id  DATA.id %}">삭제</a> </span> &nbsp;
+
+
+
+        {% if user.is_authenticated %}
+                <div class="widget-list-action">
+                  <a href="#" data-toggle="dropdown" class="text-muted pull-right"><i class="fa fa-ellipsis-h f-s-14"></i></a>
+                  <ul class="dropdown-menu dropdown-menu-right">
+
+                        <a href="{% url 'forum:page_update' object.parent.slug object.id  DATA.id %}" class="dropdown-item">편집</a>
+                        <a href="{% url 'forum:page_delete' object.parent.slug object.id  DATA.id %}" class="dropdown-item">삭제</a>
+
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">{{ DATA.id }}</a>
+                        <a href="#" class="dropdown-item">{{ DATA.created }}</a>
+                        <a href="#" class="dropdown-item">{{ DATA.modified }}</a>
+                        <a href="#" class="dropdown-item">{{ DATA.user }}</a>
+                  </ul>
+                </div>
+        {% else %} {% endif %}
+</div>
+<hr/>

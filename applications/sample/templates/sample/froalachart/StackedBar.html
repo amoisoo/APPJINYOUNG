@@ -1,0 +1,107 @@
+<html>
+
+<head>
+      <title>My first chart using FroalaCharts</title>
+
+  <script src=https://unpkg.com/froalacharts@1.0.0/froalacharts.js></script>
+  <script src="https://unpkg.com/froalacharts@1.0.0/themes/froalacharts.theme.froala.js"></script>
+
+      <script type="text/javascript">
+
+        var data =
+            {
+            chart: {
+    caption: "Split of visitors by Channels & Gender",
+    placevaluesinside: "1",
+    showvalues: "0",
+    plottooltext: "$dataValue  $seriesName visitors",
+    theme: "froala"
+  },
+  categories: [
+    {
+      category: [
+        {
+          label: "Organic"
+        },
+        {
+          label: "Offline Stores"
+        },
+        {
+          label: "Email Campaigns"
+        },
+        {
+          label: "Social Events"
+        },
+        {
+          label: "Paid Channels"
+        }
+      ]
+    }
+  ],
+  dataset: [
+    {
+      seriesname: "Male",
+      data: [
+        {
+          value: "17000"
+        },
+        {
+          value: "19500"
+        },
+        {
+          value: "12500"
+        },
+        {
+          value: "14500"
+        },
+        {
+          value: "17500"
+        }
+      ]
+    },
+    {
+      seriesname: "Female",
+      data: [
+        {
+          value: "25400"
+        },
+        {
+          value: "29800"
+        },
+        {
+          value: "21800"
+        },
+        {
+          value: "19500"
+        },
+        {
+          value: "21200"
+        }
+      ]
+    }
+  ]
+};
+
+
+        FroalaCharts.ready(function () {
+            new FroalaCharts({
+                id: "chart_1",
+                type: 'stackedbar',
+                renderAt: 'ft',
+                width: '100%',
+                height: '500',
+                dataSource: data
+            }).render();
+        });
+    </script>
+
+</head>
+
+
+<div id="msg" class="mb-20"> Chart data in the selected format will be displayed here.</div>
+
+<body>
+    <div id="ft">FroalaCharts will render here</div>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+{% extends "SKOTE/UI_Comp/base_comp_visible.html" %}
+{% load static i18n common%}
+
+
+
+{% block COMP_VISIBLE %}
+
+
+    <div class="row">
+        <div class="col-lg-12">
+
+
+
+
+
+
+                    <div class="py-2 mt-3">
+                        <h2 class="font-size-18 font-weight-bold">{{ DATA.title }}</h2>
+                    </div>
+
+                {% include 'SKOTE/UI_Comp/FORM_page_edit.html'    %}<br/><br/>
+
+
+                    <div class="table-responsive">
+                        <table class="table table-nowrap">
+                            <thead>
+                                <tr>
+                                    <th style="width: 70px;">번호.</th>
+                                    <th>아이템</th>
+                                    <th class="text-right">가격</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+
+                                {% for pageChild in PAGE_CHILD_LIST|hash:DATA.id %}
+
+                                        {% if forloop.first %}
+
+                                        {% else %}
+
+                                        {% endif %}
+                                                        <tr>
+                                                            <td>{{forloop.counter}}</td>
+                                                            <td>{{ pageChild.title }}</td>
+                                                            <td class="text-right">{{ pageChild.subtitle|currency }} &nbsp; {{ DATA.subtitle }}</td>
+                                                            {% if user.is_authenticated %}
+                                                                <td> {% include 'SKOTE/UI_Comp/FORM_page_edit.html' with DATA=pageChild  %}</td>
+                                                            {% endif %}
+                                                        </tr>
+
+                                {% endfor %}
+
+
+                                <tr>
+                                    <td colspan="2" class="border-0 text-right">
+                                        <strong>총합</strong></td>
+                                    <td class="border-0 text-right"><h4 class="m-0">{{   PAGE_CHILD_LIST|sum:DATA.id|currency }} &nbsp; {{ DATA.subtitle }}</h4></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <hr>
+
+
+
+        </div>
+    </div>
+
+
+{% endblock %}
+
+

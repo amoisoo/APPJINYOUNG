@@ -1,0 +1,87 @@
+{% extends "SKOTE/UI_Comp/base_comp_visible.html" %}
+{% load static i18n common%}
+
+
+
+{% block COMP_VISIBLE %}
+            <h4 style="font-size: 16px">{{ DATA.title }} </h4>
+            <br/>
+            <div class="row">
+                <div class="col-xl-12 col-sm-12">
+
+                {% if DATA.image %}
+                        <div align="center"><img class="card-img-top img-fluid" src="{{ MEDIA_URL }}{{ DATA.image }}" style="max-width: 800px ; height: auto;" /></div><br/>
+                {% endif %}
+
+                {{ DATA.note|safe }}
+                </div>
+
+            </div>
+
+
+
+
+
+            <div class="row">
+                <div class="col-xl-1 col-sm-1"></div>
+
+                <div class="col-xl-11 col-sm-11">
+
+                    {% for pageChild in PAGE_CHILD_LIST|hash:DATA.id_sort %}
+                            {% if pageChild.component == "Section" %}{% include 'SKOTE/APP_ARBRE/UI_Comp/COMP_set_section.html' with DATA=pageChild   %}
+
+
+
+                            {% elif pageChild.component == "Parameter1" %}{% include 'SKOTE/APP_ARBRE/UI_Comp/COMP_comp_Parameter.html' with DATA=pageChild   %}
+                            {% elif pageChild.component == "Parameter2" %}{% include 'SKOTE/APP_ARBRE/UI_Comp/COMP_comp_Parameter2.html' with DATA=pageChild   %}
+                            {% elif pageChild.component == "Code" %}{% include 'SKOTE/APP_ARBRE/UI_Comp/COMP_comp_code.html' with DATA=pageChild   %}
+
+                            {% elif pageChild.component == "Memo" %}{% include 'SKOTE/APP_ARBRE/UI_Comp/COMP_text_memo.html' with DATA=pageChild   %}
+                            {% elif pageChild.component == "Note" %}{% include 'SKOTE/APP_ARBRE/UI_Comp/COMP_text_note.html' with DATA=pageChild   %}
+                            {% elif pageChild.component == "Info" %}{% include 'SKOTE/APP_ARBRE/UI_Comp/COMP_text_info.html' with DATA=pageChild   %}
+                            {% elif pageChild.component == "Text" %}{% include 'SKOTE/APP_ARBRE/UI_Comp/COMP_text_text.html' with DATA=pageChild   %}
+
+                            {% elif pageChild.component == "ImageView" %}{% include 'SKOTE/APP_ARBRE/UI_Comp/COMP_image.html' with DATA=pageChild   %}
+                            {% elif pageChild.component == "Table" %}{% include 'SKOTE/APP_ARBRE/UI_Comp/COMP_comp_table.html' with DATA=pageChild   %}
+
+                            {% elif pageChild.component == "Card" %}{% include 'SKOTE/APP_ARBRE/UI_Comp/COMP_list_card.html' with DATA=pageChild   %}
+                            {% elif pageChild.component == "Tab" %}{% include 'SKOTE/APP_ARBRE/UI_Comp/COMP_list_tab.html' with DATA=pageChild   %}
+                            {% elif pageChild.component == "Accordion" %}{% include 'SKOTE/APP_ARBRE/UI_Comp/COMP_list_accordion.html' with DATA=pageChild   %}
+
+                            {% elif pageChild.component == "List" %}{% include 'SKOTE/APP_ARBRE/UI_Comp/COMP_list_list.html' with DATA=pageChild   %}
+                            {% elif pageChild.component == "Detail" %}{% include 'SKOTE/APP_ARBRE/UI_Comp/COMP_list_detail.html' with DATA=pageChild   %}
+                            {% elif pageChild.component == "Box" %}{% include 'SKOTE/APP_ARBRE/UI_Comp/COMP_list_box.html' with DATA=pageChild   %}
+                            {% elif pageChild.component == "Timeline" %}{% include 'SKOTE/APP_ARBRE/UI_Comp/COMP_list_timeline.html' with DATA=pageChild   %}
+
+                            {% elif pageChild.component == "Todo" %}{% include 'SKOTE/APP_ARBRE/UI_Comp/COMP_list_todo.html' with DATA=pageChild   %}
+                            {% elif pageChild.component == "Bbs" %}{% include 'SKOTE/APP_ARBRE/UI_Comp/COMP_list_bbs.html' with DATA=pageChild   %}
+                            {% elif pageChild.component == "FAQ" %}{% include 'SKOTE/APP_ARBRE/UI_Comp/COMP_list_faq.html' with DATA=pageChild   %}
+
+                            {% elif pageChild.component == "Search" %}{% include 'SKOTE/APP_ARBRE/UI_Comp/COMP_list_search.html' with DATA=pageChild   %}
+                            {% elif pageChild.component == "Carousel" %}{% include 'SKOTE/APP_ARBRE/UI_Comp/COMP_image_carousel.html' with DATA=pageChild   %}
+                            {% elif pageChild.component == "Gallery" %}{% include 'SKOTE/APP_ARBRE/UI_Comp/COMP_image_gallery.html' with DATA=pageChild   %}
+
+                            {% elif pageChilde.component == "Chart" %}        {% include 'FROALA_CHART/UI_Comp/CHART_COMP.html' with DATA=pageChilde   %}
+                            {% elif pageChilde.component == "Company" %}      {% include 'SKOTE/APP_ARBRE/UI_Comp/COMP_comp_title.html' with DATA=pageChilde   %}
+
+                            {% else %}
+                                없음 <br/>
+                            {% endif %}
+
+
+                    {%  endfor %}
+
+
+                </div>
+            </div>
+
+            {% if DATA.separator == "True" %}
+                <hr/>
+            {% else %}
+                <br/>
+            {% endif %}
+
+
+{% endblock %}
+
+

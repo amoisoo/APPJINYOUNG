@@ -1,0 +1,29 @@
+{% extends "SKOTE/UI_Comp/base_comp_visible.html" %}
+{% load static i18n common%}
+
+
+
+{% block COMP_VISIBLE %}
+
+<div class="card border-0 text-white  text-center " style="width: 100% ; " align="center">
+
+    {% if DATA.image %}
+
+        <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}{{ DATA.image }}" alt="Card image cap" />
+    {% else %}
+        <img class="card-img-top img-fluid" src="{% static 'COLORADMIN_ADMIN/img/gallery/gallery-19.jpg' %}" alt="Card image cap" />
+
+    {% endif %}
+
+    <div class="card-img-overlay">
+                {% include 'SKOTE/UI_Comp/FORM_page_edit.html'   %}
+
+        <h4 class="card-title">&nbsp;</h4>
+        <p class="card-text">{{ DATA.note|safe }}</p>
+
+    </div>
+</div>
+
+{% endblock %}
+
+

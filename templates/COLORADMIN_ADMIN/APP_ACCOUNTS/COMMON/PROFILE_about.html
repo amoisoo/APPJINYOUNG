@@ -1,0 +1,113 @@
+{% load static i18n %}
+
+
+<div class="table-responsive form-inline">
+    <table class="table table-profile">
+        <thead>
+            <tr>
+                <th></th>
+                <th>
+                    <h4>{{ user.username }}<small>테트니컬 디자이너</small></h4>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="highlight">
+                <td class="field">소속</td><td><a href="javascript:;">개발</a></td>
+            </tr>
+            <tr class="field">
+                <td class="field">이메일</td><td><a href="javascript:;">{{request.user.email}}</a></td>
+            </tr>
+            <tr class="divider"><td colspan="2"></td></tr>
+
+
+            <tr>
+                <td class="field">핸드폰</td><td><i class="fa fa-mobile fa-lg m-r-5"></i> +1-(847)- 367-8924 <a href="javascript:;" class="m-l-5">Edit</a></td>
+            </tr>
+            <tr>
+                <td class="field">집 주소</td><td><a href="javascript:;">Add Number</a></td>
+            </tr>
+            <tr>
+                <td class="field">사무실 주소</td><td><a href="javascript:;">Add Number</a></td>
+            </tr>
+
+            <tr class="divider"><td colspan="2"></td></tr>
+
+            <tr class="highlight">
+                <td class="field">나에 대해여</td>
+                <td><a href="javascript:;">설명</a></td>
+            </tr>
+
+            <tr class="divider"><td colspan="2"></td></tr>
+
+
+            <tr>
+                <td class="field valign-middle">국가</td>
+                <td class="with-form-control">
+                    <select class="form-control form-control-sm" name="region">
+                        <option value="US" selected>United State</option>
+                        <option value="AF">Afghanistan</option>
+                        <option value="AL">Albania</option>
+                        <option value="DZ">Algeria</option>
+                        <option value="AS">American Samoa</option>
+
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="field">도</td><td>Los Angeles</td>
+            </tr>
+            <tr>
+                <td class="field">시</td><td><a href="javascript:;">Add State</a></td>
+            </tr>
+            <tr>
+                <td class="field">웹사이트</td><td><a href="javascript:;">http://amosoo.com</a></td>
+            </tr>
+            <tr>
+                <td class="field valign-middle">성별</td>
+                <td class="with-form-control">
+                    <select class="form-control form-control-sm" name="gender">
+                        <option value="male">남자</option>
+                        <option value="female">여자</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="field valign-middle">생일</td>
+                <td class="with-form-control">
+                    <select class="form-control form-control-sm" name="day">
+                        <option value="04" selected>02</option>
+                    </select>
+                    -
+                    <select class="form-control form-control-sm" name="month">
+                        <option value="11" selected>10option>
+                    </select>
+                    -
+                    <select class="form-control form-control-sm" name="year">
+                        <option value="1989" selected>1980</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="field valign-middle">언어</td>
+                <td class="with-form-control">
+                    <select class="form-control form-control-sm" name="language">
+                        <option value="" selected>한국어</option>
+                        <option value="" selected>일본어</option>
+                        <option value="" selected>영어</option>
+                    </select>
+                </td>
+            </tr>
+            <tr class="divider">
+                <td colspan="2"></td>
+            </tr>
+            <tr class="highlight">
+                <td class="field">&nbsp;</td>
+                <td class="p-t-10 p-b-10">
+                    <button type="submit" class="btn btn-primary width-150">갱신</button>
+                    <button type="submit" class="btn btn-white btn-white-without-border width-150 m-l-5">취소</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

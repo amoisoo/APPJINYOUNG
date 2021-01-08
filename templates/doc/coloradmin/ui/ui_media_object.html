@@ -1,0 +1,274 @@
+
+{% extends "COLORADMIN_ADMIN/BASE/base_table.html" %}
+{% load static i18n %}
+
+{% block body_extra %}{% endblock %}
+
+
+
+
+
+{% block page_navi %}
+    {% if LAYOUT.NAVI_POSITION == 'TOP' %}
+        {% include 'COLORADMIN_ADMIN/COMMON/NAVI_TOP.html' %}
+    {% else %}
+        {% include 'COLORADMIN_ADMIN/COMMON/NAVI_SIDE.html' %}
+
+    {% endif %}
+{% endblock %}
+
+
+
+
+{% block page_content %}
+
+
+
+		<div id="content" class="content">
+
+			<div class="panel panel-default ">
+				<div class="panel-heading">
+					<h4 class="panel-title">title</h4>
+					<div class="panel-heading-btn">
+						<a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" data-click="panel-expand"><i class="fa fa-expand"></i></a>
+						<a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-warning" data-click="panel-collapse"><i class="fa fa-minus"></i></a>
+					</div>
+				</div>
+				<div class="panel-body">
+
+
+						<div class="panel-body">
+
+							<div class="media media-sm">
+								<a class="media-left" href="javascript:;">
+									<img src="{% static 'COLORADMIN_ADMIN/img/user/user-1.jpg' %}" alt="" class="media-object rounded" />
+								</a>
+								<div class="media-body">
+                                    <span class="media-heading f-s-16"><b>아야카</b></span>
+                                    <span class="label label-inverse">label</span> <span class="badge badge-secondary">badge</span> <span class="badge badge-default badge-square">badge-square</span>
+									<p>・デュアルThunderbolt™ 3ポートを搭載し、M.2 SATA SSDキャッシングおよび10GBASE-Tへの接続が可能なTS-453BT3は、プロフェッショナルな共同メディア編集および高速ファイル共有に理想的な環境を提供します。TS-453BT3は、有機ELパネルおよび2つの静電気容量タッチボタンの付いたスタイリッシュなデザインを特徴としています。
+パワフルなハードウェア機能および機能豊富な生産ツールにより、TS-453BT3は、ワークフローの大幅な簡素化を求めるメディアスタジオまたは小規模のクリエイティブワークグループに最高のNASソリューションをもたらします。
+・SMBプロトコル付きの高速Thunderbolt 3により、MacおよびWindowsユーザーがメディア編集を共同で行えるようになります。
+・デュアルM.2 SATA 6 Gb/s SSDにより、キャッシングまたはストレージプールの設定が可能になり、ファイルアクセスの効率が向上します。</p>
+								</div>
+							</div><hr/>
+
+							<div class="media media-sm">
+								<a class="media-left" href="javascript:;">
+									<img src="{% static 'COLORADMIN_ADMIN/img/user/user-2.jpg' %}" alt="" class="media-object rounded" />
+								</a>
+								<div class="media-body">
+									<h5 class="media-heading">Media heading</h5><span class="label label-inverse">label</span>
+									<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.</p>
+									<div class="media">
+										<a class="pull-left" href="javascript:;">
+									            <img src="{% static 'COLORADMIN_ADMIN/img/user/user-3.jpg' %}" alt="" class="media-object rounded" />
+										</a>
+										<div class="media-body">
+											<h5 class="media-heading">Nested media heading</h5>
+											<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.</p>
+										</div>
+									</div>
+								</div>
+							</div><hr/>
+
+							<div class="media media-sm">
+								<a class="media-left" href="javascript:;">
+									<img src="{% static 'COLORADMIN_ADMIN/img/user/user-10.jpg' %}" alt="" class="media-object rounded" />
+								</a>
+								<div class="media-body">
+                                    <span class="media-heading f-s-16"><b>아야카</b></span>
+                                    <span class="label label-primary  ">편집 </span> &nbsp; <span class="label label-danger ">삭제</span> &nbsp;<span class="label label-yellow ">리플</span>
+                                    <span class="badge badge-secondary">badge</span> <span class="badge badge-default badge-square">badge-square</span>
+									<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.</p>
+                                    <span class="label label-default ">label</span> <span class="badge badge-default ">badge</span> <span class="badge badge-default  badge-square">badge-square</span>
+
+								</div>
+
+
+							</div><hr/>
+
+
+							<div class="media media-sm">
+								<a class="media-left" href="javascript:;">
+									<img src="{% static 'COLORADMIN_ADMIN/img/user/user-4.jpg' %}" alt="" class="media-object rounded" />
+								</a>
+								<div class="media-body">
+									<h5 class="media-heading">Media heading</h5>
+									<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.</p>
+								</div>
+							</div><hr/>
+							<div class="media media-sm">
+								<a class="media-left" href="javascript:;">
+									<img src="{% static 'COLORADMIN_ADMIN/img/user/user-10.jpg' %}" alt="" class="media-object rounded" />
+								</a>
+								<div class="media-body">
+									<h5 class="media-heading">Media heading</h5>
+									<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.</p>
+								</div>
+							</div><hr/>
+
+						</div>
+
+
+
+
+						<div class="panel-body">
+							<ul class="media-list">
+								<li class="media media-sm">
+									<a class="media-left" href="javascript:;">
+										<img src="{% static 'COLORADMIN_ADMIN/img/user/user-5.jpg' %}" alt="" class="media-object rounded-corner" />
+									</a>
+									<div class="media-body">
+										<h5 class="media-heading">Media heading</h5>
+										<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+										<div class="media media-sm">
+											<a class="media-left" href="javascript:;">
+										<img src="{% static 'COLORADMIN_ADMIN/img/user/user-6.jpg' %}" alt="" class="media-object rounded-corner" />
+											</a>
+											<div class="media-body">
+												<h5 class="media-heading">Nested media heading</h5>
+												<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+												<div class="media">
+													<a class="media-left" href="javascript:;">
+										                <img src="{% static 'COLORADMIN_ADMIN/img/user/user-7.jpg' %}" alt="" class="media-object rounded-corner" />
+													</a>
+													<div class="media-body">
+														<h5 class="media-heading">Nested media heading</h5>
+														<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="media">
+											<a class="media-left" href="javascript:;">
+										<img src="{% static 'COLORADMIN_ADMIN/img/user/user-8.jpg' %}" alt="" class="media-object rounded-corner" />
+											</a>
+											<div class="media-body">
+												<h5 class="media-heading">Nested media heading</h5>
+												<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="media media-sm">
+									<div class="media-body">
+										<h5 class="media-heading">Media heading</h5>
+										<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+									</div>
+									<a class="media-right" href="javascript:;">
+										<img src="{% static 'COLORADMIN_ADMIN/img/user/user-9.jpg' %}" alt="" class="media-object rounded-corner" />
+									</a>
+								</li>
+							</ul>
+						</div><hr/>
+
+
+						<div class="panel-body">
+							<div class="media media-lg">
+								<a class="media-left" href="javascript:;">
+									<img src="{% static 'COLORADMIN_ADMIN/img/gallery/gallery-1.jpg' %}" alt="" class="media-object rounded" />
+								</a>
+								<div class="media-body">
+									<h5 class="media-heading">Media heading</h5>
+									Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+								</div>
+							</div>
+							<div class="media">
+								<a class="media-left" href="javascript:;">
+									<img src="{% static 'COLORADMIN_ADMIN/img/gallery/gallery-2.jpg' %}" alt="" class="media-object rounded" />
+								</a>
+								<div class="media-body">
+									<h5 class="media-heading">Media heading</h5>
+									Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+								</div>
+							</div>
+							<div class="media media-sm">
+								<a class="media-left" href="javascript:;">
+									<img src="{% static 'COLORADMIN_ADMIN/img/gallery/gallery-3.jpg' %}" alt="" class="media-object rounded" />
+								</a>
+								<div class="media-body">
+									<h5 class="media-heading">Media heading</h5>
+									Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
+								</div>
+							</div>
+							<div class="media media-xs">
+								<a class="media-left" href="javascript:;">
+									<img src="{% static 'COLORADMIN_ADMIN/img/gallery/gallery-4.jpg' %}" alt="" class="media-object rounded" />
+								</a>
+								<div class="media-body">
+									<h5 class="media-heading">Media heading</h5>
+									Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+								</div>
+							</div>
+						</div>
+<br/><br/><br/>
+				<div class="panel-body">
+
+							<ul class="media-list media-list-with-divider">
+								<li class="media media-sm">
+									<a class="media-left" href="javascript:;">
+										<img src="{% static 'COLORADMIN_ADMIN/img/user/user-5.jpg' %}" alt="" class="media-object rounded-corner" />
+									</a>
+									<div class="media-body">
+										<h5 class="media-heading">Media heading</h5>
+										<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, tempus viverra turpis.</p>
+										<p class="mb-0">
+											<a href="javascript:;" class="btn btn-sm btn-danger m-r-5">Reject</a>
+											<a href="javascript:;" class="btn btn-sm btn-default">Cancel</a>
+										</p>
+									</div>
+								</li>
+								<li class="media media-sm">
+									<div class="media-body text-right">
+										<h5 class="media-heading">Nested media heading</h5>
+										<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio,  tempus viverra turpis.</p>
+										<p class="mb-0">
+											<a href="javascript:;" class="btn btn-sm btn-success m-r-5">Published</a>
+											<a href="javascript:;" class="btn btn-sm btn-default">Cancel</a>
+										</p>
+									</div>
+									<a class="media-right" href="javascript:;">
+										<img src="{% static 'COLORADMIN_ADMIN/img/user/user-6.jpg' %}" alt="" class="media-object rounded-corner" />
+									</a>
+								</li>
+								<li class="media media-sm">
+									<a class="media-left" href="javascript:;">
+										<img src="{% static 'COLORADMIN_ADMIN/img/user/user-8.jpg' %}" alt="" class="media-object rounded-corner" />
+									</a>
+									<div class="media-body">
+										<h5 class="media-heading">Nested media heading</h5>
+										<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, tempus viverra turpis.</p>
+										<p class="mb-0">
+											<a href="javascript:;" class="btn btn-sm btn-primary m-r-5">Confirm</a>
+											<a href="javascript:;" class="btn btn-sm btn-default">Cancel</a>
+										</p>
+									</div>
+								</li>
+								<li class="media media-sm">
+									<div class="media-body text-right">
+										<h5 class="media-heading">Nested media heading</h5>
+										<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio,  tempus viverra turpis.</p>
+										<p class="mb-0">
+											<a href="javascript:;" class="btn btn-sm btn-warning m-r-5">Edit</a>
+											<a href="javascript:;" class="btn btn-sm btn-default">Cancel</a>
+										</p>
+									</div>
+									<a class="media-right" href="javascript:;">
+										<img src="{% static 'COLORADMIN_ADMIN/img/user/user-7.jpg' %}" alt="" class="media-object rounded-corner" />
+									</a>
+								</li>
+							</ul>
+
+				</div>
+
+
+				</div>
+			</div>
+		</div>
+
+
+{% endblock %}
+
+
+

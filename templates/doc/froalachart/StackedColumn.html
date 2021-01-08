@@ -1,0 +1,199 @@
+
+
+
+
+{% extends "COLORADMIN_ADMIN/BASE/base_layout.html" %}
+{% load static i18n %}
+
+{% block body_extra %}{% endblock %}
+
+
+
+
+
+{% block page_navi %}
+    {% if LAYOUT.NAVI_POSITION == 'TOP' %}
+        {% include 'COLORADMIN_ADMIN/COMMON/NAVI_TOP.html' %}
+    {% else %}
+        {% include 'COLORADMIN_ADMIN/COMMON/NAVI_SIDE.html' %}
+
+    {% endif %}
+{% endblock %}
+
+
+
+
+{% block page_content %}
+<div id="content" class="content" style="min-height: 100vh; background: url({% static 'COLORADMIN_ADMIN/img/cover/cover-scrum-board.png' %}) no-repeat fixed; background-size: 360px; background-position: right bottom;">
+
+      <script type="text/javascript">
+
+    var data =
+{
+    chart: {
+        caption: "Yearly Energy Production Rate",
+        subcaption: " Top 5 Developed Countries",
+        numbersuffix: " TWh",
+        showsum: "1",
+        plottooltext: "$label produces $dataValue of energy from $seriesName",
+        theme: "froala",
+        drawcrossline: "1"
+    },
+    categories: [{
+        category: [{
+                label: "Canada"
+            },
+            {
+                label: "China"
+            },
+            {
+                label: "Russia"
+            },
+            {
+                label: "Australia"
+            },
+            {
+                label: "United States"
+            },
+            {
+                label: "France"
+            }
+        ]
+    }],
+    dataset: [{
+            seriesname: "Coal",
+            data: [{
+                    value: "400"
+                },
+                {
+                    value: "830"
+                },
+                {
+                    value: "500"
+                },
+                {
+                    value: "420"
+                },
+                {
+                    value: "790"
+                },
+                {
+                    value: "380"
+                }
+            ]
+        },
+        {
+            seriesname: "Hydro",
+            data: [{
+                    value: "350"
+                },
+                {
+                    value: "620"
+                },
+                {
+                    value: "410"
+                },
+                {
+                    value: "370"
+                },
+                {
+                    value: "720"
+                },
+                {
+                    value: "310"
+                }
+            ]
+        },
+        {
+            seriesname: "Nuclear",
+            data: [{
+                    value: "210"
+                },
+                {
+                    value: "400"
+                },
+                {
+                    value: "450"
+                },
+                {
+                    value: "180"
+                },
+                {
+                    value: "570"
+                },
+                {
+                    value: "270"
+                }
+            ]
+        },
+        {
+            seriesname: "Gas",
+            data: [{
+                    value: "180"
+                },
+                {
+                    value: "330"
+                },
+                {
+                    value: "230"
+                },
+                {
+                    value: "160"
+                },
+                {
+                    value: "440"
+                },
+                {
+                    value: "350"
+                }
+            ]
+        },
+        {
+            seriesname: "Oil",
+            data: [{
+                    value: "60"
+                },
+                {
+                    value: "200"
+                },
+                {
+                    value: "200"
+                },
+                {
+                    value: "50"
+                },
+                {
+                    value: "230"
+                },
+                {
+                    value: "150"
+                }
+            ]
+        }
+    ]
+};
+
+
+
+    </script>
+
+      <script type="text/javascript">
+
+
+
+        FroalaCharts.ready(function () {
+            new FroalaCharts({
+                id: "chart_1",
+                type: 'stackedcolumn',
+                renderAt: 'ft',
+                width: '100%',
+                height: '500',
+                dataSource: data
+            }).render();
+        });
+
+    </script>
+    <div id="ft">FroalaCharts will render here</div>
+
+</div>
+{% endblock %}

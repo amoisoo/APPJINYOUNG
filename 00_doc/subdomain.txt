@@ -1,0 +1,41 @@
+https://django-hosts.readthedocs.io/en/latest/
+
+
+
+pip install django-hosts
+
+
+https://gmyankee.tistory.com/212
+
+
+
+
+
+
+MIDDLEWARE =
+맨위 에
+    'django_hosts.middleware.HostsRequestMiddleware',
+
+맨 아래에
+    'django_hosts.middleware.HostsResponseMiddleware',
+
+
+-----------------------------------
+
+* 서브 도메인끼리 로그인이 동기하지 않는 문제!
+* 서브모데인안에서 app 안의 templates 를 인식하지 않는다.
+
+
+
+
+
+
+
+
+
+amoisoo.net
+https://www.value-domain.com/moddnsfree.php?action=moddns2&dnsid=1000752991&domainname=amoisoo.net
+
+amoisoo.com
+https://www.value-domain.com/moddnsfree.php?action=moddns2&dnsid=1000752991&domainname=amoisoo.com
+http://220.65.72.249/

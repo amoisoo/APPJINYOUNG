@@ -1,0 +1,10 @@
+
+글로벌 변수, 함수를 사용하려면
+
+
+파일을 만들고 함수를 사전방식으로 리턴한다.
+
+settings.py 에
+
+TEMPLATES 의 옵션에 경로와 실행함수를 추가한다.
+                'core.global.global_info',

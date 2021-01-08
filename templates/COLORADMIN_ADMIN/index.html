@@ -1,0 +1,419 @@
+{% extends "COLORADMIN_ADMIN/BASE/base_layout.html" %}
+{% load static i18n %}
+
+
+{% block title %}AMOISOO{% endblock %}
+
+{% block body_extra %}{% endblock %}
+
+
+{% block page_header %}
+        {% include 'COLORADMIN_ADMIN/COMMON/HEADER.html' %}
+{% endblock %}
+
+
+{% block page_navi %}
+    {% if LAYOUT.NAVI_POSITION == 'TOP' %}
+        {% include 'COLORADMIN_ADMIN/COMMON/NAVI_TOP.html' %}
+    {% else %}
+        {% include 'COLORADMIN_ADMIN/COMMON/NAVI_SIDE.html' %}
+
+    {% endif %}
+{% endblock %}
+
+
+
+
+
+
+
+{% block page_content %}
+
+
+<div class="content">
+
+
+
+    <div class="row">
+        <div class="col-xl-12 col-sm-12">
+
+            <ol class="breadcrumb float-xl-right">
+
+
+                <li class="breadcrumb-item"><a href="javascript:;">AAA</a></li>
+                <li class="breadcrumb-item"><a href="javascript:;">BBB</a></li>
+                <li class="breadcrumb-item active">Bootstrap 4</li>
+                &nbsp;&nbsp;&nbsp;
+                <div class="ml-auto">
+                    <a href="#modalAddTask" data-toggle="modal" class="btn btn-success btn-sm btn-rounded pl-2 pr-3"><i class="fa fa-plus mr-1"></i>신규</a>
+                    <a href="#modalAddTask" data-toggle="modal" class="btn btn-warning btn-sm btn-rounded pl-2 pr-3"><i class="fa fa-plus mr-1"></i>보정</a>
+                    <a href="#modalAddTask" data-toggle="modal" class="btn btn-danger btn-sm btn-rounded pl-2 pr-3"><i class="fa fa-plus mr-1"></i>삭제</a>
+                </div>
+
+
+            </ol>
+
+            <h1 class="page-header m-b-10">Bootstrap 4 <small>header small text goes here...</small></h1>
+
+
+            <p class="m-b-20">
+                We have included bootstrap 4 - cards element into our template. So now even you are using Bootstrap 3, you are able to use it as well.
+            </p>
+        </div>
+    </div>
+
+
+
+    <div class="row">
+        <div class="col-xl-12 col-sm-12">
+
+            <div class="mb-md-4 mb-3 d-md-flex">
+                <div>AAA &nbsp;</div>
+                <div>BBB &nbsp;</div>
+                <div>CCC &nbsp;</div>
+                <div class="dropdown-toggle">
+                    <a href="#" data-toggle="dropdown" class="text-inverse"><i class="far fa-folder fa-fw fa-lg text-muted mr-1"></i> project <b class="caret text-muted"></b></a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item"><i class="far fa-folder fa-fw fa-lg text-muted mr-1"></i> project/mobile-app-dev</a>
+                        <a href="#" class="dropdown-item"><i class="far fa-folder fa-fw fa-lg text-muted mr-1"></i> project/bootstrap-5</a>
+                        <a href="#" class="dropdown-item"><i class="far fa-folder fa-fw fa-lg text-muted mr-1"></i> project/mvc-version</a>
+                        <a href="#" class="dropdown-item"><i class="far fa-folder fa-fw fa-lg text-muted mr-1"></i> project/ruby-version</a>
+                    </div>&nbsp;&nbsp;&nbsp;
+                </div>
+                <div class="dropdown-toggle">
+                    <a href="#" data-toggle="dropdown" class="text-inverse"><i class="fas  fa-sitemap fa-fw fa-lg text-muted mr-1"></i> book <b class="caret text-muted"></b></a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item"><i class="fas  fa-sitemap fa-fw fa-lg text-muted mr-1"></i> book/mobile-app-dev</a>
+                        <a href="#" class="dropdown-item"><i class="fas  fa-sitemap fa-fw fa-lg text-muted mr-1"></i> book/bootstrap-5</a>
+                        <a href="#" class="dropdown-item"><i class="fas  fa-sitemap fa-fw fa-lg text-muted mr-1"></i> book/mvc-version</a>
+                        <a href="#" class="dropdown-item"><i class="fas  fa-sitemap fa-fw fa-lg text-muted mr-1"></i> book/ruby-version</a>
+                    </div>
+                </div>
+                <div class="ml-md-4 mt-md-0 mt-2"><i class="fa fa-code-branch fa-fw fa-lg mr-1 text-muted"></i> 1,392 pull request</div>
+                <div class="ml-md-4 mt-md-0 mt-2"><i class="fa fa-users-cog fa-fw fa-lg mr-1 text-muted"></i> 52 참가자</div>
+                <div class="ml-md-4 mt-md-0 mt-2"><i class="far fa-clock fa-fw fa-lg mr-1 text-muted"></i> 14 일(s)</div>
+                <div class="ml-md-4 mt-md-0 mt-2"><i class="far fa-user fa-fw fa-lg mr-1 text-muted"></i> lee</div>
+                <div class="ml-md-4 mt-md-0 mt-2"><i class="far fa-calendar-alt fa-fw fa-lg mr-1 text-muted"></i> lee</div>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="content">
+
+    <div class="row">
+        <!-- begin col-3 -->
+        <div class="col-xl-3 col-md-6">
+            <div class="widget widget-stats bg-blue">
+                <div class="stats-icon stats-icon-lg"><i class="fa fa-comment-alt fa-fw"></i></div>
+                <div class="stats-content">
+                    <div class="stats-title f-s-20" align="right"><a class="text-white" href="./blog">블로그</a></div>
+                    <div class="stats-number">{{ BLOG_LIST | length }}</div>
+                    <div class="stats-progress progress">
+                        <div class="progress-bar" style="width: 54.9%;"></div>
+                    </div>
+                    <div class="stats-desc">댓글 (54.9%)</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+            <div class="widget widget-stats bg-dark">
+                <div class="stats-icon stats-icon-lg"><i class="fa fa-globe fa-fw"></i></div>
+                <div class="stats-content">
+                    <div class="stats-title f-s-20" align="right"><a class="text-white" href="./book">Dev and Design : Book</a> </div>
+                    <div class="stats-number">{{ BOOK_LIST | length }}</div>
+                    <div class="stats-progress progress">
+                        <div class="progress-bar" style="width: 70.1%;"></div>
+                    </div>
+                    <div class="stats-desc">페이지 ({{ BOOK_MENU_LIST | length }})</div>
+                </div>
+            </div>
+        </div>
+        <!-- end col-3 -->
+        <!-- begin col-3 -->
+        <div class="col-xl-3 col-md-6">
+            <div class="widget widget-stats bg-red">
+                <div class="stats-icon stats-icon-lg"><i class="fa fa-dollar-sign fa-fw"></i></div>
+                <div class="stats-content">
+                    <div class="stats-title f-s-20" align="right"><a class="text-white" href="./forum">포럼</a></div>
+                    <div class="stats-number">{{ FORUM_LIST | length }}</div>
+                    <div class="stats-progress progress">
+                        <div class="progress-bar" style="width: 40.5%;"></div>
+                    </div>
+                    <div class="stats-desc">진행 (40.5%)</div>
+                </div>
+            </div>
+        </div>
+        <!-- end col-3 -->
+        <!-- begin col-3 -->
+
+        <!-- end col-3 -->
+
+
+        <div class="col-xl-3 col-md-6">
+            <div class="widget widget-stats bg-lime">
+                <div class="stats-icon stats-icon-lg"><i class="fa fa-archive fa-fw"></i></div>
+                <div class="stats-content">
+                    <div class="stats-title f-s-20" align="right"><a class="text-white" href="./support">지원</a></div>
+                    <div class="stats-number">20 / 100</div>
+                    <div class="stats-progress progress">
+                        <div class="progress-bar" style="width: 76.3%;"></div>
+                    </div>
+                    <div class="stats-desc">진행 (76.3%)</div>
+                </div>
+            </div>
+        </div>    </div>
+</div>
+
+
+
+
+
+<div class="content">
+
+
+    <div class="widget-list widget-list-rounded">
+
+      <a href="./book/" class="widget-list-item height-50">
+        <div class="widget-list-media icon"><i class="fa fa-align-justify bg-grey text-inverse text-white"></i></div>
+        <div class="widget-list-content"><h4 class="widget-list-title">Book</h4></div>
+        <div class="widget-list-action text-nowrap text-grey-darker text-right"><i class="fa fa-angle-right text-muted t-plus-1 fa-lg m-l-5"></i></div>
+      </a>
+      <a href="./forum/" class="widget-list-item height-50">
+        <div class="widget-list-media icon"><i class="fa fa-align-justify bg-grey text-inverse text-white"></i></div>
+        <div class="widget-list-content"><h4 class="widget-list-title">forum</h4></div>
+        <div class="widget-list-action text-nowrap text-grey-darker text-right">
+            <i class="fa fa-angle-right text-muted t-plus-1 fa-lg m-l-5"></i>
+        </div>
+      </a>
+      <a href="./shelf/" class="widget-list-item height-50">
+        <div class="widget-list-media icon"><i class="fa fa-align-justify bg-grey text-inverse text-white"></i></div>
+        <div class="widget-list-content"><h4 class="widget-list-title">Shelf</h4></div>
+        <div class="widget-list-action text-nowrap text-grey-darker text-right">
+            <i class="fa fa-angle-right text-muted t-plus-1 fa-lg m-l-5"></i>
+        </div>
+      </a>
+
+    </div>
+
+
+</div>
+
+
+
+<div class="content">
+    <div class="row">
+        <div class="col-xl-4 col-sm-4">
+                <div class="widget-list widget-list-rounded ">
+                  <a href="./blog/" class="widget-list-item height-50">
+                    <div class="widget-list-media icon"><i class="fa fa-align-justify bg-blue text-inverse text-white"></i></div>
+                    <div class="widget-list-content"><h4 class="widget-list-title">블로그</h4></div>
+                    <div class="widget-list-action text-nowrap text-grey-darker text-right"><i class="fa fa-angle-right text-muted t-plus-1 fa-lg m-l-5"></i></div>
+                  </a>
+
+                  <a href="./support/" class="widget-list-item height-50">
+                    <div class="widget-list-media icon">  <i class="fa fa-align-justify bg-lime text-inverse text-white"></i></div>
+                    <div class="widget-list-content"><h4 class="widget-list-title">지원</h4></div>
+                    <div class="widget-list-action text-nowrap text-grey-darker text-right">&nbsp;<i class="fa fa-angle-right text-muted t-plus-1 fa-lg m-l-5"></i></div>
+                  </a>
+
+                </div>
+
+                <br/><div class="widget-list widget-list-rounded">
+
+
+                {% for book in BOOK_LIST %}
+                          <a href="{% url 'book:book_detail' book.slug %}" class="widget-list-item height-50">
+                            <div class="widget-list-media icon"><i class="fa fa-align-justify bg-dark text-inverse text-white"></i></div>
+                            <div class="widget-list-content"><h4 class="widget-list-title">{{ book.title }}</h4></div>
+                            <div class="widget-list-action text-nowrap text-grey-darker text-right">
+                                <i class="fa fa-angle-right text-muted t-plus-1 fa-lg m-l-5"></i>
+                            </div>
+                          </a>
+
+                {% endfor %}
+
+
+
+
+
+
+    </div> <br/>
+
+        </div>
+        <div class="col-xl-4 col-sm-4">
+                <div class="widget-list widget-list-rounded">
+
+      <a href="./sample/" class="widget-list-item height-50">
+        <div class="widget-list-media icon">  <i class="fa fa-link bg-yellow text-inverse text-white"></i></div>
+        <div class="widget-list-content"><h4 class="widget-list-title">Sample</h4></div>
+        <div class="widget-list-action text-nowrap text-grey-darker text-right">&nbsp;&nbsp;<i class="fa fa-angle-right text-muted t-plus-1 fa-lg m-l-5"></i></div>
+      </a>
+      <a href="http://sample.amoisoo.net/" class="widget-list-item height-50">
+        <div class="widget-list-media icon">  <i class="fa fa-link bg-yellow text-inverse text-white"></i></div>
+        <div class="widget-list-content"><h4 class="widget-list-title">샘플</h4></div>
+        <div class="widget-list-action text-nowrap text-grey-darker text-right">서브 도메인&nbsp;&nbsp;<i class="fa fa-angle-right text-muted t-plus-1 fa-lg m-l-5"></i></div>
+      </a>
+      <a href="http://arbre.amoisoo.net/" class="widget-list-item height-50">
+        <div class="widget-list-media icon">  <i class="fa fa-link bg-yellow text-inverse text-white"></i></div>
+        <div class="widget-list-content"><h4 class="widget-list-title">arbre.amoisoo.net</h4></div>
+        <div class="widget-list-action text-nowrap text-grey-darker text-right">아르브레&nbsp;&nbsp;<i class="fa fa-angle-right text-muted t-plus-1 fa-lg m-l-5"></i></div>
+      </a>
+      <a href="http://amoisoo.net/arbre/" class="widget-list-item height-50">
+        <div class="widget-list-media icon">  <i class="fa fa-link bg-yellow text-inverse text-white"></i></div>
+        <div class="widget-list-content"><h4 class="widget-list-title">/arbre</h4></div>
+        <div class="widget-list-action text-nowrap text-grey-darker text-right">아르브레&nbsp;&nbsp;<i class="fa fa-angle-right text-muted t-plus-1 fa-lg m-l-5"></i></div>
+      </a>
+      <a href="http://amoisoo.net/doc/" class="widget-list-item height-50">
+        <div class="widget-list-media icon">  <i class="fa fa-link bg-yellow text-inverse text-white"></i></div>
+        <div class="widget-list-content"><h4 class="widget-list-title">/doc</h4></div>
+        <div class="widget-list-action text-nowrap text-grey-darker text-right">doc&nbsp;&nbsp;<i class="fa fa-angle-right text-muted t-plus-1 fa-lg m-l-5"></i></div>
+      </a>
+      <!-- end widget-list-item -->
+
+    </div> <br/>
+                <div class="widget-list widget-list-rounded m-b-30">
+<!-- begin widget-list-item -->
+              <div class="widget-list-item">
+                <div class="widget-list-media">
+                  <img src="{% static 'COLORADMIN_ADMIN/img/user/user-1.jpg' %}" class="rounded" />
+                </div>
+                <div class="widget-list-content">
+                  <h4 class="widget-list-title"><a href="./doc/skote/index.html">SKOTE</a> </h4>
+                  <p class="widget-list-desc">스코트</p>
+                </div>
+                <div class="widget-list-action">
+                  <a href="#" data-toggle="dropdown" class="text-muted pull-right">
+                    <i class="fa fa-ellipsis-h f-s-14"></i>
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-right">
+                        <a href="#" class="dropdown-item">Option 1</a>
+                        <a href="#" class="dropdown-item">Option 2</a>
+                        <a href="#" class="dropdown-item">Option 3</a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">Option 4</a>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="widget-list-item">
+                <div class="widget-list-media">
+                  <img src="{% static 'COLORADMIN_ADMIN/img/user/user-1.jpg' %}" class="rounded" />
+                </div>
+                <div class="widget-list-content">
+                  <h4 class="widget-list-title"><a href="https://seantheme.com/color-admin/admin/html/index_v3.html">https://seantheme.com/color-admin/admin/html/index_v3.html</a> </h4>
+                  <p class="widget-list-desc">color admin</p>
+                </div>
+                <div class="widget-list-action">
+                  <a href="#" data-toggle="dropdown" class="text-muted pull-right">
+                    <i class="fa fa-ellipsis-h f-s-14"></i>
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-right">
+                        <a href="#" class="dropdown-item">Option 1</a>
+                        <a href="#" class="dropdown-item">Option 2</a>
+                        <a href="#" class="dropdown-item">Option 3</a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">Option 4</a>
+                  </ul>
+                </div>
+              </div>
+              <div class="widget-list-item">
+                <div class="widget-list-media">
+                  <img src="{% static 'COLORADMIN_ADMIN/img/user/user-2.jpg' %}" class="rounded" />
+                </div>
+                <div class="widget-list-content">
+                  <h4 class="widget-list-title">파라미터</h4>
+                  <p class="widget-list-desc">서브 타이틀을 입력하세요</p>
+                </div>
+                <div class="widget-list-action">
+                  <a href="#" data-toggle="dropdown" class="text-muted pull-right">
+                    <i class="fa fa-ellipsis-h f-s-14"></i>
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-right">
+                        <a href="#" class="dropdown-item">Option 1</a>
+                        <a href="#" class="dropdown-item">Option 2</a>
+                        <a href="#" class="dropdown-item">Option 3</a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">Option 4</a>
+                  </ul>
+                </div>
+              </div>
+
+
+<!-- end widget-list-item -->
+    </div>
+
+        </div>
+        <div class="col-xl-4 col-sm-4">
+                <div class="widget-list widget-list-rounded">
+
+      <a href="./shelf/" class="widget-list-item height-50">
+        <div class="widget-list-media icon"><i class="fa fa-align-justify bg-indigo text-inverse text-white"></i></div>
+        <div class="widget-list-content"><h4 class="widget-list-title">SNS</h4></div>
+        <div class="widget-list-action text-nowrap text-grey-darker text-right">
+            <i class="fa fa-angle-right text-muted t-plus-1 fa-lg m-l-5"></i>
+        </div>
+      </a>
+      <a href="./shelf/" class="widget-list-item height-50">
+        <div class="widget-list-media icon"><i class="fa fa-align-justify bg-indigo text-inverse text-white"></i></div>
+        <div class="widget-list-content"><h4 class="widget-list-title">Youtube</h4></div>
+        <div class="widget-list-action text-nowrap text-grey-darker text-right">
+            <i class="fa fa-angle-right text-muted t-plus-1 fa-lg m-l-5"></i>
+        </div>
+      </a>
+
+
+      <a href="./shelf/" class="widget-list-item height-50">
+        <div class="widget-list-media icon"><i class="fa fa-align-justify bg-indigo text-inverse text-white"></i></div>
+        <div class="widget-list-content"><h4 class="widget-list-title">Instagram</h4></div>
+        <div class="widget-list-action text-nowrap text-grey-darker text-right">
+            <i class="fa fa-angle-right text-muted t-plus-1 fa-lg m-l-5"></i>
+        </div>
+      </a>
+
+      <a href="./shelf/" class="widget-list-item height-50">
+        <div class="widget-list-media icon"><i class="fa fa-align-justify bg-indigo text-inverse text-white"></i></div>
+        <div class="widget-list-content"><h4 class="widget-list-title">Twitter</h4></div>
+        <div class="widget-list-action text-nowrap text-grey-darker text-right">
+            <i class="fa fa-angle-right text-muted t-plus-1 fa-lg m-l-5"></i>
+        </div>
+      </a>
+
+
+      <a href="./shelf/" class="widget-list-item height-50">
+        <div class="widget-list-media icon"><i class="fa fa-align-justify bg-indigo text-inverse text-white"></i></div>
+        <div class="widget-list-content"><h4 class="widget-list-title">JIRA</h4></div>
+        <div class="widget-list-action text-nowrap text-grey-darker text-right">
+            <i class="fa fa-angle-right text-muted t-plus-1 fa-lg m-l-5"></i>
+        </div>
+      </a>
+    </div> <br/>
+
+        </div>
+    </div>
+
+</div>
+
+
+<div class="content">
+    <a href="#" class="widget-card widget-card-rounded">
+        <div class="widget-card-cover" style="background-image: url({% static 'COLORADMIN_ADMIN/img/gallery/gallery-portrait-9.jpg' %})"></div>
+            <div class="widget-card-content">
+            <b class="text-white">&nbsp;</b>
+        </div>
+        <div class="widget-card-content bottom">
+            <h4 class="text-white m-t-10"><b>&nbsp;<br />&nbsp;</b></h4>
+            <h5 class="f-s-12 text-white-transparent-7 m-b-2"><b></b></h5>
+        </div>
+    </a>
+</div>
+
+
+
+{% endblock %}

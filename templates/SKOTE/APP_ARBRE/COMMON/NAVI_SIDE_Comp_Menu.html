@@ -1,0 +1,24 @@
+{% load static i18n common%}
+
+
+
+
+
+
+<li><a href="javascript: void(0);" class="has-arrow" key="t-level-1-2">{{ SUBMENU_ITEM.title }}</a>
+    <ul class="sub-menu" aria-expanded="true">
+
+
+
+        {% for ITEM in MENU_LIST_SUB|hash:DATA.id_sort %}
+
+                {% if ITEM.component == "Menu" %}
+                    {% include 'SKOTE/APP_ARBRE/COMMON/NAVI_SIDE_Comp_Menu.html' with DATA=ITEM  %}
+                {% else %}
+                    <li><a href="./?db={{ DB_NAME }}&id={{ ITEM.uuid }}" key="t-horizontal">{{ ITEM.title }}</a></li>
+                {% endif %}
+
+        {%  endfor %}
+
+    </ul>
+</li>

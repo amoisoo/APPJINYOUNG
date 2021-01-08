@@ -1,0 +1,65 @@
+{% extends "SKOTE/UI_Comp/base_comp_visible.html" %}
+{% load static i18n common%}
+
+
+
+{% block COMP_VISIBLE %}
+
+
+<div class="checkout-tabs">
+                {% include 'SKOTE/UI_Comp/FORM_page_edit.html'    %}<br/><br/>
+
+    <div class="row">
+
+
+        <div class="col-lg-2">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link active" id="v-pills-gen-ques-tab" data-toggle="pill" href="#v-pills-gen-ques" role="tab" aria-controls="v-pills-gen-ques" aria-selected="true">
+                    <i class= "bx bx-question-mark d-block check-nav-icon mt-4 mb-2"></i>
+                    <p class="font-weight-bold mb-4">{{ DATA.title }}</p>
+                </a>
+
+            </div>
+        </div>
+
+
+        <div class="col-lg-10">
+            <div class="card">
+                <div class="card-body">
+                    <div class="tab-content" id="v-pills-tabContent">
+
+                        <div class="tab-pane fade show active" id="v-pills-gen-ques" role="tabpanel" aria-labelledby="v-pills-gen-ques-tab">
+                            <h4 class="card-title mb-5">일반 질문</h4>
+
+
+                    {% for pageChild in PAGE_CHILD_LIST|hash:DATA.id %}
+                                 {% include 'SKOTE/UI_Comp/FORM_page_edit.html' with DATA=pageChild  %}
+
+                            <div class="faq-box media mb-4">
+
+                                <div class="faq-icon mr-3">
+                                    <i class="bx bx-help-circle font-size-20 text-success"></i>
+                                </div>
+
+                                <div class="media-body">
+                                    <h5 class="font-size-15">{{ pageChild.title }}</h5>
+                                    <p class="text-muted">{{ pageChild.note|safe }}</p>
+                                </div>
+
+                            </div>
+
+
+                    {% endfor %}
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+

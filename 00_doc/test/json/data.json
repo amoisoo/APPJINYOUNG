@@ -1,0 +1,14 @@
+{
+  "id": 1,
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "city2": "sdf",
+    "zipcode": "92998-3874"
+  },
+  "admin": false,
+  "hobbies": null
+}

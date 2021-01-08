@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+
+  <title>My first chart using FroalaCharts</title>
+  <script src=https://unpkg.com/froalacharts@1.0.0/froalacharts.js></script>
+  <script src="https://unpkg.com/froalacharts@1.0.0/themes/froalacharts.theme.froala.js"></script>
+  <script type="text/javascript">
+  var data = {
+    chart: {
+      caption: "GDP Growth Rate Comparison",
+      yaxisname: "Quarterly GDP Growth Rate in %",
+      subcaption: "India vs China",
+      drawcrossline: "1",
+      numbersuffix: "%",
+      plottooltext: "$seriesName  GDP grew $dataValue in $label",
+      theme: "froala"
+    },
+    categories: [{
+      category: [{
+        label: "April 2016"
+      }, {
+        label: "July 2016"
+      }, {
+        label: "Oct 2016"
+      }, {
+        label: "Jan 2017"
+      }, {
+        label: "April 2017"
+      }]
+    }],
+    dataset: [{
+      seriesname: "인도",
+      data: [{
+        value: "9.2"
+      }, {
+        value: "7.9"
+      }, {
+        value: "7.5"
+      }, {
+        value: "7"
+      }, {
+        value: "6.1"
+      }]
+    }, {
+      seriesname: "중국",
+      data: [{
+        value: "6.7"
+      }, {
+        value: "6.7"
+      }, {
+        value: "6.7"
+      }, {
+        value: "6.8"
+      }, {
+        value: "6.9"
+      }]
+    }]
+  };
+  FroalaCharts.ready(function() {
+    new FroalaCharts({
+      id: "chart_1",
+      type: 'area',
+      renderAt: 'ft',
+      width: '100%',
+      height: '500',
+      dataSource: data
+    }).render();
+  });
+  </script>
+</head>
+<div id="msg" class="mb-20"> Chart data in the selected format will be displayed here.</div>
+
+<body>
+  <div id="ft">FroalaCharts will render here</div>
+</body>
+
+</html>

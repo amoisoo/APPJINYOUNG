@@ -1,0 +1,24 @@
+{% load static i18n common%}
+
+
+
+
+<div class="dropdown">
+    <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-contact"
+        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span key="t-contacts">{{ SUBMENU_ITEM.title }}</span> <div class="arrow-down"></div>
+    </a>
+    <div class="dropdown-menu" aria-labelledby="topnav-contact">
+
+
+        {% for ITEM in MENU_LIST_SUB|hash:DATA.id_sort %}
+
+                {% if ITEM.component == "Menu" %}
+                    {% include 'SKOTE/APP_ARBRE/COMMON/NAVI_TOP_Comp_Menu.html' with DATA=ITEM  %}
+                {% else %}
+                    <a href="./?db={{ DB_NAME }}&db={{ DB_NAME }}&id={{ ITEM.uuid }}" class="dropdown-item" >{{ ITEM.title }}</a>
+                {% endif %}
+
+        {%  endfor %}
+    </div>
+</div>

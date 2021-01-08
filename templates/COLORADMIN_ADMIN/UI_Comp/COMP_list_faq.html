@@ -1,0 +1,31 @@
+{% load static i18n common%}
+
+<div class="widget-list widget-list-rounded">
+        {% include 'COLORADMIN_ADMIN/UI_Comp/FORM_page_edit.html'   %}<br>
+
+      <a href="#" class="widget-list-item height-50">
+        <div class="widget-list-media icon"><i class="fa fa-align-justify bg-grey text-inverse text-white"></i></div>
+        <div class="widget-list-content"><h4 class="widget-list-title">Title</h4></div>
+        <div class="widget-list-action text-nowrap text-grey-darker text-right"><i class="fa fa-angle-right text-muted t-plus-1 fa-lg m-l-5"></i></div>
+      </a>
+
+
+
+
+    {% for pageChild in PAGE_CHILD_LIST|hash:DATA.id %}
+            {% if forloop.first %}
+
+            {% else %}
+
+            {% endif %}
+              <a href="#" class="widget-list-item height-50">
+                <div class="widget-list-media icon"><i class="fa fa-align-justify bg-grey text-inverse text-white"></i></div>
+                <div class="widget-list-content"><h4 class="widget-list-title">{{ pageChild.title }}</h4></div>
+                <div class="widget-list-action text-nowrap text-grey-darker text-right"><i class="fa fa-angle-right text-muted t-plus-1 fa-lg m-l-5"></i>
+                </div>
+              </a>
+    {% endfor %}
+
+</div>
+
+<br/>

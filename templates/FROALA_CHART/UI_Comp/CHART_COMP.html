@@ -1,0 +1,31 @@
+{% load static i18n %}
+
+
+{% if DATA.context == "" %}
+   {% include 'FROALA_CHART/UI_Comp/CHART_COMP_pie.html' with DATA=pageChilde   %}
+
+{% elif DATA.context == "angulargauge" %}   {% include 'FROALA_CHART/UI_Comp/CHART_COMP_angulargauge.html' with DATA=pageChilde   %}
+{% elif DATA.context == "area" %}             {% include 'FROALA_CHART/UI_Comp/CHART_COMP_area.html' with DATA=pageChilde   %}
+{% elif DATA.context == "bar" %}              {% include 'FROALA_CHART/UI_Comp/CHART_COMP_bar.html' with DATA=pageChilde   %}
+{% elif DATA.context == "bubble" %}         {% include 'FROALA_CHART/UI_Comp/CHART_COMP_bubble.html' with DATA=pageChilde   %}
+{% elif DATA.context == "chord" %}          {% include 'FROALA_CHART/UI_Comp/CHART_COMP_chord.html' with DATA=pageChilde   %}
+{% elif DATA.context == "column" %}         {% include 'FROALA_CHART/UI_Comp/CHART_COMP_column.html' with DATA=pageChilde   %}
+{% elif DATA.context == "combination" %}    {% include 'FROALA_CHART/UI_Comp/CHART_COMP_combination.html' with DATA=pageChilde   %}
+{% elif DATA.context == "doughnut" %}       {% include 'FROALA_CHART/UI_Comp/CHART_COMP_doughnut.html' with DATA=pageChilde   %}
+{% elif DATA.context == "funnel" %}         {% include 'FROALA_CHART/UI_Comp/CHART_COMP_funnel.html' with DATA=pageChilde   %}
+{% elif DATA.context == "heatmap" %}        {% include 'FROALA_CHART/UI_Comp/CHART_COMP_heatmap.html' with DATA=pageChilde   %}
+{% elif DATA.context == "line" %}           {% include 'FROALA_CHART/UI_Comp/CHART_COMP_line.html' with DATA=pageChilde   %}
+{% elif DATA.context == "pie" %}            {% include 'FROALA_CHART/UI_Comp/CHART_COMP_pie.html' with DATA=pageChilde   %}
+{% elif DATA.context == "pyramid" %}        {% include 'FROALA_CHART/UI_Comp/CHART_COMP_pyramid.html' with DATA=pageChilde   %}
+{% elif DATA.context == "radar" %}          {% include 'FROALA_CHART/UI_Comp/CHART_COMP_radar.html' with DATA=pageChilde   %}
+{% elif DATA.context == "sankey" %}         {% include 'FROALA_CHART/UI_Comp/CHART_COMP_sankey.html' with DATA=pageChilde   %}
+{% elif DATA.context == "scatter" %}        {% include 'FROALA_CHART/UI_Comp/CHART_COMP_scatter.html' with DATA=pageChilde   %}
+{% elif DATA.context == "stackedarea" %}   {% include 'FROALA_CHART/UI_Comp/CHART_COMP_stackedarea.html' with DATA=pageChilde   %}
+{% elif DATA.context == "stackedbar" %}     {% include 'FROALA_CHART/UI_Comp/CHART_COMP_stackedbar.html' with DATA=pageChilde   %}
+{% elif DATA.context == "stackedcolumn" %}  {% include 'FROALA_CHART/UI_Comp/CHART_COMP_stackedcolumn.html' with DATA=pageChilde   %}
+{% elif DATA.context == "timeseries" %}     {% include 'FROALA_CHART/UI_Comp/CHART_COMP_timeseries.html' with DATA=pageChilde   %}
+
+{% else %}
+   {% include 'FROALA_CHART/UI_Comp/CHART_COMP_pie.html' with DATA=pageChilde   %}
+
+{% endif %}

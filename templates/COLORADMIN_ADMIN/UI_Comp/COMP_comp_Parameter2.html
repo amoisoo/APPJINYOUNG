@@ -1,0 +1,29 @@
+{% extends "COLORADMIN_ADMIN/UI_Comp/base_comp_visible.html" %}
+{% load static i18n common%}
+
+
+
+{% block COMP_VISIBLE %}
+
+            {% include 'COLORADMIN_ADMIN/UI_Comp/FORM_page_edit.html'   %}
+
+            <div class="media media-sm">
+
+                <a class="media-left" href="javascript:;">
+                    <img src="{% static 'COLORADMIN_ADMIN/img/user/user-1.jpg' %}" alt="" class="media-object rounded" />
+                </a>
+                <div class="media-body">
+
+                    <span class="media-heading f-s-16"><b>{{ DATA.title }}</b></span>
+                    <p>{{ DATA.note|safe }}</p>
+                </div>
+            </div>
+            {% if DATA.separator %}
+                <hr/>
+            {% else %}
+                <br/> <br/>
+            {% endif %}
+
+{% endblock %}
+
+

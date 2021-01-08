@@ -1,0 +1,41 @@
+{% load static i18n common%}
+
+
+
+
+<div class="d-flex flex-row bg-grey">
+  <div class="p-10 ">AAA</div>
+  <div class="p-10 bg-info">AAA</div>
+  <div class="p-10 bg-warning">BBB</div>
+  <div class="p-10 bg-primary">CCC</div>
+</div>
+
+
+
+<div class="widget-list widget-list-rounded m-b-30">
+        {% include 'COLORADMIN_ADMIN/UI_Comp/FORM_page_edit.html'   %}<br>
+
+
+{% for pageChild in PAGE_CHILD_LIST|hash:DATA.id %}
+        {% if forloop.first %}
+
+        {% else %}
+
+        {% endif %}
+          <div class="widget-list-item">
+            <div class="widget-list-media">
+              <img src="{% static 'COLORADMIN_ADMIN/img/user/user-2.jpg' %}" class="rounded" />
+            </div>
+            <div class="widget-list-content">
+              <h4 class="widget-list-title"><a href="{% url 'book:page_detail' pageChild.id object.parent.slug  object.slug %}">{{ pageChild.title }}</a> </h4>
+              <p class="widget-list-desc">&nbsp;</p>
+            </div>
+                        {% include 'COLORADMIN_ADMIN/UI_Comp/FORM_page_edit.html'  with DATA=pageChild  %}
+          </div>
+
+{% endfor %}
+
+
+</div>
+
+

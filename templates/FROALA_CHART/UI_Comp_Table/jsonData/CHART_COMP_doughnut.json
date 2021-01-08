@@ -1,0 +1,39 @@
+            {
+            chart: {
+
+    caption: "우리 어플리케이션의 안드로이드 배포",
+    subcaption: "2017년의 모든 유저",
+	exportEnabled:"1",
+    showpercentvalues: "1",
+    defaultcenterlabel: "안드로이드 배포",
+    aligncaptionwithcanvas: "0",
+    captionpadding: "0",
+    decimals: "1",
+    plottooltext:
+      "<b>$percentValue</b> of our 안드로이드 유저 are on <b>$label</b>",
+    centerlabel: "유저 인수: $value",
+    theme: "froala"
+  },
+  data: [
+    {
+      label: "아이스크림 샌드위치",
+      value: "1000"
+    },
+    {
+      label: "젤리빔",
+      value: "5300"
+    },
+    {
+      label: "키캇",
+      value: "10500"
+    },
+    {
+      label: "롤리팝",
+      value: "18900"
+    },
+    {
+      label: "마쉬말로",
+      value: "17904"
+    }
+  ]
+}

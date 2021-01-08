@@ -1,0 +1,163 @@
+{% extends "COLORADMIN_ADMIN/BASE/base_blog.html" %}
+{% load static i18n %}
+
+{% block body_extra %}{% endblock %}
+
+
+{% block page_navi %}
+    {% if LAYOUT.NAVI_POSITION == 'TOP' %}
+        {% include 'COLORADMIN_ADMIN/APP_BLOG/COMMON/NAVI_TOP.html' %}
+    {% else %}
+        {% include 'COLORADMIN_ADMIN/APP_BLOG/COMMON/NAVI_SIDE.html' %}
+
+    {% endif %}
+{% endblock %}
+
+
+
+
+{% block page_content %}
+
+<a href="#" class="widget-card widget-card-rounded">
+    <div class="widget-card-cover" style="background-image: url({% static 'COLORADMIN_ADMIN/img/gallery/gallery-portrait-9.jpg' %})"></div>
+        <div class="widget-card-content">
+        <b class="text-white">&nbsp;</b>
+    </div>
+    <div class="widget-card-content bottom">
+        <i class="fab fa-pushed fa-5x text-white"></i>
+        <h4 class="text-white m-t-10"><b>Blog<br /></b></h4>
+        <h5 class="f-s-12 text-white-transparent-7 m-b-2"><b>아모이스</b></h5>
+    </div>
+</a>
+
+
+
+
+
+		<div id="content" class="content">
+
+                <div class="row">
+                    <!-- begin col-6 -->
+                    <div class="col-xl-12   col-lg-12  m-b-5 p-b-1">
+                        <!-- begin card-group -->
+                        <div class="card-group">
+                            <!-- begin card -->
+                            <div class="card">
+                                <div class="card-body bg-blue">
+                                    <h4 class="card-title "> <a class = "text-white"  href="{% url 'support:download' %}" class="widget-list-item">Archive</a> </h4>
+                                    <p class="card-text text-white">&nbsp;</p>
+                                    <p class="card-text ">
+                                        <span class="badge badge-secondary">2020</span>
+                                        <span class="badge badge-secondary">2019</span>
+                                        <span class="badge badge-secondary">2018</span>
+                                        <span class="badge badge-secondary">2017</span>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-body bg-blue">
+                                    <h4 class="card-title "> <a class = "text-white"  href="{% url 'support:download' %}" class="widget-list-item">댓글 / 좋아요</a> </h4>
+                                    <p class="card-text text-white">&nbsp;</p>
+                                    <p class="card-text ">
+                                        <span class="badge badge-secondary">File</span>
+                                        <span class="badge badge-secondary">Source Code</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body bg-blue"">
+                                    <h4 class="card-title "> <a class = "text-white"  href="{% url 'support:download' %}" class="widget-list-item">View</a> </h4>
+                                    <p class="card-text text-white">&nbsp;</p>
+                                    <p class="card-text ">
+                                        <span class="badge badge-secondary">Python</span>
+                                        <span class="badge badge-secondary">Django</span>
+                                        <span class="badge badge-secondary">MySQL</span>
+                                    </p>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+		</div>
+
+
+
+		<div id="content" class="content">
+
+            {% if user.is_authenticated %}
+                    <div align="right"><a href="{% url 'blog:create' %}"  class="btn btn-success btn-sm btn-rounded pl-2 pr-3">&nbsp;&nbsp;포스트 작성</a><br/><br/></div>
+            {% else %}
+                    <div align="right"><a href="{% url 'accounts:login' %}"  class="btn btn-warning btn-sm btn-rounded pl-2 pr-3">로그인</a><br/><br/></div>
+            {% endif %}
+
+
+
+            <div class="widget-list widget-list-rounded m-b-30">
+              <!-- begin widget-list-item -->
+                     {% for object in blogs %}
+                        <div class="widget-list-item">
+                                <div class="widget-list-media">
+                                    {% if  object.user.id == 1  %}
+                                  <img src="{% static 'COLORADMIN_ADMIN/img/user/user-1.jpg' %}" class="rounded" />
+
+                                    {% else %}
+                                  <img src="{% static 'COLORADMIN_ADMIN/img/user/user-2.jpg' %}" class="rounded" />
+
+                                    {% endif %}
+                                </div>
+                                <div class="widget-list-content">
+                                  <h4 class="widget-list-title"><a class="text-black" href="{% url 'blog:detail'  object.id%}">({{ object.id  }})  {{ object.title }} &nbsp;&nbsp;&nbsp;<span class="label label-inverse">0</span></a> </h4>
+
+                                  <p class="widget-list-desc"><a href="{% url 'blog:slug'  object.slug%}"> {{ object.slug }}  ({{ user.id }} {{ object.user.id }} : view)  </a></p>
+                                </div>
+
+
+                                {% if user.is_authenticated %}
+                                        <div class="widget-list-action">
+                                          <a href="#" data-toggle="dropdown" class="text-muted pull-right">
+                                            <i class="fa fa-ellipsis-h f-s-14"></i>
+                                          </a>
+                                          <ul class="dropdown-menu dropdown-menu-right">
+                                                <a href="{% url 'blog:update' object.id %}" class="dropdown-item">편집</a>
+                                                <a href="{% url 'blog:delete' object.id %}" class="dropdown-item">삭제</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a href="#" class="dropdown-item">( {{ object.id }} )</a>
+                                          </ul>
+                                        </div>
+
+                                {% else %}
+
+                                {% endif %}
+
+
+                              </div>
+                    {% endfor %}
+            </div>
+
+
+		</div>
+        {% include 'COLORADMIN_ADMIN/APP_FORUM/UI_Comp/pagination.html' with  DATAS=categories %}
+
+
+
+		<div id="content" class="content">
+			<!-- begin breadcrumb -->
+
+			<h1 class="page-header">Blog<small> 블로그</small></h1>
+
+                    {% include 'COLORADMIN_ADMIN/APP_BLOG/WIDGET/widget_cardsqure.html' %}
+
+		</div>
+
+
+
+
+
+{% endblock %}
+
+
+

@@ -1,0 +1,30 @@
+{% extends "SKOTE/UI_Comp/base_comp_visible.html" %}
+{% load static i18n common%}
+
+
+
+{% block COMP_VISIBLE %}
+
+
+
+<dl class="row mb-0">
+    {% for pageChild in PAGE_CHILD_LIST|hash:DATA.id_sort %}
+
+            {% if forloop.first %}
+
+            {% else %}
+
+            {% endif %}
+            <dt class="col-sm-2">{{ pageChild.title }}</dt>
+            <dd class="col-sm-9">{{ pageChild.note | safe }}</dd>
+
+
+    {% endfor %}
+</dl>
+
+
+
+
+{% endblock %}
+
+

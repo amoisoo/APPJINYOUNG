@@ -1,0 +1,110 @@
+{% extends "COLORADMIN_FRONT/FORUM/base.html" %}
+{% load static i18n %}
+
+{% block body_extra %}{% endblock %}
+
+{% block page_content %}
+      {% include 'FROALA/css_pre_include.html' %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-1"></div>
+    <div class="col-10">
+              <div class="shadow p-3 mb-5 bg-white rounded"><h4>Forum 작성</h4></div>
+
+                <div class="alert alert-light" role="alert">light</div>
+                <div class="alert alert-danger" role="alert">danger</div>
+                <div class="alert alert-warning" role="alert">warning!</div>
+                <div class="alert alert-info" role="alert">info!</div>
+
+              <form  method="POST"   enctype="multipart/form-data" novalidate>
+                  {% csrf_token %}
+                  <div class="form-row">
+                    <div class="form-group col-md-6"><label for="id_title">타이틀</label>
+                      <input type="text" class="form-control" id="id_title" name="title">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="id_slug">slug</label>
+                      <input type="text" class="form-control" id="id_slug"  name="slug">
+                    </div>
+
+                  </div>
+
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputCity">서브타이틀</label>
+                      <input type="text" class="form-control" id="subtitle"  name="subtitle">
+                    </div>
+                    <div class="form-group col-md-4">
+                      <label for="inputState">slug</label>
+                      <input type="text" class="form-control" id="slug"  name="slug">
+
+                    </div>
+                    <div class="form-group col-md-2">
+                      <label for="id">id</label>
+                      <input type="text" class="form-control" id="id"  name="id">
+                    </div>
+                  </div>
+
+
+
+                  <div class="form-group">
+                    <label for="id_note">노트</label>
+                    <textarea class="form-control" id="note"  rows="10"  placeholder=""  name="note"></textarea>
+                  </div>
+
+
+                  <div class="form-group">
+                    <label for="inputAddress2">이미지</label><br/>
+                    <input type="file"  id="image" name="image" />
+                  </div>
+
+
+                  <div class="form-row">
+                    <div class="form-group col-md-3">
+                      <label for="id_code">코드</label>
+                      <input type="text" class="form-control" id="id_code" name="code">
+                    </div>
+                    <div class="form-group col-md-3">
+                      <label for="id_html">html</label>
+                      <input type="text" class="form-control" id="id_html" name="html">
+
+                    </div>
+                    <div class="form-group col-md-3">
+                      <label for="id_css">css</label>
+                      <input type="text" class="form-control" id="id_css" name="css">
+                    </div>
+                    <div class="form-group col-md-3">
+                      <label for="id_js">js</label>
+                      <input type="text" class="form-control" id="id_js" name="js">
+                    </div>
+                  </div>
+
+                  <br/><br/><br/>
+
+                  {% if redirect_field_value %}
+                  <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+                  {% endif %}
+
+                <input type="hidden" name="parent" id="parent" value="{{ id_forum }}">
+
+
+                  <button type="submit" class="btn btn-primary primaryAction   btn-block">{% trans "새글 작성" %}</button>
+
+
+
+
+            </form>
+
+
+
+    </div>
+    <div class="col-1"></div>
+  </div>
+</div>
+
+
+          {% include 'FROALA/js_post_include.html' %}
+
+{% endblock %}
+

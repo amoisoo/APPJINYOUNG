@@ -1,0 +1,139 @@
+{% load static i18n %}
+		<div id="sidebar" class="sidebar">
+			<!-- begin sidebar scrollbar -->
+			<div data-scrollbar="true" data-height="100%">
+				<!-- begin sidebar user -->
+				<ul class="nav">
+					<li class="nav-profile">
+						<a href="javascript:;" data-toggle="nav-profile">
+
+
+                            {% if user.is_authenticated %}
+                                <div class="cover with-shadow"></div>
+                                <div class="image"><img src="{% static 'COLORADMIN_ADMIN/img/user/user-1.jpg' %}" alt="" /></div>
+                                <div class="info"><b class="caret pull-right"></b>{{request.user.username}}<small>{{request.user.email}}</small></div>
+                            {% else %}
+                                <div class="cover with-shadow"></div>
+                                <div class="image"></div>
+                                <div class="info"><small><a href="{% url 'accounts:login' %}">로그인</a></small></div>
+                            {% endif %}
+
+
+						</a>
+					</li>
+					<li>
+                        {% if user.is_authenticated %}
+                            <ul class="nav nav-profile">
+
+                                <li><a href="{% url 'support:qna' %}"><i class="fa fa-cog"></i> 설정</a></li>
+                                <li><a href="{% url 'support:doc' %}"><i class="fa fa-pencil-alt"></i> 문서</a></li>
+                                <li><a href="{% url 'support:help' %}"><i class="fa fa-question-circle"></i> 헬프</a></li>
+
+
+                            </ul>
+                        {% endif %}
+
+
+					</li>
+				</ul>
+				<!-- end sidebar user -->
+				<!-- begin sidebar nav -->
+				<ul class="nav">
+
+					<li class="nav-search">
+						<input type="text" class="form-control" placeholder="메뉴 검색..." data-sidebar-search="true" />
+					</li>
+
+                    <li class="nav-header">메뉴</li>
+
+
+
+
+
+                    <li class="has-sub active">
+                        <a href="javascript:;">
+                            <b class="caret"></b>
+                            <i class="fa fa-th-large"></i>
+                            <span>문서</span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li><a href="../doc/bootstrap.html">bootstrap</a></li>
+                            <li><a href="../doc/css.html">css</a></li>
+
+                            <li><a href="../doc/invoice.html">invoice</a></li>
+                            <li><a href="../doc/result.html">result</a></li>
+                            <li><a href="../doc/scrum.html">scrum</a></li>
+                            <li><a href="../doc/timeline.html">timeline</a></li>
+
+                            <li class="active"><a href="../doc/profile.html">profile</a></li>
+
+
+
+                        </ul>
+                    </li>
+
+
+
+                    <li class="has-sub active">
+                        <a href="javascript:;">
+                            <b class="caret"></b>
+                            <i class="fa fa-th-large"></i>
+                            <span>별도의 베이스 템플릿</span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li><a href="../doc/basetype/widget.html">Widget</a></li>
+
+                            <li><a href="../doc/basetype/image.html">image</a></li>
+                            <li><a href="../doc/basetype/image2.html">image2</a></li>
+
+
+                            <li><a href="../doc/basetype/cal.html">car</a></li>
+                            <li><a href="../doc/basetype/calendar.html">calendar</a></li>
+
+                            <li><a href="../doc/basetype/comingsoon.html">comningsoon</a></li>
+                            <li><a href="../doc/basetype/map_google.html">map_google</a></li>
+                            <li><a href="../doc/basetype/map_vector.html">map_vector</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="has-sub active">
+                        <a href="javascript:;">
+                            <b class="caret"></b>
+                            <i class="fa fa-th-large"></i>
+                            <span>차트</span>
+                        </a>
+                        <ul class="sub-menu">
+
+                            <li><a href="../doc/chart/index.html">index</a></li>
+
+                        </ul>
+                    </li>
+
+
+
+
+
+                    <li class="has-sub active">
+                        <a href="javascript:;">
+                            <b class="caret"></b>
+                            <i class="fa fa-th-large"></i>
+                            <span>대쉬보드</span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li><a href="../index.html">Dashboard v1</a></li>
+                            <li><a href="../index_v2.html">Dashboard v2</a></li>
+                            <li><a href="../index_v3.html">Dashboard v3</a></li>
+                        </ul>
+                    </li>
+
+					<!-- begin sidebar minify button -->
+                {% if LAYOUT.NAVI_SIDE_CLOSE  %}
+					<li><a href="javascript:;" class="sidebar-minify-btn" data-click="sidebar-minify"><i class="fa fa-angle-double-left"></i></a></li>
+                {% endif %}
+					<!-- end sidebar minify button -->
+				</ul>
+				<!-- end sidebar nav -->
+			</div>
+			<!-- end sidebar scrollbar -->
+		</div>
+		<div class="sidebar-bg"></div>

@@ -1,0 +1,1323 @@
+<Table>
+    <Record Index="1" Expand="1" ParentIndex="-1">
+        <TITLE color="None" background="None">Getting Started with Qt for iOS</TITLE>
+        <ID>1</ID>
+        <ID_SORT>1</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>d0adb617_269d_43eb_9433_d5e6f7027841</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>Menu</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Sun Apr 2 17:24:05 2017</CREATED>
+        <MODIFED>Sun Apr 2 17:25:14 2017</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="2" Expand="0" ParentIndex="1">
+        <TITLE color="None" background="None">Getting Started with Qt for iOS</TITLE>
+        <ID>7</ID>
+        <ID_SORT>2</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>496628a6_8418_4734_9985_a225edeb7f88</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>html</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">Qt's iOS port allows you to run Qt applications on iOS devices, such as iPhones and iPads.&lt;/span>&lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Sun Apr 2 17:25:09 2017</CREATED>
+        <MODIFED>Sun Apr 2 17:25:15 2017</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="3" Expand="0" ParentIndex="1">
+        <TITLE color="None" background="None">Getting Started</TITLE>
+        <ID>8</ID>
+        <ID_SORT>3</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>370d3e03_cfc2_4d8e_a8e5_1ce75249d418</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>html</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">Development and deployment is done using Xcode. The supported workflow is to maintain a .pro file based project, which generates an Xcode project. Building and deploying can be done using either Xcode or Qt Creator. We will look at that in more detail in the next section.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">The minimum deployment target for Qt applications is specified in Supported Platforms. Qt then supports the following device types (iOS might need to be upgraded on some devices).&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">iPhone&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">iPod Touch&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">iPad&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE>Supported Platforms
+
+http://doc.qt.io/qt-5/supported-platforms.html</CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Sun Apr 2 17:25:09 2017</CREATED>
+        <MODIFED>Sun Apr 2 17:25:42 2017</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="4" Expand="0" ParentIndex="1">
+        <TITLE color="None" background="None">Setting Up the Development Environment</TITLE>
+        <ID>9</ID>
+        <ID_SORT>4</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>aaa18b73_f59c_4452_9b60_e088dde985fc</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>html</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">You can download the Qt 5 installers from the Downloads page. For more information, see Getting Started with Qt.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">Before installing Qt, you first need to install Xcode. You will find it in the Mac App Store here.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">Note: As required by Apple, you should always use the latest Xcode version when building your applications for the App Store. In practice this means you also need the latest version of macOS to develop iOS apps with Qt, due to Xcode's system requirements.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">For running Qt applications in the simulator that comes with Xcode, this is all you need. However, for running applications on a device and publishing your applications in the App Store, you must join the iOS Developer Program (see https://developer.apple.com/programs/ios/), and set up developer certificates and provisioning profiles. The easiest solution is to use a profile that takes any App ID (a *).&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">Before building any Qt applications, you should test that Xcode is set up correctly, for example, by running one of the standard Xcode application templates on your device.&lt;/span>&lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Sun Apr 2 17:25:09 2017</CREATED>
+        <MODIFED>Sun Apr 2 17:26:28 2017</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="5" Expand="0" ParentIndex="1">
+        <TITLE color="None" background="None">Building Applications From the Command Line</TITLE>
+        <ID>10</ID>
+        <ID_SORT>5</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>ac8b84e5_e6e7_4c12_867c_9ab79034e29b</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>html</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#404244; background-color:#ffffff;">As mentioned previously, the development workflow on iOS consists of maintaining a normal .pro file project and export it to Xcode.&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#404244; background-color:#ffffff;">Here is how to build a project with Xcode:&lt;/span>&lt;/p>
+&lt;ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;">&lt;li style=" color:#404244;" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">run qmake (if you have not done so previously)&lt;/span>&lt;/li>
+&lt;li style=" color:#404244;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">open the resulting .xcodeproject file in Xcode&lt;/span>&lt;/li>
+&lt;li style=" color:#404244;" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">build the application in Xcode&lt;/span>&lt;/li>&lt;/ul>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;">&lt;span style=" color:#404244;">Note that you must re-import the project if its setup changes, for example, when adding or removing source files.&lt;/span> &lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Sun Apr 2 17:25:10 2017</CREATED>
+        <MODIFED>Sun Apr 2 17:27:44 2017</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="6" Expand="0" ParentIndex="1">
+        <TITLE color="None" background="None">Building Applications with Qt Creator</TITLE>
+        <ID>11</ID>
+        <ID_SORT>6</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>6cc41b67_6154_4baf_b612_7e44678bbc8b</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>html</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Helvetica'; color:#404244; background-color:#ffffff;">You can find information on how to set up and run iOS applications in Qt Creator's manual:&lt;/span>&lt;/p>
+&lt;ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;">&lt;li style=" font-family:'Helvetica'; color:#17a81a;" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;a href="http://doc.qt.io/qtcreator/creator-developing-ios.html">&lt;span style=" text-decoration: underline; color:#0000ff; background-color:#ffffff;">Connecting iOS Devices&lt;/span>&lt;/a>&lt;span style=" color:#404244; background-color:#ffffff;">.&lt;/span>&lt;/li>&lt;/ul>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;">&lt;span style=" font-family:'Helvetica'; color:#404244;">As mentioned previously, you must have Xcode installed.&lt;/span>&lt;span style=" font-family:'Helvetica';"> &lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Helvetica'; background-color:#ffffff;">&lt;br />&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Helvetica'; background-color:#ffffff;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;">&lt;span style=" font-family:'Helvetica'; font-size:16pt; color:#0000ff; background-color:#ffffff;">Examples for iOS&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Helvetica'; color:#404244; background-color:#ffffff;">&lt;br />&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Helvetica'; color:#404244; background-color:#ffffff;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Helvetica'; color:#404244; background-color:#ffffff;">In Qt Creator, tested examples on iOS can be looked up. Use the ios keyword to search for examples in the Qt Creator Welcome mode. Note that some examples may have limited functionality.&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;">&lt;span style=" font-family:'Helvetica'; color:#404244;">For a list of examples known to work on iOS devices, visit &lt;/span>&lt;a href="http://doc.qt.io/qt-5/examples-ios.html">&lt;span style=" font-family:'Helvetica'; text-decoration: underline; color:#17a81a;">Qt for iOS Examples&lt;/span>&lt;/a>&lt;span style=" font-family:'Helvetica'; color:#404244;">.&lt;/span>&lt;span style=" font-family:'Helvetica';"> &lt;/span>&lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Sun Apr 2 17:25:10 2017</CREATED>
+        <MODIFED>Sat Aug 26 02:21:39 2017</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="7" Expand="0" ParentIndex="1">
+        <TITLE color="None" background="None">Using Objective-C Code in Qt Applications</TITLE>
+        <ID>12</ID>
+        <ID_SORT>7</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>c3c8fd64_8738_4ed2_b726_2e5bf35d6b03</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>html</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">Clang, the compiler used for iOS applications, allows mixing C++ and Objective-C code. &lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">To enable this mode, suffix your source files with .c mm, and add them to &lt;/span>&lt;span style=" font-size:16pt; color:#0000ff;">OBJECTIVE_SOURCES&lt;/span>&lt;span style=" color:#000000;"> instead of SOURCES in the .pro file. &lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">This makes it possible to use frameworks from Apple's iOS Developer Library in Qt applications. Most useful is perhaps the possibility for adding In-App Purchasing with the StoreKit framework.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">We currently have one example mixing Objective-C and C++ code. You find it here.&lt;/span>&lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Sun Apr 2 17:25:10 2017</CREATED>
+        <MODIFED>Sun Apr 2 17:29:36 2017</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="8" Expand="0" ParentIndex="-1">
+        <TITLE color="#f1595a" background="None">Creating a Mobile Application</TITLE>
+        <ID>2</ID>
+        <ID_SORT>8</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>0a4b0089_556e_49b2_8e8d_43c9a14bdd00</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>Menu</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Sun Apr 2 17:24:06 2017</CREATED>
+        <MODIFED>Sun Apr 2 17:24:11 2017</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="9" Expand="1" ParentIndex="-1">
+        <TITLE color="None" background="None">Connecting iOS Devices</TITLE>
+        <ID>4</ID>
+        <ID_SORT>9</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>5292b668_aa79_4294_918c_a67d77b78d28</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>Menu</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Sun Apr 2 17:24:06 2017</CREATED>
+        <MODIFED>Sun Apr 2 17:24:18 2017</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="10" Expand="0" ParentIndex="9">
+        <TITLE color="None" background="None">Connecting iOS Devices</TITLE>
+        <ID>15</ID>
+        <ID_SORT>10</ID_SORT>
+        <DEPTH>9</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>9c6dd7b6_a4c6_4e73_9ccc_c0d7cdc524ec</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>html</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#404244; background-color:#ffffff;">You can connect iOS devices to a Mac computer with a USB cable to build and run applications on them from Qt Creator.&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#404244; background-color:#ffffff;">To be able to use Qt Creator on macOS, you must install Xcode, and therefore, you already have the tool chain for building applications for iOS. Qt Creator automatically detects the tool chain and creates the necessary &lt;/span>&lt;a href="http://doc.qt.io/qtcreator/creator-glossary.html#glossary-buildandrun-kit">&lt;span style=" text-decoration: underline; color:#17a81a; background-color:#ffffff;">kits&lt;/span>&lt;/a>&lt;span style=" color:#404244; background-color:#ffffff;"> for building and running applications on configured iOS devices.&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;">&lt;span style=" color:#404244;">You only need Qt libraries that are built for iOS. You can install them as part of Qt 5.2, or later.&lt;/span> &lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>True</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Sun Apr 2 17:34:14 2017</CREATED>
+        <MODIFED>Sun Apr 2 17:34:19 2017</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="11" Expand="0" ParentIndex="9">
+        <TITLE color="None" background="None">Configuring Devices</TITLE>
+        <ID>16</ID>
+        <ID_SORT>11</ID_SORT>
+        <DEPTH>9</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>bbdc73f5_314f_4c51_9b11_da275e30c7e5</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>html</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">The connections between Qt Creator and an iOS device are protected by using a certificate that you receive from Apple when you enroll in the Apple Developer Program. The certificate is copied to the device when you configure the device.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">The first time you connect the device to the Mac, you are asked to enable developer mode on the device. The next time you connect the device, Qt Creator detects it automatically. To disable automatic connections to a device that you do not use for development, select Preferences &amp;gt; iOS, and deselect the Ask about devices not in developer mode check box.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">Note: The process of configuring devices and the UI varies slightly depending on the Xcode version that you use. We recommend that you use the latest available Xcode version.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">To configure connections between Qt Creator and an iOS device:&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-weight:600; color:#000000;">1. &lt;/span>&lt;span style=" color:#000000;">Make sure that you have Xcode and Qt for iOS installed.&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-weight:600; color:#000000;">2. &lt;/span>&lt;span style=" color:#000000;">Connect the device to the Mac computer with a USB cable.&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-weight:600; color:#000000;">3.&lt;/span>&lt;span style=" color:#000000;"> Start Xcode to configure the device.&lt;/span>&lt;/p>
+&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">For example, in Xcode version 7.3.0, select Window &amp;gt; Device &amp;gt; + &amp;gt; Add Device to add the connected device.&lt;/span>&lt;/p>
+&lt;p align="center" style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-weight:600; color:#000000;">4.&lt;/span>&lt;span style=" color:#000000;"> To specify build settings:&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">Open a project for an application you want to develop for the device.&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">Select Projects &amp;gt; Build &amp;amp; Run to select the kit for building and running applications on iOS.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-weight:600; color:#000000;">5. &lt;/span>&lt;span style=" color:#000000;">Select Run to specify run settings.&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">Usually, you can use the default settings.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">When you run the project, Qt Creator uses Xcode to deploy the application to the device.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">Your signing certificate is used to sign application packages for deployment to the device.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">Note: If you cannot deploy applications, because a provisioning profile is missing, check that provisioning profiles are listed in Xcode by selecting Xcode &amp;gt; Preferences &amp;gt; Accounts &amp;gt; View Details. For more information about how to acquire and install a provisioning profile, see Apple documentation.&lt;/span>&lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Sun Apr 2 17:34:15 2017</CREATED>
+        <MODIFED>Sun Apr 2 19:02:50 2017</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="12" Expand="0" ParentIndex="9">
+        <TITLE color="None" background="None">Viewing Device Connection Status</TITLE>
+        <ID>17</ID>
+        <ID_SORT>12</ID_SORT>
+        <DEPTH>9</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>6f5575a3_1e6f_4823_8cb5_10ec725e68ce</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>html</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">When you connect an iOS device to a Mac computer with USB, Qt Creator automatically detects the device if you have configured it by using Xcode. To view information about the connected device, select Preferences &amp;gt; Devices.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Sun Apr 2 17:34:15 2017</CREATED>
+        <MODIFED>Sun Apr 2 17:34:36 2017</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="13" Expand="0" ParentIndex="9">
+        <TITLE color="None" background="None">Testing on iOS Simulator</TITLE>
+        <ID>18</ID>
+        <ID_SORT>13</ID_SORT>
+        <DEPTH>9</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>42f4413a_8432_4fa6_8dec_b84d49da0044</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>html</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Helvetica'; color:#404244; background-color:#ffffff;">If you do not have an iOS device or you do not want to create an account, you can test applications on &lt;/span>&lt;a href="http://developer.apple.com/library/ios/documentation/IDEs/Conceptual/iOS_Simulator_Guide/Introduction/Introduction.html">&lt;span style=" font-family:'Helvetica'; text-decoration: underline; color:#17a81a; background-color:#ffffff;">iOS Simulator&lt;/span>&lt;/a>&lt;span style=" font-family:'Helvetica'; color:#404244; background-color:#ffffff;">, which is installed as part of Xcode. Each Xcode version simulates a predefined set of hardware devices and software versions.&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Helvetica'; color:#404244; background-color:#ffffff;">You can change the simulated hardware and software version in the run settings for the project. Select &lt;/span>&lt;span style=" font-family:'Helvetica'; font-weight:600; color:#404244; background-color:#ffffff;">Projects&lt;/span>&lt;span style=" font-family:'Helvetica'; color:#404244; background-color:#ffffff;"> &amp;gt; &lt;/span>&lt;span style=" font-family:'Helvetica'; font-weight:600; color:#404244; background-color:#ffffff;">Run&lt;/span>&lt;span style=" font-family:'Helvetica'; color:#404244; background-color:#ffffff;">, and then select the device to simulate in the &lt;/span>&lt;span style=" font-family:'Helvetica'; font-weight:600; color:#404244; background-color:#ffffff;">Device type&lt;/span>&lt;span style=" font-family:'Helvetica'; color:#404244; background-color:#ffffff;"> field.&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Helvetica'; color:#404244; background-color:#ffffff;">Qt Creator uses the Xcode version set as current on the Mac computer. To check the version, enter the following command:&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Helvetica'; color:#404244;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Helvetica'; font-weight:600; color:#404244; background-color:#ffffff;">xcode-select --print-path&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Helvetica'; color:#404244;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Helvetica'; color:#404244; background-color:#ffffff;">To change the version, enter the following command:&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Helvetica'; color:#404244;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;">&lt;span style=" font-family:'Helvetica'; font-weight:600; color:#404244;">xcode-select --version&lt;/span>&lt;span style=" font-family:'Helvetica'; font-weight:600;"> &lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Helvetica'; background-color:#ffffff;">&lt;br />&lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Sun Apr 2 17:34:15 2017</CREATED>
+        <MODIFED>Sat Aug 26 02:21:42 2017</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="14" Expand="0" ParentIndex="-1">
+        <TITLE color="None" background="None">Porting to iOS</TITLE>
+        <ID>5</ID>
+        <ID_SORT>14</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>fe1fe2a0_8c40_46e2_9c83_83046c5e974d</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>html</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">In this section, we are going to port an existing Qt application to iOS and deploy it to the device.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">Most Qt applications should be portable to iOS with ease, unless they depend on a specific hardware or software feature not supported on iOS. A major part of the porting effort consists of ensuring that all the application's assets (for example, QML files, images, and icons) are deployed correctly to the device.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">Like most UI applications, Qt applications also depend on resources such as images, icons, translation files, and so on. These resources must be made available on the device as they are required for the application to function correctly.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">The most convenient option is to bundle the resources into a qrc file, which gets built into the application binary. This approach reduces the porting effort considerably and provides faster access to the resources. It is also a cross-platform approach, which makes porting to other platforms easier.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">By default, all Qt applications can access the contents of a qrc file using the &amp;quot;:/&amp;quot; prefix or the URL scheme prefix, &amp;quot;qrc:&amp;quot;. To know more about qrc files and how they are handled, see the Qt Resource System.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">The following step-by-step instructions guide you to port an existing Qt Quick application to iOS using the qrc approach:&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">1 . Open the existing project in Qt Creator and configure it with iOS or iOS Simulator kit. For more information, see Qt Creator: Configuring Projects.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">2. Update all local directory imports in the qml files to use a local namespace. For example, to import the QML documents in the &amp;quot;contents&amp;quot; directory relative to main.qml, use the following import statement:&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>
+&lt;table border="1" style="-qt-table-type: frame; border-style:none; margin-top:5px; margin-bottom:5px; margin-left:5px; margin-right:5px;" bgcolor="#394054">
+&lt;tr>
+&lt;td style="border: none;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#ffff55;">import&lt;/span>&lt;span style=" color:#ffffff;"> &lt;/span>&lt;span style=" color:#aaaaaa;">&amp;quot;contents&amp;quot;&lt;/span>&lt;span style=" color:#ffffff;"> &lt;/span>&lt;span style=" color:#ffff55;">as&lt;/span>&lt;span style=" color:#ffffff;"> &lt;/span>&lt;span style=" color:#4f9d08;">Contents&lt;/span> &lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">3. Identify all the resources used by your application and add them to one or more qrc files. Qt Creator updates your qmake project file with the RESOURCES variable, listing the qrc files you added.&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">4. To load or refer to the resources in the qrc file from a C++ file, use the &amp;quot;qrc:&amp;quot; prefix for the URL. For example:&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>
+&lt;table border="1" style="-qt-table-type: frame; border-style:none; margin-top:5px; margin-bottom:5px; margin-left:5px; margin-right:5px;" bgcolor="#394054">
+&lt;tr>
+&lt;td style="border: none;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#4f9d08;">QQuickView&lt;/span>&lt;span style=" color:#ffffff;"> viewer;&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#3a4055;">&lt;span style=" color:#ffffff;">viewer.setSource(&lt;/span>&lt;span style=" color:#4f9d08;">QUrl&lt;/span>&lt;span style=" color:#ffffff;">(&lt;/span>&lt;span style=" color:#aaaaaa;">&amp;quot;qrc:qml/main.qml&amp;quot;&lt;/span>&lt;span style=" color:#ffffff;">));&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#3a4055;">&lt;span style=" color:#ffffff;">viewer.show();&lt;/span> &lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+&lt;table border="0" style="-qt-table-type: frame; border-style:solid; margin-top:5px; margin-bottom:5px; margin-left:5px; margin-right:5px;" bgcolor="#f0f0f0">
+&lt;tr>
+&lt;td style="border: none;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Note: QML documents can refer to files in the resources simply by using the relative path to the document. Such references do not require the &amp;quot;qrc:&amp;quot; or &amp;quot;:/&amp;quot; prefix.&lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">5. Update the &amp;quot;Run&amp;quot; settings for your project as described in the Qt Creator: Specifying Run Settings&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">6.If your application uses imports or plugins which depend on special Qt modules, these Qt modules should be added to the .pro file. For example, if your application uses the Qt Multimedia import in QML, you should add the following to your .pro file:&lt;/p>
+&lt;table border="1" style="-qt-table-type: frame; border-style:none; margin-top:5px; margin-bottom:5px; margin-left:5px; margin-right:5px;" bgcolor="#394054">
+&lt;tr>
+&lt;td style="border: none;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#ffffff;">QT += multimedia&lt;/span> &lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">In Qt for iOS, everything is compiled statically and placed into the application bundle. The applications are &amp;quot;sandboxed&amp;quot; inside their bundles and cannot make use of shared object files. Because of this, also the plugins used by the Qt modules need to be statically linked. To do this, define the required plugins using the QTPLUGIN variable. For example, to use the camera APIs from Qt Multimedia:&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>
+&lt;table border="1" style="-qt-table-type: frame; border-style:none; margin-top:5px; margin-bottom:5px; margin-left:5px; margin-right:5px;" bgcolor="#394054">
+&lt;tr>
+&lt;td style="border: none;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#ffffff;">QTPLUGIN += qavfcamera&lt;/span> &lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#404244; background-color:#ffffff;">See &lt;/span>&lt;a href="http://wiki.qt.io/QtMultimedia_iOS">&lt;span style=" text-decoration: underline; color:#17a81a; background-color:#ffffff;">Qt Multimedia on iOS&lt;/span>&lt;/a>&lt;span style=" color:#404244; background-color:#ffffff;"> for information on other Qt Multimedia plugins. If your project uses APIs from &lt;/span>&lt;a href="http://doc.qt.io/qt-5/qtsensors-index.html">&lt;span style=" text-decoration: underline; color:#17a81a; background-color:#ffffff;">Qt Sensors&lt;/span>&lt;/a>&lt;span style=" color:#404244; background-color:#ffffff;">, use the following:&lt;/span> &lt;/p>
+&lt;table border="1" style="-qt-table-type: frame; border-style:none; margin-top:5px; margin-bottom:5px; margin-left:5px; margin-right:5px;" bgcolor="#394054">
+&lt;tr>
+&lt;td style="border: none;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#ffffff;">QT += sensors&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#3a4055;">&lt;span style=" color:#ffffff;">QTPLUGIN += qtsensors_ios&lt;/span> &lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">7. &lt;span style=" color:#404244;">Save the changes to your project and run the application.&lt;/span> &lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#404244;">Qt Creator deploys your application on the iOS device, if the device is detected and configured correctly in Xcode. It is also possible to test the application in iOS Simulator. For more information, see &lt;/span>&lt;a href="http://doc.qt.io/qtcreator/creator-developing-ios.html">&lt;span style=" text-decoration: underline; color:#17a81a;">Connecting iOS Devices&lt;/span>&lt;/a>&lt;span style=" color:#404244;">.&lt;/span> &lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Sun Apr 2 17:24:06 2017</CREATED>
+        <MODIFED>Sun Apr 2 17:24:20 2017</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="15" Expand="0" ParentIndex="-1">
+        <TITLE color="None" background="None">Building Qt from Sources</TITLE>
+        <ID>6</ID>
+        <ID_SORT>15</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>d6972a26_abeb_42a5_90a2_f04a3db72a0d</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>Menu</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Sun Apr 2 17:24:06 2017</CREATED>
+        <MODIFED>Sun Apr 2 17:24:25 2017</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="16" Expand="1" ParentIndex="-1">
+        <TITLE color="None" background="None">Platform Notes - iOS</TITLE>
+        <ID>20</ID>
+        <ID_SORT>16</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>64bcad7f_5405_4807_b84d_b2c050c024ad</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>Menu</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Sun Apr 2 17:48:22 2017</CREATED>
+        <MODIFED>Sun Apr 2 19:57:59 2017</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="17" Expand="0" ParentIndex="16">
+        <TITLE color="None" background="None">Deployment</TITLE>
+        <ID>22</ID>
+        <ID_SORT>17</ID_SORT>
+        <DEPTH>16</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>ed7bfcb8_ac27_42e0_9146_af7361ec646b</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>html</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000; background-color:#ffffff;">Developing, building, running, and debugging a Qt for iOS application can all be done with Qt Creator on macOS. The toolchain is provided by Apple's Xcode, and running qmake on a project targeted for iOS will also generate an Xcode project file (.xcodeproj), with initial application settings. As Qt Creator does not provide an interface for managing all of the settings specific to iOS platform, it is sometimes necessary to adjust them in Xcode directly. Checking that the application is configured correctly is especially important before submitting an application for publishing in Apple's App Store. &lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Sun Apr 2 17:48:29 2017</CREATED>
+        <MODIFED>Sun Apr 2 17:51:25 2017</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="18" Expand="0" ParentIndex="16">
+        <TITLE color="None" background="None">plist</TITLE>
+        <ID>21</ID>
+        <ID_SORT>18</ID_SORT>
+        <DEPTH>16</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>9440b9c3_d9f9_4c47_a472_05dda20d7ff4</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>html</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:20pt; color:#00ac11;">Information Property List Files&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#404244; background-color:#ffffff;">Information property list file (Info.plist) on iOS and macOS is used for configuring an application bundle. These configuration settings include:&lt;/span>&lt;/p>
+&lt;ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;">&lt;li style=" color:#404244;" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">Application display name and identifier&lt;/span>&lt;/li>
+&lt;li style=" color:#404244;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">Required device capabilities&lt;/span>&lt;/li>
+&lt;li style=" color:#404244;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">Supported user interface orientations&lt;/span>&lt;/li>
+&lt;li style=" color:#404244;" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">Icons and launch images&lt;/span>&lt;/li>&lt;/ul>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#404244; background-color:#ffffff;">See the documentation on &lt;/span>&lt;a href="https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Introduction/Introduction.html">&lt;span style=" text-decoration: underline; color:#17a81a; background-color:#ffffff;">Information Property List File&lt;/span>&lt;/a>&lt;span style=" color:#404244; background-color:#ffffff;"> in iOS Developer Library for details.&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#404244; background-color:#ffffff;">When qmake is run, an Info.plist file is generated with appropriate default values.&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;">&lt;span style=" color:#404244;">It is advisable to replace the generated Info.plist with your own copy, to prevent it from being overwritten the next time qmake is run. You can define a custom information property list with &lt;/span>&lt;a href="http://doc.qt.io/qt-5/qmake-variable-reference.html#qmake-info-plist">&lt;span style=" text-decoration: underline; color:#17a81a;">QMAKE_INFO_PLIST&lt;/span>&lt;/a>&lt;span style=" color:#404244;"> variable in your .pro file.&lt;/span> &lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;">&lt;br />&lt;/p>
+&lt;table border="1" style="-qt-table-type: frame; border-style:none; margin-top:5px; margin-bottom:5px; margin-left:5px; margin-right:5px;" bgcolor="#394054">
+&lt;tr>
+&lt;td style="border: none;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#ffffff;">ios {&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#3a4055;">&lt;span style=" color:#ffffff;">    QMAKE_INFO_PLIST = ios/Info.plist&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#3a4055;">&lt;span style=" color:#ffffff;">}&lt;/span> &lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>
+&lt;table border="0" style="-qt-table-type: frame; border-style:solid; margin-top:5px; margin-bottom:5px; margin-left:5px; margin-right:5px;" bgcolor="#f0f0f0">
+&lt;tr>
+&lt;td style="border: none;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ios&lt;span style=" color:#c0c0c0;"> &lt;/span>{&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">    &lt;/span>&lt;span style=" font-family:'Monaco';">ICON_DATA.files&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco';">=&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco';">\&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">        &lt;/span>&lt;span style=" font-family:'Monaco';">$$&lt;/span>&lt;span style=" font-family:'Monaco'; color:#800080;">PWD&lt;/span>&lt;span style=" font-family:'Monaco';">/ios/Icon.png&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco';">\&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">        &lt;/span>&lt;span style=" font-family:'Monaco';">$$&lt;/span>&lt;span style=" font-family:'Monaco'; color:#800080;">PWD&lt;/span>&lt;span style=" font-family:'Monaco';">/ios/Icon@2x.png&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco';">\&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">        &lt;/span>&lt;span style=" font-family:'Monaco';">$$&lt;/span>&lt;span style=" font-family:'Monaco'; color:#800080;">PWD&lt;/span>&lt;span style=" font-family:'Monaco';">/ios/Icon-60.png&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco';">\&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">        &lt;/span>&lt;span style=" font-family:'Monaco';">$$&lt;/span>&lt;span style=" font-family:'Monaco'; color:#800080;">PWD&lt;/span>&lt;span style=" font-family:'Monaco';">/ios/Icon-60@2x.png&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco';">\&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">        &lt;/span>&lt;span style=" font-family:'Monaco';">$$&lt;/span>&lt;span style=" font-family:'Monaco'; color:#800080;">PWD&lt;/span>&lt;span style=" font-family:'Monaco';">/ios/Icon-72.png&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco';">\&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">        &lt;/span>&lt;span style=" font-family:'Monaco';">$$&lt;/span>&lt;span style=" font-family:'Monaco'; color:#800080;">PWD&lt;/span>&lt;span style=" font-family:'Monaco';">/ios/Icon-72@2x.png&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco';">\&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">        &lt;/span>&lt;span style=" font-family:'Monaco';">$$&lt;/span>&lt;span style=" font-family:'Monaco'; color:#800080;">PWD&lt;/span>&lt;span style=" font-family:'Monaco';">/ios/Icon-76.png&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco';">\&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">        &lt;/span>&lt;span style=" font-family:'Monaco';">$$&lt;/span>&lt;span style=" font-family:'Monaco'; color:#800080;">PWD&lt;/span>&lt;span style=" font-family:'Monaco';">/ios/Icon-76@2x.png&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco';">\&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">        &lt;/span>&lt;span style=" font-family:'Monaco';">$$&lt;/span>&lt;span style=" font-family:'Monaco'; color:#800080;">PWD&lt;/span>&lt;span style=" font-family:'Monaco';">/ios/Def.png&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco';">\&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">        &lt;/span>&lt;span style=" font-family:'Monaco';">$$&lt;/span>&lt;span style=" font-family:'Monaco'; color:#800080;">PWD&lt;/span>&lt;span style=" font-family:'Monaco';">/ios/Def@2x.png&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco';">\&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">        &lt;/span>&lt;span style=" font-family:'Monaco';">$$&lt;/span>&lt;span style=" font-family:'Monaco'; color:#800080;">PWD&lt;/span>&lt;span style=" font-family:'Monaco';">/ios/Def-Portrait.png&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco';">\&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">        &lt;/span>&lt;span style=" font-family:'Monaco';">$$&lt;/span>&lt;span style=" font-family:'Monaco'; color:#800080;">PWD&lt;/span>&lt;span style=" font-family:'Monaco';">/ios/Def-568h@2x.png&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">    &lt;/span>&lt;span style=" font-family:'Monaco'; color:#800080;">QMAKE_BUNDLE_DATA&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco';">+=&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco';">ICON_DATA&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Monaco';">&lt;br />&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Monaco';">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">   &lt;/span>&lt;span style=" font-family:'Monaco'; color:#008000;">#QMAKE_INFO_PLIST&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco'; color:#008000;">=&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco'; color:#008000;">$$PWD/ios/Project-Info.plist&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">   &lt;/span>&lt;span style=" font-family:'Monaco'; color:#008000;">#&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco'; color:#008000;">OTHER_FILES&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco'; color:#008000;">+=&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco'; color:#008000;">$$QMAKE_INFO_PLIST&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Monaco';">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco';">}&lt;/span>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Sun Apr 2 17:48:29 2017</CREATED>
+        <MODIFED>Sun Apr 2 17:51:36 2017</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="19" Expand="0" ParentIndex="16">
+        <TITLE color="None" background="None">Application Assets</TITLE>
+        <ID>23</ID>
+        <ID_SORT>19</ID_SORT>
+        <DEPTH>16</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>f13bc79a_b0e8_4db4_9bd4_9232e4c4474c</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>html</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Helvetica'; color:#000000;">or files that cannot be bundled into Qt resources, QMAKE_BUNDLE_DATA qmake variable provides a way to specify a set of files to be copied into the application bundle. For example:&lt;/span>&lt;/p>
+&lt;table border="1" style="-qt-table-type: frame; border-style:none; margin-top:5px; margin-bottom:5px; margin-left:5px; margin-right:5px;" bgcolor="#394054">
+&lt;tr>
+&lt;td style="border: none;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Helvetica'; color:#ffffff;">ios {&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#3a4055;">&lt;span style=" font-family:'Helvetica'; color:#ffffff;">    fontFiles.files = fonts/*.ttf&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#3a4055;">&lt;span style=" font-family:'Helvetica'; color:#ffffff;">    fontFiles.path = fonts&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#3a4055;">&lt;span style=" font-family:'Helvetica'; color:#ffffff;">    QMAKE_BUNDLE_DATA += fontFiles&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#3a4055;">&lt;span style=" font-family:'Helvetica'; color:#ffffff;">}&lt;/span>&lt;span style=" font-family:'Helvetica';"> &lt;/span>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Helvetica'; color:#000000;">For image resources, an alternative way is to make use of asset catalogs in Xcode, which can be added in a similar way:&lt;/span>&lt;/p>
+&lt;table border="1" style="-qt-table-type: frame; border-style:none; margin-top:5px; margin-bottom:5px; margin-left:5px; margin-right:5px;" bgcolor="#394054">
+&lt;tr>
+&lt;td style="border: none;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Helvetica'; color:#ffffff;">ios {&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#3a4055;">&lt;span style=" font-family:'Helvetica'; color:#ffffff;">    assets_catalogs.files = $$files($$PWD/*.xcassets)&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#3a4055;">&lt;span style=" font-family:'Helvetica'; color:#ffffff;">    QMAKE_BUNDLE_DATA += assets_catalogs&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#3a4055;">&lt;span style=" font-family:'Helvetica'; color:#ffffff;">}&lt;/span>&lt;span style=" font-family:'Helvetica';"> &lt;/span>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Helvetica'; color:#000000;">Important: resources are compiled only if the .path variable is not set. It is possible to recursively copy and compile directories though.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Helvetica'; color:#000000;">&lt;br />&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Helvetica'; color:#000000;">&lt;br />&lt;/p>
+&lt;table border="0" style="-qt-table-type: frame; border-style:solid; margin-top:5px; margin-bottom:5px; margin-left:5px; margin-right:5px;" bgcolor="#f0f0f0">
+&lt;tr>
+&lt;td style="border: none;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Helvetica';">ios&lt;/span>&lt;span style=" font-family:'Helvetica'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Helvetica';">{&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">    &lt;/span>&lt;span style=" font-family:'Monaco';">ICON_DATA.files&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco';">=&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco';">\&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">        &lt;/span>&lt;span style=" font-family:'Monaco';">$$&lt;/span>&lt;span style=" font-family:'Monaco'; color:#800080;">PWD&lt;/span>&lt;span style=" font-family:'Monaco';">/ios/Icon.png&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco';">\&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">        &lt;/span>&lt;span style=" font-family:'Monaco';">$$&lt;/span>&lt;span style=" font-family:'Monaco'; color:#800080;">PWD&lt;/span>&lt;span style=" font-family:'Monaco';">/ios/Icon@2x.png&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco';">\&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">        &lt;/span>&lt;span style=" font-family:'Monaco';">$$&lt;/span>&lt;span style=" font-family:'Monaco'; color:#800080;">PWD&lt;/span>&lt;span style=" font-family:'Monaco';">/ios/Icon-60.png&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco';">\&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">        &lt;/span>&lt;span style=" font-family:'Monaco';">$$&lt;/span>&lt;span style=" font-family:'Monaco'; color:#800080;">PWD&lt;/span>&lt;span style=" font-family:'Monaco';">/ios/Icon-60@2x.png&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco';">\&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">        &lt;/span>&lt;span style=" font-family:'Monaco';">$$&lt;/span>&lt;span style=" font-family:'Monaco'; color:#800080;">PWD&lt;/span>&lt;span style=" font-family:'Monaco';">/ios/Icon-72.png&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco';">\&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">        &lt;/span>&lt;span style=" font-family:'Monaco';">$$&lt;/span>&lt;span style=" font-family:'Monaco'; color:#800080;">PWD&lt;/span>&lt;span style=" font-family:'Monaco';">/ios/Icon-72@2x.png&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco';">\&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">        &lt;/span>&lt;span style=" font-family:'Monaco';">$$&lt;/span>&lt;span style=" font-family:'Monaco'; color:#800080;">PWD&lt;/span>&lt;span style=" font-family:'Monaco';">/ios/Icon-76.png&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco';">\&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">        &lt;/span>&lt;span style=" font-family:'Monaco';">$$&lt;/span>&lt;span style=" font-family:'Monaco'; color:#800080;">PWD&lt;/span>&lt;span style=" font-family:'Monaco';">/ios/Icon-76@2x.png&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco';">\&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">        &lt;/span>&lt;span style=" font-family:'Monaco';">$$&lt;/span>&lt;span style=" font-family:'Monaco'; color:#800080;">PWD&lt;/span>&lt;span style=" font-family:'Monaco';">/ios/Def.png&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco';">\&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">        &lt;/span>&lt;span style=" font-family:'Monaco';">$$&lt;/span>&lt;span style=" font-family:'Monaco'; color:#800080;">PWD&lt;/span>&lt;span style=" font-family:'Monaco';">/ios/Def@2x.png&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco';">\&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">        &lt;/span>&lt;span style=" font-family:'Monaco';">$$&lt;/span>&lt;span style=" font-family:'Monaco'; color:#800080;">PWD&lt;/span>&lt;span style=" font-family:'Monaco';">/ios/Def-Portrait.png&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco';">\&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">        &lt;/span>&lt;span style=" font-family:'Monaco';">$$&lt;/span>&lt;span style=" font-family:'Monaco'; color:#800080;">PWD&lt;/span>&lt;span style=" font-family:'Monaco';">/ios/Def-568h@2x.png&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">    &lt;/span>&lt;span style=" font-family:'Monaco'; color:#800080;">QMAKE_BUNDLE_DATA&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco';">+=&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco';">ICON_DATA&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Monaco';">&lt;br />&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Monaco';">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">   &lt;/span>&lt;span style=" font-family:'Monaco'; color:#008000;">#QMAKE_INFO_PLIST&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco'; color:#008000;">=&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco'; color:#008000;">$$PWD/ios/Project-Info.plist&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">   &lt;/span>&lt;span style=" font-family:'Monaco'; color:#008000;">#&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco'; color:#008000;">OTHER_FILES&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco'; color:#008000;">+=&lt;/span>&lt;span style=" font-family:'Monaco'; color:#c0c0c0;"> &lt;/span>&lt;span style=" font-family:'Monaco'; color:#008000;">$$QMAKE_INFO_PLIST&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Monaco';">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco';">}&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Monaco';">&lt;br />&lt;/p>&lt;/td>&lt;/tr>&lt;/table>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Sun Apr 2 17:48:29 2017</CREATED>
+        <MODIFED>Sat Aug 26 02:21:46 2017</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="20" Expand="0" ParentIndex="16">
+        <TITLE color="None" background="None">Icons</TITLE>
+        <ID>24</ID>
+        <ID_SORT>20</ID_SORT>
+        <DEPTH>16</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>78686bc6_ed8f_4204_a2c9_7efcd4f56a98</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>html</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#404244; background-color:#ffffff;">Icons need to be set in the Info.plist and copied to the application bundle. Xcode has special support for icons, but when using Qt, it is usually better to set them in the .pro file.&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#404244; background-color:#ffffff;">To support all resolutions and devices, several images should be created. A detailed list of what is required is available at &lt;/span>&lt;a href="https://developer.apple.com/library/ios/qa/qa1686/_index.html">&lt;span style=" text-decoration: underline; color:#17a81a; background-color:#ffffff;">Icon files&lt;/span>&lt;/a>&lt;span style=" color:#404244; background-color:#ffffff;">. The filename is not important, but the actual pixel size is. Just a few icons are required. However, to support both iPhone and iPad, the following images are required:&lt;/span>&lt;/p>
+&lt;ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;">&lt;li style=" color:#404244;" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">AppIcon29x29.png: 29 x 29&lt;/span>&lt;/li>
+&lt;li style=" color:#404244;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">AppIcon29x29@2x.png: 58 x 58&lt;/span>&lt;/li>
+&lt;li style=" color:#404244;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">AppIcon29x29@2x~ipad.png: 58 x 58&lt;/span>&lt;/li>
+&lt;li style=" color:#404244;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">AppIcon29x29~ipad.png: 29 x 29&lt;/span>&lt;/li>
+&lt;li style=" color:#404244;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">AppIcon40x40@2x.png: 80 x 80&lt;/span>&lt;/li>
+&lt;li style=" color:#404244;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">AppIcon40x40@2x~ipad.png: 80 x 80&lt;/span>&lt;/li>
+&lt;li style=" color:#404244;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">AppIcon40x40~ipad.png: 40 x 40&lt;/span>&lt;/li>
+&lt;li style=" color:#404244;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">AppIcon50x50@2x~ipad.png: 100 x 100&lt;/span>&lt;/li>
+&lt;li style=" color:#404244;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">AppIcon50x50~ipad.png: 50 x 50&lt;/span>&lt;/li>
+&lt;li style=" color:#404244; background-color:#ffffff;" style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/li>
+&lt;li style=" color:#404244;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">AppIcon57x57.png: 57 x 57&lt;/span>&lt;/li>
+&lt;li style=" color:#404244;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">AppIcon57x57@2x.png: 114 x 114&lt;/span>&lt;/li>
+&lt;li style=" color:#404244;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">AppIcon60x60@2x.png: 120 x 120&lt;/span>&lt;/li>
+&lt;li style=" color:#404244;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">AppIcon72x72@2x~ipad.png: 144 x 144&lt;/span>&lt;/li>
+&lt;li style=" color:#404244;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">AppIcon72x72~ipad.png: 72 x 72&lt;/span>&lt;/li>
+&lt;li style=" color:#404244;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">AppIcon76x76@2x~ipad.png: 152 x 152&lt;/span>&lt;/li>
+&lt;li style=" color:#404244;" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">AppIcon76x76~ipad.png: 76 x 76&lt;/span>&lt;/li>&lt;/ul>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;">&lt;span style=" color:#404244;">These files should be copied to the application bundle by adding something like the following code snippet to the .pro file:&lt;/span> &lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;">&lt;br />&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;">&lt;br />&lt;/p>
+&lt;table border="1" style="-qt-table-type: frame; border-style:none; margin-top:5px; margin-bottom:5px; margin-left:5px; margin-right:5px;" bgcolor="#394054">
+&lt;tr>
+&lt;td style="border: none;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#ffffff;">ios {&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#3a4055;">&lt;span style=" color:#ffffff;">    ios_icon.files = $$files($$PWD/ios/AppIcon*.png)&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#3a4055;">&lt;span style=" color:#ffffff;">    QMAKE_BUNDLE_DATA += ios_icon&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#3a4055;">&lt;span style=" color:#ffffff;">}&lt;/span> &lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#404244;">For the icons to be used, the filenames also have to be listed in the Info.plist. The best way is to list all icon files using the CFBundleIconFiles key. The iPad specific version can be given using the CFBundleIcons~ipad key, by adding something like the following code snippet to Info.plist:&lt;/span> &lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>
+&lt;table border="0" style="-qt-table-type: frame; border-style:solid; margin-top:5px; margin-bottom:5px; margin-left:5px; margin-right:5px;" bgcolor="#f0f0f0">
+&lt;tr>
+&lt;td style="border: none;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#c0c0c0;">        &lt;/span>&lt;span style=" color:#808000;">&amp;lt;key&amp;gt;&lt;/span>CFBundleIconFiles~ipad&lt;span style=" color:#808000;">&amp;lt;/key&amp;gt;&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">        &lt;/span>&lt;span style=" font-family:'Monaco'; color:#808000;">&amp;lt;array&amp;gt;&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">                &lt;/span>&lt;span style=" font-family:'Monaco'; color:#808000;">&amp;lt;string&amp;gt;&lt;/span>&lt;span style=" font-family:'Monaco';">Icon-72.png&lt;/span>&lt;span style=" font-family:'Monaco'; color:#808000;">&amp;lt;/string&amp;gt;&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">                &lt;/span>&lt;span style=" font-family:'Monaco'; color:#808000;">&amp;lt;string&amp;gt;&lt;/span>&lt;span style=" font-family:'Monaco';">Icon-72@2x.png&lt;/span>&lt;span style=" font-family:'Monaco'; color:#808000;">&amp;lt;/string&amp;gt;&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">                &lt;/span>&lt;span style=" font-family:'Monaco'; color:#808000;">&amp;lt;string&amp;gt;&lt;/span>&lt;span style=" font-family:'Monaco';">Icon-76.png&lt;/span>&lt;span style=" font-family:'Monaco'; color:#808000;">&amp;lt;/string&amp;gt;&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">                &lt;/span>&lt;span style=" font-family:'Monaco'; color:#808000;">&amp;lt;string&amp;gt;&lt;/span>&lt;span style=" font-family:'Monaco';">Icon-76@2x.png&lt;/span>&lt;span style=" font-family:'Monaco'; color:#808000;">&amp;lt;/string&amp;gt;&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">        &lt;/span>&lt;span style=" font-family:'Monaco'; color:#808000;">&amp;lt;/array&amp;gt;&lt;/span>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+&lt;table border="0" style="-qt-table-type: frame; border-style:solid; margin-top:5px; margin-bottom:5px; margin-left:5px; margin-right:5px;" bgcolor="#f0f0f0">
+&lt;tr>
+&lt;td style="border: none;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#c0c0c0;">        &lt;/span>&lt;span style=" color:#808000;">&amp;lt;key&amp;gt;&lt;/span>CFBundleIconFiles&lt;span style=" color:#808000;">&amp;lt;/key&amp;gt;&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">        &lt;/span>&lt;span style=" font-family:'Monaco'; color:#808000;">&amp;lt;array&amp;gt;&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">                &lt;/span>&lt;span style=" font-family:'Monaco'; color:#808000;">&amp;lt;string&amp;gt;&lt;/span>&lt;span style=" font-family:'Monaco';">Icon.png&lt;/span>&lt;span style=" font-family:'Monaco'; color:#808000;">&amp;lt;/string&amp;gt;&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">                &lt;/span>&lt;span style=" font-family:'Monaco'; color:#808000;">&amp;lt;string&amp;gt;&lt;/span>&lt;span style=" font-family:'Monaco';">Icon@2x.png&lt;/span>&lt;span style=" font-family:'Monaco'; color:#808000;">&amp;lt;/string&amp;gt;&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">                &lt;/span>&lt;span style=" font-family:'Monaco'; color:#808000;">&amp;lt;string&amp;gt;&lt;/span>&lt;span style=" font-family:'Monaco';">Icon-60.png&lt;/span>&lt;span style=" font-family:'Monaco'; color:#808000;">&amp;lt;/string&amp;gt;&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">                &lt;/span>&lt;span style=" font-family:'Monaco'; color:#808000;">&amp;lt;string&amp;gt;&lt;/span>&lt;span style=" font-family:'Monaco';">Icon-60@2x.png&lt;/span>&lt;span style=" font-family:'Monaco'; color:#808000;">&amp;lt;/string&amp;gt;&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">        &lt;/span>&lt;span style=" font-family:'Monaco'; color:#808000;">&amp;lt;/array&amp;gt;&lt;/span>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#404244; background-color:#ffffff;">This ensures that the appropriate files are copied to the right place and the correct icons are used as required by the Apple App Store. Ad-hoc distributions should also include the following filenames in the application bundle to visualize the application in iTunes:&lt;/span>&lt;/p>
+&lt;ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;">&lt;li style=" color:#404244;" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">iTunesArtwork 512x512&lt;/span>&lt;/li>
+&lt;li style=" color:#404244; background-color:#ffffff;" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">iTunesArtwork@2x 1024x1024 &lt;/li>&lt;/ul>&lt;/body>&lt;/html></NOTE>
+        <CODE>iphone 
+
+
+
+29 - small
+40
+57/ 60
+
+
+
+
+ipad
+72
+76
+</CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Sun Apr 2 17:48:29 2017</CREATED>
+        <MODIFED>Sun Apr 2 17:50:29 2017</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="21" Expand="0" ParentIndex="16">
+        <TITLE color="None" background="None">Launch Images</TITLE>
+        <ID>25</ID>
+        <ID_SORT>21</ID_SORT>
+        <DEPTH>16</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>99aa68b5_1225_4af3_81c4_f2f124eb247c</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>html</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#404244; background-color:#ffffff;">Like icons, launch images consist of images that need to be copied to the application bundle and keys that have to be set in the Info.plist.&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;">&lt;span style=" color:#404244;">To support the iPhone 6, a launch file (an interface builder .xib file or a storyboard file) should be provided. &lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;">&lt;span style=" color:#404244;">For more information, see &lt;/span>&lt;a href="https://developer.apple.com/library/ios/documentati%20on/userexperience/conceptual/MobileHIG/LaunchImages.html">&lt;span style=" text-decoration: underline; color:#17a81a;">Launch Images&lt;/span>&lt;/a>&lt;span style=" color:#404244;">. Assuming that you called the launch file Launch.xib, it can be added to the Info.plist as follows:&lt;/span> &lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;">&lt;br />&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;">&lt;br />&lt;/p>
+&lt;table border="1" style="-qt-table-type: frame; border-style:none; margin-top:5px; margin-bottom:5px; margin-left:5px; margin-right:5px;" bgcolor="#394054">
+&lt;tr>
+&lt;td style="border: none;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#ffffff;">&amp;lt;key&amp;gt;UILaunchStoryboardName&amp;lt;/key&amp;gt;&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#3a4055;">&lt;span style=" color:#ffffff;">&amp;lt;string&amp;gt;Launch&amp;lt;/string&amp;gt;&lt;/span> &lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#404244; background-color:#ffffff;">It is possible to use launch images (PNG files), as described below, &lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#404244; background-color:#ffffff;">to support the iPhone 6, &lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#404244; background-color:#ffffff;">but it is not recommended.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#404244;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#404244; background-color:#ffffff;">Qmake generates a default LaunchScreen.xib, so it is better to use another name for a custom launch screen to avoid clashes.&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#404244; background-color:#ffffff;">Starting with iOS 7, the launch images are defined using the UILaunchImages key. To support these devices, you need to prepare the following images:&lt;/span>&lt;/p>
+&lt;ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;">&lt;li style=" color:#404244;" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">LaunchImage-iOS7-568h@2x.png: 640 x 1136&lt;/span>&lt;/li>
+&lt;li style=" color:#404244;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">LaunchImage-iOS7-Landscape.png: 1024 x 768&lt;/span>&lt;/li>
+&lt;li style=" color:#404244;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">LaunchImage-iOS7-Landscape@2x.png: 2048 x 1536&lt;/span>&lt;/li>
+&lt;li style=" color:#404244;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">LaunchImage-iOS7-Portrait.png: 768 x 1024&lt;/span>&lt;/li>
+&lt;li style=" color:#404244;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">LaunchImage-iOS7-Portrait@2x.png: 1536 x 2048&lt;/span>&lt;/li>
+&lt;li style=" color:#404244;" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">LaunchImage-iOS7@2x.png: 640 x 960&lt;/span>&lt;/li>&lt;/ul>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;">&lt;span style=" color:#404244;">The images can be added to the Info.plist as follows:&lt;/span> &lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;">&lt;br />&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;">&lt;br />&lt;/p>
+&lt;table border="0" style="-qt-table-type: frame; border-style:solid; margin-top:5px; margin-bottom:5px; margin-left:5px; margin-right:5px;" bgcolor="#f0f0f0">
+&lt;tr>
+&lt;td style="border: none;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#c0c0c0;">        &lt;/span>&lt;span style=" color:#808000;">&amp;lt;key&amp;gt;&lt;/span>UILaunchImageFile&lt;span style=" color:#808000;">&amp;lt;/key&amp;gt;&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Monaco'; color:#c0c0c0;">        &lt;/span>&lt;span style=" font-family:'Monaco'; color:#808000;">&amp;lt;string&amp;gt;&lt;/span>&lt;span style=" font-family:'Monaco';">Def.png&lt;/span>&lt;span style=" font-family:'Monaco'; color:#808000;">&amp;lt;/string&amp;gt;&lt;/span>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#404244; background-color:#ffffff;">The name defaults to Default, but qmake generates some of the images, so it is easier to use another name (for example LaunchImage as we did) to avoid clashes.&lt;/span>&lt;/p>
+&lt;ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;">&lt;li style=" color:#404244;" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">LaunchImage.png: 320 x 480&lt;/span>&lt;/li>
+&lt;li style=" color:#404244;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">LaunchImage@2x.png: 640 x 960&lt;/span>&lt;/li>
+&lt;li style=" color:#404244;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">LaunchImage-568h@2x.png: 640 x 1136&lt;/span>&lt;/li>
+&lt;li style=" color:#404244;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">LaunchImage-Landscape.png: 1024 x 748&lt;/span>&lt;/li>
+&lt;li style=" color:#404244;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">LaunchImage-Landscape@2x.png: 2048 x 1496&lt;/span>&lt;/li>
+&lt;li style=" color:#404244;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">LaunchImage-Portrait.png: 768 x 1004&lt;/span>&lt;/li>
+&lt;li style=" color:#404244;" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" background-color:#ffffff;">LaunchImage-Portrait@2x.png: 1536 x 2008&lt;/span>&lt;/li>&lt;/ul>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#404244; background-color:#ffffff;">You can change the filenames as long as the Info.plist and filenames stay in sync.&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;">&lt;span style=" color:#404244;">Finally, all these files have to be copied to the application bundle by adding something like the following code snippet to the .pro file:&lt;/span> &lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;">&lt;br />&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;">&lt;br />&lt;/p>
+&lt;table border="1" style="-qt-table-type: frame; border-style:none; margin-top:5px; margin-bottom:5px; margin-left:5px; margin-right:5px;" bgcolor="#394054">
+&lt;tr>
+&lt;td style="border: none;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#ffffff;">ios {&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#3a4055;">&lt;span style=" color:#ffffff;">    app_launch_images.files = $$PWD/ios/Launch.xib $$files($$PWD/ios/LaunchImage*.png)&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#3a4055;">&lt;span style=" color:#ffffff;">    QMAKE_BUNDLE_DATA += app_launch_images&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#3a4055;">&lt;span style=" color:#ffffff;">}&lt;/span> &lt;/p>&lt;/td>&lt;/tr>&lt;/table>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#404244; background-color:#ffffff;">This allows you to produce universal applications with valid LaunchImages as required by the Apple App Store.&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;">&lt;span style=" font-weight:600; color:#404244;">Important: &lt;/span>&lt;span style=" color:#404244;">&amp;quot;launch_images&amp;quot; is used internally by Qt, so it will be overwritten if used in your .pro file.&lt;/span> &lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE>320 480 / 640 960  - 3.5
+320 568 / 640 1136 - 4.0
+375 667 / 750 1334 - 4.7  iphone 6
+414 736 / 1242*2208 5.5
+
+
+
+768 1024 / 1536 2048
+1024 1366  / 2048 2732
+
+
+
+
+768 1024
+
+
+Def.png   320-480
+Def-568h.png
+Def-667h.png
+Def-736h.png
+
+Def-Landscape.png
+Def-Portrait.png
+</CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Sun Apr 2 17:48:29 2017</CREATED>
+        <MODIFED>Sun Apr 2 17:50:34 2017</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="22" Expand="0" ParentIndex="16">
+        <TITLE color="None" background="None">Publishing to Apple App Store</TITLE>
+        <ID>3</ID>
+        <ID_SORT>22</ID_SORT>
+        <DEPTH>16</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>1a0a691c_9185_46f4_b620_b08d9695b373</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>html</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">Verifying that your Qt for iOS application is ready for publishing to App Store can be done as described in Submitting the Application. &lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">To submit the application, you can use Xcode, or the Application Loader (installed with Xcode). &lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">Qt Creator does not provide an interface for managing all of the settings in an Xcode project configuration.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">The application should be tested on a variety of iOS versions and devices, depending on what it's targeted to support. The minimum deployment target for Qt applications is iOS 7.0.&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">The actual publishing process involves creating a distribution certificate and a provision profile, creating a signed archive of your application, and running a set of validation tests on it.&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">See the App Distribution Guide in iOS Developer Library for more information. &lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">한글지원에 대해서&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" color:#000000;">필요한 폰트를 설정할 것.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;">&lt;br />&lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Sun Apr 2 17:24:06 2017</CREATED>
+        <MODIFED>Sun Apr 2 17:24:15 2017</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+</Table>
+

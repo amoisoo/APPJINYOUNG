@@ -1,0 +1,92 @@
+{% load static i18n %}
+    <div class="row">
+
+
+        {% for DATA in objects %}
+                <div class="col-xl-4 col-sm-6">
+            <div class="card">
+                <div class="row">
+                    <div class="col-xl-12 text-center p-4 border-right font-size-16 ">
+                        <a style="color: black ; " href="{% url 'book:book_detail' DATA.slug %}">{{ DATA.title }}</a>
+                        <a href="#" class="badge badge-light font-size-12">{{ DATA.slug }}</a>
+
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-xl-5">
+                        <div class="text-center p-4 border-right">
+
+                            {% if DATA.tag == "primary" %}
+                                    <div class="avatar-sm mx-auto mb-4">
+                                        <span class="avatar-title rounded-circle bg-soft-primary text-primary font-size-16">{{ DATA.id }}</span>
+                                    </div>
+                            {% elif DATA.tag == "warning" %}
+                                    <div class="avatar-sm mx-auto mb-4">
+                                        <span class="avatar-title rounded-circle bg-soft-warning text-warning font-size-16">{{ DATA.id }}</span>
+                                    </div>
+                            {% elif DATA.tag == "danger" %}
+                                    <div class="avatar-sm mx-auto mb-4">
+                                        <span class="avatar-title rounded-circle bg-soft-danger text-danger font-size-16">{{ DATA.id }}</span>
+                                    </div>
+                            {% elif DATA.tag == "success" %}
+                                    <div class="avatar-sm mx-auto mb-4">
+                                        <span class="avatar-title rounded-circle bg-soft-success text-success font-size-16">{{ DATA.id }}</span>
+                                    </div>
+                            {% elif DATA.tag == "info" %}
+                                    <div class="avatar-sm mx-auto mb-4">
+                                        <span class="avatar-title rounded-circle bg-soft-info text-info font-size-16">{{ DATA.id }}</span>
+                                    </div>
+                            {% elif DATA.tag == "dark" %}
+                                    <div class="avatar-sm mx-auto mb-4">
+                                        <span class="avatar-title rounded-circle bg-soft-dark text-dark text-light font-size-16">{{ DATA.id }}</span>
+                                    </div>
+                            {% else %}
+                                    <div class="avatar-sm mx-auto mb-4">
+                                        <span class="avatar-title rounded-circle bg-soft-success text-success font-size-16">{{ DATA.id }}</span>
+                                    </div>
+
+                            {% endif %}
+                                    <h5 class="text-truncate">{{ DATA.tag }}</h5>
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-xl-7">
+                        <div class="p-4 text-center text-xl-left">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div>
+                                        <p class="text-muted mb-2 text-truncate">#ID</p>
+                                        <h5>{{ DATA.id }}</h5>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div>
+                                        <p class="text-muted mb-2 text-truncate">Slug</p>
+                                        <h5>{{ DATA.tag }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <a href="{% url 'book:book_update' DATA.slug  %}" class="badge badge-success font-size-12"></i> 수정</a>
+                                <a href="{% url 'book:book_delete' DATA.slug  %}" class="badge badge-danger font-size-12"></i> 삭제</a>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        {% endfor %}
+
+
+
+    </div>
+

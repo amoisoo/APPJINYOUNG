@@ -1,0 +1,15 @@
+{% load static i18n %}
+
+
+<div class="panel-body">
+
+
+
+    {% for comment in PAGES %}
+                    {% include 'COLORADMIN_ADMIN/APP_FORUM/WIDGET/PAGE_item.html' with  DATA=comment %}
+
+
+    {% endfor %}
+
+
+</div>

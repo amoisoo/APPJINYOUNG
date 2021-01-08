@@ -1,0 +1,102 @@
+{% extends "COLORADMIN_ADMIN/BASE/base_layout.html" %}
+{% load static i18n common%}
+
+{% block title %}AMOISOO{% endblock %}
+
+{% block body_extra %}{% endblock %}
+
+
+{% block page_header %}{% endblock %}
+
+{% block page_navi %}{% endblock %}
+
+
+
+{% block page_content %}<div class="content">
+
+        <h2>Arbre</h2>
+        <hr/>
+        <br/>
+
+
+
+        <br/><br/>
+        <div class="row row-space-6">
+
+
+
+                {% for item in  DB_LIST%}
+                        <div class="col-xl-4 col-lg-6 m-b-5 p-b-1">
+                            <div class="p-10 bg-white rounded">
+                                <div class="media media-xs overflow-visible align-items-center">
+                                    <a class="media-left" href="javascript:;">
+                                        <img src="{% static 'COLORADMIN_ADMIN/img/user/user-12.jpg' %}" alt="" class="media-object img-circle" />
+                                    </a>
+                                    <div class="media-body valign-middle">
+                                        <a href="./{{ item }}/index.html"><b class="text-inverse" >{{ item }}</b></a>
+                                    </div>
+                                    <div class="media-body valign-middle text-right overflow-visible">
+                                        <div class="btn-group btn-group-sm dropdown">
+                                            <a href="javascript:;" class="btn btn-default">Go</a>
+                                            <a href="#" data-toggle="dropdown" class="btn btn-default dropdown-toggle"><b class="caret"></b></a>
+                                            <div class="dropdown-menu dropdown-menu-right">
+                                                <a href="javascript:;" class="dropdown-item">액션 1</a>
+                                                <a href="javascript:;" class="dropdown-item">액션 2</a>
+                                                <a href="javascript:;" class="dropdown-item">액션 3</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a href="javascript:;" class="dropdown-item">액션 4</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                {% endfor %}
+
+            <!-- end col-6 -->
+        </div>
+
+
+        <br/><br/><br/>
+
+
+
+
+
+
+</div>{% endblock %}
+
+
+
+
+
+
+
+{% block page_footer %}{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

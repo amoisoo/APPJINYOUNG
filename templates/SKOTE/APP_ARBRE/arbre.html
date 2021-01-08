@@ -1,0 +1,81 @@
+{% extends "SKOTE/BASE/base_h.html" %}
+{% load static i18n %}
+
+{% block body_extra %}
+            {% if PAGE_SETTINGS.layout == 'LEFT' %}
+                <body  data-topbar="dark"  >
+
+           {% else %}
+                <body data-layout="horizontal" data-topbar="dark">
+
+            {% endif %}
+{% endblock %}
+
+{% block page_header %}
+            {% if PAGE_SETTINGS.layout == 'LEFT' %}
+                {% include 'SKOTE/APP_ARBRE/COMMON/HEADER_V.html' %}
+
+           {% else %}
+                {% include 'SKOTE/APP_ARBRE/COMMON/HEADER.html' %}
+
+            {% endif %}
+{% endblock %}
+
+{% block page_navi %}
+    {% if PAGE_SETTINGS.layout == 'LEFT' %}
+                {% include 'SKOTE/APP_ARBRE/COMMON/NAVI_SIDE.html' %}
+    {% else %}
+                {% include 'SKOTE/APP_ARBRE/COMMON/NAVI_TOP.html' %}
+    {% endif %}
+{% endblock %}
+
+
+
+
+{% block page_content %}
+<div class="container-fluid">
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="page-title-box d-flex align-items-center justify-content-between">
+                        <h4 class="mb-0 font-size-32" style="font-size: 32px;">{{ object.title }}</h4>
+
+                        <div class="page-title-right">
+                            <ol class="breadcrumb m-0">
+                                <li class="breadcrumb-item active"><a href="javascript: void(0);">{{ object.title }}</a></li>
+
+                            </ol>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+<hr/>
+
+
+
+
+
+{% if object.context == "TABPAGE" %}
+    {% include 'SKOTE/APP_ARBRE/CONTEXT/CONTEXT_TABPAGE.html' %}
+
+{% elif object.context == "TREE" %}
+    {% include 'SKOTE/APP_ARBRE/CONTEXT/CONTEXT_TREE.html' %}
+{% elif object.context == "LIST" %}
+    {% include 'SKOTE/APP_ARBRE/CONTEXT/CONTEXT_LIST.html' %}
+{% elif object.context == "TABLE" %}
+    {% include 'SKOTE/APP_ARBRE/CONTEXT/CONTEXT_TABLE.html' %}
+{% elif object.context == "html" %}
+    {% include 'SKOTE/APP_ARBRE/CONTEXT/CONTEXT_html.html' %}
+{% elif object.context == "plain" %}
+    {% include 'SKOTE/APP_ARBRE/CONTEXT/CONTEXT_plain.html' %}
+
+
+{% endif %}
+
+
+
+
+
+</div>
+{% endblock %}

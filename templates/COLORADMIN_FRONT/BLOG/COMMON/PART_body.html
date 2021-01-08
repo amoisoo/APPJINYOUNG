@@ -1,0 +1,115 @@
+{% load static i18n %}
+
+
+			<!-- begin row -->
+			<div class="row row-space-30">
+
+				<div class="col-lg-12">
+<!-- begin col-3 -->
+                                {% include 'COLORADMIN_FRONT/BLOG/COMMON/PART_body_side.html' %}
+
+				</div>
+				<!-- end col-3 -->
+				<!-- begin col-9 -->
+				<div class="col-lg-12">
+					<!-- begin post-list -->
+					<ul class="post-list">
+						<li>
+							<!-- begin post-left-info -->
+							<div class="post-left-info">
+								<div class="post-date">
+									<span class="day">03</span>
+									<span class="month">SEPT</span>
+								</div>
+								<div class="post-likes">
+									<i class="fa fa-heart text-primary"></i>
+									<span class="number">520</span>
+								</div>
+							</div>
+							<!-- end post-left-info -->
+							<!-- begin post-content -->
+							<div class="post-content">
+								<!-- begin post-image -->
+								<div class="post-image">
+									<a href="post_detail.html">
+										<div class="post-image-cover" style="background-image: url('{% static 'COLORADMIN_FRONT/img/post/post-4.jpg' %}');"></div>
+									</a>
+								</div>
+								<div class="post-image post-image-with-carousel">
+									<!-- begin carousel -->
+									<div id="carousel-post" class="carousel slide" data-ride="carousel">
+										<!-- begin carousel-indicators -->
+										<ol class="carousel-indicators">
+											<li data-target="#carousel-post" data-slide-to="0" class="active"></li>
+											<li data-target="#carousel-post" data-slide-to="1"></li>
+											<li data-target="#carousel-post" data-slide-to="2"></li>
+										</ol>
+										<!-- end carousel-indicators -->
+										<!-- begin carousel-inner -->
+										<div class="carousel-inner">
+											<div class="carousel-item active">
+												<a href="post_detail.html"><img class="d-block w-100" src="{% static 'COLORADMIN_FRONT/img/post/post-1.jpg' %}" alt="" /></a>
+											</div>
+											<div class="carousel-item">
+												<a href="post_detail.html"><img class="d-block w-100" src="{% static 'COLORADMIN_FRONT/img/post/post-2.jpg' %}" alt="" /></a>
+											</div>
+											<div class="carousel-item">
+												<a href="post_detail.html"><img class="d-block w-100" src="{% static 'COLORADMIN_FRONT/img/post/post-3.jpg' %}" alt="" /></a>
+											</div>
+										</div>
+										<!-- end carousel-inner -->
+										<!-- begin carousel-control -->
+										<a class="carousel-control-prev" href="#carousel-post" role="button" data-slide="prev">
+										<span class="fa fa-chevron-left" aria-hidden="true"></span>
+										</a>
+										<a class="carousel-control-next" href="#carousel-post" role="button" data-slide="next">
+										<span class="fa fa-chevron-right" aria-hidden="true"></span>
+										</a>
+										<!-- end carousel-control -->
+									</div>
+									<!-- end carousel -->
+								</div>
+								<!-- begin post-video -->
+								<div class="post-video">
+									<div class="embed-responsive embed-responsive-16by9">
+										<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_5aKcpAhTOk" allowfullscreen></iframe>
+									</div>
+								</div>
+
+								<blockquote>
+									"What is design? It's where you stand with a foot in two worlds - the world of technology and the world of people and human purposes - and you try to bring the two together."
+								</blockquote>
+								<!-- end post-image -->
+								<!-- begin post-info -->
+								<div class="post-info">
+									<h4 class="post-title">
+										<a href="post_detail.html">Bootstrap Carousel Blog Post</a>
+									</h4>
+									<div class="post-by">
+										Posted By <a href="#">admin</a> <span class="divider">|</span> <a href="#">Sports</a>, <a href="#">Mountain</a>, <a href="#">Bike</a> <span class="divider">|</span> 2 Comments
+									</div>
+									<div class="post-desc">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elit dolor, elementum ut ligula ultricies,
+										aliquet eleifend risus. Vivamus ut auctor sapien. Morbi at nibh id lorem viverra commodo augue dui, in pellentesque odio tempor.
+										Etiam lobortis vel enim vitae facilisis. Suspendisse ac faucibus diam, non malesuada nisl. Maecenas vel aliquam eros, sit amet gravida lacus.
+										nteger dictum, nulla [...]
+									</div>
+								</div>
+								<!-- end post-info -->
+								<!-- begin read-btn-container -->
+								<div class="read-btn-container">
+									<a href="post_detail.html">더 읽기<i class="fa fa-angle-double-right"></i></a>
+								</div>
+								<!-- end read-btn-container -->
+							</div>
+							<!-- end post-content -->
+						</li>
+
+					</ul>
+                                {% include 'COLORADMIN_FRONT/BLOG/COMMON/PART_body_paging.html' %}
+
+				</div>
+				<!-- end col-9 -->
+
+			</div>
+			<!-- end row -->

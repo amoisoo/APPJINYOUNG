@@ -1,0 +1,40 @@
+{% load static i18n common%}
+
+        {% include 'COLORADMIN_ADMIN/UI_Comp/FORM_page_edit.html'   %}
+<br/><br/>
+<div class="row row-space-0">
+
+
+
+    <!--320*180 -->
+        {% for pageChild in PAGE_CHILD_LIST|hash:DATA.id %}
+                {% if forloop.first %}
+
+                {% else %}
+
+                {% endif %}
+                <div class="col-md-3 col-sm-4 m-b-2">
+
+                    {% if pageChild.image %}
+                        <a href="{{ MEDIA_URL }}{{ pageChild.image }}" data-lity>
+
+                        <img src="{{ MEDIA_URL }}{{ pageChild.image }}" class="width-full" height = "180px">
+
+
+                    {% else %}
+                        <a href="#" data-lity>
+
+                        <img src="https://img.youtube.com/vi/5lWkZ-JaEOc/mqdefault.jpg" class="width-full"  >
+
+                    {% endif %}
+
+                        {% include 'COLORADMIN_ADMIN/UI_Comp/FORM_page_edit.html'  with DATA=pageChild  %}
+
+                    </a>
+                </div>
+        {% endfor %}
+
+</div>
+
+
+

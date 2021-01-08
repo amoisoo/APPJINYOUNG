@@ -1,0 +1,43 @@
+{% extends "COLORADMIN_ADMIN/APP_BOOK/BASE/base.html" %}
+{% load static i18n %}
+
+{% block body_extra %}{% endblock %}
+
+
+{% block page_navi %}
+        {% include 'COLORADMIN_ADMIN/APP_BOOK/COMMON/NAVI_TOP.html' %}
+
+{% endblock %}
+
+
+
+
+
+
+
+
+{% block page_content %}
+<div id="content" class="content">
+
+
+            <h3>{{ object.title }}</h3>
+            ({{ object.id }})
+            {{ object.note|safe }}
+            <hr/>
+
+            <form class="login" method="POST"  novalidate>
+              {% csrf_token %}
+              {{ form }}
+              {% if redirect_field_value %}
+              <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+              {% endif %}
+
+              <div class="form-group mb-0 mt-4">
+                <button class="primaryAction btn btn-danger btn-block" type="submit">{% trans "글 삭제" %}</button>
+              </div>
+            </form>
+
+
+
+</div>
+{% endblock %}

@@ -1,0 +1,149 @@
+{% extends "SKOTE/APP_BOOK/BASE/base_h.html" %}
+{% load static i18n %}
+
+{% block body_extra %}
+            {% if object.layout == 'LEFT' %}
+                <body  data-topbar="dark"  >
+
+           {% else %}
+                <body data-layout="horizontal" data-topbar="dark">
+
+            {% endif %}
+{% endblock %}
+
+{% block page_header %}
+            {% if object.layout == 'LEFT' %}
+                {% include 'SKOTE/APP_BOOK/COMMON/HEADER_V.html' %}
+
+           {% else %}
+                {% include 'SKOTE/APP_BOOK/COMMON/HEADER.html' %}
+
+            {% endif %}
+{% endblock %}
+
+{% block page_navi %}
+    {% if object.layout == 'LEFT' %}
+                {% include 'SKOTE/APP_BOOK/COMMON/NAVI_SIDE.html' %}
+    {% else %}
+                {% include 'SKOTE/APP_BOOK/COMMON/NAVI_TOP.html' %}
+    {% endif %}
+{% endblock %}
+
+
+
+
+{% block page_content %}
+<div class="container-fluid">
+
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="page-title-box d-flex align-items-center justify-content-between">
+                        <h4 class="mb-0 font-size-32" style="font-size: 32px;">{{ object.title }}</h4>
+
+                        <div class="page-title-right">
+                            <ol class="breadcrumb m-0">
+                                <li class="breadcrumb-item active"><a href="javascript: void(0);">메인 인덱스</a></li>
+                            </ol>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            {% if user.is_authenticated %}
+                    <div align="right">
+                        <a href="{% url 'book:book_update' object.slug  %}"  class="btn btn-success btn-sm btn-rounded pl-2 pr-3">&nbsp;&nbsp;Book 수정</a>
+                        <a href="{% url 'book:book_delete' object.slug  %}"  class="btn btn-danger btn-sm btn-rounded pl-2 pr-3">&nbsp;&nbsp;Book 삭제</a>
+                    </div>
+            {% else %}
+            {% endif %}
+
+
+					<div class="m-b-10 text-inverse f-s-10"><b>책 메인 페이지</b></div>
+
+				<div class="col-xl-12">
+                        {% if object.note %}
+                                <hr/>
+                                <div class="col-xl-12 col-sm-12">
+                                    <div class="m-b-10 f-s-10 m-t-10"><b class="text-inverse"></b></div>
+                                    <!-- begin card -->
+                                    <div class="card border-0">
+                                        <div class="card-body">
+                                            {{ object.note|safe }}
+                                        </div>
+                                    </div>
+
+                                </div>
+                        {% else %}
+                        {% endif %}
+
+				</div>
+
+
+
+
+		<div id="content" class="content">
+
+			<div class="panel panel-default ">
+				<div class="panel-body">
+
+
+
+            {% if user.is_authenticated %}
+			        <div class="row">
+				<!-- begin col-3 -->
+				<div class="col-xl-12">
+                <hr/>
+
+
+
+                                  <form action="{%url 'book:menu_create' %}" method="POST"   name = form  enctype="multipart/form-data" novalidate onLoad="document.form.title.focus()">
+                                      {% csrf_token %}
+			                            <div class="row">
+                <div class="col-xl-3"></div>
+                <div class="col-xl-6">
+                                      <div class="form-row">
+                                        <div class="form-group col-md-12"><label for="id_title"></label>
+                                          <input type="text" class="form-control" id="id_title" name="title" value="" placeholder="메뉴 이름">
+                                        </div>
+                                      </div>
+
+                </div>
+                <div class="col-xl-3"></div>
+		    </div>
+
+
+
+                                  <input type="hidden" id = "id_componenet" name="component"  value="Menu">
+
+                                  <input type="hidden" id = "id_parent" name="parent"  value="{{ object.id }}">
+                                  <input type="hidden" id = "book_slug" name="book_slug"  value="{{ object.slug }}">
+
+                                        <div align="center">
+                                                <button class="btn btn-primary btn-sm btn-rounded pl-2 pr-3" type="submit" class="btn btn-primary primaryAction   btn-block">{% trans "메뉴 작성" %}</button>
+                                        </div>
+
+                                      {% if redirect_field_value %}
+                                      <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+                                      {% endif %}
+                                </form>
+
+				</div>
+
+			</div>
+
+            {% else %}
+            {% endif %}
+
+
+
+				</div>
+			</div>
+		</div>
+
+
+
+</div>
+{% endblock %}

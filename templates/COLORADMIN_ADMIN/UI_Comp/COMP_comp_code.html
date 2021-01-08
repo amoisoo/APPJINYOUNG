@@ -1,0 +1,9 @@
+{% load static i18n %}
+
+<br/>
+<div class="alert alert-success fade show">
+    {% include 'COLORADMIN_ADMIN/UI_Comp/FORM_page_edit.html'   %}
+
+  <strong>{{ DATA.title }}</strong>
+            {{ DATA.note|safe }}
+</div>

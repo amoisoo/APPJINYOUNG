@@ -1,0 +1,104 @@
+
+{% load static i18n %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <title>Title</title>
+</head>
+<body>
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>JQuery Intro</title>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+    <script>
+
+
+        function setCliek()
+        {
+            $.get("http://amoisoo.net/sample/jquery/",
+
+                { page: "고양이", name: "나비", age: 3, }, // 서버가 필요한 정보를 같이 보냄.
+
+                function(data, status) {
+
+                    $("#django").html(data.title ); // 전송받은 데이터와 전송 성공 여부를 보여줌.
+
+                    //var datas = JSON.stringify(data.note );
+                    eval( 'var datas = data.data' ) ;
+                    var getDATA = datas[3];
+                    var getJSON = JSON.parse(data.data) ; // 문자화된 json 파일을 JSON 형식으로 변환.
+                    $("#count").html(  Object.keys( getJSON ).length );
+                    //("#note").html(  getJSON[2].fields.title );
+
+
+                    var setResult = '' ;
+                    for (i = 0 ; i <  Object.keys( getJSON ).length ; i ++)
+                    {
+                        setResult += '<h3>'  + getJSON[i].fields.title  + '</h3>' ;
+                        //setResult += getJSON[i].fields.note  + '<br/><hr/>' ;
+                    }
+                        $("#note").html(  setResult );
+
+                }
+
+            );
+        }
+        function downlaod()
+        {
+            $.get("http://amoisoo.net/sample/jquery/",
+
+                { page: "고양이", name: "나비", age: 3, }, // 서버가 필요한 정보를 같이 보냄.
+
+                function(data, status) {
+
+                    $("#django").html( data  ); // 전송받은 데이터와 전송 성공 여부를 보여줌.
+
+                }
+
+
+            );
+        }
+    </script>
+
+</head>
+//https://www.programmersought.com/article/87361975672/
+upload
+https://stackoverrun.com/ko/q/4497383
+zip
+https://blog.narito.ninja/detail/93
+<body>
+
+<p>장고에서 정보 얻기<br> </p>
+
+http://amoisoo.net/sample/json/json_response/ <br/>
+http://www.tcpschool.com/jquery/jq_ajax_httpRequest<br/>
+https://www.joinc.co.kr/w/man/12/JavaScript/JSON<br/>
+https://2dubbing.tistory.com/4<br/>
+https://www.it-swarm-ja.tech/ja/python/django-querysetvalues%EF%BC%88%EF%BC%89%E3%82%92json%E3%81%AB%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%AB%E5%8C%96%E3%81%99%E3%82%8B/939798556/<br/>
+<br/><br/><br/>
+<a href="javascript:setCliek()" >Click</a>
+<br/><br/><br/>
+
+<p id="django"  >타이틀</p>
+<p id="count"  ></p>
+<p id="note"  ></p>
+
+
+<a href="javascript:downlaod()" >Click</a>
+
+</body>
+
+
+
+</html>
+

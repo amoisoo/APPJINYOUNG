@@ -1,0 +1,47 @@
+{% load static i18n %}
+
+
+		<div id="header" class="header navbar-default">
+			<!-- begin navbar-header -->
+			<div class="navbar-header">
+				<a href="../index.html" class="navbar-brand"><span class="navbar-logo"></span> <b>아모이스</b> Inc.</a>
+				<button type="button" class="navbar-toggle" data-click="sidebar-toggled">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+
+            {% include '00_sample/coloradmin/page/MENU_MEGA.html' %}
+
+			<!-- end navbar-header --><!-- begin header-nav -->
+			<ul class="navbar-nav navbar-right">
+				<li class="navbar-form">
+					<form action="" method="POST" name="search">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="검색" />
+							<button type="submit" class="btn btn-search"><i class="fa fa-search"></i></button>
+						</div>
+					</form>
+				</li>
+
+            {% include '00_sample/coloradmin/page/HEADER_NOTIFICATION.html' %}
+
+
+				<li class="dropdown navbar-user">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						<img src="{% static 'COLORADMIN_ADMIN/img/user/user-12.jpg' %}" alt="" />
+						<span class="d-none d-md-inline">아모이스</span> <b class="caret"></b>
+					</a>
+					<div class="dropdown-menu dropdown-menu-right">
+						<a href="javascript:;" class="dropdown-item">프로필</a>
+						<a href="javascript:;" class="dropdown-item"><span class="badge badge-danger pull-right">2</span> 인박스</a>
+						<a href="javascript:;" class="dropdown-item">달력</a>
+						<a href="javascript:;" class="dropdown-item">세팅</a>
+						<div class="dropdown-divider"></div>
+						<a href="javascript:;" class="dropdown-item">로그아웃</a>
+					</div>
+				</li>
+			</ul>
+			<!-- end header-nav -->
+		</div>

@@ -1,0 +1,65 @@
+
+{% load static i18n %}
+
+
+
+                    <div class="form-group col-md-1">
+                      <label for="inputCity">컴포넨트</label><br/>
+                            <select id="component"  name="component">
+
+                                {% if object.component == "Menu" %}
+
+                                    <option selected>Menu</option>
+                                    <option >File</option>
+                                {% else %}
+
+                                    <option >Menu</option>
+                                    <option selected>File</option>
+                                {% endif %}
+
+                            </select>
+                    </div>
+
+                    <div class="form-group col-md-1">
+                      <label for="layout">context</label><br/>
+                        <select id="context"  name="context">
+                            {% if object.context == "" %}<option selected></option>{% else %}<option ></option>{% endif %}
+                            {% if object.context == "BBS" %}<option selected>BBS</option>{% else %}<option >BBS</option>{% endif %}
+                            {% if object.context == "TODO" %}<option selected>TODO</option>{% else %}<option >TODO</option>{% endif %}
+                        </select>
+                    </div>
+
+
+                    <div class="form-group col-md-1">
+                      <label for="id_separator">세퍼레이트</label><br/>
+                                    <select id="id_separator"  name="separator">
+                                        {% if object.separator == "True" %}
+                                            <option ></option>
+                                            <option selected>True</option>
+                                        {% else %}
+                                            <option selected></option>
+                                            <option >True</option>
+                                        {% endif %}
+                                    </select>
+                    </div>
+
+
+
+                    <div class="form-group col-md-1">
+                      <label for="layout">레이아웃</label><br/>
+                        <select id="layout"  name="layout">
+                            {% if object.layout == "" %}<option selected></option>{% else %}<option ></option>{% endif %}
+                            {% if object.layout == "LEFT" %}<option selected>LEFT</option>{% else %}<option >LEFT</option>{% endif %}
+                            {% if object.layout == "TOP" %}<option selected>TOP</option>{% else %}<option >TOP</option>{% endif %}
+                            {% if object.layout == "INVERSE" %}<option selected>INVERSE</option>{% else %}<option >INVERSE</option>{% endif %}
+                        </select>
+                    </div>
+
+                    <div class="form-group col-md-1">
+                      <label for="layout">visible</label><br/>
+                        <select id="visible"  name="visible">
+                            {% if object.visible == "" %}<option selected></option>{% else %}<option ></option>{% endif %}
+                            {% if object.visible == "True" %}<option selected>True</option>{% else %}<option >True</option>{% endif %}
+                            {% if object.visible == "False" %}<option selected>False</option>{% else %}<option >False</option>{% endif %}
+                        </select>
+                    </div>

@@ -1,0 +1,65 @@
+{% load static i18n %}
+
+
+<header id="page-topbar">
+    <div class="navbar-header">
+        <div class="d-flex">
+            <!-- LOGO -->
+            <div class="navbar-brand-box">
+                <a href="index.html" class="logo logo-dark">
+                    <span class="logo-sm"><img src="{% static 'SKOTE/images/logo.svg' %}" alt="" height="22"></span>
+                    <span class="logo-lg"><img src="{% static 'SKOTE/images/logo-dark.png' %}" alt="" height="17">
+                    </span>
+                </a>
+
+                <a href="index.html" class="logo logo-light">
+                    <span class="logo-sm"><img src="{% static 'SKOTE/images/logo-light.svg' %}" alt="" height="22"></span>
+                    <span class="logo-lg"><img src="{% static 'SKOTE/images/logo-light.png' %}" alt="" height="19"></span>
+                </a>
+            </div>
+
+
+
+            <button type="button" class="btn btn-sm px-3 font-size-16 d-lg-none header-item waves-effect waves-light" data-toggle="collapse" data-target="#topnav-menu-content">
+                <i class="fa fa-fw fa-bars"></i>
+            </button>
+
+            <!-- App Search-->
+
+            {% include 'SKOTE/COMMON/HEADER_MENU_BASE.html' %}
+            {% include 'SKOTE/COMMON/HEADER_APP.html' %}
+
+            {% include 'SKOTE/COMMON/HEADER_MENU.html' %}
+
+        </div>
+
+        <div class="d-flex">
+            {% include 'SKOTE/COMMON/HEADER_SEARCH.html' %}
+            {% include 'SKOTE/COMMON/HEADER_FLAG.html' %}
+
+
+
+
+            {% if user.is_authenticated %}
+            {% endif %}
+
+
+            {% include 'SKOTE/COMMON/HEADER_NOTIFICATION.html' %}
+            {% include 'SKOTE/COMMON/HEADER_LOGIN.html' %}
+
+            <div class="dropdown d-none d-lg-inline-block ml-1">
+                <button type="button" class="btn header-item noti-icon waves-effect" data-toggle="fullscreen">
+                    <i class="bx bx-fullscreen"></i>
+                </button>
+            </div>
+
+
+            <div class="dropdown d-inline-block">
+                <button type="button" class="btn header-item noti-icon right-bar-toggle waves-effect">
+                    <i class="bx bx-cog bx-spin"></i>
+                </button>
+            </div>
+
+        </div>
+    </div>
+</header>

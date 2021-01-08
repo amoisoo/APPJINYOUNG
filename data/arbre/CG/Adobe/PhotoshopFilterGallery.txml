@@ -1,0 +1,2176 @@
+<Table>
+    <Record Index="1" Expand="0" ParentIndex="-1">
+        <TITLE color="None" background="None">Artistic</TITLE>
+        <ID>2</ID>
+        <ID_SORT>1</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>7bd51fad_c087_4e64_88e0_fb922e679fb4</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>Menu</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>Colored Pencil
+Cutout
+Dry Brush	
+Flim Grain
+Fresco
+Neon Glow	
+Paint Daubs
+Palette Knife
+Plastic Wrap
+Poster Edges
+Rough Pastels
+Smudge Stick
+Sponge
+Underpainting
+Watercolor</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Feb 14 14:27:13 2017</CREATED>
+        <MODIFED>Tue Feb 14 14:27:28 2017</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="2" Expand="0" ParentIndex="1">
+        <TITLE color="None" background="None">Colored Pencil</TITLE>
+        <ID>54</ID>
+        <ID_SORT>2</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>794e3a9a_d3e0_4038_adef_c4cf55261f6c</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:43:56 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="3" Expand="0" ParentIndex="1">
+        <TITLE color="None" background="None">Cutout</TITLE>
+        <ID>55</ID>
+        <ID_SORT>3</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>b22f1c13_fbb9_47db_8e03_7721885d4493</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:43:56 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="4" Expand="0" ParentIndex="1">
+        <TITLE color="None" background="None">Dry Brush	</TITLE>
+        <ID>56</ID>
+        <ID_SORT>4</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>d95eec39_19a5_47bf_a537_9534f3f0c884</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:43:56 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="5" Expand="0" ParentIndex="1">
+        <TITLE color="None" background="None">Flim Grain</TITLE>
+        <ID>57</ID>
+        <ID_SORT>5</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>2fbae879_ab82_4a0b_84e3_86bfb0d548bc</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:43:56 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="6" Expand="0" ParentIndex="1">
+        <TITLE color="None" background="None">Fresco</TITLE>
+        <ID>58</ID>
+        <ID_SORT>6</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>6dc9f22b_54cd_4fc2_837e_6d83a2690c3c</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:43:56 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="7" Expand="0" ParentIndex="1">
+        <TITLE color="None" background="None">Neon Glow	</TITLE>
+        <ID>59</ID>
+        <ID_SORT>7</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>99e287a3_5737_4a9c_a76a_e1274715aa33</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:43:56 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="8" Expand="0" ParentIndex="1">
+        <TITLE color="None" background="None">Paint Daubs</TITLE>
+        <ID>60</ID>
+        <ID_SORT>8</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>fec08b9e_8a54_4e5b_822d_7a0453859c62</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:43:56 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="9" Expand="0" ParentIndex="1">
+        <TITLE color="None" background="None">Palette Knife</TITLE>
+        <ID>61</ID>
+        <ID_SORT>9</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>1f28e371_e454_4a73_97f6_016c0a264dba</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:43:56 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="10" Expand="0" ParentIndex="1">
+        <TITLE color="None" background="None">Plastic Wrap</TITLE>
+        <ID>62</ID>
+        <ID_SORT>10</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>651d1640_47ac_45db_84e2_8297f307bc0c</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:43:56 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="11" Expand="0" ParentIndex="1">
+        <TITLE color="None" background="None">Poster Edges</TITLE>
+        <ID>63</ID>
+        <ID_SORT>11</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>8a915878_586e_42fe_bdb7_417a0d72b3ee</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:43:56 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="12" Expand="0" ParentIndex="1">
+        <TITLE color="None" background="None">Rough Pastels</TITLE>
+        <ID>64</ID>
+        <ID_SORT>12</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>a9db1992_d5b5_4042_b2e0_a316045dff0e</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:43:56 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="13" Expand="0" ParentIndex="1">
+        <TITLE color="None" background="None">Smudge Stick</TITLE>
+        <ID>65</ID>
+        <ID_SORT>13</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>335becec_05cc_4832_8641_4af2d7049cbf</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:43:56 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="14" Expand="0" ParentIndex="1">
+        <TITLE color="None" background="None">Sponge</TITLE>
+        <ID>66</ID>
+        <ID_SORT>14</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>75b49ff3_f891_415b_9f52_8900e4cc6575</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:43:56 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="15" Expand="0" ParentIndex="1">
+        <TITLE color="None" background="None">Underpainting</TITLE>
+        <ID>67</ID>
+        <ID_SORT>15</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>e45c39dc_2768_43fd_841a_3f3cf8ba0b8a</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:43:56 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="16" Expand="0" ParentIndex="1">
+        <TITLE color="None" background="None">Watercolor</TITLE>
+        <ID>68</ID>
+        <ID_SORT>16</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>48dfed4b_c5d0_45fb_975a_88c5290e32ed</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:43:56 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="17" Expand="0" ParentIndex="-1">
+        <TITLE color="None" background="None">Brush Strokes</TITLE>
+        <ID>3</ID>
+        <ID_SORT>17</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>728bf11d_bf35_4186_98a5_960ad123dc9b</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>Menu</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>Accented Edges
+Angled Strokes
+Crosshatch
+Dark Strokes
+Ink Outlines
+Spatter
+Sprayed Strokes
+Sumie-e
+
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Feb 14 14:27:13 2017</CREATED>
+        <MODIFED>Tue Feb 14 14:27:29 2017</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="18" Expand="0" ParentIndex="17">
+        <TITLE color="None" background="None">Accented Edges</TITLE>
+        <ID>69</ID>
+        <ID_SORT>18</ID_SORT>
+        <DEPTH>17</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>c0b06817_8cc7_42e3_8ab2_b49b9a3fb64e</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:44:08 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="19" Expand="0" ParentIndex="17">
+        <TITLE color="None" background="None">Angled Strokes</TITLE>
+        <ID>70</ID>
+        <ID_SORT>19</ID_SORT>
+        <DEPTH>17</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>d587b866_df10_4dff_9c35_731653d28a77</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:44:08 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="20" Expand="0" ParentIndex="17">
+        <TITLE color="None" background="None">Crosshatch</TITLE>
+        <ID>71</ID>
+        <ID_SORT>20</ID_SORT>
+        <DEPTH>17</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>cee04a37_3e07_4a4b_9069_9ad6f19baf77</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:44:08 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="21" Expand="0" ParentIndex="17">
+        <TITLE color="None" background="None">Dark Strokes</TITLE>
+        <ID>72</ID>
+        <ID_SORT>21</ID_SORT>
+        <DEPTH>17</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>ca9dfef8_b7a0_40ae_afa5_0c2bd14a8c28</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:44:08 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="22" Expand="0" ParentIndex="17">
+        <TITLE color="None" background="None">Ink Outlines</TITLE>
+        <ID>73</ID>
+        <ID_SORT>22</ID_SORT>
+        <DEPTH>17</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>5f221e5a_7070_4699_845a_572751a7b42d</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:44:08 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="23" Expand="0" ParentIndex="17">
+        <TITLE color="None" background="None">Spatter</TITLE>
+        <ID>74</ID>
+        <ID_SORT>23</ID_SORT>
+        <DEPTH>17</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>04af63c4_fdb4_4f42_a8fd_28a6829c79da</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:44:08 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="24" Expand="0" ParentIndex="17">
+        <TITLE color="None" background="None">Sprayed Strokes</TITLE>
+        <ID>75</ID>
+        <ID_SORT>24</ID_SORT>
+        <DEPTH>17</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>e1564222_d480_4a98_a2c7_2e548e5d7af0</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:44:08 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="25" Expand="0" ParentIndex="17">
+        <TITLE color="None" background="None">Sumie-e</TITLE>
+        <ID>76</ID>
+        <ID_SORT>25</ID_SORT>
+        <DEPTH>17</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>49c1727a_3356_4d42_abee_b6a072e924eb</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:44:08 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="26" Expand="0" ParentIndex="-1">
+        <TITLE color="None" background="None">Distort</TITLE>
+        <ID>4</ID>
+        <ID_SORT>26</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>afaa2022_8239_479b_903d_1dd69b74a93a</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>Menu</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>Diffuse Glow
+Glass
+Ocean Ripple
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Feb 14 14:27:13 2017</CREATED>
+        <MODIFED>Tue Feb 14 14:27:30 2017</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="27" Expand="0" ParentIndex="26">
+        <TITLE color="None" background="None">Diffuse Glow</TITLE>
+        <ID>31</ID>
+        <ID_SORT>27</ID_SORT>
+        <DEPTH>26</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>2eb5e3e7_b6b1_4961_b60a_3c7b0e1b6153</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Feb 14 14:30:07 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="28" Expand="0" ParentIndex="26">
+        <TITLE color="None" background="None">Glass</TITLE>
+        <ID>32</ID>
+        <ID_SORT>28</ID_SORT>
+        <DEPTH>26</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>ff6bff29_d7a0_46f4_81c2_049f4294b30b</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Feb 14 14:30:07 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="29" Expand="0" ParentIndex="26">
+        <TITLE color="None" background="None">Ocean Ripple</TITLE>
+        <ID>33</ID>
+        <ID_SORT>29</ID_SORT>
+        <DEPTH>26</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>2d2aee72_21c5_4541_a263_ac398068850c</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Feb 14 14:30:07 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="30" Expand="0" ParentIndex="-1">
+        <TITLE color="None" background="None">Sketch</TITLE>
+        <ID>5</ID>
+        <ID_SORT>30</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>bd64b052_13ec_4531_857d_2b6351690aea</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>Menu</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>Bas Relief
+Chalk &amp; Charcoal
+Charcoal
+Chrome
+Conte Crayon	
+Graphic Pen
+Halfone Pattern	
+Note Paper
+Photocopy
+Plaster
+Reticulation
+Stamp
+Torm Edges</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Feb 14 14:27:13 2017</CREATED>
+        <MODIFED>Tue Feb 14 14:27:31 2017</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="31" Expand="0" ParentIndex="30">
+        <TITLE color="None" background="None">Bas Relief</TITLE>
+        <ID>77</ID>
+        <ID_SORT>31</ID_SORT>
+        <DEPTH>30</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>bc63bafa_b9e1_46a0_a76e_a76416fa594d</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:44:29 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="32" Expand="0" ParentIndex="30">
+        <TITLE color="None" background="None">Chalk &amp; Charcoal</TITLE>
+        <ID>78</ID>
+        <ID_SORT>32</ID_SORT>
+        <DEPTH>30</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>9a60ea4b_d7c9_4e5e_a74d_7404df32f610</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:44:29 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="33" Expand="0" ParentIndex="30">
+        <TITLE color="None" background="None">Charcoal</TITLE>
+        <ID>79</ID>
+        <ID_SORT>33</ID_SORT>
+        <DEPTH>30</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>6a516bb2_e49a_4ad8_b81a_9271b3508412</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:44:29 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="34" Expand="0" ParentIndex="30">
+        <TITLE color="None" background="None">Chrome</TITLE>
+        <ID>80</ID>
+        <ID_SORT>34</ID_SORT>
+        <DEPTH>30</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>cec4dd63_1084_417d_901f_56b0aeabb9e0</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:44:29 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="35" Expand="0" ParentIndex="30">
+        <TITLE color="None" background="None">Conte Crayon	</TITLE>
+        <ID>81</ID>
+        <ID_SORT>35</ID_SORT>
+        <DEPTH>30</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>b75e66bb_b512_4783_baaa_e967c1bf78ce</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:44:29 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="36" Expand="0" ParentIndex="30">
+        <TITLE color="None" background="None">Graphic Pen</TITLE>
+        <ID>82</ID>
+        <ID_SORT>36</ID_SORT>
+        <DEPTH>30</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>fab2167a_2b88_48a4_8c34_12cd42ae5484</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:44:29 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="37" Expand="0" ParentIndex="30">
+        <TITLE color="None" background="None">Halfone Pattern	</TITLE>
+        <ID>83</ID>
+        <ID_SORT>37</ID_SORT>
+        <DEPTH>30</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>1b1b91b0_ddc1_4593_9308_0ce418a80d1a</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:44:29 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="38" Expand="0" ParentIndex="30">
+        <TITLE color="None" background="None">Note Paper</TITLE>
+        <ID>84</ID>
+        <ID_SORT>38</ID_SORT>
+        <DEPTH>30</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>138b38c4_f474_4cf1_9d43_db82a93d9019</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:44:29 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="39" Expand="0" ParentIndex="30">
+        <TITLE color="None" background="None">Photocopy</TITLE>
+        <ID>85</ID>
+        <ID_SORT>39</ID_SORT>
+        <DEPTH>30</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>64dc371e_e51c_43a9_8b45_e2f7b64c62d9</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:44:29 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="40" Expand="0" ParentIndex="30">
+        <TITLE color="None" background="None">Plaster</TITLE>
+        <ID>86</ID>
+        <ID_SORT>40</ID_SORT>
+        <DEPTH>30</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>fa4a062c_491f_4264_80c8_cdd436e24423</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:44:29 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="41" Expand="0" ParentIndex="30">
+        <TITLE color="None" background="None">Reticulation</TITLE>
+        <ID>87</ID>
+        <ID_SORT>41</ID_SORT>
+        <DEPTH>30</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>4edcb68b_39e9_4914_8b1a_fb5dd4eaef7a</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:44:29 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="42" Expand="0" ParentIndex="30">
+        <TITLE color="None" background="None">Stamp</TITLE>
+        <ID>88</ID>
+        <ID_SORT>42</ID_SORT>
+        <DEPTH>30</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>079a5561_906e_439b_8915_be8f65993725</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:44:29 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="43" Expand="0" ParentIndex="30">
+        <TITLE color="None" background="None">Torm Edges</TITLE>
+        <ID>89</ID>
+        <ID_SORT>43</ID_SORT>
+        <DEPTH>30</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>17e09b93_a9b8_4aa9_854d_4ea903adcda9</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:44:29 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="44" Expand="0" ParentIndex="-1">
+        <TITLE color="None" background="None">Stylize</TITLE>
+        <ID>6</ID>
+        <ID_SORT>44</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>161e755b_7f65_47ba_b781_1965eed503f6</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>Menu</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>Stylize</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Feb 14 14:27:13 2017</CREATED>
+        <MODIFED>Tue Feb 14 14:27:33 2017</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="45" Expand="0" ParentIndex="44">
+        <TITLE color="None" background="None">Stylize</TITLE>
+        <ID>47</ID>
+        <ID_SORT>45</ID_SORT>
+        <DEPTH>44</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>4fc37883_1ad4_44e7_bd93_b06448d5a6f1</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Feb 14 14:30:22 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="46" Expand="0" ParentIndex="-1">
+        <TITLE color="None" background="None">Texture</TITLE>
+        <ID>7</ID>
+        <ID_SORT>46</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>f41c28c4_05f3_438e_8102_b43fa0e2c9ba</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>Menu</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>Craquelure
+Grain
+Mosaic Tiles
+Patchwork
+Stained Glass
+Textureizer
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Feb 14 14:27:13 2017</CREATED>
+        <MODIFED>Tue Feb 14 14:27:35 2017</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="47" Expand="0" ParentIndex="46">
+        <TITLE color="None" background="None">Craquelure</TITLE>
+        <ID>90</ID>
+        <ID_SORT>47</ID_SORT>
+        <DEPTH>46</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>c5249b9c_e472_46ee_86a0_fcbcc7e6a547</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:44:42 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="48" Expand="0" ParentIndex="46">
+        <TITLE color="None" background="None">Grain</TITLE>
+        <ID>91</ID>
+        <ID_SORT>48</ID_SORT>
+        <DEPTH>46</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>65104569_195b_4041_ad20_522a599080eb</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:44:42 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="49" Expand="0" ParentIndex="46">
+        <TITLE color="None" background="None">Mosaic Tiles</TITLE>
+        <ID>92</ID>
+        <ID_SORT>49</ID_SORT>
+        <DEPTH>46</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>63cabd79_cb7c_4b24_bb2b_02bce305a6c8</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:44:42 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="50" Expand="0" ParentIndex="46">
+        <TITLE color="None" background="None">Patchwork</TITLE>
+        <ID>93</ID>
+        <ID_SORT>50</ID_SORT>
+        <DEPTH>46</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>895a9c33_90ce_4725_9507_810c1ec8f2dd</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:44:42 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="51" Expand="0" ParentIndex="46">
+        <TITLE color="None" background="None">Stained Glass</TITLE>
+        <ID>94</ID>
+        <ID_SORT>51</ID_SORT>
+        <DEPTH>46</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>b739fc0c_e418_450f_b6bd_a92b75c3180d</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:44:42 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record Index="52" Expand="0" ParentIndex="46">
+        <TITLE color="None" background="None">Textureizer</TITLE>
+        <ID>95</ID>
+        <ID_SORT>52</ID_SORT>
+        <DEPTH>46</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>b4a2c36c_e7b1_40f4_a02a_6ff1351614f5</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TREE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>Tue Aug 22 22:44:42 2017</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+</Table>
+

@@ -1,0 +1,73 @@
+{% load static i18n %}
+
+
+<div id="content" class="content">
+
+
+
+
+
+
+        <div class="panel panel-default ">
+            <div class="panel-heading">
+            <h4 class="panel-title">댓글</h4>
+            <div class="panel-heading-btn">
+            </div>
+            </div>
+
+
+
+
+
+						<div class="panel-body">
+
+                                  <form action="{%url 'forum:comment_create' %}" method="POST"   enctype="multipart/form-data" novalidate>
+                                      {% csrf_token %}
+
+                                      <div class="form-row">
+                                        <div class="form-group col-md-6"><label for="id_title">타이틀 (: {{ object.id }})</label>
+                                          <input type="text" class="form-control" id="id_title" name="title" value="">
+                                        </div>
+
+                                          <div class="form-group">
+                                            <label for="id_image">이미지 : {{ object.image }}</label><br/>
+                                            <input type="file"  id="id_image" name="image" />
+                                          </div>
+                                      </div>
+
+
+
+
+                                      <div class="form-group">
+                                        <label for="id_note">노트</label>
+                                        <textarea class="form-control" id="note"  rows="10"  placeholder=""  name="note"></textarea>
+                                      </div>
+
+
+                                  <input type="hidden" id = "id_parent" name="parent"  value="{{ object.id }}">
+                                  <input type="hidden" id = "parent_slug" name="parent_slug"  value="{{ object.parent }}">
+
+                                        <div align="center">
+                                                <button class="btn btn-primary btn-sm btn-rounded pl-2 pr-3" type="submit" class="btn btn-primary primaryAction   btn-block">{% trans "댓글 작성" %}</button>
+                                        </div>
+
+                                      {% if redirect_field_value %}
+                                      <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+                                      {% endif %}
+                                </form>
+
+
+
+
+						</div>
+
+        </div>
+
+
+
+
+
+
+
+
+</div>

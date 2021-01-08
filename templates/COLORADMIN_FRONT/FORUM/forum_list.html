@@ -1,0 +1,170 @@
+{% load static i18n %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>AMOISOO | FORUM</title>
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+	<meta content="" name="description" />
+	<meta content="" name="author" />
+	
+	<!-- ================== BEGIN BASE CSS STYLE ================== -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+	<link href="{% static 'COLORADMIN_FRONT/css/forum/app.min.css' %}" rel="stylesheet" />
+	<!-- ================== END BASE CSS STYLE ================== -->
+</head>
+<body>
+
+    {% include 'COLORADMIN_FRONT/FORUM/COMMON/HEADER.html' %}
+
+
+
+	<!-- begin content -->
+	<div class="content">
+		<!-- begin container -->
+		<div class="container">
+
+			<!-- begin card-forum -->
+			<div class="card card-forum mb-3">
+				<!-- begin card-header -->
+				<div class="card-header f-w-600">
+					공식 관리 배포
+				</div>
+				<!-- end card-header -->
+				<!-- begin forum-list -->
+				<ul class="forum-list">
+					<li>
+						<!-- begin media -->
+						<div class="media">
+							<img src="{% static 'COLORADMIN_FRONT/img/icon/icon-gold-note.png' %}" alt="" />
+						</div>
+						<!-- end media -->
+						<!-- begin info-container -->
+						<div class="info-container">
+							<div class="info">
+								<h4 class="title"><a href="{% url 'forum:category' %}">연람</a></h4>
+								<p class="desc">공지, 업데이트, QnA</p>
+							</div>
+							<div class="total-count">
+								<span class="total-post">1,293</span>
+                                <span class="divider">/</span>
+                                <span class="total-comment">9,291</span>
+                                <span class="divider">/</span>
+                                <span class="total-comment">9,291</span>
+							</div>
+							<div class="latest-post">
+								<h4 class="title"><a href="{% url 'forum:category' %}">Update, Bug</a></h4>
+								<p class="time">어제 10:49pm <a href="category_list.html" class="user">관리자</a></p>
+							</div>
+						</div>
+						<!-- end info-container -->
+					</li>
+				</ul>
+				<!-- end forum-list -->
+			</div>
+
+
+			<!-- end card-forum -->
+			<!-- begin card-forum -->
+			<div class="card card-forum mb-3">
+				<!-- begin card-header -->
+				<div class="card-header f-w-600">HTML 포럼</div>
+
+                    {% if user.is_authenticated %}
+                        <div class="card-header f-w-600" align="right"><a href="{% url 'forum:create' %}">New</a></div>
+                    {% else %}
+
+                    {% endif %}
+
+
+
+				<!-- end card-header -->
+				<!-- begin forum-list -->
+				<ul class="forum-list">
+
+                            {% for object in forums %}
+                                    {% include 'COLORADMIN_FRONT/FORUM/UI_Comp/FORUM_list.html' with DATA=object %}
+                            {% endfor %}
+
+				</ul>
+				<!-- end forum-list -->
+			</div>
+			<!-- end card-forum -->
+			<!-- begin card-forum -->
+			<div class="card card-forum mb-3">
+				<!-- begin card-header -->
+				<div class="card-header f-w-600">
+					모바일 어플리케이션 의견
+				</div>
+				<!-- end card-header -->
+				<!-- begin forum-list -->
+				<ul class="forum-list">
+					<li>
+						<!-- begin media -->
+						<div class="media">
+							<img src="{% static 'COLORADMIN_FRONT/img/icon/icon-discussion-grey.png' %}" alt="" />
+						</div>
+						<!-- end media -->
+						<!-- begin info-container -->
+						<div class="info-container">
+							<div class="info">
+								<h4 class="title"><a href="{% url 'forum:category' %}">Android</a></h4>
+								<p class="desc">안드로이드 어플리케이션 개발을 위한 포럼</p>
+							</div>
+							<div class="total-count">
+								<span class="total-post">1,293</span> <span class="divider">/</span> <span class="total-comment">9,291</span>
+							</div>
+							<div class="latest-post">
+								<h4 class="title"><a href="category_list.html">JAVA, Kotlin, Qt</a></h4>
+								<p class="time">어제 10:49pm <a href="category_list.html" class="user">admin</a></p>
+							</div>
+						</div>
+						<!-- end info-container -->
+					</li>
+
+				</ul>
+				<!-- end forum-list -->
+			</div>
+			<!-- end card-forum -->
+		</div>
+		<!-- end container -->
+	</div>
+	<!-- end content -->
+
+	<!-- begin search-banner -->
+	<div class="search-banner has-bg">
+		<!-- begin bg-cover -->
+		<div class="bg-cover" data-paroller="true" data-paroller-factor="0.5" data-paroller-factor-xs="0.01" style="background-image: url({% static 'COLORADMIN_FRONT/img/cover/cover-1.jpg' %})"></div>
+		<!-- end bg-cover -->
+		<!-- begin container -->
+		<div class="container">
+			<h1>1,293 의견 포스트</h1>
+			<div class="input-group">
+				<input type="text" class="form-control form-control-lg" placeholder="검색" />
+				<span class="input-group-append">
+				<button type="submit" class="btn btn-lg"><i class="fa fa-search"></i></button>
+				</span>
+			</div>
+			<h5 class="f-s-14 m-b-10">인기 타케고리</h5>
+			<ul class="popular-tags">
+				<li><a href="#"><i class="fa fa-circle"></i> CSS</a></li>
+				<li><a href="#"><i class="fa fa-circle"></i> Bootstrap</a></li>
+				<li><a href="#"><i class="fa fa-circle"></i> Javascript</a></li>
+				<li><a href="#"><i class="fa fa-circle"></i> jQuery</a></li>
+
+			</ul>
+		</div>
+		<!-- end container -->
+	</div>
+	<!-- end search-banner -->
+
+    {% include 'COLORADMIN_FRONT/FORUM/COMMON/FOOTER.html' %}
+
+	
+
+	
+	<!-- ================== BEGIN BASE JS ================== -->
+	<script src="{% static 'COLORADMIN_FRONT/js/forum/app.min.js' %}"></script>
+	<!-- ================== END BASE JS ================== -->
+</body>
+</html>

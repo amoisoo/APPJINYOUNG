@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<h3>장고 시작 템플릿</h3>
+
+
+
+
+{% if user.is_authenticated %}
+    {{request.user.username}} / {{ user.username }} / {{request.user.email}}
+    <a class="nav-link" href="{% url 'accounts:profile' %}"> profile</a> <br/><br/>
+    <a class="nav-link" href="{% url 'accounts:logout' %}"> (로그아웃)</a>
+
+{% else %}
+    <a class="nav-link" href="{% url 'accounts:login' %}">로그인</a>
+    <a class="nav-link" href="{% url 'accounts:signin' %}">등록</a>
+{% endif %}
+
+
+
+</body>
+</html>

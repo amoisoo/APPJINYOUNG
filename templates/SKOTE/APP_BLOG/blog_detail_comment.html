@@ -1,0 +1,211 @@
+
+{% if comments %}
+
+    <div class="row" >
+        <div class="col-lg-12" >
+            <div class="card">
+
+                <div class="card-body" >
+
+
+
+
+
+
+                    <div class="pt-3">
+                        <div class="row justify-content-center">
+
+
+                            <div class="col-xl-6">
+                                <div>
+
+
+                                    <div class="mt-4">
+
+
+                                        <div class="mt-5">
+                                            <h5 class="font-size-15"><i class="bx bx-message-dots text-muted align-middle mr-1"></i> 댓글 :</h5>
+
+                                            <div>
+
+                                                {% for comment in comments %}
+                                                    <div class="media py-3">
+                                                        <div class="avatar-xs mr-3">
+                                                            <div class="avatar-title rounded-circle bg-light text-primary">
+                                                                <i class="bx bxs-user"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <h5 class="font-size-14 mb-1"><b>{{ comment.user.profile }}
+                                                                <small class="text-muted "> &nbsp;&nbsp;{{ comment.modified  | date:'Y-m-d : H:i'  }}  &nbsp;
+            {% if user.is_authenticated %}
+                                                                    ( <a href="{% url 'blog:commnet_update' comment.id %}" style="color: lightblue ;" >Edit </a> )
+
+            {% endif %}
+                                                                </small>
+            {% if user.is_authenticated %}
+                                                            <a href="javascript: void(0);" class="text-success"><i class="mdi mdi-reply"></i> 답변</a>
+            {% else %}
+
+            {% endif %}
+                                                            </b>
+                                                                <small class="text-muted float-right">
+
+            {% if user.is_authenticated %}
+                                                                    <a href="{% url 'blog:commnet_delete' comment.id %}" style="color: red ;"> Delete ( {{ comment.id }} )</a>
+
+            {% endif %}
+
+                                                                </small>
+                                                            </h5>
+                                                            {% if comment.image %}
+                                                                <div align="center"><img src="{{ MEDIA_URL }}{{  comment.image }}"></div>
+                                                            {% endif %}
+                                                            <p class="text-muted">{{ comment.note|safe }}</p>
+
+
+
+
+
+
+
+                                                        </div>
+
+
+
+                                                    </div>
+
+                                                {% endfor %}
+
+
+
+
+
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <!-- end card body -->
+            </div>
+            <!-- end card -->
+        </div>
+        <!-- end col -->
+    </div>
+{% endif %}
+
+
+
+            {% if user.is_authenticated %}
+
+
+                    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-body">
+
+
+
+
+
+
+                    <div class="pt-3">
+                        <div class="row justify-content-center">
+
+
+
+
+                            <div class="col-xl-5">
+
+
+                                    <div class="mt-4">
+
+
+
+
+                                        <div class="mt-4">
+                                            <h5 class="font-size-16 mb-3">댓글 작성</h5>
+
+                                            <form action="{%url 'blog:commnet_create' %}"  method="POST"   enctype="multipart/form-data" novalidate>
+                                                {% csrf_token %}
+
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="form-group">
+                                                            <input type="hidden" class="form-control" id="id_title" name="title" placeholder="title..."  value="_" >
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <label for="id_note">메세지</label>
+                                                    <textarea class="form-control" id="id_note" placeholder=""  name="note" placeholder="메세지..."  rows="5"   ></textarea>
+                                                </div>
+
+                                            <input type="hidden" class="form-control" id="parent"  name="parent" value="{{ object.id }}">
+
+                                                <div class="text-center" >
+                                                    <button type="submit" class="btn btn-success w-sm">전송</button>
+                                                </div>
+
+                                            </form>
+
+
+                                        </div>
+                                    </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <!-- end card body -->
+            </div>
+            <!-- end card -->
+        </div>
+        <!-- end col -->
+    </div>
+
+            {% else %}
+                    Login
+            {% endif %}
+
+
+
+            {% if user.is_authenticated %}
+            {% endif %}
+
+
+
+
+
+            {% if user.is_superuser %}
+            {% endif %}
+
+
+
+
+
+
+
+
+
+
+
+

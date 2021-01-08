@@ -1,0 +1,62 @@
+{% load static i18n common%}
+
+
+        {% include 'COLORADMIN_ADMIN/UI_Comp/FORM_page_edit.html'   %}
+<br/>
+
+<div class="row">
+    <!-- begin col-12 -->
+    <div class="col-md-12">
+        <div class="result-container">
+
+            <!-- begin result-list -->
+            <ul class="result-list">
+
+{% for pageChild in PAGE_CHILD_LIST|hash:DATA.id %}
+        {% if forloop.first %}
+
+        {% else %}
+
+        {% endif %}
+        <li>
+
+            {% if pageChild.image %}
+                    <a href="#" class="result-image" style="background-image: url({% static 'COLORADMIN_ADMIN/img/gallery/gallery-20.jpg' %})"></a>
+            {% elif object %}
+
+            {% else %}
+
+            {% endif %}
+
+
+            <div class="result-info">
+
+                <h4 class="title"><a href="javascript:;">{{ pageChild.title }}</a></h4>
+                <p class="location">{{ pageChild.subtitle }}</p>
+                <p class="desc">&nbsp;</p>
+
+                <div class="btn-row">
+                    <a href="javascript:;" data-toggle="tooltip" data-container="body" data-title="Analytics"><i class="fa fa-fw fa-chart-bar"></i></a>
+                    <a href="javascript:;" data-toggle="tooltip" data-container="body" data-title="Tasks"><i class="fa fa-fw fa-tasks"></i></a>
+                    <a href="javascript:;" data-toggle="tooltip" data-container="body" data-title="Configuration"><i class="fa fa-fw fa-cog"></i></a>
+                    <a href="javascript:;" data-toggle="tooltip" data-container="body" data-title="Performance"><i class="fa fa-fw fa-tachometer-alt"></i></a>
+                    <a href="javascript:;" data-toggle="tooltip" data-container="body" data-title="Users"><i class="fa fa-fw fa-user"></i></a>
+                </div>
+            </div>
+            <div class="result-price">
+                {{ pageChild.id }} <small>View</small>
+                <a href="javascript:;" class="btn btn-yellow btn-block">상세히 보기</a>
+
+            </div>
+        </li>
+{% endfor %}
+
+
+            </ul>
+            <!-- end result-list -->
+
+        </div>
+    </div>
+</div>
+
+<br/>

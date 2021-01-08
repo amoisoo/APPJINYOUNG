@@ -1,0 +1,46 @@
+
+{% extends "COLORADMIN_ADMIN/BASE/base_layout.html" %}
+{% load static i18n %}
+
+{% block body_extra %}{% endblock %}
+
+
+
+
+
+{% block page_navi %}
+    {% if LAYOUT.NAVI_POSITION == 'TOP' %}
+        {% include 'COLORADMIN_ADMIN/COMMON/NAVI_TOP.html' %}
+    {% else %}
+        {% include 'COLORADMIN_ADMIN/COMMON/NAVI_SIDE.html' %}
+
+    {% endif %}
+{% endblock %}
+
+{% block page_content %}
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+\[
+\sqrt{2} \approx 1.41421356237
+\]
+
+    <hr/>
+
+\begin{align}
+\langle f_1(x)\,|\, \phi(x-\ell)\rangle_{L^2}
+&= \sum_k c^*_k\int_{-\infty}^\infty
+     \phi\left(2(t-\frac{k}{2})\right)^*\phi(t-\ell)\,dt\\
+&= \sum_\ell \left\{ c_{2\ell}\int_{\ell}^{\ell+\frac12}
+     \phi\left(2(t-\ell)\right)^*\phi(t-\ell)\,dt \right. \nonumber \\
+& \left. \qquad + c_{2\ell+1}\int_{\ell+\frac12}^{\ell+1}
+     \phi\left(2(t-\ell-\frac12)\right)^*\phi(t-\ell)\,dt\right\} \\
+& = 0 \quad\text{であるためには $c_{2\ell}=-c_{2\ell+1}$ に限る} \nonumber
+\end{align}
+
+{% endblock %}
+
+
+

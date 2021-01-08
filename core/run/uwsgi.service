@@ -1,0 +1,21 @@
+[Unit]
+Description=uWSGI Emperor service
+After=syslog.target
+
+[Service]
+
+ExecStart=/var/www/APPWEB2/venv/bin/uwsgi   --emperor /var/www/APPWEB2/core/run/
+#ExecStart=/var/www/APPWEB2/venv/bin/uwsgi   --ini /var/www/APPWEB2/core/run/uwsgi.ini
+# /etc/systemd/system/uwsgi.service
+
+
+Restart=always
+KillSignal=SIGQUIT
+Type=notify
+StandardError=syslog
+NotifyAccess=all
+
+[Install]
+WantedBy=multi-user.target
+
+

@@ -1,0 +1,16 @@
+{% load static i18n %}
+
+
+<br/>
+<div class="card border-0 text-white  text-center ">
+
+    <img class="card-img-top img-fluid" src="{% static 'COLORADMIN_ADMIN/img/gallery/gallery-19.jpg' %}" alt="Card image cap" />
+
+    <div class="card-img-overlay">
+            {% include 'COLORADMIN_ADMIN/UI_Comp/FORM_page_edit.html'   %}
+
+        <h4 class="card-title">aaa</h4>
+        <p class="card-text">{{ DATA.note|safe }}</p>
+
+    </div>
+</div>

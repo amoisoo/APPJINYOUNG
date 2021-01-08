@@ -1,0 +1,24 @@
+{% extends "SKOTE/UI_Comp/base_comp_visible.html" %}
+{% load static i18n common%}
+
+
+
+{% block COMP_VISIBLE %}
+
+                {% include 'SKOTE/UI_Comp/FORM_page_edit.html'    %}<br/><br/>
+
+<div class="row justify-content-center">
+	<div class="col-lg-8">
+		<div class="text-center mb-5">
+
+			<h4>{{ DATA.title }}</h4>
+
+			<p class="text-muted" style="color: black ; ">{{ DATA.note|safe }}</p>
+		</div>
+    </div>
+</div>
+
+
+{% endblock %}
+
+

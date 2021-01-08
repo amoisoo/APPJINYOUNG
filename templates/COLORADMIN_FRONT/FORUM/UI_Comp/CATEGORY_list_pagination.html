@@ -1,0 +1,30 @@
+
+{% load static i18n %}
+
+
+
+<div class="row" >
+    <!-- begin col-9 -->
+    <div class="col-lg-12" >
+
+        <!-- begin pagination -->
+        <ul class="pagination justify-content-center mb-4 mb-lg-0">
+            <li class="page-item right"><a href="#" class="page-link"><i class="fa fa-chevron-left"></i></a></li>
+
+            <li class="page-item active"><a href="#" class="page-link">1</a></li>
+
+            <li class="page-item"><a href="#" class="page-link">2</a></li>
+            <li class="page-item"><a href="#" class="page-link">3</a></li>
+            <li class="page-item"><a href="#" class="page-link">4</a></li>
+            <li class="page-item"><a href="#" class="page-link">5</a></li>
+            <li class="page-item text"><span>...</span></li>
+            <li class="page-item"><a href="#" class="page-link">322</a></li>
+            <li class="page-item right"><a href="#" class="page-link"><i class="fa fa-chevron-right"></i></a></li>
+        </ul>
+
+
+        <!-- end pagination -->
+    </div>
+    <!-- end col-3 -->
+</div>
+{{ page_obj.number }}중{{ page_obj.paginator.num_pages }}

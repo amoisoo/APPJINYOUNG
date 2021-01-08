@@ -1,0 +1,41 @@
+{% load static i18n %}
+
+<H1>HTML</H1>
+
+
+{{ object.note }}
+
+            {% include 'SKOTE/APP_ARBRE/CONTEXT/IFRAME.html' %}
+
+
+<div align="center" >
+    <iframe id="inlineFrameExample" style="border:none; border:2px dashed red"
+        title="Inline Frame Example"
+        width="100%"
+        height="300"
+        src="{% static 'COMP/iframe.html' %}" >
+
+        sdfsadfsdf
+    </iframe>
+</div>
+
+
+<div align="center" >
+    <iframe id="inlineFrameExample" style="border:none; border:2px dashed red"
+        title="Inline Frame Example"
+        width="100%"
+        height="300"
+        src="{% static 'COMP/iframe.html' %}" >
+    </iframe>
+</div>
+
+
+
+<div align="center" >
+    <iframe id="inlineFrameExample" style="background-color: white"
+        title="Inline Frame Example"
+        width="100%"
+        height="300"
+        src="{% static 'test/sample.html' %}">
+    </iframe>
+</div>

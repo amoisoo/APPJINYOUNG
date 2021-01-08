@@ -1,0 +1,255 @@
+{% extends "SKOTE/APP_BLOG/BASE/base_h.html" %}
+{% load static i18n common %}
+
+
+{% block page_content %}
+
+<div class="container-fluid">
+
+    <!-- start page title -->
+    <div class="row">
+        <div class="col-12">
+            <div class="page-title-box d-flex align-items-center justify-content-between">
+                <h4 class="mb-0 font-size-18">블로그</h4>
+
+                <div class="page-title-right">
+                    <ol class="breadcrumb m-0">
+                        <li class="breadcrumb-item"><a href="javascript: void(0);">Dashboard</a></li>
+                        <li class="breadcrumb-item active">Blog</li>
+                    </ol>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="card mini-stats-wid">
+                <div class="card-body">
+
+                    <div class="d-flex flex-wrap">
+                        <div class="mr-3">
+                            <p class="text-muted mb-2">모든 포스트</p>
+                            <h5 class="mb-0">{{ BLOG_LIST | length }}</h5>
+                        </div>
+
+                        <div class="avatar-sm ml-auto">
+                            <div class="avatar-title bg-light rounded-circle text-primary font-size-20">
+                                <i class="bx bxs-book-bookmark"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="card blog-stats-wid">
+                <div class="card-body">
+
+                    <div class="d-flex flex-wrap">
+                        <div class="mr-3">
+                            <p class="text-muted mb-2">댓글</p>
+                            <h5 class="mb-0">{{ BLOG_COMMENT_COUNT }}</h5>
+                        </div>
+
+                        <div class="avatar-sm ml-auto">
+                            <div class="avatar-title bg-light rounded-circle text-primary font-size-20">
+                                <i class="bx bxs-note"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card blog-stats-wid">
+                <div class="card-body">
+                    <div class="d-flex flex-wrap">
+                        <div class="mr-3">
+                            <p class="text-muted mb-2">뷰</p>
+                            <h5 class="mb-0">{{ BLOG_LIST_VIEWS }}</h5>
+                        </div>
+
+                        <div class="avatar-sm ml-auto">
+                            <div class="avatar-title bg-light rounded-circle text-primary font-size-20">
+                                <i class="bx bxs-message-square-dots"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end row -->
+    <!-- end page title -->
+    <div class="row">
+        <!-- end col -->
+        <div class="col-xl-12">
+            <div class="card">
+                <div class="card-body">
+
+                    <div class="d-flex">
+                        <div class="mr-2"><h5 class="card-title mb-4">POST LIST</h5></div>
+
+
+
+                        <div class="dropdown ml-auto">
+                        {% if user.is_authenticated %}
+                            <a  class="btn btn-success btn-sm btn-rounded pl-2 pr-3"   href={% url 'blog:create' %}>새 포스트</a>
+
+                            <a class="text-muted dropdown-toggle font-size-16" role="button" data-toggle="dropdown" aria-haspopup="true">
+                                <i class="mdi mdi-dots-horizontal"></i>
+                            </a>
+
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a class="dropdown-item" href="{% url 'blog:create' %}">포스트 작성</a>
+
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Separated link</a>
+                            </div>
+
+                        {% else %}
+                                <div align="right"><a href="{% url 'accounts:login' %}"  class="btn btn-warning btn-sm btn-rounded pl-2 pr-3">로그인</a><br/><br/></div>
+                        {% endif %}
+
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                    <div class="table-responsive">
+                        <table class="table table-centered table-nowrap mb-0">
+                            <tr>
+                                <th scope="col" colspan="1"></th>
+                                <th scope="col" colspan="1">ID#</th>
+                                <th scope="col" colspan="2">타이틀</th>
+                                <th scope="col" colspan="1">서브타이틀</th>
+                                <th scope="col" colspan="1">Slug</th>
+
+                                <th scope="col">뷰</th>
+                                <th scope="col">좋아요</th>
+                                <th scope="col">댓글</th>
+                                <th scope="col">작성자</th>
+                                <th scope="col">행동</th>
+                              </tr>
+                            <tbody>
+
+
+
+
+
+                     {% for object in blogs %}
+                                <tr>
+
+                                    {% if  object.image %}
+                                        <td><img src="{{ MEDIA_URL }}{{ object.image }}" alt="" class="avatar-md h-auto d-block rounded"></td>
+                                    {% else %}
+                                        <td></td>
+
+                                    {% endif %}
+
+                                    <td>{{ object.id }}</td>
+
+                                    <td>
+                                        <h5 class="font-size-13 text-truncate mb-1"><a href="{% url 'blog:detail'  object.id%}" class="text-dark">{{ object.title }}</a></h5>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <p class=" text-muted mb-0"><a style="color: grey ; " href="#"> {{ object.subtitle }}  </a></p>
+                                    </td>
+                                    <td>
+                                        <p class=" text-muted mb-0"><a style="color: grey ; " href="{% url 'blog:slug'  object.slug%}"> {{ object.slug }}  </a></p>
+                                    </td>
+
+
+
+                                    <td>{{ object.views|currency }}</td>
+                                    <td><i class="bx bx-like align-middle mr-1"></i> {{ object.likes|m2m_list|length }}</td>
+                                    <td>{% if  object.blog_comment_list.all  %} <i class="bx bx-comment-dots align-middle mr-1"></i>  {{ object.blog_comment_list.all | length}} {{ else }} {% endif %}   </td>
+                                    <td> {% if  object.user.profile  %}{{ object.user.profile }} {% else %}  <i class="bx bxs-user"></i>  {% endif %}  </td>
+
+                                    <td>
+                                        <div class="dropdown">
+                                            <a class="text-muted dropdown-toggle font-size-16" role="button" data-toggle="dropdown" aria-haspopup="true">
+                                                <i class="mdi mdi-dots-horizontal"></i>
+                                            </a>
+
+                                            <div class="dropdown-menu dropdown-menu-right">
+                                                <a class="dropdown-item" href="{% url 'blog:update' object.id %}">편집</a>
+                                                <a class="dropdown-item" href="{% url 'blog:delete' object.id %}">삭제</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item" href="#">( {{ object.id }} )</a>
+                                            </div>
+
+                                        </div>
+                                    </td>
+
+
+                                </tr>
+                    {% endfor %}
+
+
+
+                            </tbody>
+                        </table>
+                        <br/>
+
+                    </div>
+                </div>
+            </div>
+            <!-- end card -->
+        </div>
+        <!-- end col -->
+    </div>
+    <!-- end row -->
+
+
+
+
+    <div class="text-center">
+        <ul class="pagination justify-content-center pagination-rounded">
+        {% if page_obj.has_previous %}<li><a href="?page={{ page_obj.previous_page_number }}">
+            <li class="page-item disabled">
+                <a href="#" class="page-link"><i class="mdi mdi-chevron-left"></i></a>
+            </li>
+        </a></li>{% endif %}
+
+
+        {% for page in paginator.page_range %}
+
+
+                {%  if page == page_obj.number   %}
+                        <li class="page-item active"><a href="?page={{ page }}" class="page-link">{{ page }}</a></li>
+                {% else %}
+                        <li class="page-item "><a href="?page={{ page }}" class="page-link">{{ page }}</a></li>
+
+                {% endif %}
+
+
+        {% endfor %}
+
+        {% if page_obj.has_next %}<li><a href="?page={{ page_obj.next_page_number }}">
+            <li class="page-item">
+                <a href="#" class="page-link"><i class="mdi mdi-chevron-right"></i></a>
+            </li>
+        </a></li>{% endif %}
+
+        </ul>
+    </div>
+
+
+
+
+</div> <!-- container-fluid -->
+
+{% endblock %}

@@ -1,0 +1,59 @@
+{% extends "SKOTE/APP_BOOK/BASE/base_h.html" %}
+{% load static i18n %}
+
+
+{% block page_header %}
+        {% include 'SKOTE/APP_BOOK/COMMON/HEADER.html' %}
+
+{% endblock %}
+
+{% block page_navi %}
+
+{% endblock %}
+
+
+{% block page_content %}
+
+<div class="container-fluid">
+
+
+
+
+</div> <!-- container-fluid -->
+
+
+
+<div class="container-fluid">
+
+    <!-- start page title -->
+    <div class="row">
+        <div class="col-12">
+            <div class="page-title-box d-flex align-items-center justify-content-between">
+                <h4 class="mb-0 font-size-18">Books List</h4>
+
+                <div class="page-title-right">
+                    <ol class="breadcrumb m-0">
+                        <li class="breadcrumb-item"><a href="javascript: void(0);">Books</a></li>
+                        <li class="breadcrumb-item active">List</li>
+                    </ol>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end page title -->
+
+            {% if user.is_authenticated %}
+                    <div align="right"><a href="{% url 'book:book_create' %}"  class="btn btn-success btn-sm btn-rounded pl-2 pr-3">&nbsp;&nbsp;북 작성</a><br/><br/></div>
+            {% else %}
+            {% endif %}
+
+
+{% include 'SKOTE/APP_BOOK/book_list_COMP_list2.html' %}
+
+
+</div>
+
+
+
+{% endblock %}

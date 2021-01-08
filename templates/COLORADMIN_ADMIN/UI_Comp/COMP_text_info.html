@@ -1,0 +1,15 @@
+{% load static i18n %}
+
+
+
+<div class="note note-warning bg-yellow-transparent-7 note-with-right-icon m-b-15">
+
+    <div class="note-icon"><i class="fa fa-info"></i></div>
+
+    <div class="note-content text-left">
+            {% include 'COLORADMIN_ADMIN/UI_Comp/FORM_page_edit.html'   %}
+
+    <h4><b>{{ DATA.title }}</b></h4>
+    <p>{{ DATA.note|safe }}</p>
+    </div>
+</div>

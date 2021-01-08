@@ -1,0 +1,93 @@
+{% extends "COLORADMIN_ADMIN/BASE/base_layout.html" %}
+{% load static i18n %}
+
+{% block body_extra %}{% endblock %}
+
+
+
+{% block page_navi %}
+    {% if LAYOUT.NAVI_POSITION == 'TOP' %}
+        {% include 'COLORADMIN_ADMIN/COMMON/NAVI_TOP.html' %}
+    {% else %}
+        {% include 'COLORADMIN_ADMIN/COMMON/NAVI_SIDE.html' %}
+
+    {% endif %}
+{% endblock %}
+
+
+
+{% block page_content %}
+
+
+
+
+
+		<!-- begin #header -->
+        {% include 'COLORADMIN_ADMIN/COMMON/HEADER.html' %}
+
+<!-- end #header -->
+
+        {% include 'COLORADMIN_ADMIN/COMMON/NAVI_TOP.html' %}
+
+        <div id="content" class="content">
+
+                <h1 class="page-header"><a class="text-black" href="{% url 'support:index' %}">Download</a> <small>&nbsp;&nbsp;&nbsp;다운로드</small></h1>
+                <a href="#" class="widget-card widget-card-rounded">
+                  <div class="widget-card-cover" style="background-image: url({% static 'COLORADMIN_ADMIN/img/gallery/gallery-portrait-11-thumb.jpg' %})"></div>
+                  <div class="widget-card-content">
+                    <b class="text-white">체험판과 코드를 다운로드하세요.</b>
+                  </div>
+                  <div class="widget-card-content bottom">
+                    <i class="fab fa-pushed fa-5x text-indigo"></i>
+                    <h4 class="text-white m-t-10"><b><br />Download</b></h4>
+                    <h5 class="f-s-12 text-white-transparent-7 m-b-2"><b>다운로드</b></h5>
+                  </div>
+                </a>
+
+
+
+                <div class="widget-list widget-list-rounded">
+                  <!-- begin widget-list-item -->
+                  <a href="#" class="widget-list-item">
+                    <div class="widget-list-media icon"><i class="fa fa-align-justify bg-lime text-inverse"></i></div>
+                    <div class="widget-list-content"><h4 class="widget-list-title">다운로드</h4></div>
+                    <div class="widget-list-action text-nowrap text-grey-darker text-right"><i class="fa fa-angle-right text-muted t-plus-1 fa-lg m-l-5"></i></div>
+                  </a>
+                  <a href="#" class="widget-list-item">
+                    <div class="widget-list-media icon"><i class="fa fa-align-justify bg-lime text-inverse"></i></div>
+                    <div class="widget-list-content"><h4 class="widget-list-title">다운로드</h4></div>
+                    <div class="widget-list-action text-nowrap text-grey-darker text-right"><i class="fa fa-angle-right text-muted t-plus-1 fa-lg m-l-5"></i></div>
+                  </a>
+                  <a href="#" class="widget-list-item">
+                    <div class="widget-list-media icon"><i class="fa fa-align-justify bg-lime text-inverse"></i></div>
+                    <div class="widget-list-content"><h4 class="widget-list-title">다운로드</h4></div>
+                    <div class="widget-list-action text-nowrap text-grey-darker text-right">설명<i class="fa fa-angle-right text-muted t-plus-1 fa-lg m-l-5"></i></div>
+                  </a>
+
+                  <!-- end widget-list-item -->
+
+                </div> <br/>
+
+		</div>
+
+
+
+
+
+
+		</div>
+
+
+
+
+
+
+
+{% endblock %}
+
+
+
+
+{% block page_footer %}
+         {% include 'COLORADMIN_ADMIN/APP_SUPPORT/COMMON/FOOTER.html' %}
+{% endblock %}

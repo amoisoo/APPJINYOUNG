@@ -1,0 +1,69 @@
+<html>
+
+<head>
+      <title>My first chart using FroalaCharts</title>
+
+  <script src=https://unpkg.com/froalacharts@1.0.0/froalacharts.js></script>
+  <script src="https://unpkg.com/froalacharts@1.0.0/themes/froalacharts.theme.froala.js"></script>
+
+  <script type="text/javascript">
+       var data = {
+        chart: {
+    caption: "Website visits",
+    subcaption: "Purchase - Conversion analysis for last year",
+    decimals: "1",
+    showvalues: "1",
+    plottooltext: "$label: $dataValue",
+    plotfillalpha: "70",
+    theme: "froala",
+    streamlineddata: "0",
+    is2D: "1",
+  },
+  data: [
+    {
+      label: "Website Visits",
+      value: "17362"
+    },
+    {
+      label: "Downloads",
+      value: "8039"
+    },
+    {
+      label: "Checked Pricing",
+      value: "5509"
+    },
+    {
+      label: "Asked for Quotation",
+      value: "3962"
+    },
+    {
+      label: "Purchased",
+      value: "2397"
+    }
+  ]
+};
+
+
+FroalaCharts.ready(function () {
+            froalacharts = new FroalaCharts({
+                id: "chart_1",
+                type: 'funnel',
+                renderAt: 'ft',
+                width: '100%',
+                height: '500',
+                dataSource: data
+            });
+            froalacharts.render();
+        });
+    </script>
+
+</head>
+
+
+<div id="msg" class="mb-20"> Chart data in the selected format will be displayed here.</div>
+
+<body>
+    <div id="ft">FroalaCharts will render here</div>
+</body>
+
+</html>

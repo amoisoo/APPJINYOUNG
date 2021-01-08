@@ -1,0 +1,24 @@
+
+{% load static i18n %}
+
+
+                    <div class="form-group col-md-2">
+                      <label for="id">id sort</label>
+                      <input type="text" class="form-control" id="id_sort"  name="id_sort" value="{{ object.id_sort }}">
+                    </div>
+                    <div class="form-group col-md-2">
+                      <label for="id">depth</label>
+
+                        {% if object.depth  %}
+                                <input type="text" class="form-control" id="id_depth"  name="depth" value="{{ object.depth_id }}">
+
+                        {% else %}
+                                <input type="text" class="form-control" id="id_depth"  name="depth" value="">
+
+                        {% endif %}
+
+                    </div>
+                    <div class="form-group col-md-1">
+                      <label for="id">id</label>
+                      <input type="text" class="form-control" id="id"  name="id" value="{{ object.id }}">
+                    </div>

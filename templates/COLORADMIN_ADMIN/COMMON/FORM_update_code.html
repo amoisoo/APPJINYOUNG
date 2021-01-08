@@ -1,0 +1,104 @@
+
+{% load static i18n %}
+<!-- begin nav-pills -->
+                  <div class="form-group">
+                    <label for="id_image">이미지 : {{ object.image }}</label><br/>
+                    <input type="file"  id="id_image" name="image" />
+                  </div>
+
+
+<ul class="nav nav-pills mb-2">
+    <li class="nav-item">
+        <a href="#nav-pills-tab-1" data-toggle="tab" class="nav-link active">
+            <span class="d-sm-none">노트</span>
+            <span class="d-sm-block d-none">노트</span>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="#nav-pills-tab-2" data-toggle="tab" class="nav-link">
+            <span class="d-sm-none">CODE</span>
+            <span class="d-sm-block d-none">code</span>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="#nav-pills-tab-3" data-toggle="tab" class="nav-link">
+            <span class="d-sm-none">CODELOG</span>
+            <span class="d-sm-block d-none">codelog</span>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="#nav-pills-tab-4" data-toggle="tab" class="nav-link">
+            <span class="d-sm-none">HTML</span>
+            <span class="d-sm-block d-none">html</span>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="#nav-pills-tab-5" data-toggle="tab" class="nav-link">
+            <span class="d-sm-none">CSS</span>
+            <span class="d-sm-block d-none">css</span>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="#nav-pills-tab-6" data-toggle="tab" class="nav-link">
+            <span class="d-sm-none">JS</span>
+            <span class="d-sm-block d-none">js</span>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="#nav-pills-tab-7" data-toggle="tab" class="nav-link">
+            <span class="d-sm-none">Json</span>
+            <span class="d-sm-block d-none">Json</span>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="#nav-pills-tab-8" data-toggle="tab" class="nav-link">
+            <span class="d-sm-none">Style</span>
+            <span class="d-sm-block d-none">Style</span>
+        </a>
+    </li>
+
+</ul>
+<!-- end nav-pills -->
+<!-- begin tab-content -->
+<div class="tab-content p-15 rounded bg-white mb-4">
+    <!-- begin tab-pane -->
+    <div class="tab-pane fade active show" id="nav-pills-tab-1">
+        <h3 class="m-t-10">노트</h3>
+
+        <textarea class="form-control" id="note"  rows="10"  placeholder=""  name="note">{{ object.note }}</textarea>
+    </div>
+    <!-- end tab-pane -->
+    <!-- begin tab-pane -->
+    <div class="tab-pane fade" id="nav-pills-tab-2">
+        <h3 class="m-t-10">CODE</h3>
+          <textarea class="form-control" rows="30"  id="id_code" name="code">{{ object.code }}</textarea>
+    </div>
+    <div class="tab-pane fade" id="nav-pills-tab-3">
+        <h3 class="m-t-10">CODELOG</h3>
+          <textarea class="form-control" rows="30"  id="id_codelog" name="codelog">{{ object.codelog }}</textarea>
+    </div>
+    <!-- begin tab-pane -->
+    <div class="tab-pane fade" id="nav-pills-tab-4">
+        <h3 class="m-t-10">HTML</h3>
+          <textarea  class="form-control" rows="30" id="id_html" name="html">{{ object.html }}</textarea>
+    </div>
+    <!-- end tab-pane -->
+    <!-- begin tab-pane -->
+    <div class="tab-pane fade" id="nav-pills-tab-5">
+        <h3 class="m-t-10">CSS</h3>
+          <textarea  class="form-control" rows="30"  id="id_css" name="css">{{ object.css }}</textarea>
+    </div>
+    <div class="tab-pane fade" id="nav-pills-tab-6">
+        <h3 class="m-t-10">JS</h3>
+          <textarea  class="form-control" rows="30"  id="id_js" name="js">{{ object.js }}</textarea>
+    </div>
+    <div class="tab-pane fade" id="nav-pills-tab-7">
+        <h3 class="m-t-10">Json</h3>
+          <textarea  class="form-control" rows="30"  id="id_json" name="json">{{ object.json }}</textarea>
+    </div>
+    <div class="tab-pane fade" id="nav-pills-tab-8">
+        <h3 class="m-t-10">Style</h3>
+          <textarea  class="form-control" rows="30"  id="id_style" name="style">{{ object.style }}</textarea>
+    </div>
+</div>
+<!-- end tab-content -->

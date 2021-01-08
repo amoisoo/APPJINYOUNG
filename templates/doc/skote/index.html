@@ -1,0 +1,517 @@
+{% load static i18n %}
+<!doctype html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8" />
+        <title>{% block title %}amoisoo{% endblock %}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
+        <meta content="Themesbrand" name="author" />
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="{% static 'SKOTE/images/favicon.ico' %}">
+
+        <!-- Bootstrap Css -->
+        <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+        <!-- Icons Css -->
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <!-- App Css-->
+        <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+
+
+        <!-- Bootstrap Css -->
+        <link href="{% static 'SKOTE/css/bootstrap.min.css' %}" id="bootstrap-style" rel="stylesheet" type="text/css" />
+        <!-- Icons Css -->
+        <link href="{% static 'SKOTE/css/icons.min.css' %}" rel="stylesheet" type="text/css" />
+        <!-- App Css-->
+        <link href="{% static 'SKOTE/css/app.min.css' %}" id="app-style" rel="stylesheet" type="text/css" />
+
+
+    </head>
+
+
+    <!-- <body data-sidebar="dark"> -->
+
+    <body data-layout="horizontal" data-topbar="dark">
+
+        <!-- Begin page -->
+        <div id="layout-wrapper">
+
+
+
+
+
+
+            {% include 'SKOTE/COMMON/HEADER.html' %}
+
+            {% include 'SKOTE/COMMON/NAVI_TOP.html' %}
+
+
+            <!-- ============================================================== -->
+            <!-- Start right Content here -->
+            <!-- ============================================================== -->
+            <div class="main-content">
+
+                <div class="page-content">
+    {% block page_content %}
+
+                    <div class="container-fluid">
+
+                        <!-- start page title -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="page-title-box d-flex align-items-center justify-content-between">
+                                    <h4 class="mb-0 font-size-18">START</h4>
+
+                                    <div class="page-title-right">
+                                        <ol class="breadcrumb m-0">
+                                            <li class="breadcrumb-item"><a href="javascript: void(0);">Utility</a></li>
+                                            <li class="breadcrumb-item active">Starter Page</li>
+                                        </ol>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end page title -->
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="invoice-title">
+                                            <h4 class="float-right font-size-16">Order # 12345</h4>
+                                            <div class="mb-4">
+                                                <img src="{% static 'SKOTE/images/logo-dark.png' %}" alt="logo" height="20"/>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <address>
+                                                    <strong>Billed To:</strong><br>
+                                                    John Smith<br>
+                                                    1234 Main<br>
+                                                    Apt. 4B<br>
+                                                    Springfield, ST 54321
+                                                </address>
+                                            </div>
+                                            <div class="col-sm-6 text-sm-right">
+                                                <address class="mt-2 mt-sm-0">
+                                                    <strong>Shipped To:</strong><br>
+                                                    Kenny Rigdon<br>
+                                                    1234 Main<br>
+                                                    Apt. 4B<br>
+                                                    Springfield, ST 54321
+                                                </address>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6 mt-3">
+                                                <address>
+                                                    <strong>Payment Method:</strong><br>
+                                                    Visa ending **** 4242<br>
+                                                    jsmith@email.com
+                                                </address>
+                                            </div>
+                                            <div class="col-sm-6 mt-3 text-sm-right">
+                                                <address>
+                                                    <strong>Order Date:</strong><br>
+                                                    October 16, 2019<br><br>
+                                                </address>
+                                            </div>
+                                        </div>
+                                        <div class="py-2 mt-3">
+                                            <h3 class="font-size-15 font-weight-bold">Order summary</h3>
+                                        </div>
+                                        <div class="table-responsive">
+                                            <table class="table table-nowrap">
+                                                <thead>
+                                                    <tr>
+                                                        <th style="width: 70px;">No.</th>
+                                                        <th>Item</th>
+                                                        <th class="text-right">Price</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>01</td>
+                                                        <td>Skote - Bootstrap 4 Admin Dashboard</td>
+                                                        <td class="text-right">$499.00</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>02</td>
+                                                        <td>Skote - Bootstrap 4 Landing Template</td>
+                                                        <td class="text-right">$399.00</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>03</td>
+                                                        <td>Veltrix - Bootstrap 4 Admin Template</td>
+                                                        <td class="text-right">$499.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="2" class="text-right">Sub Total</td>
+                                                        <td class="text-right">$1397.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="2" class="border-0 text-right">
+                                                            <strong>Shipping</strong></td>
+                                                        <td class="border-0 text-right">$13.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="2" class="border-0 text-right">
+                                                            <strong>Total</strong></td>
+                                                        <td class="border-0 text-right"><h4 class="m-0">$1410.00</h4></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div class="d-print-none">
+                                            <div class="float-right">
+                                                <a href="javascript:window.print()" class="btn btn-success waves-effect waves-light mr-1"><i class="fa fa-print"></i></a>
+                                                <a href="#" class="btn btn-primary w-md waves-effect waves-light">Send</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xl-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <div class="text-lg-center">
+                                                    <div class="avatar-sm mr-3 mx-lg-auto mb-4 float-left float-lg-none">
+                                                        <span class="avatar-title rounded-circle bg-soft-primary text-primary font-size-16">
+                                                            M
+                                                        </span>
+                                                    </div>
+                                                    <h5 class="mb-1 font-size-15 text-truncate">Marion Burton</h5>
+                                                    <a href="#" class="text-muted">@Skote</a>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-8">
+                                                <div>
+                                                    <a href="invoices-detail.html" class="d-block text-primary mb-2">Invoice #14251</a>
+                                                    <h5 class="text-truncate mb-4 mb-lg-5">Skote Dashboard UI</h5>
+                                                    <ul class="list-inline mb-0">
+                                                        <li class="list-inline-item mr-3">
+                                                            <h5 class="font-size-14" data-toggle="tooltip" data-placement="top" title="Amount"><i class="bx bx-money mr-1 text-primary"></i> $ 1455</h5>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <h5 class="font-size-14" data-toggle="tooltip" data-placement="top" title="Due Date"><i class="bx bx-calendar mr-1 text-primary"></i> 10 Oct, 19</h5>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <div class="text-lg-center">
+                                                    <img src="{% static 'SKOTE/images/users/avatar-2.jpg' %}" class="avatar-sm mr-3 rounded-circle mb-4 float-left float-lg-none" alt="img" />
+                                                    <h5 class="mb-1 font-size-15 text-truncate">Francis Witte</h5>
+                                                    <a href="#" class="text-muted">@Skote</a>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-8">
+                                                <div>
+                                                    <a href="invoices-detail.html" class="d-block mb-2">Invoice #14252</a>
+                                                    <h5 class="text-truncate mb-4 mb-lg-5">Brand logo design</h5>
+                                                    <ul class="list-inline mb-0">
+                                                        <li class="list-inline-item mr-3">
+                                                            <h5 class="font-size-14" data-toggle="tooltip" data-placement="top" title="Amount"><i class="bx bx-money mr-1 text-primary"></i> $ 1024</h5>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <h5 class="font-size-14" data-toggle="tooltip" data-placement="top" title="Due Date"><i class="bx bx-calendar mr-1 text-primary"></i> 11 Oct, 19</h5>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <div class="text-lg-center">
+                                                    <img src="{% static 'SKOTE/images/users/avatar-7.jpg' %}" class="avatar-sm mr-3 rounded-circle mb-4 float-left float-lg-none" alt="img" />
+                                                    <h5 class="mb-1 font-size-15 text-truncate">Joseph Flint</h5>
+                                                    <a href="#" class="text-muted">@Skote</a>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-8">
+                                                <div>
+                                                    <a href="invoices-detail.html" class="d-block mb-2">Invoice #14253</a>
+                                                    <h5 class="text-truncate mb-4 mb-lg-5">Landing page Design</h5>
+                                                    <ul class="list-inline mb-0">
+                                                        <li class="list-inline-item mr-3">
+                                                            <h5 class="font-size-14" data-toggle="tooltip" data-placement="top" title="Amount"><i class="bx bx-money mr-1 text-primary"></i> $ 1189</h5>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <h5 class="font-size-14" data-toggle="tooltip" data-placement="top" title="Due Date"><i class="bx bx-calendar mr-1 text-primary"></i> 12 Oct, 19</h5>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <div class="text-lg-center">
+                                                    <img src="assets/images/users/avatar-8.jpg" class="avatar-sm mr-3 rounded-circle mb-4 float-left float-lg-none" alt="img" />
+                                                    <h5 class="mb-1 font-size-15 text-truncate">Larry Nielsen</h5>
+                                                    <a href="#" class="text-muted">@Skote</a>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-8">
+                                                <div>
+                                                    <a href="invoices-detail.html" class="d-block text-primary mb-2">Invoice #14254</a>
+                                                    <h5 class="text-truncate mb-4 mb-lg-5">Redesign - Landing page</h5>
+                                                    <ul class="list-inline mb-0">
+                                                        <li class="list-inline-item mr-3">
+                                                            <h5 class="font-size-14" data-toggle="tooltip" data-placement="top" title="Amount"><i class="bx bx-money mr-1 text-primary"></i> $ 1245</h5>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <h5 class="font-size-14" data-toggle="tooltip" data-placement="top" title="Due Date"><i class="bx bx-calendar mr-1 text-primary"></i> 12 Oct, 19</h5>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <div class="text-lg-center">
+                                                    <img src="assets/images/users/avatar-5.jpg" class="avatar-sm mr-3 rounded-circle mb-4 float-left float-lg-none" alt="img" />
+                                                    <h5 class="mb-1 font-size-15 text-truncate">Mark Evans</h5>
+                                                    <a href="#" class="text-muted">@Skote</a>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-8">
+                                                <div>
+                                                    <a href="invoices-detail.html" class="d-block mb-2">Invoice #14255</a>
+                                                    <h5 class="text-truncate mb-4 mb-lg-5">Blog Template Design</h5>
+                                                    <ul class="list-inline mb-0">
+                                                        <li class="list-inline-item mr-3">
+                                                            <h5 class="font-size-14" data-toggle="tooltip" data-placement="top" title="Amount"><i class="bx bx-money mr-1 text-primary"></i> $ 1024</h5>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <h5 class="font-size-14" data-toggle="tooltip" data-placement="top" title="Due Date"><i class="bx bx-calendar mr-1 text-primary"></i> 11 Oct, 19</h5>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <div class="text-lg-center">
+                                                    <div class="avatar-sm mr-3 mx-lg-auto mb-4 float-left float-lg-none">
+                                                        <span class="avatar-title rounded-circle bg-soft-info text-info font-size-16">
+                                                            T
+                                                        </span>
+                                                    </div>
+                                                    <h5 class="mb-1 font-size-15 text-truncate">Timothy Lee</h5>
+                                                    <a href="#" class="text-muted">@Skote</a>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-8">
+                                                <div>
+                                                    <a href="invoices-detail.html" class="d-block mb-2">Invoice #14256</a>
+                                                    <h5 class="text-truncate mb-4 mb-lg-5">Landing page Design</h5>
+                                                    <ul class="list-inline mb-0">
+                                                        <li class="list-inline-item mr-3">
+                                                            <h5 class="font-size-14" data-toggle="tooltip" data-placement="top" title="Amount"><i class="bx bx-money mr-1 text-primary"></i> $ 1189</h5>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <h5 class="font-size-14" data-toggle="tooltip" data-placement="top" title="Due Date"><i class="bx bx-calendar mr-1 text-primary"></i> 13 Oct, 19</h5>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <div class="text-lg-center">
+                                                    <img src="assets/images/users/avatar-1.jpg" class="avatar-sm mr-3 rounded-circle mb-4 float-left float-lg-none" alt="img" />
+                                                    <h5 class="mb-1 font-size-15 text-truncate">Stanley Bland</h5>
+                                                    <a href="#" class="text-muted">@Skote</a>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-8">
+                                                <div>
+                                                    <a href="invoices-detail.html" class="d-block text-primary mb-2">Invoice #14257</a>
+                                                    <h5 class="text-truncate mb-4 mb-lg-5">Landing page UI</h5>
+                                                    <ul class="list-inline mb-0">
+                                                        <li class="list-inline-item mr-3">
+                                                            <h5 class="font-size-14" data-toggle="tooltip" data-placement="top" title="Amount"><i class="bx bx-money mr-1 text-primary"></i> $ 1148</h5>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <h5 class="font-size-14" data-toggle="tooltip" data-placement="top" title="Due Date"><i class="bx bx-calendar mr-1 text-primary"></i> 14 Oct, 19</h5>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <div class="text-lg-center">
+                                                    <div class="avatar-sm mr-3 mx-lg-auto mb-4 float-left float-lg-none">
+                                                        <span class="avatar-title rounded-circle bg-soft-success text-success font-size-16">
+                                                            T
+                                                        </span>
+                                                    </div>
+                                                    <h5 class="mb-1 font-size-15 text-truncate">Tommy Wilson</h5>
+                                                    <a href="#" class="text-muted">@Skote</a>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-8">
+                                                <div>
+                                                    <a href="invoices-detail.html" class="d-block mb-2">Invoice #14258</a>
+                                                    <h5 class="text-truncate mb-4 mb-lg-5">Redesign - Dashboard</h5>
+                                                    <ul class="list-inline mb-0">
+                                                        <li class="list-inline-item mr-3">
+                                                            <h5 class="font-size-14" data-toggle="tooltip" data-placement="top" title="Amount"><i class="bx bx-money mr-1 text-primary"></i> $ 1259</h5>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <h5 class="font-size-14" data-toggle="tooltip" data-placement="top" title="Due Date"><i class="bx bx-calendar mr-1 text-primary"></i> 15 Oct, 19</h5>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <div class="text-lg-center">
+                                                    <img src="assets/images/users/avatar-4.jpg" class="avatar-sm mr-3 rounded-circle mb-4 float-left float-lg-none" alt="img" />
+                                                    <h5 class="mb-1 font-size-15 text-truncate">Louis Brandon</h5>
+                                                    <a href="#" class="text-muted">@Skote</a>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-8">
+                                                <div>
+                                                    <a href="invoices-detail.html" class="d-block mb-2">Invoice #14259</a>
+                                                    <h5 class="text-truncate mb-4 mb-lg-5">Email Template UI</h5>
+                                                    <ul class="list-inline mb-0">
+                                                        <li class="list-inline-item mr-3">
+                                                            <h5 class="font-size-14" data-toggle="tooltip" data-placement="top" title="Amount"><i class="bx bx-money mr-1 text-primary"></i> $ 1355</h5>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <h5 class="font-size-14" data-toggle="tooltip" data-placement="top" title="Due Date"><i class="bx bx-calendar mr-1 text-primary"></i> 15 Oct, 19</h5>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- end row -->
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="text-center my-3">
+                                    <a href="javascript:void(0);" class="text-success"><i class="bx bx-loader bx-spin font-size-18 align-middle mr-2"></i> Load more </a>
+                                </div>
+                            </div> <!-- end col-->
+                        </div>
+                    </div>
+    {% endblock %}
+
+                    <!-- container-fluid -->
+                </div>
+                <!-- End Page-content -->
+
+
+            {% include 'SKOTE/COMMON/FOOTER.html' %}
+
+
+
+            </div>
+            <!-- end main content-->
+
+        </div>
+        <!-- END layout-wrapper -->
+
+            {% include 'SKOTE/COMMON/NAVI_SIDE_RIGHT.html' %}
+
+        <!-- JAVASCRIPT -->
+        <script src="{% static 'SKOTE/libs/jquery/jquery.min.js' %}"></script>
+        <script src="{% static 'SKOTE/libs/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+        <script src="{% static 'SKOTE/libs/metismenu/metisMenu.min.js' %}"></script>
+        <script src="{% static 'SKOTE/libs/simplebar/simplebar.min.js' %}"></script>
+        <script src="{% static 'SKOTE/libs/node-waves/waves.min.js' %}"></script>
+
+        <script src="{% static 'SKOTE/js/app.js' %}"></script>
+
+    </body>
+</html>

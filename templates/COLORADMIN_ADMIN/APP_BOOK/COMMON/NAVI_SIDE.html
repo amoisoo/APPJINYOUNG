@@ -1,0 +1,105 @@
+{% load static i18n common%}
+		<div id="sidebar" class="sidebar">
+			<!-- begin sidebar scrollbar -->
+			<div data-scrollbar="true" data-height="100%">
+				<!-- begin sidebar user -->
+				<ul class="nav">
+					<li class="nav-profile">
+						<a href="javascript:;" data-toggle="nav-profile">
+
+
+                            {% if user.is_authenticated %}
+                                <div class="cover with-shadow"></div>
+                                <div class="image"><img src="{% static 'COLORADMIN_ADMIN/img/user/user-1.jpg' %}" alt="" /></div>
+                                <div class="info"><b class="caret pull-right"></b>{{request.user.username}}<small>{{request.user.email}}</small></div>
+                            {% else %}
+                                <div class="cover with-shadow"></div>
+                                <div class="image"></div>
+                                <div class="info"><small><a href="{% url 'accounts:login' %}">로그인</a></small></div>
+                            {% endif %}
+
+
+						</a>
+					</li>
+					<li>
+                        {% if user.is_authenticated %}
+                            <ul class="nav nav-profile">
+
+                                <li><a href="{% url 'support:qna' %}"><i class="fa fa-cog"></i> 설정</a></li>
+                                <li><a href="{% url 'support:doc' %}"><i class="fa fa-pencil-alt"></i> 문서</a></li>
+                                <li><a href="{% url 'support:help' %}"><i class="fa fa-question-circle"></i> 헬프</a></li>
+
+
+                            </ul>
+                        {% endif %}
+
+
+					</li>
+				</ul>
+				<!-- end sidebar user -->
+				<!-- begin sidebar nav -->
+				<ul class="nav">
+
+					<li class="nav-search">
+						<input type="text" class="form-control" placeholder="메뉴 검색..." data-sidebar-search="true" />
+					</li>
+
+                    <li class="nav-header text-white"><a href="{% url 'book:book_detail' URL_BOOK %}">메뉴</a> </li>
+
+
+
+
+
+                {% for MENU_ITEM in MENU_LIST %}
+
+                                <li class="has-sub  {% if object.depth_id == MENU_ITEM.id %}active{% endif %}    ">
+                                    <a href="javascript:;">
+                                        <b class="caret"></b>
+                                        <i class="fa fa-th-large"></i>
+                                            {% if MENU_LIST_SUB|hash:MENU_ITEM.id  %}
+                                                    <span class="badge   pull-right">{{ MENU_LIST_SUB|hash:MENU_ITEM.id |length }}</span>
+                                            {% endif %}
+                                                <span>{{ MENU_ITEM.title }}
+                                                    {% if MENU_ITEM.tag %}<span class="label label-green">{{  MENU_ITEM.tag   }}</span>{% endif %}
+                                                </span>
+                                    </a>
+
+
+                                    <ul class="sub-menu ">
+                        {% if user.is_authenticated %}
+							    <li><a href="{% url 'book:menu_detail' MENU_ITEM.parent.slug  MENU_ITEM.slug %}" class="text-red">{{ MENU_ITEM.title }} <i class="fa fa-paper-plane text-theme"></i></a></li>
+                        {% endif %}
+
+                                        {% for SUBMENU_ITEM in MENU_LIST_SUB|hash:MENU_ITEM.id %}
+                                                <li class = ' {% if URL_MENU == SUBMENU_ITEM.slug %}active{% endif %}  '>
+                                                    <a href="{% url 'book:menu_detail' SUBMENU_ITEM.parent.slug  SUBMENU_ITEM.slug %}">{{ SUBMENU_ITEM.title }}
+                                                        {% if SUBMENU_ITEM.tag %}&nbsp;&nbsp;<span class="label label-theme">{{  SUBMENU_ITEM.tag   }}</span>{% endif %}
+
+                                                    </a>
+                                                </li>
+
+                                        {%  endfor %}
+                                    </ul>
+
+
+                                </li>
+
+                {%  endfor %}
+
+
+
+
+					<!-- begin sidebar minify button -->
+                {% if LAYOUT.NAVI_SIDE_CLOSE  %}
+					<li><a href="javascript:;" class="sidebar-minify-btn" data-click="sidebar-minify"><i class="fa fa-angle-double-left"></i></a></li>
+                {% endif %}
+
+
+
+					<!-- end sidebar minify button -->
+				</ul>
+				<!-- end sidebar nav -->
+			</div>
+			<!-- end sidebar scrollbar -->
+		</div>
+		<div class="sidebar-bg"></div>

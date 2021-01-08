@@ -1,0 +1,29 @@
+{% extends "COLORADMIN_ADMIN/BASE/base.html" %}
+{% load static i18n %}
+
+{% block body_extra %}{% endblock %}
+
+{% block page_content %}
+
+
+	<div id="page-container" class="fade">
+		<!-- begin error -->
+		<div class="error">
+			<div class="error-code">404</div>
+			<div class="error-content">
+				<div class="error-message">파일을 찾지 못했습니다.</div>
+				<div class="error-desc mb-3 mb-sm-4 mb-md-5">
+					The page you're looking for doesn't exist. <br />
+					찾고 있는 페이지를 찾지 못했습니다.
+
+				</div>
+				<div>
+					<a href="../coloradmin/index.html" class="btn btn-success p-l-20 p-r-20">메인 페이지로 이동</a>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+{% endblock %}

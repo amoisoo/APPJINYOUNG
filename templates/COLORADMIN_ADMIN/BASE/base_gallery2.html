@@ -1,0 +1,46 @@
+{% load static i18n %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Color Admin | d3 Chart</title>
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+	<meta content="" name="description" />
+	<meta content="" name="author" />
+
+	<!-- ================== BEGIN BASE CSS STYLE ================== -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+	<link href="{% static 'COLORADMIN_ADMIN/css/default/app.min.css' %}" rel="stylesheet" />
+	<!-- ================== END BASE CSS STYLE ================== -->
+
+	<!-- ================== BEGIN PAGE CSS ================== -->
+	<link href="{% static 'COLORADMIN_ADMIN/plugins/superbox/superbox.min.css' %}" rel="stylesheet" />
+
+	<!-- ================== END PAGE CSS ================== -->
+</head>
+<body>
+	<!-- begin #page-loader -->
+	<div id="page-loader" class="fade show">
+		<span class="spinner"></span>
+	</div>
+	<!-- end #page-loader -->
+
+    {% block page_content %}
+
+    {% endblock %}
+
+	<!-- end page container -->
+
+	<!-- ================== BEGIN BASE JS ================== -->
+	<script src="{% static 'COLORADMIN_ADMIN/js/app.min.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/js/theme/default.min.js' %}"></script>
+	<!-- ================== END BASE JS ================== -->
+
+	<!-- ================== BEGIN PAGE LEVEL JS ================== -->
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/superbox/jquery.superbox.min.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/js/demo/gallery-v2.demo.js' %}"></script>
+
+
+	<!-- ================== END PAGE LEVEL JS ================== -->
+</body>
+</html>

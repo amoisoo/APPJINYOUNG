@@ -1,0 +1,29 @@
+{% extends "COLORADMIN_ADMIN/BASE/base.html" %}
+{% load static i18n %}
+
+{% block body_extra %}{% endblock %}
+
+{% block page_content %}
+
+
+	<div id="page-container" class="fade">
+		<!-- begin login -->
+		<div class="login login-v1">
+			<!-- begin login-container -->
+			<div class="login-container">
+
+                {% include 'COLORADMIN_ADMIN/APP_ACCOUNTS/COMMON/LOGIN.html' %}
+			</div>
+			<!-- end login-container -->
+		</div>
+		<!-- end login -->
+
+		<!-- begin theme-panel -->
+		<!-- end theme-panel -->
+
+		<!-- begin scroll to top btn -->
+		<!-- end scroll to top btn -->
+	</div>
+
+
+{% endblock %}

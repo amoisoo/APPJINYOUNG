@@ -1,0 +1,24 @@
+{% load static i18n common %}
+
+{% if DATA.visible == "True" or DATA.visible == "" %}
+    {% block COMP_VISIBLE %}
+
+
+
+    {% endblock %}
+{% elif  DATA.visible == "False" %}
+            {% if user.is_superuser %}
+                        <div class="alert alert-danger">
+                            <span class="label label-success m-r-5">관리자모드!</span> 공개되지 않는 컴포넨트.
+                {% include 'SKOTE/UI_Comp/FORM_page_edit.html'   %}
+
+                        </div>
+            {% else %}
+
+            {% endif %}
+
+{% else %}
+
+
+{% endif %}
+

@@ -1,0 +1,24 @@
+{% extends "SKOTE/UI_Comp/base_comp_visible.html" %}
+{% load static i18n common%}
+
+
+
+{% block COMP_VISIBLE %}
+
+        <div class="card-body">
+
+            <blockquote class="blockquote text-center">
+              <p>{{ DATA.title }}</p>
+              <footer class="blockquote-footer">
+                 <cite title="Source Title">{{ DATA.note|safe }}</cite>
+              </footer>
+            </blockquote>
+
+
+
+        </div>
+
+
+{% endblock %}
+
+

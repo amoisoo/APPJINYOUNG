@@ -1,0 +1,26 @@
+
+
+
+{% extends "COLORADMIN_ADMIN/UI_Comp/base_comp_visible.html" %}
+{% load static i18n common%}
+
+
+
+{% block COMP_VISIBLE %}
+            {% include 'COLORADMIN_ADMIN/UI_Comp/FORM_page_edit.html'   %}
+
+            <div class="media media-sm">
+
+
+                <div class="media-body ">
+
+                    <span class="media-heading f-s-14">{{ DATA.title }}</span>
+                    <p>{{ DATA.note|safe }}</p>
+                </div>
+            </div>
+
+
+
+{% endblock %}
+
+

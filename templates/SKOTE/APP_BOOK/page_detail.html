@@ -1,0 +1,45 @@
+{% extends "SKOTE/BASE/base_h.html" %}
+{% load static i18n %}
+
+
+{% block page_content %}
+<div class="container-fluid">
+            {% if user.is_authenticated %}
+                    <div align="right">
+                        <a href="{% url 'book:page_update' object.id object.parent.slug  object.slug %}"  class="btn btn-success btn-sm btn-rounded pl-2 pr-3">&nbsp;&nbsp;Book 수정</a>
+                        <a href="{% url 'book:page_delete' object.id object.parent.slug  object.slug %}"  class="btn btn-danger btn-sm btn-rounded pl-2 pr-3">&nbsp;&nbsp;Book 삭제</a>
+                    </div>
+            {% else %}
+            {% endif %}
+
+			<div class="row">
+				<div class="col-xl-12">
+					<div class="m-b-10 text-inverse f-s-10"><b>{{ object.title }}</b></div>
+                    <hr/>
+
+            	</div>
+
+				<!-- end col-3 -->
+				<!-- begin col-9 -->
+				<div class="col-xl-12">
+                        {% if object.note %}
+
+                                <div class="col-xl-12 col-sm-12">
+                                    <div class="m-b-10 f-s-10 m-t-10"><b class="text-inverse"></b></div>
+                                    <!-- begin card -->
+                                    <div class="card border-0">
+                                        <div class="card-body">
+                                            {{ object.note|safe }}
+                                        </div>
+                                    </div>
+
+                                </div>
+                        {% else %}
+                        {% endif %}
+
+				</div>
+				<!-- end col-9 -->
+			</div>
+
+</div>
+{% endblock %}

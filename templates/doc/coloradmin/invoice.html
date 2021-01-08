@@ -1,0 +1,187 @@
+
+{% extends "COLORADMIN_ADMIN/BASE/base_layout.html" %}
+{% load static i18n %}
+
+{% block body_extra %}{% endblock %}
+
+
+
+
+
+{% block page_navi %}
+    {% if LAYOUT.NAVI_POSITION == 'TOP' %}
+        {% include 'COLORADMIN_ADMIN/COMMON/NAVI_TOP.html' %}
+    {% else %}
+        {% include 'COLORADMIN_ADMIN/COMMON/NAVI_SIDE.html' %}
+
+    {% endif %}
+{% endblock %}
+
+
+
+
+{% block page_content %}
+		<div id="content" class="content" style="min-height: 100vh; background: url({% static 'COLORADMIN_ADMIN/img/cover/cover-scrum-board.png' %}) no-repeat fixed; background-size: 360px; background-position: right bottom;">
+			<!-- begin breadcrumb -->
+			<ol class="breadcrumb hidden-print float-xl-right">
+				<li class="breadcrumb-item"><a href="javascript:;">홈</a></li>
+				<li class="breadcrumb-item active">청구서</li>
+			</ol>
+			<!-- end breadcrumb -->
+			<!-- begin page-header -->
+			<h1 class="page-header hidden-print">청구서 <small>청구서 발행하기...</small></h1>
+			<!-- end page-header -->
+
+
+			<!-- begin invoice -->
+			<div class="invoice">
+				<!-- begin invoice-company -->
+				<div class="invoice-company">
+					<span class="pull-right hidden-print">
+						<a href="javascript:;" class="btn btn-sm btn-white m-b-10"><i class="fa fa-file-pdf t-plus-1 text-danger fa-fw fa-lg"></i> Export as PDF</a>
+						<a href="javascript:;" onclick="window.print()" class="btn btn-sm btn-white m-b-10"><i class="fa fa-print t-plus-1 fa-fw fa-lg"></i> 프린터</a>
+						<a href="javascript:;" onclick="window.print()" class="btn btn-sm btn-white m-b-10"><i class="fa fa-print t-plus-1 fa-fw fa-lg"></i> CSS</a>
+					</span>
+					{{ APP.company_name }}
+				</div>
+				<!-- end invoice-company -->
+				<!-- begin invoice-header -->
+				<div class="invoice-header">
+					<div class="invoice-from">
+						<small>에게</small>
+						<address class="m-t-5 m-b-5">
+							<strong class="text-inverse">회사이름</strong><br />
+                            480-013<br />
+							경기도 의정부시 의정부동 1-1 1층<br />
+							Phone: (123) 456-7890<br />
+							E-Mail : sale@amoisoo.com
+						</address>
+					</div>
+					<div class="invoice-to">
+						<small>부터</small>
+						<address class="m-t-5 m-b-5">
+							<strong class="text-inverse">회사이름</strong><br />
+                            480-013<br />
+							경기도 의정부시 의정부동 1-1 1층<br />
+							Phone: (123) 456-7890<br />
+							E-Mail : sale@amoisoo.com
+						</address>
+					</div>
+					<div class="invoice-date">
+						<small>청구서 / 7월 기간</small>
+						<div class="date text-inverse m-t-5">2020.08.03</div>
+						<div class="invoice-detail">
+							ID #0000123DSS<br />
+							서비스 프로덕
+						</div>
+					</div>
+				</div>
+				<!-- end invoice-header -->
+				<!-- begin invoice-content -->
+				<div class="invoice-content">
+					<!-- begin table-responsive -->
+					<div class="table-responsive">
+						<table class="table table-invoice">
+							<thead>
+								<tr>
+									<th>작업 설명</th>
+									<th class="text-center" width="10%">비율</th>
+									<th class="text-center" width="10%">시간</th>
+									<th class="text-right" width="20%">총비용</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>
+										<span class="text-inverse">웹 개발</span><br />
+										<small>django 서버개발</small>
+									</td>
+									<td class="text-center">50,000원</td>
+									<td class="text-center">100</td>
+									<td class="text-right">5,000,000원</td>
+								</tr>
+								<tr>
+									<td>
+										<span class="text-inverse">디자인 개발</span><br />
+										<small>웹디자인 작업</small>
+									</td>
+									<td class="text-center">50,000원</td>
+									<td class="text-center">50</td>
+									<td class="text-right">250,000원</td>
+								</tr>
+								<tr>
+									<td>
+										<span class="text-inverse">웹 개발</span><br />
+										<small>django 서버개발</small>
+									</td>
+									<td class="text-center">50,000원</td>
+									<td class="text-center">100</td>
+									<td class="text-right">5,000,000원</td>
+								</tr>
+								<tr>
+									<td>
+										<span class="text-inverse">서버 렌탈</span><br />
+										<small>amazon aws, linux , mysql , python, django </small>
+									</td>
+									<td class="text-center">50,000원</td>
+									<td class="text-center">50</td>
+									<td class="text-right">250,000원</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<!-- end table-responsive -->
+					<!-- begin invoice-price -->
+					<div class="invoice-price">
+						<div class="invoice-price-left">
+							<div class="invoice-price-row">
+								<div class="sub-price">
+									<small>기본금</small>
+									<span class="text-inverse">5,000,000원</span>
+								</div>
+								<div class="sub-price">
+									<i class="fa fa-plus text-muted"></i>
+								</div>
+								<div class="sub-price">
+									<small>세금 (10%)</small>
+									<span class="text-inverse">500,000원</span>
+								</div>
+							</div>
+						</div>
+						<div class="invoice-price-right">
+							<small>총액</small> <span class="f-w-600">5,500,000원</span>
+						</div>
+					</div>
+					<!-- end invoice-price -->
+				</div>
+				<!-- end invoice-content -->
+				<!-- begin invoice-note -->
+				<div class="invoice-note">
+					* 회사수표로 지불하려면<br />
+					* 30일전에 환불<br />
+					* 이 청구서에 문의 사항의 [이름, 전화번호, 이메일] 를 입력하여 메일주세요.
+				</div>
+				<!-- end invoice-note -->
+				<!-- begin invoice-footer -->
+				<div class="invoice-footer">
+					<p class="text-center m-b-5 f-w-600">
+						아모이스
+					</p>
+					<p class="text-center">
+						<span class="m-r-10"><i class="fa fa-fw fa-lg fa-globe"></i> http://amoisoo.com</span>
+						<span class="m-r-10"><i class="fa fa-fw fa-lg fa-phone-volume"></i> T:010-1111-1111</span>
+						<span class="m-r-10"><i class="fa fa-fw fa-lg fa-envelope"></i>{{ APP.mail }}</span>
+					</p>
+				</div>
+				<!-- end invoice-footer -->
+			</div>
+			<!-- end invoice -->
+
+
+
+		</div>
+
+{% endblock %}
+
+
+

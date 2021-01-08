@@ -1,0 +1,78 @@
+{% extends "BOOTSTRAP/base.html" %}
+{% load static i18n %}
+
+{% block body_extra %}{% endblock %}
+
+{% block page_content %}
+
+<a href="{% url 'blog:index' %}"> <h3>Blog List Viewe</h3> </a>
+
+
+{% if user.is_authenticated %}
+
+
+        <ul>
+            <li style="display : inline;"><a href="{% url 'blog:create' %}"> New &nbsp;</a> </li>
+            <li style="display : inline;"><a href="{% url 'blog:search' %}"> search  &nbsp;</a> </li>
+            <li style="display : inline;"><a href="{% url 'blog:archive' %}"> Archive  &nbsp;</a> </li>
+            <li style="display : inline;"><a href="{% url 'accounts:profile' %}"> {{request.user.email}}  &nbsp;</a> </li>
+            <li style="display : inline; "><a href="{% url 'accounts:logout' %}"> 로그아웃 </a> </li>
+        </ul>
+
+
+
+
+
+
+
+            <div align="center">
+                    {% if page_obj.has_previous %}<a href="?page={{ page_obj.previous_page_number }}" > < </a>
+
+                    {% endif %}
+                    {% for page in paginator.page_range %}
+                        {%  if page == page_obj.number   %}
+                            <b>
+                        {% endif %}
+
+
+                        <a href="?page={{ page }}">{{ page }}   </a>
+
+
+                        {%  if page == page_obj.number   %}
+                             </b>
+                        {% endif %}
+
+                    {% endfor %}
+
+                    {% if page_obj.has_next %}<a href="?page={{ page_obj.next_page_number }}" > > </a>{% endif %}
+            </div>
+
+
+                {{ page_obj.number }}중{{ page_obj.paginator.num_pages }}
+
+
+
+        <hr/>
+        {% for object in blogs %}
+
+                 <a href="{% url 'blog:detail'  object.id%}"> {{ object.id  }}  {{ object.title }}</a> &nbsp;&nbsp;
+
+                {% if  object.slug  %}
+                 <a href="{% url 'blog:slug'  object.slug%}"> {{ object.slug }}</a>
+
+                {% endif %}
+
+            <br/>
+
+        {% endfor %}
+        <hr/>
+
+
+
+
+{% else %}
+    <a class="nav-link" href="{% url 'accounts:login' %}">로그인</a>
+{% endif %}
+
+
+{% endblock %}

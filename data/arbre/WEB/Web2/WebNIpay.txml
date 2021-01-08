@@ -1,0 +1,2880 @@
+<Table>
+    <Record ParentIndex="-1" Index="1" Expand="0">
+        <TITLE color="None" background="None">제품 개용 및 특징</TITLE>
+        <ID>1</ID>
+        <ID_SORT>1</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>6ef5a6f1_73e4_426c_ba25_1728518989a2</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>Menu</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:11:45 2018</CREATED>
+        <MODIFED>木 3月 1 07:12:36 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="1" Index="2" Expand="0">
+        <TITLE color="None" background="None">1.1 제품의 개요</TITLE>
+        <ID>4</ID>
+        <ID_SORT>2</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>edfe887a_2b6c_4be5_b69d_d318b7c15d3a</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>INIpay Standard 전자지불 시스템™은 가맹점에서 별도의 모듈 설치(Non-ActiveX)가 없으며, 가상 키보드의 사용으로 기존 보안키보드 등 별도의 보안 프로그램 설치 없이 이용이 가능합니다. 또한 SHA256 Hash 를 통한 위변조 방지와 HTTPS(SSL) 통신을 이용하여 보안이 한층 더 강화된 전자지불 시스템 입니다.
+
+사용자의 PC (Windows, MAC (삼성, 롯데, 현대, NH, 신한)) 환경에 따라 자동으로 웹표준 결제창을 표시하며, 어떠한 브라우저(IE, Chrome, Firefox, Safari 등)에서도 추가적인 설치 없이 원스톱 사용이 가능한 전자 지불 솔루션 입니다.
+
+INIpay Standard 는 기존 INIpayTX 보다 간편하고 안전한, 신뢰성 있는 인터넷 결제를 도와주는 인터넷 지불 솔루션입니다</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:13:47 2018</CREATED>
+        <MODIFED>木 3月 1 07:13:54 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="1" Index="3" Expand="0">
+        <TITLE color="None" background="None">1.2 제품의 특징</TITLE>
+        <ID>5</ID>
+        <ID_SORT>3</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>f76b154b_a5f0_4b86_ad89_981b5d0a642b</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>INIpay Standard 전자지불 시스템™은 가맹점에서 시스템의 언어에 구애받지 않으며, 별도의 모듈 설치가 필요 없습니다. 또한 SHA256 hash, form POST 액션, HTTPS 통신 만을 이용한 연동이 가능합니다.
+
+Any Browser, Any OS 환경에서 이니시스 결제 서비스를 이용할 수 있습니다.(현재 지원 OS : windows, MacOS (삼성, 롯데, 현대, NH, 신한), 추후 확대 예정, 지원브라우저 : IE, Chrome, Firefox, Safari) .
+
+INIpay Standard 는 이니시스 내부시스템에는 웹 표준기술만을 사용하므로 이니시스 자체 ActiveX 프로그램(플래쉬 포함)을 설치하지 않습니다. 하지만 현재 특정 결제수단(카드)은 인증기관(카드사, 은행 등)의 정책으로 인해 별도의 ActiveX 설치가 필요할 수 있습니다. 그러나 차후 원천사에서 웹 표준을 통한 연동 기술을 도입 시 가맹점에서는 새로운 모듈 연동의 필요하지 않으며, 일부 결제요청 전문의 수정만으로 웹표준 서비스를 제공받을 수 있습니다.</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:13:47 2018</CREATED>
+        <MODIFED>木 3月 1 07:13:55 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="1" Index="4" Expand="0">
+        <TITLE color="None" background="None">1.3 지불수단</TITLE>
+        <ID>6</ID>
+        <ID_SORT>4</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>fde3be1f_2292_4266_85c8_35ef4de6ef94</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>INIpay Standard 전자지불 시스템™은 결제의 약 95%를 차지하는 지불수단을 지원합니다.
+
+
+
+신용카드 - 안심클릭, ISP, 비인증 신용카드, 해외 Visa 카드, KPay, 삼성월렛, PayPin
+실시간 계좌이체
+무통장입금(가상계좌)
+휴대폰결제
+포인트
+상품권(문화상품권, 해피머니상품권, 스마트문화상품권)
+전화결제(ARS)
+전자지갑
+신용카드빌링 (빌링키 발급만 가능)
+
+ISP(인터넷안전결제)
+신용카드사에서 인증서를 발급받아 신용카드 번호를 입력하지 않고 본인확인만으로 결제하는 보다 안전한 결제방식입니다. 이용금액은 신용카드와 동일하게 청구됩니다.
+
+자세한 내용은 http://www.virtualcard.co.kr 을 참조하십시오.
+
+
+
+
+실시간 계좌이체
+인터넷 뱅킹과 관련된 파일, 인증서 등이 설치된 PC 에서 인터넷 뱅킹 시스템을 이용하여 계좌이체로 지불하는 방식이며, 금결원에서 제공하는 인증창을 이용하며, 이용금액은 고객의 계좌에서 실시간으로 차감됩니다.
+
+
+무통장입금 (가상계좌)
+고객이 인터넷 쇼핑몰에서 물품 대금의 결제 시 대금입금을 위한 은행계좌번호(예금주 이니시스)를 부여받은 후 해당 가상계좌로 물품대금을 무통장 입금하거나 폰뱅킹, PC 뱅킹 또는 인터넷뱅킹 등을 이용하여 온라인 입금하는 서비스입니다.
+
+(*입금 통보는 별도의 수신데몬모듈 또는 수신 페이지를 사용합니다.)
+
+
+휴대폰 결제
+고객이 지정한 휴대폰으로 인증번호를 발송하여 인증번호를 받아 소액결제가 가능하도록 합니다.
+결제 청구는 휴대폰 요금에 합산되어 청구됩니다.
+(통신사마다 지정한 한도 금액이 정해 있음)
+
+
+포인트 결제 – OK Cashbag
+OK 캐쉬백 회원이 캐쉬백 가맹점에서 상품 또는 서비스를 구매할 때 구매 금액의 일정률을 포인트로 적립해 주며, 상품 구매시 포인트로 결제가 가능합니다.
+
+OK 캐쉬백 카드번호 입력 후 조회된 포인트 잔액으로 단독 결제 및 신용카드 복합 결제가 가능합니다.
+
+포인트 결제 – 삼성 U 포인트
+삼성전자 회원이 삼성전자서비스센터 등에서 상품 또는 서비스를 구매할 때 구매 금액의 일정률을 포인트로 적립해 주며, 상품 구매시 포인트로 결제가 가능합니다.
+삼성 U 포인트 카드번호 입력 후 조회된 포인트 잔액으로 단독 결제 및 신용카드 복합 결제가 가능합니다.
+
+포인트 결제 – GS 포인트
+GS 회원이 GS 계열사 등에서 상품 또는 서비스를 구매할 때 구매 금액의 일정률을 포인트로 적립해 주며, 상품 구매시 포인트로 결제가 가능합니다.
+
+GS 포인트 카드번호 입력 후 조회된 포인트 잔액으로 단독 결제 및 신용카드 복합 결제가 가능합니다.</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:14:33 2018</CREATED>
+        <MODIFED>木 3月 1 07:17:10 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="1" Index="5" Expand="0">
+        <TITLE color="None" background="None">1.4 구조와 결제 처리 흐름</TITLE>
+        <ID>7</ID>
+        <ID_SORT>5</ID_SORT>
+        <DEPTH>1</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>3e3dc583_084e_4931_a293_ea38f92509d5</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>1.4 구조와 결제 처리 흐름
+
+
+1.4.1 결제요청
+
+
+
+가맹점에서 SHA256 Hash 를 이용하여 위변조 방지를 포함한 결제데이터를 생성합니다.
+
+결제페이지에서 제공되는 스크립트를 Import 한 후 결제요청 스크립트를 실행하면 스크립트에 의해서 form 데이터를 INIpay Standard 로 HTTPS(SSL) Post 액션을 발생시켜 결제요청 데이터로 보냅니다.
+
+이니시스는 결제요청을 받아 사용자의 디바이스에 따른 결제창을 표시하고 사용자가 결제(인증)를 진행할 수 있도록 합니다.
+
+인증이 완료되면 인증결과 파라미터를 가맹점 결과페이지로 POST 요청합니다.
+
+수신한 인증결과에서 인증키(authToken)와 hash 한 signature 를 인증결과에 함께 수신한 승인 API Url(authUrl)로 “HTTPS API request”를 통해서 승인 요청합니다.
+리턴된 승인결과를 가맹점에 표시합니다.</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:14:33 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="-1" Index="6" Expand="0">
+        <TITLE color="None" background="None">설치</TITLE>
+        <ID>2</ID>
+        <ID_SORT>6</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>4f80bf9e_0ade_4ce7_88bf_a8ff9f436b14</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>Menu</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:12:38 2018</CREATED>
+        <MODIFED>木 3月 1 07:12:40 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="6" Index="7" Expand="0">
+        <TITLE color="None" background="None">2.1 설치 가능한 운영체제</TITLE>
+        <ID>8</ID>
+        <ID_SORT>7</ID_SORT>
+        <DEPTH>6</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>6cb322b9_db4d_460e_aac1_985f2e2fd404</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>Java, php, asp.net 등 HTTPS 통신이 가능한 웹서버 환경의 모든 운영체제에서 사용이 가능합니다.
+
+* 다만, 개인용 PC 에서는 운영을 권장하지 않습니다.</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:14:45 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="6" Index="8" Expand="0">
+        <TITLE color="None" background="None">2.2 소프트웨어 요구사항</TITLE>
+        <ID>9</ID>
+        <ID_SORT>8</ID_SORT>
+        <DEPTH>6</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>6e1e470d_c651_43cd_aea7_21dd8f993c23</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>Web Server
+
+웹서버 (또는 웹 컨테이너)
+* SHA256 Hash 값의 생성 / httpClient(http Background) 통신이 가능한 웹서버
+
+
+
+
+DBMS
+거래내역 및 처리결과를 데이터베이스에 저장하길 원하신다면, 데이터베이스 소프트웨어가 별도로 필요합니다.
+* INIpay Standard 는 데이터베이스 연동 작업을 위한 기능이 포함되어 있지 않습니다.
+
+(데이터베이스 연동을 위한 지불 결과 데이터만 제공).
+
+
+
+
+소스버젼
+1. PHP 4.3.4 이상
+2. JAVA 1.5 이상</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:14:45 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="6" Index="9" Expand="0">
+        <TITLE color="None" background="None">2.3 하드웨어 요구사항</TITLE>
+        <ID>10</ID>
+        <ID_SORT>9</ID_SORT>
+        <DEPTH>6</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>17869f65_93f0_4b3d_acdf_96ffaa2c4bf0</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>일반적인 서버 운영체제의 운용환경에 준하며, 특별한 하드웨어 요구사항은 없습니다.</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:14:45 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="6" Index="10" Expand="0">
+        <TITLE color="None" background="None">2.4 방화벽 설정</TITLE>
+        <ID>11</ID>
+        <ID_SORT>10</ID_SORT>
+        <DEPTH>6</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>3036f980_519f_4a7b_80b4_715b7131f2ae</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>이용 가맹점 서버 앞에 방화벽이 있는 경우 반드시 결제승인, 결제취소에 대한 통신이 가능하도록 방화벽 설정을 해야 합니다.
+
+
+결제 인증
+
+연결대상 : https://stdpay.inicis.com
+프로토콜 : HTTPS
+포트번호 : 443
+연결방향 : INBOUND, OUTBOUND
+
+
+
+
+결제승인
+
+연결대상
+https://fcstdpay.inicis.com
+https://drstdpay.inicis.com
+https://ksstdpay.inicis.com
+
+프로토콜 : HTTPS
+포트번호 : 443
+연결방향 : INBOUND, OUTBOUND
+
+
+
+
+
+결제취소
+
+연결대상 : 203.238.37.3, 211.219.96.180, 39.115.212.10
+프로토콜 : TCP
+포트번호 : 34049, 9102
+연결방향 : OUTBOUND</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:14:45 2018</CREATED>
+        <MODIFED>木 3月 1 07:20:13 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="6" Index="11" Expand="0">
+        <TITLE color="None" background="None">2.5 샘플소스</TITLE>
+        <ID>12</ID>
+        <ID_SORT>11</ID_SORT>
+        <DEPTH>6</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>223c0d49_3108_4d20_b15e_bb17cb5fb87d</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>샘플소스는 가맹점의 환경에 맞도록 수정하여 사용할 수 있습니다.
+
+INIpay Standard 는 표준 웹 통신만을 사용합니다.
+
+결제요청시에는 페이지이동(Form POST Action), API 통신시에는 httpClient 통신을 이용합니다.
+
+* HTTPS API Request(httpClient 통신)
+
+통해서 웹페이지를 요청후 그 결과를 수신
+
+= httpClient 등의 http Background 통신이 가능한 유틸을
+
+본 샘플소스에는 통신에 대한 별도의 로그(Log) 기능이 존재하지 않습니다.
+
+가맹점에서 환경에 맞게 로그를 개발하시기 바랍니다.
+
+
+INIStdPayRequest.xxx
+결제요청 샘플페이지
+
+INIStdPayBill.xxx
+신용카드 빌링 샘플페이지
+
+popup.xxx
+결제창을 팝업으로 표시할 때 사용 (권장하지 않음)
+
+close.xxx
+결제창(팝업,오버레이)을 닫을 때 사용 (수정금지)
+
+INIStdPayReturn.xxx
+결제 인증결과 수신 / 승인요청 API 연동 샘플페이지
+
+INIStdCancel.xxx
+결제 취소 페이지
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:14:46 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="6" Index="12" Expand="0">
+        <TITLE color="None" background="None">2.5.1 Java</TITLE>
+        <ID>13</ID>
+        <ID_SORT>12</ID_SORT>
+        <DEPTH>6</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>b6f14c41_5e93_47c2_a1d7_3c96403df70a</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>2.5.1 Java
+
+INIStdweb_JAVA.zip 의 압축을 풀어 설치합니다. 이때 설치 절대 경로를 확인합니다. INIStdweb 결제 연동 프로그램은 다음과 같이 파일과 디렉터리가 생성됩니다.
+
+WenContent 이하 소스를 웹 Root 아래 넣고 이를 참고해 결제 모듈을 연동합니다.</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:14:46 2018</CREATED>
+        <MODIFED>木 3月 1 07:23:03 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="6" Index="13" Expand="0">
+        <TITLE color="None" background="None">2.5.2 ASP.net</TITLE>
+        <ID>14</ID>
+        <ID_SORT>13</ID_SORT>
+        <DEPTH>6</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>65f51a6f_e579_45a4_8951_a520ef5ffce4</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>2.5.2 ASP.net
+
+INIStdweb_ASP.zip 의 압축을 풀어 설치합니다. 이때 설치 절대 경로를 확인합니다. INIStdweb 결제 연동 프로그램은 다음과 같이 파일과 디렉터리가 생성됩니다.</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:14:46 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="6" Index="14" Expand="0">
+        <TITLE color="None" background="None">2.5.3 ASP</TITLE>
+        <ID>15</ID>
+        <ID_SORT>14</ID_SORT>
+        <DEPTH>6</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>8bd07c38_403d_4312_b3c6_fabbda77ef0a</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>2.5.3 ASP
+
+INIStdweb_ASP_Sample_v1.x.zip 의 압축을 풀어 설치합니다. 이때 설치 절대 경로를 확인합니다. INIStdweb 결제 연동 프로그램은 다음과 같이 파일과 디렉터리가 생성됩니다.</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:14:47 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="6" Index="15" Expand="0">
+        <TITLE color="None" background="None">2.5.4 PHP</TITLE>
+        <ID>16</ID>
+        <ID_SORT>15</ID_SORT>
+        <DEPTH>6</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>ffd8ea8a_094b_4b5a_858a_13a5d56aa20c</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>
+libs:
+INIpay 암복호화 및 결제에서 사용하는 library 파일.
+
+
+INIStdPaySample:
+HTML, PHP Sample 이 위치하는 폴더입니다.
+
+
+key
+각종 키파일이 위치합니다. 이 파일들은 데이터 암복호화 및 서명에 사용됩니다.
+
+Log
+날짜별 로그가 저장되는 폴더입니다. log 로 쓰기 권한을 주시기 바랍
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:14:47 2018</CREATED>
+        <MODIFED></MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="6" Index="16" Expand="0">
+        <TITLE color="None" background="None">2.6 파일 / 디렉터리 권한</TITLE>
+        <ID>17</ID>
+        <ID_SORT>16</ID_SORT>
+        <DEPTH>6</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>20e1b17f_957f_4f94_9965_4310e83476c8</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>Window 계열 운영체제는 IUSR_HOSTNAME 이라는 계정이 존재합니다.
+
+아래와 같이 권한을 조정해주십시오.
+
+해당 폴더 선택, 마우스 오른버튼 클릭 후 “등록정보”(XP 는 “속성”)->”보안”탭
+설치경로/key 와 /log 하위폴더/파일
+
+- IUSR_HOSTNAME 이 접근/읽기/쓰기 권한을 가지도록 조정
+
+
+
+
+
+UNIX/LINUX 계열 운영체제는 다음과 같은 접근 권한을 설정을 합니다.
+설치경로/key 와 /log 하위 폴더/파일
+
+- Chmod –R 777 key(log) 접근/읽기/쓰기 권한을 가지도록 조정
+
+
+
+
+
+설치 Directory 는 절대 Web 으로 접근할 수 있는 경로에 설치하지
+
+마십시오.
+
+Sample 폴더가 Web 접근 폴더에 위치하는 것은 관계 없으나, 그외 폴더(key,log) 는 보안상 절대 Web 을 통해서 접근하도록 허용하지 마십시오.
+
+그리고 key 와 log 디렉터리는 동일한 경로에 위치하도록 설정합니다.
+
+예) www 폴더 하위, public_html 폴더 하위</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:14:48 2018</CREATED>
+        <MODIFED>木 3月 1 07:24:30 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="6" Index="17" Expand="0">
+        <TITLE color="None" background="None">2.7 승인 테스트</TITLE>
+        <ID>18</ID>
+        <ID_SORT>17</ID_SORT>
+        <DEPTH>6</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>acb4b5fe_7b25_4ad3_922c_8ea93e023020</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>웹 브라우저에서 http://127.0.0.1/INIStdPaySample/INIStdPayRequest.xxx 페이지를 호출합니다.
+- Ie11 의 경우 localhost 로 진행할 경우 팝업창의 문제가 발생 할 수 있음
+
+승인 테스트를 위해 필수 값 및 기본 옵션 값을 매뉴얼을 참조 후 확인 후 결제 요청 버튼을 누릅니다.
+
+설치 과정 없이 지불 방법을 선택 후 필요한 정보를 기입하고 “확인”을 눌러 진행합니다. (해당 사이트 팝업을 사용으로 하지 않을 시 초기화면으로 로딩 될 수 있습니다. )
+
+지불 과정중 필요에 따라 추가적인 모듈을 다운로드 하는 경우도 있습니다. 정상적으로 지불결과 메시지가 나타나는지 확인하십시오.
+
+
+
+취소/조회 테스트를 위해 거래번호(TID)를 기록해 두십시오.</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:25:19 2018</CREATED>
+        <MODIFED>木 3月 1 07:25:30 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="-1" Index="18" Expand="0">
+        <TITLE color="None" background="None">결제 연동</TITLE>
+        <ID>3</ID>
+        <ID_SORT>18</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>ed683edf_ca65_448d_b57b_c522bce869f8</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>Menu</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:12:38 2018</CREATED>
+        <MODIFED>木 3月 1 07:32:17 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="18" Index="19" Expand="0">
+        <TITLE color="None" background="None">3.1 결제 요청 페이지 작성(INIStdPayRequest)</TITLE>
+        <ID>19</ID>
+        <ID_SORT>19</ID_SORT>
+        <DEPTH>18</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>3ad8cc30_2e12_457e_9891_4eb8c8eb0ffa</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>별도의 메뉴에 할애한다
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>True</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:27:09 2018</CREATED>
+        <MODIFED>木 3月 1 07:27:14 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="18" Index="20" Expand="0">
+        <TITLE color="None" background="None">3.2 실시간 신용카드 빌링 서비스 작성 (INIStdPayBill)</TITLE>
+        <ID>20</ID>
+        <ID_SORT>20</ID_SORT>
+        <DEPTH>18</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>336dd60d_80aa_460a_aa80_a71a7dc4c707</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>영수증 서비즈 인듯?
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:28:26 2018</CREATED>
+        <MODIFED>木 3月 1 07:28:30 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="18" Index="21" Expand="0">
+        <TITLE color="None" background="None">3.2.1 실시간 빌링 서비스 조건</TITLE>
+        <ID>21</ID>
+        <ID_SORT>21</ID_SORT>
+        <DEPTH>18</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>640a5b6b_38d7_4698_a739_099eff71fdbf</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>1. 반드시 실시간 빌링서비스 업체로 당사에 등록
+
+2. 실시간 빌링 가능 카드 (2016 년 8 월 기준)
+- 롯데, 삼성, 신한, 현대, 국민, 비씨 NH, 하나 SK, 씨티
+- 당사는 씨티카드와 직접적인 가맹점 계약인 되어 있지 않음
+
+3. 신용카드 본인인증 트랜잭션 처리 후 전달 받은 BillingKey 를 실시간 빌링 요청(TX 사용) 시 전송해야만 빌링 가능.
+- BillingKey 를 이용한 실시간 빌링 요청은 TX 모듈과 연동하여 처리합니다. 기존 TX 모듈을 그대로 활용 가능합니다.</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:28:44 2018</CREATED>
+        <MODIFED>木 3月 1 07:28:46 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="18" Index="22" Expand="0">
+        <TITLE color="None" background="None">3.2.2 빌링키 발급 테스트</TITLE>
+        <ID>22</ID>
+        <ID_SORT>22</ID_SORT>
+        <DEPTH>18</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>db197211_3ebb_4e78_9979_d307e192b01c</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>빌링 가능한 mid 설정
+
+String mid= " INIBillTst"; // 가맹점 ID(가맹점 수정후 고정)
+
+// 가맹점에 제공된 웹 표준 사인키(가맹점 수정후 고정)
+
+String signKey= "SU5JTElURV9UUklQTEVERVNfS0VZU1RS";
+
+
+
+
+acceptmethod
+BILLAUTH
+빌링 결제 구분
+[String] "BILLAUTH(card)"
+신용카드 빌링 결제를 제공한다.
+
+
+더 추가할 것.
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>True</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:28:44 2018</CREATED>
+        <MODIFED>木 3月 1 07:28:49 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="18" Index="23" Expand="0">
+        <TITLE color="None" background="None">3.3 에스크로 결제</TITLE>
+        <ID>23</ID>
+        <ID_SORT>23</ID_SORT>
+        <DEPTH>18</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>27615bb8_a59d_49bd_8e04_cd065bf94393</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>웹 표준 결제(INIpay_Standard)는 에스크로 결제 및 구매 확인만 지원 합니다.
+
+배송 등록, 결제 취소, 거절 확인, 현금 영수증 페이지는 TX5(이니에스크로) 모듈로 진행 되므로
+
+INIpay_V.5.0_INIescrow 매뉴얼(언어별)과 함께 참고하여 개발 진행 부탁드립니다.
+
+(2016.09.29 기준)</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:29:00 2018</CREATED>
+        <MODIFED>木 3月 1 07:29:01 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="18" Index="24" Expand="0">
+        <TITLE color="None" background="None">3.3.1 에스크로 결제 요청 연동(INIstdPayRequest)</TITLE>
+        <ID>24</ID>
+        <ID_SORT>24</ID_SORT>
+        <DEPTH>18</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>8c63edfe_ec77_4c11_80e8_965add2a63fe</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>3.1 참조 하여 결제 페이지 작성
+신용카드 , 실시간 계좌이체, 무통장입금(가상계좌)
+
+
+
+신에스크로 서비스의 경우 에스크로 서비스를 이용하시려면 결제요청페이지(INIstdPayRequest.xxx)안에 accepmethod 의 value 를 useescrow 로 추가하셔야 합니다. 값을 추가하지 않을 경우 일반 결제로 진행됩니다. (값을 고정으로 할 경우 일반/에스크로 고정으로 발생. 사용자 선택사항 - check box 등 - 으로 제공시 사용자가 선택한 방법으로 결제 진행)
+
+예) &lt;input type=hidden name=acceptmethod value="SKIN(ORIGINAL):HPP(1): useescrow "></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:29:00 2018</CREATED>
+        <MODIFED>木 3月 1 07:29:06 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="18" Index="25" Expand="0">
+        <TITLE color="None" background="None">3.3.2 에스크로 구매 확인 연동(INIescrow_confirm)</TITLE>
+        <ID>25</ID>
+        <ID_SORT>25</ID_SORT>
+        <DEPTH>18</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>c0814702_052a_4dc1_8be0_0c2a28333de3</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>에스크로 샘플에서만 제공 합니다.(웹 표준 결제 샘플 미제공)
+
+이니에스크로 구매확인은 고객이 결제를 완료하고, 배송등록이 이뤄진 상태에서 설정가능하며, 구매자가 구매확정 또는 구매거절을 선택합니다.
+
+매매보호 서비스에서 소비자가 구매확정은 반드시 필요한 기능입니다.</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>True</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:29:15 2018</CREATED>
+        <MODIFED>木 3月 1 07:29:16 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="18" Index="26" Expand="0">
+        <TITLE color="None" background="None">3.4 리턴 페이지(인증수신/승인 API) 작성(INIStdPayReturn)</TITLE>
+        <ID>26</ID>
+        <ID_SORT>26</ID_SORT>
+        <DEPTH>18</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>eb5d1750_2c07_44e0_b4a4_2f2c7bf8438e</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>작성시 Sample Source 를 참고하여 작성하시기 바랍니다.</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:29:28 2018</CREATED>
+        <MODIFED>木 3月 1 07:29:30 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="18" Index="27" Expand="0">
+        <TITLE color="None" background="None">3.4.1 인증결과 수신</TITLE>
+        <ID>27</ID>
+        <ID_SORT>27</ID_SORT>
+        <DEPTH>18</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>53e628dc_1de4_4380_88e7_cbc94a711148</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>결제창을 통해 인증이 완료되면 인증결과를 가맹점으로 전달 합니다.
+
+인증 결과 데이터 필드는 아래와 같습니다.</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:29:28 2018</CREATED>
+        <MODIFED>木 3月 1 07:29:36 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="18" Index="28" Expand="0">
+        <TITLE color="None" background="None">3.4.2 승인 API 요청</TITLE>
+        <ID>28</ID>
+        <ID_SORT>28</ID_SORT>
+        <DEPTH>18</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>7968ee85_32d0_4774_bea4_a60022d83685</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>인증결과가 성공일때 authUrl 로 HTTPS API Request(httpClient 통신)를 통해 페이지 요청
+
+* HTTPS API Request(httpClient 통신)
+
+= httpClient 등의 http Background 통신이 가능한 유틸을 통해서 웹페이지를 요청후 그 결과를 수신
+
+가맹점 환경에 따른 charset, format 을 지정하여 요청
+
+승인요청은 인증결과 리턴후 5 분이내 이루어져야만 합니다.
+
+결제 승인 요청데이터는 필드는 아래와 같습니다.</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:29:44 2018</CREATED>
+        <MODIFED>木 3月 1 07:29:46 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="18" Index="29" Expand="0">
+        <TITLE color="None" background="None">3.4.3 승인 API 결과(결제완료)</TITLE>
+        <ID>29</ID>
+        <ID_SORT>29</ID_SORT>
+        <DEPTH>18</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>edb0582d_d07c_4a58_9835_1b7ee19a6561</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>승인 요청후 결제결과(responseBody)를 받아 요청타입(format)에 따라서 파싱 후에 내부처리(DB 저장 등) 하시기 바랍니다.
+
+수신시 전송 필드명을 명확히하여 처리하시기 바랍니다. (필드명 대/소문자 구분)
+
+승인에 실패하였을 경우 실패시 전달되는 데이터만 전송됩니다.
+
+결제 수단에 따라 공통필드외 추가적으로 다른 데이터가 전송됩니다.</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>True</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:29:55 2018</CREATED>
+        <MODIFED>木 3月 1 07:29:56 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="18" Index="30" Expand="0">
+        <TITLE color="None" background="None">3.5 Signature 생성</TITLE>
+        <ID>30</ID>
+        <ID_SORT>30</ID_SORT>
+        <DEPTH>18</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>c41e9d5c_81c7_4cb6_a839_ab98f81992a3</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:30:13 2018</CREATED>
+        <MODIFED>木 3月 1 07:30:15 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="18" Index="31" Expand="0">
+        <TITLE color="None" background="None">3.5.1 signature 개요</TITLE>
+        <ID>31</ID>
+        <ID_SORT>31</ID_SORT>
+        <DEPTH>18</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>99590163_4fc3_4953_a3e7_30245294866b</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>결제요청시 등 HTTPS post 요청시 가맹점의 요청이 정상적인 요청인지 여부 / 사용자의 위변조 방지를 위해 일부 데이터를 SHA256 으로 Hash 한 값
+
+
+signature 는 form.submit 시 적용됩니다.
+
+signature 생성은 Sample Source 를 참고하여 작성하시기 바랍니다</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:30:18 2018</CREATED>
+        <MODIFED>木 3月 1 07:30:20 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="18" Index="32" Expand="0">
+        <TITLE color="None" background="None">3.5.2 signature 첨부 대상</TITLE>
+        <ID>32</ID>
+        <ID_SORT>32</ID_SORT>
+        <DEPTH>18</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>c6e396cc_3498_44e2_bb7d_45b368156818</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>INIpay Standard 의 모든 요청
+
+
+결제(인증), 승인 APIsignature 생성 대상 필드(Target)
+
+
+
+모든 요청의 signature 의 생성방법 동일하며, 요청별로 생성 대상 필드가 다름
+* 요청별로 명시된 “signature 생성 대상(Target) 필드”를 참조
+
+
+인증요청(결제요청) : oid, price, timestamp
+→ “[TABLE 1-2] signature 생성 대상(Target) 필드“참조
+
+
+승인요청 : authToken, timestamp
+→ “[TABLE 2-3] 승인요청 signature 생성 대상(Target) 필드” 참조</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:30:19 2018</CREATED>
+        <MODIFED>木 3月 1 07:30:50 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="18" Index="33" Expand="0">
+        <TITLE color="None" background="None">3.5.3 signature 생성 방법</TITLE>
+        <ID>33</ID>
+        <ID_SORT>33</ID_SORT>
+        <DEPTH>18</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>87483d68_a13e_400b_9ecf_daae79afb388</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>위변조 방지를 위한 보안조치로서 필수 체크 데이터를 NVP 방식으로 연결한 데이터를 SHA256 으로 Hash 한 값
+
+* NVP : name and value parameters
+
+ex) name=value&amp;name=value&amp;name=value&amp;name=value
+
+필드 순서유지(알파벳순), 마지막 &amp;는 생략, 공백생략, 모든대상 필드는 Form 에 설정되는 데이터와 동일한 값을 이용</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:30:19 2018</CREATED>
+        <MODIFED>木 3月 1 07:30:53 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="18" Index="34" Expand="0">
+        <TITLE color="None" background="None">3.5.4 signature 생성 샘플(결제요청)</TITLE>
+        <ID>34</ID>
+        <ID_SORT>34</ID_SORT>
+        <DEPTH>18</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>9ca6082f_c968_4806_b4b7_8b967f416791</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>언어별 제공된 라이브러리 소스를 통해서 생성가능합니다.
+
+signature 생성 예
+Target 데이터(signParam)
+oid=INIpayTest_1361252896871&amp;price=1004&amp;&amp;timestamp=1361252896871
+
+Hash 데이터(위 Target 데이터를 SHA256 Hash 한 값)
+ec1e9c63ddad0b81f316ada2e3861e81db5f4f6652d9ff0f255b4cb5499ce893
+
+
+
+
+잘못된 Target 데이터 생성 예
+띄어쓰기 및 &amp; 중복의 경우
+
+원본
+oid=1231231&amp;price=10000&amp; &amp;timestamp=1335247243103
+
+수정
+oid=1231231&amp;price=10000&amp;timestamp=1335247243103
+
+
+
+마지막 &amp;가 붙는 경우
+원본
+oid=1231231&amp;price=10000&amp;timestamp=1335247243103&amp;
+
+수정
+oid=1231231&amp;price=10000&amp;timestamp=1335247243103</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>True</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:31:01 2018</CREATED>
+        <MODIFED>木 3月 1 07:31:02 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="18" Index="35" Expand="0">
+        <TITLE color="None" background="None">3.6 결제취소 페이지 작성 (INIStdCancel)</TITLE>
+        <ID>35</ID>
+        <ID_SORT>35</ID_SORT>
+        <DEPTH>18</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>6090b144_22b8_429f_a83b_77d9d8c4f7cd</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>결제승인 거래 또는 현금영수증 발급요청 거래에 대한 취소처리를 수행합니다.
+
+TX 모듈을 이용한 취소를 제공합니다. 이니시스 TX 모듈을 설치해 사용하는 가맹점은 추가로 설치할 필요가 없습니다.</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:31:13 2018</CREATED>
+        <MODIFED>木 3月 1 07:47:26 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="18" Index="36" Expand="0">
+        <TITLE color="None" background="None">3.7 승인취소 요청 페이지(INIStdCancel.html)</TITLE>
+        <ID>36</ID>
+        <ID_SORT>36</ID_SORT>
+        <DEPTH>18</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>20c5694c_bbe4_4a3a_9442_1dbc39d0fdd9</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>INIStdCancel.html “mid” hidden 필드 정보를 상점아이디로 변경/설정 합니다.
+
+취소 요청시 입력되는 정보는 거래아이디(tid), 상점아이디(mid), 취소사유(msg) 필드 정보이며,
+
+“tid” 필드 값은 취소 요청시 마다 바뀌며, “mid” 필드 값은 사용중인 상점아이디 값을 설정합니다.
+
+“msg” 필드 정보는 차후 취소 원인을 확인 하기 위한 이력 정보이므로, 입력하는 것을 권장합니다.</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:31:13 2018</CREATED>
+        <MODIFED>木 3月 1 07:31:35 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="18" Index="37" Expand="0">
+        <TITLE color="None" background="None">3.8 승인취소 및 결과확인 페이지</TITLE>
+        <ID>37</ID>
+        <ID_SORT>37</ID_SORT>
+        <DEPTH>18</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>903ea3ee_5703_464b_95cd_bfbb71038e03</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>제공된 샘플소스 INIStdCance.xxxl 를 참고 바랍니니다.
+
+키패스워드를 잊었을 경우는 키파일 재발급을 요청합니다. 키패스워드는 상점에서 확인/관리되는 정보입니다. (이메일로 전달받은 키파일에 포함된 readme.txt 파일에서도 확인.)
+
+참고로, 키파일과 키패스워드를 모두 확인할 수 없는 상황에서는 [이니시스 영업지원]으로 키파일 재발급 요청을 합니다.
+
+
+거래아이디(TID)는 “지불실패”
+
+시에도 반환됩니다.
+
+즉, 거래 성공시에만 반환되는 것이 아닙니다.</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:31:14 2018</CREATED>
+        <MODIFED>木 3月 1 07:31:54 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="-1" Index="38" Expand="0">
+        <TITLE color="None" background="None">결제 연동</TITLE>
+        <ID>38</ID>
+        <ID_SORT>38</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>47db69ab_3113_4aa4_a144_ae319bdb4989</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>Menu</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:32:15 2018</CREATED>
+        <MODIFED>木 3月 1 07:32:18 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="-1" Index="39" Expand="0">
+        <TITLE color="None" background="None">별첨</TITLE>
+        <ID>39</ID>
+        <ID_SORT>39</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>913087ed_e401_4cf2_821a_043ad3f5cf1e</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>Menu</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA></DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:32:21 2018</CREATED>
+        <MODIFED>木 3月 1 07:32:24 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="39" Index="40" Expand="0">
+        <TITLE color="None" background="None">A.1. 결제수단코드(gopaymethod)</TITLE>
+        <ID>40</ID>
+        <ID_SORT>40</ID_SORT>
+        <DEPTH>39</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>c7d12f4f_0b92_4b32_9591_997f4d53ef91</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>신용카드
+Card
+
+실시간계좌이체
+DirectBank
+
+OKCashbag 포인트
+OCBPoint
+
+핸드폰
+HPP
+
+무통장입금(가상계좌)
+VBank
+
+폰빌, 전화결제
+PhoneBill
+
+문화상품권결제
+Culture
+
+스마트문상 결제
+DGCL
+
+틴캐시
+TeenCash
+
+도서문화상품권
+Bcsh
+
+해피머니상품권
+HPMN
+
+엘로페이
+YPAY
+
+케이페이
+Kpay
+
+페이핀
+Paypin
+
+간편결제
+EasyPay
+
+전자지갑
+EWallet
+
+포인트
+POINT
+
+상품권
+GiftCard</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:32:25 2018</CREATED>
+        <MODIFED>木 3月 1 07:32:29 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="39" Index="41" Expand="0">
+        <TITLE color="None" background="None">A.2. 결제수단코드(payMethod)</TITLE>
+        <ID>41</ID>
+        <ID_SORT>41</ID_SORT>
+        <DEPTH>39</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>5eb5f0b5_c944_4f7c_add7_32cd980c68b8</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>신용카드(ISP)
+VCard
+
+신용카드(안심클릭)
+Card
+
+OK캐쉬백 포인트
+OCBPoint
+
+GS&amp;POINT
+GSPT
+
+삼성 U-point
+UPNT
+
+실시간계좌이체(K계좌이체)
+DirectBank
+
+실시간계좌이체(I계좌이체)
+iDirectBank
+
+휴대폰
+HPP
+
+무통장입금(가상계좌)
+VBank
+
+폰빌전화결제
+PhoneBill
+
+문화상품권
+Culture
+
+틴캐쉬
+TeenCash
+
+스마트문화상품권
+DGCL
+
+도서문화상품권
+BCSH
+
+해피머니상품권
+HPMN
+
+옐로페이
+YPAY
+
+뱅크월렛
+EWallet
+
+신용카드빌링키발급
+Auth</NOTE>
+        <CODE>신용카드(ISP)
+
+신용카드(안심클릭)
+
+OK캐쉬백 포인트
+
+GS&amp;POINT
+
+삼성 U-point
+
+실시간계좌이체(K계좌이체)
+
+실시간계좌이체(I계좌이체)
+
+휴대폰
+
+무통장입금(가상계좌)
+
+폰빌전화결제
+
+문화상품권
+
+틴캐쉬
+
+스마트문화상품권
+
+도서문화상품권
+
+해피머니상품권
+
+옐로페이
+
+뱅크월렛
+
+신용카드빌링키발급
+
+키워드
+
+VCard
+
+Card
+
+OCBPoint
+
+GSPT
+
+UPNT
+
+DirectBank
+
+iDirectBank
+
+HPP
+
+VBank
+
+PhoneBill
+
+Culture
+
+TeenCash
+
+DGCL
+
+BCSH
+
+HPMN
+
+YPAY
+
+EWallet
+
+Auth</CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:32:25 2018</CREATED>
+        <MODIFED>木 3月 1 07:32:36 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="39" Index="42" Expand="0">
+        <TITLE color="None" background="None">A.3. 카드사 승인코드</TITLE>
+        <ID>42</ID>
+        <ID_SORT>42</ID_SORT>
+        <DEPTH>39</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>54bee35d_6e80_40f6_8ece_cc5014c5cd9f</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>01
+하나(외한)
+
+03
+롯데
+
+04
+현대
+
+06
+국민
+
+11
+BC
+
+12
+삼성
+
+14
+신한
+
+15
+한미
+
+16
+NH
+
+17
+하나카드
+
+21
+해외비자
+
+22
+해외마스터
+
+23
+JCB
+
+24
+해외아멕스
+
+25
+해외다이너스</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:32:25 2018</CREATED>
+        <MODIFED>木 3月 1 07:32:42 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="39" Index="43" Expand="0">
+        <TITLE color="None" background="None">A.4. 카드사코드(결제창 호출시 제어코드)</TITLE>
+        <ID>43</ID>
+        <ID_SORT>43</ID_SORT>
+        <DEPTH>39</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>e8434ac4_7a66_4534_afd8_916bdeda031f</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>01
+하나(외환)
+
+03
+롯데
+
+04
+현대
+
+06
+국민
+
+11
+BC
+
+12
+삼성
+
+14
+신한
+
+21
+해외 VISA
+
+22
+해외마스터
+
+23
+해외 JCB
+
+26
+중국은련
+
+32
+광주
+
+33
+전북
+
+34
+하나
+
+35
+산업카드
+
+41
+NH
+
+43
+씨티
+
+44
+우리
+
+48
+신협체크
+
+51
+수협
+
+52
+제주
+
+54
+MG새마을금고체크
+
+55
+케이뱅크
+
+56
+카카오뱅크
+
+71
+우체국체크
+
+95
+저축은행체크</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:32:26 2018</CREATED>
+        <MODIFED>木 3月 1 07:32:48 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="39" Index="44" Expand="0">
+        <TITLE color="None" background="None">A.5. 카드 발급사(은행) 코드</TITLE>
+        <ID>44</ID>
+        <ID_SORT>44</ID_SORT>
+        <DEPTH>39</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>ead18fd6_58aa_49bc_8827_86705bf24b75</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>02
+한국산업은행
+
+03
+기업은행
+
+04
+국민은행
+
+05
+하나은행 (구외환)
+
+06
+국민은행 (구 주택)
+
+07
+수협중앙회
+
+11
+농협중앙회
+
+12
+단위농협
+
+16
+축협중앙회
+
+20
+우리은행
+
+21
+신한은행 (조흥은행)
+
+23
+제일은행
+
+25
+하나은행 (서울은행)
+
+26
+신한은행
+
+27
+한국씨티은행 (한미은행)
+
+31
+대구은행
+
+32
+부산은행
+
+34
+광주은행
+
+35
+제주은행
+
+37
+전북은행
+
+38
+강원은행
+
+39
+경남은행
+
+41
+비씨카드
+
+53
+씨티은행
+
+54
+홍콩상하이은행
+
+71
+우체국
+
+81
+하나은행
+
+83
+평화은행
+
+87
+신세계
+
+88
+신한은행(조흥 통합)
+
+97
+카카오 머니
+
+98
+페이코 (포인트 100% 사용)</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:32:26 2018</CREATED>
+        <MODIFED>木 3月 1 07:32:54 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="39" Index="45" Expand="0">
+        <TITLE color="None" background="None">A.6. 은행(증권사) 코드</TITLE>
+        <ID>45</ID>
+        <ID_SORT>45</ID_SORT>
+        <DEPTH>39</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>4d9055c1_482f_4fb4_8f77_8141a6169deb</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>02
+한국산업은행
+
+03
+기업은행
+
+04
+국민은행
+
+05
+하나은행 (구 외환)
+
+06
+국민은행 (구 주택)
+
+07
+수협중앙회
+
+11
+농협중앙회
+
+12
+단위농협
+
+16
+축협중앙회
+
+20
+우리은행
+
+21
+구)조흥은행
+
+22
+상업은행
+
+23
+SC제일은행
+
+24
+한일은행
+
+25
+서울은행
+
+26
+구)신한은행
+
+
+
+
+
+
+
+
+
+
+더 추가할 것
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:33:02 2018</CREATED>
+        <MODIFED>木 3月 1 07:33:03 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="39" Index="46" Expand="0">
+        <TITLE color="None" background="None">A.7. 카드 이벤트 적용 코드</TITLE>
+        <ID>46</ID>
+        <ID_SORT>46</ID_SORT>
+        <DEPTH>39</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>2a579073_6bfe_4ea5_a75d_438a1f1bf5cf</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>1
+당사&amp;카드사부담 일반 무이자 할부 이벤트
+
+12
+카드사부담 일반 무이자 + 상점 일반 할인 이벤트
+
+14
+카드사부담 일반 무이자 + 카드번호별 할인 이벤트
+
+24
+카드사부담 일반 무이자 + 카드 Prefix별 할인 이벤트
+
+A1
+상점부담 일반 무이자 할부 이벤트
+
+A2
+상점 일반 할인 이벤트
+
+A3
+상점 무이자 + 상점 일반 할인 이벤트
+
+A4
+상점 무이자 + 카드번호별 할인 이벤트
+
+A5
+카드번호별 할인 이벤트
+
+B4
+상점 무이자 + 카드 Prefix별 할인 이벤트
+
+B5
+카드 Prefix별 할인 이벤트
+
+C0
+당사&amp;카드사부담 특별 무이자 할부 이벤트
+
+C1
+상점부담 특별 무이자 할부 이벤</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:33:11 2018</CREATED>
+        <MODIFED>木 3月 1 07:33:13 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="39" Index="47" Expand="0">
+        <TITLE color="None" background="None">A.8. 인증 결과코드</TITLE>
+        <ID>47</ID>
+        <ID_SORT>47</ID_SORT>
+        <DEPTH>39</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>4f5e7804_eb20_4923_a831_e5f4c0156eb9</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>해당 코드는 참조용으로, 모든 에러코드에 대한 명시되 있지 않으며, 언제든이 변경될 수 있습니다.
+* 소스에 코딩하지 마시기 바랍니다.
+
+인증성공
+
+0000
+성공
+정상적으로 결제창을 통해 인증이 완료된 경우(승인요청 가능)
+
+
+인증실패 기타
+
+
+
+V000 ~ V099
+결제 요청 실패
+필수 파라미터 누락, 규칙에 맞지 않는 파라미터, 주문번호 중복 등
+
+
+
+V100 ~ V199
+결제창 표시 실패
+표시가능 결제수단 없음 등
+
+V200 ~ V299
+인증완료후 실패
+인증완료후 가맹점 인증결과 전송중 실패 등
+
+V800 ~ V899
+결제 종료
+사용자 취소, 결제 요청 시간 초과, 위변조 시 등
+
+R900 ~ V999
+기타
+예상치 못한 실패 등
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:33:19 2018</CREATED>
+        <MODIFED>木 3月 1 07:33:22 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="39" Index="48" Expand="0">
+        <TITLE color="None" background="None">A.9. 승인 결과코드</TITLE>
+        <ID>48</ID>
+        <ID_SORT>48</ID_SORT>
+        <DEPTH>39</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>cba04741_936d_485f_b451_78afa4e1ee1b</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>plain</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5461626c652f3e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>해당 코드는 참조용으로, 모든 에러코드에 대한 명시되 있지 않으며, 언제든이 변경될 수 있습니다.
+소스에 코딩하지 마시기 바랍니다.
+
+승인성공
+0000
+정상적으로 승인이 완료된 경우
+
+
+
+
+
+승인 요청전 실패
+
+R100 ~ R199
+승인 요청 실패
+필수 파라미터 누락, 규칙에 맞지 않는 파라미터 등
+
+R200 ~ R299
+승인 처리 불가 실패
+재승인 요청 등
+
+R300 ~ R399
+승인 처리중 실패
+내부 장애 등
+
+R900 ~ R999
+기타
+예상치 못한 실패
+
+
+</NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>木 3月 1 07:33:19 2018</CREATED>
+        <MODIFED>木 3月 1 07:33:26 2018</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+    <Record ParentIndex="-1" Index="49" Expand="0">
+        <TITLE color="None" background="None">KG 이니시스</TITLE>
+        <ID>1</ID>
+        <ID_SORT>49</ID_SORT>
+        <DEPTH>0</DEPTH>
+        <PROTECTION></PROTECTION>
+        <PREFIX></PREFIX>
+        <TABLENAME>6b090926_c371_4967_b8d2_5b0930fd5f4a</TABLENAME>
+        <VISIBLE></VISIBLE>
+        <VIEWLAYOUT></VIEWLAYOUT>
+        <TAG></TAG>
+        <COMPONENTS>File</COMPONENTS>
+        <CONTEXT>TABPAGE</CONTEXT>
+        <CATEGORY></CATEGORY>
+        <SUBTITLE color="#000000" background="#000000"></SUBTITLE>
+        <DATA>3c5363656e653e0a202020203c5441425f5749444745543e0a20202020202020203c434f554e543e323c2f434f554e543e0a20202020202020203c43555252454e545f494e4445583e313c2f43555252454e545f494e4445583e0a20202020202020203c4d4f5641424c453e547275653c2f4d4f5641424c453e0a20202020202020203c434c4f5341424c453e46616c73653c2f434c4f5341424c453e0a20202020202020203c5343524f4c4c425554544f4e3e547275653c2f5343524f4c4c425554544f4e3e0a20202020202020203c53484150453e313c2f53484150453e0a20202020202020203c504f534954494f4e3e303c2f504f534954494f4e3e0a20202020202020203c4155544f484944453e547275653c2f4155544f484944453e0a20202020202020203c444f4355454d4e545f4d4f44453e547275653c2f444f4355454d4e545f4d4f44453e0a202020203c2f5441425f5749444745543e0a202020203c5441425f5749444745545f53455454494e47533e0a20202020202020203c5343454e455f555549443e36623039303932365f633337315f343936375f623864325f3562303933306664356634613c2f5343454e455f555549443e0a20202020202020203c5343454e455f5449544c453e3c2f5343454e455f5449544c453e0a20202020202020203c5343454e455f4e4f54453e3c2f5343454e455f4e4f54453e0a20202020202020203c5343454e455f444f435f545950453e3c2f5343454e455f444f435f545950453e0a20202020202020203c5343454e455f4352454154455f444154453eed99942039ec9b942031372031333a33303a303720323031393c2f5343454e455f4352454154455f444154453e0a20202020202020203c49445f494e4445583e3c2f49445f494e4445583e0a20202020202020203c5345545f43454c4c5f4845494748543e3c2f5345545f43454c4c5f4845494748543e0a20202020202020203c4f55545055545f545950453e313c2f4f55545055545f545950453e0a202020203c2f5441425f5749444745545f53455454494e47533e0a202020203c424f4f4b3e0a20202020202020203c5041474520496e6465783d2231223e0a2020202020202020202020203c494e4445583e313c2f494e4445583e0a2020202020202020202020203c544558543e546578743c2f544558543e0a2020202020202020202020203c444154413e33633533363336353665363533653061323032303230323033633435343434393534346635323566353734393434343734353534336530613230323032303230323032303230323033633435343434393534346635323566353435393530343533653438353434643463336332663435343434393534346635323566353435393530343533653061323032303230323032303230323032303363343434663433356635343539353034353365343636313663373336353363326634343466343335663534353935303435336530613230323032303230323032303230323033633434343135343431356634383534346434633365323636633734336232313434346634333534353935303435323034383534346434633230353035353432346334393433323032323264326632663537333334333266326634343534343432303438353434643463323033343265333032663266343534653232323032323638373437343730336132663266373737373737326537373333326536663732363732663534353232663532343534333264363837343664366333343330326637333734373236393633373432653634373436343232336530613236366337343362363837343664366333653236366337343362363836353631363433653236366337343362366436353734363132303665363136643635336432323731373236393633363837343635373837343232323036333666366537343635366537343364323233313232323032663365323636633734336237333734373936633635323037343739373036353364323237343635373837343266363337333733323233653061373032633230366336393230376232303737363836393734363532643733373036313633363533613230373037323635326437373732363137303362323037643061323636633734336232663733373437393663363533653236366337343362326636383635363136343365323636633734336236323666363437393230373337343739366336353364323232303636366636653734326436363631366436393663373933613237343137323639363136633237336232303636366636653734326437333639376136353361333133333730373433623230363636663665373432643737363536393637363837343361333433303330336232303636366636653734326437333734373936633635336136653666373236643631366333623232336530613236366337343362373032303733373437393663363533643232323036643631373236373639366532643734366637303361333037303738336232303664363137323637363936653264363236663734373436663664336133303730373833623230366436313732363736393665326436633635363637343361333037303738336232303664363137323637363936653264373236393637363837343361333037303738336232303264373137343264363236633666363336623264363936653634363536653734336133303362323037343635373837343264363936653634363536653734336133303730373833623232336536383734373437303733336132663266373737373737326536393665363936333639373332653633366636643236366337343362326637303365323636633734336232663632366636343739336532363663373433623266363837343664366333653363326634343431353434313566343835343464346333653061323032303230323032303230323032303363343434313534343135663534343535383534336536383734373437303733336132663266373737373737326536393665363936333639373332653633366636643363326634343431353434313566353434353538353433653061323032303230323033633266343534343439353434663532356635373439343434373435353433653061323032303230323033633533343334353465343535663533343535343534343934653437353333653061323032303230323032303230323032303363353334333435346534353566353535353439343433653330333833333333333033363334333135663332363333343633356633343339363633303566333936343335333035663334363533333336363633343336363133323334333733393363326635333433343534653435356635353535343934343365306132303230323032303230323032303230336335333433343534653435356635343439353434633435336535343635373837343435363436393734336332663533343334353465343535663534343935343463343533653061323032303230323032303230323032303363353334333435346534353566346534663534343533653363326635333433343534653435356634653466353434353365306132303230323032303230323032303230336335333433343534653435356634343466343335663534353935303435336533633266353334333435346534353566343434663433356635343539353034353365306132303230323032303230323032303230336335333433343534653435356634333532343534313534343535663434343135343435336565643939393432303339656339623934323033313337323033313333336133333330336133323330323033323330333133393363326635333433343534653435356634333532343534313534343535663434343135343435336530613230323032303230323032303230323033633439343435663439346534343435353833653363326634393434356634393465343434353538336530613230323032303230323032303230323033633533343535343566343334353463346335663438343534393437343835343365336332663533343535343566343334353463346335663438343534393437343835343365306132303230323032303230323032303230336334663535353435303535353435663534353935303435336533633266346635353534353035353534356635343539353034353365306132303230323032303363326635333433343534653435356635333435353435343439346534373533336530613230323032303230336334323466343435393266336530613363326635333633363536653635336530613c2f444154413e0a2020202020202020202020203c544f4f4c5f5449503e3c2f544f4f4c5f5449503e0a2020202020202020202020203c57484154535f544849533e54455854454449545f504c41494e3c2f57484154535f544849533e0a2020202020202020202020203c544142454e41424c45443e547275653c2f544142454e41424c45443e0a20202020202020203c2f504147453e0a20202020202020203c5041474520496e6465783d2232223e0a2020202020202020202020203c494e4445583e323c2f494e4445583e0a2020202020202020202020203c544558543e546578743c2f544558543e0a2020202020202020202020203c444154413e33633533363336353665363533653061323032303230323033633435343434393534346635323566353734393434343734353534336530613230323032303230323032303230323033633435343434393534346635323566353435393530343533653438353434643463336332663435343434393534346635323566353435393530343533653061323032303230323032303230323032303363343434663433356635343539353034353365343636313663373336353363326634343466343335663534353935303435336530613230323032303230323032303230323033633434343135343431356634383534346434633365323636633734336232313434346634333534353935303435323034383534346434633230353035353432346334393433323032323264326632663537333334333266326634343534343432303438353434643463323033343265333032663266343534653232323032323638373437343730336132663266373737373737326537373333326536663732363732663534353232663532343534333264363837343664366333343330326637333734373236393633373432653634373436343232336530613236366337343362363837343664366333653236366337343362363836353631363433653236366337343362366436353734363132303665363136643635336432323731373236393633363837343635373837343232323036333666366537343635366537343364323233313232323032663365323636633734336237333734373936633635323037343739373036353364323237343635373837343266363337333733323233653061373032633230366336393230376232303737363836393734363532643733373036313633363533613230373037323635326437373732363137303362323037643061323636633734336232663733373437393663363533653236366337343362326636383635363136343365323636633734336236323666363437393230373337343739366336353364323232303636366636653734326436363631366436393663373933613237343137323639363136633237336232303636366636653734326437333639376136353361333133333730373433623230363636663665373432643737363536393637363837343361333433303330336232303636366636653734326437333734373936633635336136653666373236643631366333623232336530613236366337343362373032303733373437393663363533643232323036643631373236373639366532643734366637303361333037303738336232303664363137323637363936653264363236663734373436663664336133303730373833623230366436313732363736393665326436633635363637343361333037303738336232303664363137323637363936653264373236393637363837343361333037303738336232303264373137343264363236633666363336623264363936653634363536653734336133303362323037343635373837343264363936653634363536653734336133303730373833623232336536383734373437303733336132663266373737373737326536393665363936333639373332653633366636643236366337343362326637303365323636633734336232663632366636343739336532363663373433623266363837343664366333653363326634343431353434313566343835343464346333653061323032303230323032303230323032303363343434313534343135663534343535383534336536383734373437303733336132663266373737373737326536393665363936333639373332653633366636643363326634343431353434313566353434353538353433653061323032303230323033633266343534343439353434663532356635373439343434373435353433653061323032303230323033633533343334353465343535663533343535343534343934653437353333653061323032303230323032303230323032303363353334333435346534353566353535353439343433653334333833393334333533383333363335663338333136323335356633343631333133373566333936323330333835663337333036363635333333343338363436353634333033383363326635333433343534653435356635353535343934343365306132303230323032303230323032303230336335333433343534653435356635343439353434633435336535343635373837343435363436393734336332663533343334353465343535663534343935343463343533653061323032303230323032303230323032303363353334333435346534353566346534663534343533653363326635333433343534653435356634653466353434353365306132303230323032303230323032303230336335333433343534653435356634343466343335663534353935303435336533633266353334333435346534353566343434663433356635343539353034353365306132303230323032303230323032303230336335333433343534653435356634333532343534313534343535663434343135343435336565643939393432303339656339623934323033313337323033313333336133333330336133343330323033323330333133393363326635333433343534653435356634333532343534313534343535663434343135343435336530613230323032303230323032303230323033633439343435663439346534343435353833653363326634393434356634393465343434353538336530613230323032303230323032303230323033633533343535343566343334353463346335663438343534393437343835343365336332663533343535343566343334353463346335663438343534393437343835343365306132303230323032303230323032303230336334663535353435303535353435663534353935303435336533633266346635353534353035353534356635343539353034353365306132303230323032303363326635333433343534653435356635333435353435343439346534373533336530613230323032303230336334323466343435393266336530613363326635333633363536653635336530613c2f444154413e0a2020202020202020202020203c544f4f4c5f5449503e3c2f544f4f4c5f5449503e0a2020202020202020202020203c57484154535f544849533e54455854454449545f504c41494e3c2f57484154535f544849533e0a2020202020202020202020203c544142454e41424c45443e547275653c2f544142454e41424c45443e0a20202020202020203c2f504147453e0a202020203c2f424f4f4b3e0a202020203c5461626c654865616465722f3e0a3c2f5363656e653e0a</DATA>
+        <OPTIONS></OPTIONS>
+        <NOTE>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></NOTE>
+        <CODE></CODE>
+        <CSS></CSS>
+        <LINK></LINK>
+        <SEPARATOR>False</SEPARATOR>
+        <ICON></ICON>
+        <IMAGE></IMAGE>
+        <TODOS></TODOS>
+        <PRIORITY>0</PRIORITY>
+        <STATUS></STATUS>
+        <RATING></RATING>
+        <START></START>
+        <END></END>
+        <DUE></DUE>
+        <ALERT></ALERT>
+        <DATES></DATES>
+        <TIMES></TIMES>
+        <REPEAT></REPEAT>
+        <CREATED>화 9월 17 13:28:59 2019</CREATED>
+        <MODIFED>화 9월 17 13:29:20 2019</MODIFED>
+        <USER></USER>
+        <LOCATION></LOCATION>
+    </Record>
+</Table>
+

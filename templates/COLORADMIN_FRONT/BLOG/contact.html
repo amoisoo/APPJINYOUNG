@@ -1,0 +1,64 @@
+{% extends "COLORADMIN_FRONT/BLOG/base.html" %}
+{% load static i18n %}
+
+{% block body_extra %}{% endblock %}
+
+{% block page_content %}
+					<div class="section-container">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12617.835519807057!2d127.05838090508617!3d37.75583717620598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cc6e5fdf02d3d%3A0x4fa4ed1cadb3e9e9!2zR2V1bW8tZG9uZywg44Km44Kj44K444On44Oz44OW5biCIOOCreODp-ODs-OCrumBkw!5e0!3m2!1sja!2skr!4v1604090227395!5m2!1sja!2skr" allowfullscreen></iframe>
+						</div>
+					</div>
+
+					<!-- end section-container -->
+					<!-- begin section-container -->
+					<div class="section-container">
+						<h4 class="section-title m-b-20"><span>연락</span></h4>
+						<p class="m-b-30">의견이나 문의사항이 있으면 연락주세요.</p>
+						<!-- begin row -->
+						<div class="row row-space-30">
+							<!-- begin col-8 -->
+							<div class="col-md-8">
+								<form class="form-horizontal">
+									<div class="form-group row">
+										<label class="col-form-label col-md-3 text-md-right">이름 <span class="text-danger">*</span></label>
+										<div class="col-md-9"><input type="text" class="form-control"></div>
+									</div>
+									<div class="form-group row">
+										<label class="col-form-label col-md-3 text-md-right">이메일 <span class="text-danger">*</span></label>
+										<div class="col-md-9"><input type="text" class="form-control"></div>
+									</div>
+									<div class="form-group row">
+										<label class="col-form-label col-md-3 text-md-right">메세지 <span class="text-danger">*</span></label>
+										<div class="col-md-9">
+											<textarea class="form-control" rows="10"></textarea>
+										</div>
+									</div>
+									<div class="form-group row">
+										<label class="col-form-label col-md-3 text-md-right"></label>
+										<div class="col-md-9 text-left">
+											<button type="submit" class="btn btn-inverse btn-lg btn-block">메세지 보내기</button>
+										</div>
+									</div>
+								</form>
+							</div>
+							<!-- end col-8 -->
+							<!-- begin col-4 -->
+							<div class="col-md-4">
+								<p>
+									<strong>{{ APP.BLOG.companay }}</strong><br>
+									{{ APP.BLOG.address }}<br>
+									Phone : {{ APP.BLOG.phone }}<br>
+								</p>
+								<p>
+									<span class="phone">{{ APP.BLOG.phone2 }}</span><br>
+									<a href="mailto:{{ APP.BLOG.mail }}">{{ APP.BLOG.mail }}</a>
+								</p>
+							</div>
+							<!-- end col-4 -->
+						</div>
+						<!-- end row -->
+					</div>
+
+
+{% endblock %}

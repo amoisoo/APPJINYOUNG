@@ -1,0 +1,151 @@
+{% load static i18n %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Color Admin | Dashboard</title>
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+	<meta content="" name="description" />
+	<meta content="" name="author" />
+	
+	<!-- ================== BEGIN BASE CSS STYLE ================== -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+	<link href="{% static 'COLORADMIN_ADMIN/css/default/app.min.css' %}" rel="stylesheet" />
+	<!-- ================== END BASE CSS STYLE ================== -->
+	
+	<!-- ================== BEGIN PAGE LEVEL STYLE ================== -->
+
+	<link href="{% static 'COLORADMIN_ADMIN/plugins/datatables.net-bs4/css/dataTables.bootstrap4.min.css' %}"                 rel="stylesheet" />
+	<link href="{% static 'COLORADMIN_ADMIN/plugins/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css' %}"    rel="stylesheet" />
+	<link href="{% static 'COLORADMIN_ADMIN/plugins/datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css' %}"          rel="stylesheet" />
+	<link href="{% static 'COLORADMIN_ADMIN/plugins/datatables.net-autofill-bs4/css/autoFill.bootstrap4.min.css' %}"        rel="stylesheet" />
+	<link href="{% static 'COLORADMIN_ADMIN/plugins/datatables.net-colreorder-bs4/css/colReorder.bootstrap4.min.css' %}"    rel="stylesheet" />
+	<link href="{% static 'COLORADMIN_ADMIN/plugins/datatables.net-keytable-bs4/css/keyTable.bootstrap4.min.css' %}"        rel="stylesheet" />
+	<link href="{% static 'COLORADMIN_ADMIN/plugins/datatables.net-rowreorder-bs4/css/rowReorder.bootstrap4.min.css' %}"    rel="stylesheet" />
+	<link href="{% static 'COLORADMIN_ADMIN/plugins/datatables.net-select-bs4/css/select.bootstrap4.min.css' %}"             rel="stylesheet" />
+
+
+	<!-- ================== END PAGE LEVEL STYLE ================== -->
+</head>
+
+{% if LAYOUT.BOX  %}
+    <body class="boxed-layout">
+{% else %}
+    <body >
+{% endif %}
+
+	<!-- begin #page-loader -->
+	<div id="page-loader" class="fade show">
+		<span class="spinner"></span>
+	</div>
+	<!-- end #page-loader -->
+	
+
+	                                    {% if LAYOUT.NAVI_POSITION == 'TOP' %}
+	<div id="page-container" class="   page-container fade page-sidebar-fixed page-header-fixed page-with-wide-sidebar page-with-top-menu page-without-sidebar">
+
+	                                       {% else %}
+	<div id="page-container" class="   page-container fade page-sidebar-fixed page-header-fixed page-with-wide-sidebar ">
+
+	                                    {% endif %}
+
+
+
+            {% block page_header %}
+                    {% include 'COLORADMIN_ADMIN/COMMON/HEADER.html' %}
+            {% endblock %}
+
+
+
+            {% block page_navi %}
+                {% if LAYOUT.NAVI_POSITION == 'TOP' %}
+                    {% include 'COLORADMIN_ADMIN/COMMON/NAVI_TOP.html' %}
+                {% else %}
+                    {% include '00_sample/coloradmin/page/MENU_SIDE.html' %}
+                {% endif %}
+            {% endblock %}
+
+            <!-- end page container -->
+            {% block page_content %}
+                <div id="content" class="content">
+                    contents
+                </div>
+            {% endblock %}
+
+
+            {% block page_footer %}
+                     {% include 'COLORADMIN_ADMIN/COMMON/FOOTER.html' %}
+            {% endblock %}
+
+    </div>
+	<!-- ================== BEGIN BASE JS ================== -->
+
+
+    <script src="{% static 'COLORADMIN_ADMIN/js/app.min.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/js/theme/default.min.js' %}"></script>
+
+	<!-- ================== END BASE JS ================== -->
+	
+	<!-- ================== BEGIN PAGE LEVEL JS ================== -->
+        {% block javascript_pre %}{% endblock %}
+
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/datatables.net/js/jquery.dataTables.min.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/datatables.net-bs4/js/dataTables.bootstrap4.min.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/datatables.net-responsive/js/dataTables.responsive.min.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/datatables.net-autofill/js/dataTables.autoFill.min.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/datatables.net-autofill-bs4/js/autoFill.bootstrap4.min.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/datatables.net-colreorder/js/dataTables.colReorder.min.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/datatables.net-colreorder-bs4/js/colReorder.bootstrap4.min.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/datatables.net-keytable/js/dataTables.keyTable.min.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/datatables.net-keytable-bs4/js/keyTable.bootstrap4.min.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/datatables.net-rowreorder/js/dataTables.rowReorder.min.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/datatables.net-rowreorder-bs4/js/rowReorder.bootstrap4.min.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/datatables.net-select/js/dataTables.select.min.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/datatables.net-select-bs4/js/select.bootstrap4.min.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/datatables.net-buttons/js/dataTables.buttons.min.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/datatables.net-buttons-bs4/js/buttons.bootstrap4.min.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/datatables.net-buttons/js/buttons.colVis.min.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/datatables.net-buttons/js/buttons.flash.min.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/datatables.net-buttons/js/buttons.html5.min.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/datatables.net-buttons/js/buttons.print.min.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/pdfmake/build/pdfmake.min.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/pdfmake/build/vfs_fonts.js' %}"></script>
+	<script src="{% static 'COLORADMIN_ADMIN/plugins/jszip/dist/jszip.min.js' %}"></script>
+
+	<script src="{% static 'COLORADMIN_ADMIN/js/demo/table-manage-combine.demo.js' %}"></script>
+
+        {% block javascript_body %}{% endblock %}
+        {% block javascrip_extrat %}{% endblock %}
+        {% block javascript_post %}{% endblock %}
+
+	<!-- ================== END PAGE LEVEL JS ================== -->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

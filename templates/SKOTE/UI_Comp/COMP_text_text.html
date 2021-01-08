@@ -1,0 +1,39 @@
+{% extends "SKOTE/UI_Comp/base_comp_visible.html" %}
+{% load static i18n common%}
+
+
+
+{% block COMP_VISIBLE %}
+              {% include 'SKOTE/UI_Comp/FORM_page_edit.html'   %}
+
+
+
+        <blockquote class="p-5  " style="margin-left: 10% ; margin-right: 10% ;  "  >
+
+            <div class=" "  align="">
+                <div align="left">
+                                <div class="mr-3"><i class="bx bxs-quote-alt-left text-dark font-size-24"></i></div>
+                </div>
+
+                {% if DATA.title  %}
+                    <p style="font-size: 20px; " align="center">{{ DATA.title }} &nbsp;&nbsp;&nbsp;&nbsp;</p>
+                {% endif %}
+                {% if DATA.subtitle  %}
+                    <p style="font-size: 15px; margin-right: 40px;  color : slategrey ; " align="right">{{ DATA.subtitle }}</p>
+                {% endif %}
+
+                <div align="center">
+                                <div ><p class="mb-0">{{ DATA.note|safe }}</p></div>
+                </div>
+
+                <div align="right">
+                                <div class="mr-3"><i class="bx bxs-quote-alt-right text-dark font-size-24"></i></div>
+                </div>
+            </div>
+
+        </blockquote>
+
+
+{% endblock %}
+
+

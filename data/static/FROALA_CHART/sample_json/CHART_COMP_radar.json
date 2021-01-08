@@ -1,0 +1,44 @@
+{
+        chart: {
+    caption: "사원 기술 분석",
+    subcaption: "범위: 1 (최소) 에서 5 (최대)",
+    theme: "froala",
+    showlegend: "0",
+    showdivlinevalues: "0",
+    showlimits: "0",
+    showvalues: "1",
+    plotfillalpha: "40",
+    plottooltext: "Harry's $label skill is rated as $value"
+  },
+  categories: [
+    {
+      category: [
+        {label: "커뮤니케이션"},
+        {label: "기술 지식"},
+        {label: "기술 지식"},
+        {label: "문제 해결 능력"},
+        {label: "문제 해결 능력"},
+        {label: "작업 만기"},
+        {label: "협력"},
+        {label: "경력"}
+      ]
+    }
+  ],
+  dataset: [
+    {
+      seriesname: "User Ratings",
+      color: "#ff0000",
+
+      data: [
+        {value: "3"},
+        {value: "3"},
+        {value: "3"},
+        {value: "4"},
+        {value: "4"},
+        {value: "5"},
+        {value: "2"},
+        {value: "4"}
+      ]
+    }
+  ]
+}

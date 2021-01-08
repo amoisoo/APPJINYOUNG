@@ -1,0 +1,65 @@
+<html>
+<head>
+      <title>My first chart using FroalaCharts</title>
+
+      <script src=https://unpkg.com/froalacharts@1.0.0/froalacharts.js></script>
+      <script src="https://unpkg.com/froalacharts@1.0.0/themes/froalacharts.theme.froala.js"></script>
+      <script type="text/javascript">
+
+        var data = {
+            "chart": {
+                "caption": "연령에 의한 방문 분할",
+                "subCaption": "작년",
+                "use3DLighting": "0",
+                "showPercentValues": "1",
+                "decimals": "1",
+                "useDataPlotColorForLabels": "1",
+                "exportEnabled": "1",
+                "theme": "froala"
+            },
+            "data": [
+                {
+                    "label": "10대",
+                    "value": "1250400"
+                },
+                {
+                    "label": "성인",
+                    "value": "1463300"
+                },
+                {
+                    "label": "중년",
+                    "value": "1050700"
+                },
+                {
+                    "label": "중년2",
+                    "value": "2050700"
+                },
+                {
+                    "label": "중년3",
+                    "value": "2050700"
+                },
+                {
+                    "label": "노인",
+                    "value": "491000"
+                }
+            ]
+        };
+
+        FroalaCharts.ready(function () {
+            froalacharts = new FroalaCharts({
+                id: "chart_1",
+                type: 'pie',
+                renderAt: 'ft',
+                width: '100%',
+                height: '500',
+                dataSource: data
+            });
+            froalacharts.render();
+        });
+    </script>
+
+</head>
+<body>
+    <div id="ft">FroalaCharts will render here</div>
+</body>
+</html>

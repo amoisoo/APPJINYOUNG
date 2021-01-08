@@ -1,0 +1,33 @@
+{% extends "SKOTE/UI_Comp/base_comp_visible.html" %}
+{% load static i18n common%}
+
+
+
+{% block COMP_VISIBLE %}
+
+
+
+
+            <div class="card bg-info text-white-50">
+                <div class="card-body">
+                    <h5 class="mt-0 mb-4 text-white"><i class="mdi mdi-alert-circle-outline mr-3"></i>{{ DATA.title }}</h5>
+                    <p class="card-text">{{ DATA.note|safe }}</p>
+                </div>
+            </div>
+            <div class="card bg-dark text-light" >
+                <div class="card-body ">
+                    <h5 class="mt-0 mb-4 text-light"><i class="mdi mdi-alert-circle-outline mr-3"></i>{{ DATA.title }}</h5>
+                    <p class="card-text">{{ DATA.note|safe }}</p>
+                </div>
+            </div>
+
+            <div class="card bg-danger text-white-50">
+                <div class="card-body">
+                    <h5 class="mt-0 mb-4 text-white"><i class="mdi mdi-block-helper mr-3"></i>{{ DATA.title }}</h5>
+                    <p class="card-text">{{ DATA.note|safe }}</p>
+                </div>
+            </div>
+
+{% endblock %}
+
+

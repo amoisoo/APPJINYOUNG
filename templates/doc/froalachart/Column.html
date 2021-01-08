@@ -1,0 +1,123 @@
+
+
+
+{% extends "COLORADMIN_ADMIN/BASE/base_layout.html" %}
+{% load static i18n %}
+
+{% block body_extra %}{% endblock %}
+
+
+
+
+
+{% block page_navi %}
+    {% if LAYOUT.NAVI_POSITION == 'TOP' %}
+        {% include 'COLORADMIN_ADMIN/COMMON/NAVI_TOP.html' %}
+    {% else %}
+        {% include 'COLORADMIN_ADMIN/COMMON/NAVI_SIDE.html' %}
+
+    {% endif %}
+{% endblock %}
+
+
+
+
+{% block page_content %}
+<div id="content" class="content" style="min-height: 100vh; background: url({% static 'COLORADMIN_ADMIN/img/cover/cover-scrum-board.png' %}) no-repeat fixed; background-size: 360px; background-position: right bottom;">
+
+      <script type="text/javascript">
+        var data2 =
+
+            {
+            "chart": {
+        "theme": "froala",
+        "caption": "Comparison of Quarterly Revenue",
+		"subCaption":"Two Years",
+        "xAxisname": "Quarter",
+        "yAxisName": "Revenues (In USD)",
+        "numberPrefix": "$",
+        "plotFillAlpha": "80",
+        "divLineIsDashed": "1",
+        "divLineDashLen": "1",
+		"exportEnabled": "1",
+        "divLineGapLen": "1"
+      },
+      "categories": [{
+        "category": [{
+          "label": "Q1"
+        }, {
+          "label": "Q2"
+        }, {
+          "label": "Q3"
+        }, {
+          "label": "Q4"
+        }]
+      }],
+      "dataset": [{
+        "seriesname": "Previous Year",
+        "data": [{
+          "value": "10000"
+        }, {
+          "value": "11500"
+        }, {
+          "value": "12500"
+        }, {
+          "value": "15000"
+        }]
+      }, {
+        "seriesname": "Current Year",
+        "data": [{
+          "value": "25400"
+        }, {
+          "value": "29800"
+        }, {
+          "value": "21800"
+        }, {
+          "value": "26800"
+        }]
+      }],
+      "trendlines": [{
+        "line": [{
+          "startvalue": "12250",
+          "color": "#5D62B5",
+          "displayvalue": "Previous{br}Average",
+          "valueOnRight": "1",
+          "thickness": "1",
+          "showBelow": "1",
+          "tooltext": "Previous year quarterly target  : $13.5K"
+        }, {
+          "startvalue": "25950",
+          "color": "#29C3BE",
+          "displayvalue": "Current{br}Average",
+          "valueOnRight": "1",
+          "thickness": "1",
+          "showBelow": "1",
+          "tooltext": "Current year quarterly target  : $23K"
+        }]
+      }]
+    }
+    ;
+    </script>
+
+      <script type="text/javascript">
+        FroalaCharts.ready(function () {
+            froalacharts = new FroalaCharts({
+                id: "chart_1",
+                type: 'column',
+                renderAt: 'ft2',
+                width: '100%',
+                height: '500',
+                dataSource: data2
+            });
+            froalacharts.render();
+        });
+    </script>
+
+    <div id="ft2">FroalaCharts will render here</div>
+
+
+</div>
+{% endblock %}
+
+
+

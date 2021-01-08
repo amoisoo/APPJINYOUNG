@@ -1,0 +1,142 @@
+{% extends "SKOTE/APP_BOOK/BASE/base_h.html" %}
+{% load static i18n %}
+
+
+{% block page_header %}
+        {% include 'SKOTE/APP_BOOK/COMMON/HEADER.html' %}
+
+{% endblock %}
+
+{% block page_navi %}
+
+{% endblock %}
+
+
+{% block page_content %}
+
+<div class="container-fluid">
+
+
+
+
+</div> <!-- container-fluid -->
+
+
+
+<div class="container-fluid">
+
+    <!-- start page title -->
+    <div class="row">
+        <div class="col-12">
+            <div class="page-title-box d-flex align-items-center justify-content-between">
+                <h4 class="mb-0 font-size-18">유저 프로필 편집</h4>
+
+                <div class="page-title-right">
+                    <ol class="breadcrumb m-0">
+                        <li class="breadcrumb-item"><a href="javascript: void(0);">Users</a></li>
+                        <li class="breadcrumb-item active">Profile</li>
+                    </ol>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end page title -->
+
+
+    <hr/>
+    {% if user.is_authenticated %}
+            <div align="right"><a href="#"  class="btn btn-danger btn-sm btn-rounded pl-2 pr-3">&nbsp;&nbsp;프로필 작성 작성</a><br/><br/></div>
+            <div align="right">
+                프로필을 신규로 작성합니다. <br/>
+            </div>
+
+    {% else %}
+    {% endif %}
+    <hr/>
+
+
+    {{ user.id }} <br/>
+    {{ user.email }} <br/>
+    {{ user.uuid }} <br/>
+    {{ user.last_login }} <br/>
+    <hr/>
+
+    {{ user.username }} <br/>
+    {{ user.name }} <br/>
+    {{ user.first_name }} <br/>
+
+    {{ user.is_staff }} <br/>
+    {{ user.is_superuser }} <br/>
+    <hr/>
+
+
+
+    {{ user.profile }} <br/>
+    {{ object.nickname }} <br/>
+    <hr/>
+{{ user.id  }}<br/>
+{{ user.profile.id  }}<br/>
+dfdfdf dfdf
+    <hr/>
+
+              <form   action="{% url 'users:profile_update' user.profile.id  %}" method="POST"   enctype="multipart/form-data" novalidate>
+                  {% csrf_token %}
+                  <div class="form-row">
+                    <div class="form-group col-md-6"><label for="id_nickname">닉네임</label>
+                      <input type="text" class="form-control" id="id_nickname" name="nickname" value="{{ object.nickname }}">
+                    </div>
+
+
+                  </div>
+
+
+                  <div class="form-row">
+
+                    <div class="form-group col-md-6"><label for="id_nickname">폰</label>
+                      <input type="text" class="form-control" id="id_phone" name="phone" value="{{ object.phone }}">
+                    </div>
+                  </div>
+
+                  <div class="form-row">
+
+                    <div class="form-group col-md-6"><label for="id_nickname">about</label>
+                        <textarea  id="id_about" name="about" rows="8" style="width: 100%;">{{ object.about }}</textarea>
+                    </div>
+                  </div>
+
+
+
+
+
+
+
+                  <div class="form-group">
+                    <label for="inputAddress2">이미지 : {{ object.image }}</label><br/>
+                    <input type="file"  id="image" name="image" />
+                  </div>
+
+
+
+                  <br/><br/><br/>
+
+                  {% if redirect_field_value %}
+                  <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+                  {% endif %}
+
+
+
+                  <button type="submit" class="btn btn-primary primaryAction   btn-block">{% trans "프로필 작성" %}</button>
+
+
+
+
+            </form>
+
+
+
+</div>
+
+
+
+{% endblock %}

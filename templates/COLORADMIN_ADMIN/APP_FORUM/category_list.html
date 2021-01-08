@@ -1,0 +1,153 @@
+{% extends "COLORADMIN_ADMIN/BASE/base_forum.html" %}
+{% load static i18n %}
+
+{% block body_extra %}{% endblock %}
+
+
+{% block page_navi %}
+    {% if LAYOUT.NAVI_POSITION == 'TOP' %}
+        {% include 'COLORADMIN_ADMIN/APP_FORUM/COMMON/NAVI_TOP.html' %}
+    {% else %}
+        {% include 'COLORADMIN_ADMIN/APP_FORUM/COMMON/NAVI_SIDE.html' %}
+    {% endif %}
+{% endblock %}
+
+
+
+
+{% block page_content %}
+
+
+		<div id="content" class="content">
+			<!-- begin breadcrumb -->
+
+                <!-- begin page-header -->
+                <h1 class="page-header m-b-10">FORUM <small>포럼</small></h1>
+                <!-- end page-header -->
+
+
+		</div>
+
+
+<div id="content" class="content">
+                    <span align="right"><a href="{% url 'forum:index'   %}"  class="btn btn-default  btn-sm btn-rounded pl-2 pr-3">&nbsp;&nbsp;<i class="fa fa-home bg-default text-inverse"></i></a></span>
+
+    {% if user.is_authenticated %}
+                    <span align="right"><a href="{% url 'forum:update' FORUM.slug  %}"  class="btn btn-primary btn-sm btn-rounded pl-2 pr-3">&nbsp;&nbsp;Edit</a></span>
+                    <span align="right"><a href="{% url 'forum:delete' FORUM.slug  %}"  class="btn btn-danger btn-sm btn-rounded pl-2 pr-3">&nbsp;&nbsp;Delete</a></span>
+    {% else %}
+
+    {% endif %}
+    <br/><br/>
+
+
+
+    <br/>
+    {% if FORUM.note %}
+        <div class="panel panel-default ">
+            <div class="panel-heading">
+                <h4 class="panel-title">{{ FORUM.slug  }}</h4>
+                <div class="panel-heading-btn">
+
+                </div>
+            </div>
+            <div class="panel-body">
+                {% if  FORUM.image %}
+                        <div class="alert alert-light" role="alert" align="center">
+                            <img src="{{ MEDIA_URL }}{{ FORUM.image }}">
+                        </div>
+                {% endif %}
+                {{ FORUM.note|safe  }}
+                <br/>
+                <br/>{{ FORUM.code }}
+                <br/>{{ FORUM.codelog }}
+                <br/>{{ FORUM.html }}
+                <br/>{{ FORUM.css }}
+                <br/>{{ FORUM.js }}
+
+            </div>
+        </div>
+    {% endif %}
+
+</div>
+
+<hr/>
+
+<div id="content" class="content">
+
+    {% if user.is_authenticated %}
+            <div  align="right" >
+                    <span align="right"><a href="{% url 'forum:create_sub' FORUM.id  %}"  class="btn btn-success btn-sm btn-rounded pl-2 pr-3">&nbsp;&nbsp;포럼 작성</a></span>
+            </div> <br/>
+    {% else %}
+
+    {% endif %}
+
+
+
+            <div class="widget-list widget-list-rounded m-b-30">
+                <div class="row row-space-6">
+                        {% for DATA in forums %}
+                              <div class="col-xl-4   col-lg-6   m-b-5 p-b-1">
+
+                                  <div class="widget-list-item">
+
+                                    <div class="widget-list-media icon"><i class="fa fa-align-justify bg-yellow text-inverse"></i></div>
+                                    <div class="widget-list-content">
+                                      <h3 class="widget-list-title"><a href="{% url 'forum:detail'   DATA.slug %}">{{ DATA.title }}</a> </h3>
+                                      <p class="widget-list-desc"></p>
+                                    </div>
+
+
+                                    {% if user.username == "lee" %}
+                                                <div class="widget-list-action">
+                                                  <a href="#" data-toggle="dropdown" class="text-muted pull-right">
+                                                    <i class="fa fa-ellipsis-h f-s-14"></i>
+                                                  </a>
+                                                  <ul class="dropdown-menu dropdown-menu-right">
+                                                        <a href="{% url 'forum:update' DATA.slug %}" class="dropdown-item">편집</a>
+                                                        <a href="{% url 'forum:delete' DATA.slug %}" class="dropdown-item">삭제</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a href="#" class="dropdown-item">{{ DATA.id }}</a>
+                                                        <a href="#" class="dropdown-item">{{ DATA.modified }}</a>
+                                                        <a href="#" class="dropdown-item">{{ DATA.user }}</a>
+                                                  </ul>
+                                                </div>
+                                    {% else %}
+
+                                    {% endif %}
+
+
+                                    <div class="widget-list-action text-nowrap text-grey-darker text-right"><i class="fa fa-angle-right text-muted t-plus-1 fa-lg m-l-5"></i></div>
+
+                                  </div>
+                              </div>
+
+                        {% endfor %}
+                </div>
+            </div>
+
+
+
+    {% if FORUM.id == 0 %}
+            {% include 'COLORADMIN_ADMIN/APP_FORUM/UI_Comp/category_list_table.html' with  DATAS=categories %}
+    {% elif FORUM.id == 0  %}
+            {% include 'COLORADMIN_ADMIN/APP_FORUM/UI_Comp/category_list_box.html' with  DATAS=categories %}
+
+    {% else %}
+              {% include 'COLORADMIN_ADMIN/APP_FORUM/UI_Comp/category_list.html' with  DATAS=categories %}
+
+    {% endif %}
+
+
+
+    {% include 'COLORADMIN_ADMIN/APP_FORUM/UI_Comp/pagination.html' with  DATAS=categories %}
+
+
+</div>
+
+
+{% endblock %}
+
+
+

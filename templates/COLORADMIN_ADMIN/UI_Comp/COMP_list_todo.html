@@ -1,0 +1,180 @@
+{% load static i18n %}
+<div class="row">
+
+    <div class="col-xl-12 col-lg-12">
+
+        <div class="panel panel-inverse">
+
+            <div class="list-group panel-body p-0">
+                            {% include 'COLORADMIN_ADMIN/UI_Comp/FORM_page_edit.html'   %}<br>
+
+                    <div class="list-group-item  d-flex border-top-0">
+
+                            <div class="mr-3 f-s-16">
+                                <i class="far fa-question-circle text-muted fa-fw"></i>
+                                <i class="fa fa-bug text-danger fa-fw"></i>
+                                <i class="fa fa-tools text-muted fa-fw"></i>
+                                <i class="far fa-check-circle text-success fa-fw"></i>
+
+                            </div>
+
+                            <div class="flex-fill">
+                                <div class="f-s-13 f-w-600 text-inverse">소스 추가</div>
+                                <div class="mb-1 f-s-12"><div class="text-inverse-lighter flex-1">#29916 Wasbbok 에 의해 9일전 시작하였습니다.</div></div>
+
+                                <div class="mb-1">
+                                    <span class="label label-primary">docs</span>
+                                    <span class="label label-success">feature</span>
+                                </div>
+                                <div class="mb-1 d-flex align-items-center">
+                                    <div class="mr-2"><span class="label label-success">확장</span></div>
+                                    <span class="label label-default">빌드</span>
+                                    <span class="label label-indigo">v5</span>
+                                    <span class="label label-pink">docs</span>
+                                    <span class="label label-default">design</span>
+                                    <span class="label label-primary">v5</span>
+                                    <span class="label label-default">issue</span>
+                                    <span class="label label-danger">bug</span>
+
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <div class="d-flex">
+                                        <div class="widget-img widget-img-xs rounded-circle bg-inverse mr-n2" style="background-image: url({% static 'COLORADMIN_ADMIN/img/user/user-1.jpg' %})">
+                                        </div>
+                                        <div class="widget-img widget-img-xs rounded-circle bg-inverse mr-n2" style="background-image: url({% static 'COLORADMIN_ADMIN/img/user/user-1.jpg' %})">
+                                        </div>
+                                        <div class="widget-img widget-img-xs rounded-circle bg-inverse mr-n2" style="background-image: url({% static 'COLORADMIN_ADMIN/img/user/user-3.jpg' %})">
+                                        </div>
+                                        <div class="widget-icon widget-icon-xs rounded-circle bg-muted text-white f-s-10">
+                                            +2
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <hr class="m-b-10" />
+
+                                <div class="d-flex align-items-center m-b-5">
+                                    <div class="f-s-12 mr-2 text-inverse f-w-600">
+                                        Task (2/3)
+                                    </div>
+                                    <div class="progress progress-xs width-100 mb-0 mr-2">
+                                        <div class="progress-bar progress-bar-striped" style="width: 66%;"></div>
+                                    </div>
+                                    <div class="f-s-10">66%</div>
+                                    <div class="ml-auto">
+                                        <a href="#" class="text-muted f-s-12 f-w-500" data-toggle="collapse" data-target="#todoBoard">
+                                            collapse
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="form-group mb-1">
+                                    <div class="collapse show" id="todoBoard">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck1" checked />
+                                            <label class="custom-control-label" for="customCheck1">create ui for autocomplete</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck2" checked />
+                                            <label class="custom-control-label" for="customCheck2">integrate jquery autocomplete with ui</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck3" />
+                                            <label class="custom-control-label" for="customCheck3">backend search return as json data</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <hr class="m-b-10" />
+                                <div class="d-flex align-items-center m-b-5">
+                                    <div class="f-s-12 d-flex align-items-center text-inverse f-w-600">
+                                        Task (0/1)
+                                    </div>
+                                    <div class="progress progress-xs width-100 mb-0 ml-2 mr-2">
+                                        <div class="progress-bar progress-bar-striped bg-danger" style="width: 5%;"></div>
+                                    </div>
+                                    <div class="f-s-10">0%</div>
+                                    <div class="ml-auto">
+                                        <a href="#" class="text-muted f-s-12 f-w-500" data-toggle="collapse" data-target="#inProgress2Board">
+                                            collapse
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="form-group mb-1">
+                                    <div class="collapse show" id="inProgress2Board">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck6" />
+                                            <label class="custom-control-label" for="customCheck6">debug and fix mobile auto close while using GPS issue</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <hr class="m-b-10" />
+                                <div class="d-flex align-items-center m-b-5">
+                                    <div class="f-s-12 d-flex align-items-center text-inverse f-w-600">
+                                        Task (1/2)
+                                    </div>
+                                    <div class="progress progress-xs width-100 mb-0 ml-2 mr-2">
+                                        <div class="progress-bar progress-bar-striped bg-warning" style="width: 50%;"></div>
+                                    </div>
+                                    <div class="f-s-10">50%</div>
+                                    <div class="ml-auto">
+                                        <a href="#" class="text-muted f-s-12 f-w-500" data-toggle="collapse" data-target="#inProgressBoard">
+                                            collapse
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="form-group mb-1">
+                                    <div class="collapse show" id="inProgressBoard">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck4" checked />
+                                            <label class="custom-control-label" for="customCheck4">check all browser compatibility for HTML5 flexbox</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck5" />
+                                            <label class="custom-control-label" for="customCheck5">fallback integration by using other display property</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <hr class="m-b-10" />
+                                <div class="d-flex align-items-center m-b-5">
+                                    <div class="f-s-12 text-inverse f-w-600">
+                                        Task (3/3)
+                                    </div>
+                                    <div class="progress progress-xs width-100 mb-0 ml-2 mr-2">
+                                        <div class="progress-bar progress-bar-striped bg-success" style="width: 100%;"></div>
+                                    </div>
+                                    <div class="f-s-10">100%</div>
+                                    <div class="ml-auto">
+                                        <a href="#" class="text-muted f-s-12 f-w-500" data-toggle="collapse" data-target="#completedBoard">
+                                            collapse
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="form-group mb-1">
+                                    <div class="collapse show" id="completedBoard">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck7" checked />
+                                            <label class="custom-control-label" for="customCheck7">install react-daterangepicker</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck8" checked />
+                                            <label class="custom-control-label" for="customCheck8">customize ui with scss</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck9" checked />
+                                            <label class="custom-control-label" for="customCheck9">backend integration for data filter with daterange input</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

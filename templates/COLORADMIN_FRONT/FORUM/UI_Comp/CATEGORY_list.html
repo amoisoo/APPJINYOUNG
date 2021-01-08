@@ -1,0 +1,46 @@
+
+{% load static i18n %}
+
+
+
+<li>
+    <!-- begin media -->
+    <div class="media">
+        <img src="{% static 'COLORADMIN_FRONT/img/user/user-10.jpg' %}" alt="" class="rounded-lg" />
+    </div>
+    <!-- end media -->
+
+
+    <!-- begin info-container -->
+    <div class="info-container">
+        <div class="info">
+            <h4 class="title"><a href="{% url 'forum:category_detail' DATA.parent.slug  DATA.id %}"><i class="fa fa-arrow-circle-up text-pink ml-1"></i>({{ DATA.id }})  {{ DATA.title }} ({{ DATA.slug }}) </a></h4>
+            <ul class="info-start-end">
+                    {% if user.is_authenticated %}
+                        <li>게시자 <a href="detail.html"> ({{ DATA.parent.id }})   {{ DATA.modified }}</a></li>
+
+                        <li>&nbsp;
+                                <a href="{% url 'forum:category_update' DATA.parent.slug  DATA.id %}">Edit</a>  &nbsp;&nbsp;
+                                <a href="{% url 'forum:category_delete' DATA.parent.slug  DATA.id %}">Delete</a>  &nbsp;&nbsp;
+
+
+                        </li>
+
+                    {% else %}
+
+                    {% endif %}
+
+
+            </ul>
+        </div>
+        <div class="date-replies">
+            <div class="time"><a href="detail.html">{{ DATA.user }}</a></div>
+
+            <div class="replies">
+                <div class="total">8</div>
+                <div class="text">댓글</div>
+            </div>
+        </div>
+    </div>
+    <!-- end info-container -->
+</li>

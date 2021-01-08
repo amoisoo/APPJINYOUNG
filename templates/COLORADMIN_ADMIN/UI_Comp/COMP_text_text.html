@@ -1,0 +1,18 @@
+{% load static i18n %}
+
+
+
+
+        <div class="card-body">
+
+            <blockquote class="blockquote text-center">
+              {% include 'COLORADMIN_ADMIN/UI_Comp/FORM_page_edit.html'   %}
+              <p>{{ DATA.title }}</p>
+              <footer class="blockquote-footer">
+                 <cite title="Source Title">{{ DATA.note|safe }}</cite>
+              </footer>
+            </blockquote>
+
+
+
+        </div>

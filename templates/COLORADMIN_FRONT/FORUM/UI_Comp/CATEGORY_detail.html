@@ -1,0 +1,60 @@
+
+{% load static i18n %}
+
+    <li>
+        <!-- begin media -->
+        <div class="media">
+            <img src="{% static 'COLORADMIN_ADMIN/img/user/user-1.jpg' %}" alt="" class="rounded-lg" />
+            <span class="badge badge-danger">관리자</span>
+            <span class="badge badge-secondary">USER</span>
+            <span class="badge badge-primary">STAFF</span>
+            <span class="badge "></span>
+
+            <span class="badge badge-secondary">{{ DATA.user }}</span>
+
+        </div>
+        <!-- end media -->
+        <!-- begin info-container -->
+        <div class="info-container">
+            <div class="post-user">
+                {% if user.is_authenticated %}
+                    <small><a href="{% url 'forum:category_update' DATA.parent.slug  DATA.id %}">Edit</a></small>
+                    <small><a href="{% url 'forum:category_delete' DATA.parent.slug  DATA.id  %}">Delete</a></small>
+                {% else %}
+
+                {% endif %}
+
+            </div>
+            <div class="post-content">
+
+
+
+
+
+
+
+                        {% if  DATA.subtitle %}
+                            <h4>{{ DATA.subtitle }}</h4><br>
+                        {% endif %}
+
+                        {% if  DATA.image %}
+                            <div align="center"><img src="{{ MEDIA_URL }}{{ DATA.image }}"> <br/></div><br/><hr/>
+                        {% endif %}
+
+
+                {% if  DATA.code %}<div class="alert alert-light" role="alert">{{ DATA.code|linebreaksbr }}</div>{% endif %}
+                {% if  DATA.codelog %}<div class="alert alert-secondary" role="alert">{{ DATA.codelog|linebreaksbr }}</div>{% endif %}
+                {% if  DATA.html %}<div class="alert alert-info" role="alert">{{ DATA.html|linebreaksbr }}</div>{% endif %}
+                {% if  DATA.css %}<div class="alert alert-warning" role="alert">{{ DATA.css|linebreaksbr }}</div>{% endif %}
+                {% if  DATA.js %}<div class="alert alert-danger" role="alert">{{ DATA.js|linebreaksbr }}</div>{% endif %}
+
+
+                <hr/>
+                {{ DATA.note|safe  }}<br /><br />
+
+
+            </div>
+            <div class="post-time" align="right">{{ DATA.created }}</div>
+        </div>
+        <!-- end info-container -->
+    </li>

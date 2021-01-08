@@ -1,0 +1,37 @@
+{% load static i18n %}
+
+
+
+{% for pageitem in PAGE_LIST %}
+
+
+
+
+
+        {% if pageitem.component    == "Header" %}       {% include 'COLORADMIN_ADMIN/UI_Comp/COMP_set_header.html' with DATA=pageitem   %}
+        {% elif pageitem.component == "Tab" %}          {% include 'COLORADMIN_ADMIN/UI_Comp/COMP_list_tab.html' with DATA=pageitem   %}
+
+
+        {% elif pageitem.component == "Card" %}         {% include 'COLORADMIN_ADMIN/UI_Comp/COMP_list_card.html' with DATA=pageitem   %}
+        {% elif pageitem.component == "Tab" %}          {% include 'COLORADMIN_ADMIN/UI_Comp/COMP_list_tab.html' with DATA=pageitem   %}
+        {% elif pageitem.component == "Accrodion" %}    {% include 'COLORADMIN_ADMIN/UI_Comp/COMP_list_accordion.html' with DATA=pageitem   %}
+        {% elif pageitem.component == "List" %}         {% include 'COLORADMIN_ADMIN/UI_Comp/COMP_list_list.html' with DATA=pageitem   %}
+        {% elif pageitem.component == "Detail" %}       {% include 'COLORADMIN_ADMIN/UI_Comp/COMP_list_detail.html' with DATA=pageitem   %}
+        {% elif pageitem.component == "Box" %}          {% include 'COLORADMIN_ADMIN/UI_Comp/COMP_list_box.html' with DATA=pageitem   %}
+        {% elif pageitem.component == "Grid" %}          {% include 'COLORADMIN_ADMIN/UI_Comp/COMP_list_grid.html' with DATA=pageitem   %}
+        {% elif pageitem.component == "Timeline" %}     {% include 'COLORADMIN_ADMIN/UI_Comp/COMP_list_timeline.html' with DATA=pageitem   %}
+
+        {% elif pageitem.component == "Todo" %}         {% include 'COLORADMIN_ADMIN/UI_Comp/COMP_list_todo.html' with DATA=pageitem   %}
+        {% elif pageitem.component == "Bbs" %}          {% include 'COLORADMIN_ADMIN/UI_Comp/COMP_list_bbs.html' with DATA=pageitem   %}
+        {% elif pageitem.component == "FAQ" %}          {% include 'COLORADMIN_ADMIN/UI_Comp/COMP_list_faq.html' with DATA=pageitem   %}
+
+        {% elif pageitem.component == "Search" %}       {% include 'COLORADMIN_ADMIN/UI_Comp/COMP_list_search.html' with DATA=pageitem   %}
+        {% elif pageitem.component == "Carousel" %}     {% include 'COLORADMIN_ADMIN/UI_Comp/COMP_image_carousel.html' with DATA=pageitem   %}
+        {% elif pageitem.component == "Gallery" %}      {% include 'COLORADMIN_ADMIN/UI_Comp/COMP_image_gallery.html' with DATA=pageitem   %}
+
+
+
+
+        {% else %}{% include 'COLORADMIN_ADMIN/APP_BOOK/UI_Comp/PAGE_COMP_item.html' with DATA=pageitem   %}
+        {% endif %}
+{% endfor %}
